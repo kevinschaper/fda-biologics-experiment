@@ -9,6 +9,7 @@ authors = [
   {name = "Kevin Schaper", email = "kevin@tislab.org"},
 ]
 license = "BSD-3-Clause"
+license-files = ["LICENSE"]
 readme = "README.md"
 requires-python = ">=3.11,<4.0"
 dynamic = ["version"]
