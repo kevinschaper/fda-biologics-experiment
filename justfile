@@ -28,31 +28,40 @@ terms FILE:
 genes FILE:
     python {{skill}}/validate_genes.py "{{FILE}}"
 
-# Reference-excerpt validation (PMID snippets are real quotes); FDA: refs are skipped
+# FDA-label snippet verification: each FDA: snippet must be an exact quote from the DailyMed SPL
+fda FILE:
+    python {{skill}}/validate_fda_snippets.py "{{FILE}}"
+
+# PMID snippet verification: each PMID snippet must be an exact quote from the publication.
+# (Drives linkml-reference-validator's per-quote checker; its data-mode plugin can't traverse
+# our multivalued evidence lists.) FDA: refs are verified separately by `just fda`.
 refs FILE:
-    linkml-reference-validator validate data "{{FILE}}" -s {{schema}} -t {{target}} --config {{ref_config}}
+    python {{skill}}/validate_pmid_snippets.py "{{FILE}}"
 
 # All layers on one file
-qc FILE: (validate FILE) (terms FILE) (genes FILE) (refs FILE)
+qc FILE: (validate FILE) (terms FILE) (genes FILE) (fda FILE) (refs FILE)
 
 # ---- Validation (whole corpus) ------------------------------------------------
 
 [no-cd]
 _each RECIPE:
     #!/usr/bin/env bash
-    set -euo pipefail
+    set -uo pipefail
     shopt -s nullglob
     files=({{data_dir}}/*.yaml)
     if [ ${#files[@]} -eq 0 ]; then echo "no curated files in {{data_dir}} yet"; exit 0; fi
-    for f in "${files[@]}"; do echo "== {{RECIPE}} $f =="; just {{RECIPE}} "$f"; done
+    rc=0
+    for f in "${files[@]}"; do echo "== {{RECIPE}} $f =="; just {{RECIPE}} "$f" || rc=1; done
+    exit $rc
 
 validate-all: (_each "validate")
 terms-all:    (_each "terms")
 genes-all:    (_each "genes")
+fda-all:      (_each "fda")
 refs-all:     (_each "refs")
 
 # Full QC sweep over the corpus
-qc-all: validate-all terms-all genes-all refs-all
+qc-all: validate-all terms-all genes-all fda-all refs-all
 
 # ---- Curation helpers ---------------------------------------------------------
 

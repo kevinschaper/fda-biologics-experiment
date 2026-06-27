@@ -13,6 +13,12 @@ indications:
         supports: SUPPORT
         evidence_source: REGULATORY
         explanation: "INDICATIONS names RA as an approved treatment population."
+      - reference: PMID:42342288
+        reference_title: "Long-term safety and efficacy of upadacitinib compared with adalimumab in patients with rheumatoid arthritis: 7-year data from the SELECT-COMPARE study."
+        snippet: "Upadacitinib and adalimumab (continuous or rescue treatment) maintained disease activity targets throughout the 7-year treatment period."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Head-to-head RCT (SELECT-COMPARE) showing adalimumab maintained RA disease-activity targets over 7 years."
     needs_review: false
 targets:
   - predicate: biolink:affects

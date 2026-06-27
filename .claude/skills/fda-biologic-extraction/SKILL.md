@@ -20,8 +20,11 @@ surface names, then let the scripts assign the CURIEs.
 4. **When grounding is not a confident exact match, set `needs_review: true`** and keep the
    candidate list. Do not silently pick among ambiguous candidates.
 5. **Every claim needs evidence.** At minimum the FDA-label `EvidenceItem` (verbatim `snippet` +
-   `explanation` of why it supports the edge). PMID `snippet`s must be exact quotes — they are
-   machine-checked by linkml-reference-validator; paraphrases will fail CI.
+   `explanation` of why it supports the edge). **Snippets must be exact, copy-pasted substrings —
+   never paraphrase, reorder, or stitch non-contiguous fragments.** FDA `snippet`s are
+   deterministically verified against the DailyMed SPL by `just fda`; PMID `snippet`s by
+   linkml-reference-validator. Both fail CI on any inexact quote, so run them and fix until green.
+   (Use the real SPL setid — `just fda` fetches the label by it.)
 
 ## Workflow
 
@@ -145,7 +148,11 @@ stays `knowledge_assertion` — FDA approval is an asserted fact regardless of w
   Python API; first run downloads the ontology SQLite (NCIT is large, ~500MB).
 - `scripts/predicate_info.py` — live Biolink predicate definitions + family/membership check
   (bmt, SchemaView fallback). Always in sync with the pinned Biolink version.
+- `scripts/validate_fda_snippets.py` — verifies each FDA `snippet` is an exact quote from the
+  DailyMed SPL (`just fda`); caches label text under `cache/fda_labels/`.
+- `scripts/validate_genes.py` — verifies HGNC target ids via the Monarch API (`just genes`).
 - `scripts/oak_config.yaml` — prefix→adapter map, **shared with linkml-term-validator**.
+- `scripts/reference_validator_config.yaml` — skips FDA refs (verified by `just fda`) for the PMID validator.
 - `scripts/overrides.yaml` — curated name→CURIE overrides; grow it as you hit misses.
 
 ## See also
