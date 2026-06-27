@@ -1,0 +1,19 @@
+# Koza / build artifacts
+output/
+.koza.generated.yaml
+
+# Caches fetched/derived from canonical sources (regenerate with just nodes / just qc)
+# node-detail cache (just nodes); validator caches
+data/
+cache/
+references_cache/
+
+# Generated schema artifacts
+src/fda_biologics/datamodel.py
+docs/schema/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/

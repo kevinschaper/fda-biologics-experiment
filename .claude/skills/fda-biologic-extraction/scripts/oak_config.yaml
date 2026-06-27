@@ -1,0 +1,29 @@
+# OAK configuration for fda-biologics term grounding + validation.
+# Shared by scripts/ground.py and linkml-term-validator (same prefix->adapter map).
+#
+# Adapter types:
+#   sqlite:obo:<name>  - pre-built SQLite (fast, offline; first use downloads to ~/.data/oaklib)
+#   ""                 - skip validation for this prefix (no warning)
+# Only prefixes listed here are validated; unlisted prefixes are skipped with a warning.
+
+ontology_adapters:
+  # Disease (indication objects)
+  MONDO: sqlite:obo:mondo
+
+  # Drug subjects — biologics are large molecules; NCIT covers them (~500MB db)
+  NCIT: sqlite:obo:ncit
+
+  # Gene / molecular target objects: grounded AND validated via genenames.org (the HGNC
+  # authority) at grounding time, so OAK term-validation is skipped here. The sqlite:obo:hgnc
+  # build uses lowercase 'hgnc:' CURIEs while Biolink/KGX require uppercase 'HGNC:'; validating
+  # against it would force non-Biolink ids. "" = skip this prefix without a warning.
+  HGNC: ""
+
+  # Skip structural / namespace prefixes
+  biolink: ""
+  infores: ""
+  linkml: ""
+  rdf: ""
+  rdfs: ""
+  owl: ""
+  xsd: ""

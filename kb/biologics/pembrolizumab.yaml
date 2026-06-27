@@ -1,0 +1,41 @@
+biologic:
+  name: pembrolizumab
+  id: NCIT:C106432
+  matched_label: Pembrolizumab
+  synonyms: [Keytruda]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: melanoma, id: MONDO:0005105, matched_label: melanoma}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:keytruda-spl-setid-placeholder
+        snippet: "KEYTRUDA is indicated for the treatment of patients with unresectable or metastatic melanoma"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE lists melanoma as an approved treatment population, asserting the drug→disease edge."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: PD-1, id: HGNC:8760, matched_label: PDCD1}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:keytruda-spl-setid-placeholder
+        snippet: "pembrolizumab is a monoclonal antibody that blocks the interaction between PD-1 and its ligands"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states pembrolizumab blocks PD-1, i.e. causes decreased PD-1 activity."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=keytruda-spl-setid-placeholder
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

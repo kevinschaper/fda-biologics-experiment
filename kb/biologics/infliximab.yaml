@@ -1,0 +1,51 @@
+biologic:
+  name: infliximab
+  id: NCIT:C1789
+  matched_label: Infliximab
+  synonyms: [Remicade]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: Crohn's disease, id: MONDO:0005011, matched_label: Crohn disease}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:a0a046c1-056d-45a9-bfd9-13b47c24f257
+        snippet: "reducing signs and symptoms and inducing and maintaining clinical remission in adult patients with moderately to severely active Crohn's disease (CD) who have had an inadequate response to conventional therapy."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names moderately to severely active Crohn's disease as an approved treatment population, asserting the drug→disease edge on an existing active condition."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: rheumatoid arthritis, id: MONDO:0008383, matched_label: rheumatoid arthritis}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:a0a046c1-056d-45a9-bfd9-13b47c24f257
+        snippet: "REMICADE, in combination with methotrexate, is indicated for reducing signs and symptoms, inhibiting the progression of structural damage, and improving physical function in adult patients with moderately to severely active rheumatoid arthritis (RA)."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE lists moderately to severely active rheumatoid arthritis (in combination with methotrexate) as an approved treatment population; the edge remains drug→disease."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: TNF, id: HGNC:11892, matched_label: TNF}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:a0a046c1-056d-45a9-bfd9-13b47c24f257
+        snippet: "REMICADE is a tumor necrosis factor (TNF) blocker indicated for:"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "The label states the mechanism is TNF blockade, i.e. infliximab causes decreased TNF activity."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=a0a046c1-056d-45a9-bfd9-13b47c24f257
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

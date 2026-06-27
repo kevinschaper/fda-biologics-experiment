@@ -1,0 +1,51 @@
+biologic:
+  name: denosumab
+  id: NCIT:C61313
+  matched_label: Denosumab
+  synonyms: [Prolia]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: postmenopausal osteoporosis, id: MONDO:0008159, matched_label: postmenopausal osteoporosis}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:49e5afe9-a0c7-40c4-af9f-f287a80c5c88
+        snippet: "postmenopausal women with osteoporosis at high risk for fracture"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names postmenopausal osteoporosis (high fracture risk) as an approved treatment population, asserting the drug→disease edge."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: glucocorticoid-induced osteoporosis, id: MONDO:0000757, matched_label: glucocorticoid-induced osteoporosis}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:49e5afe9-a0c7-40c4-af9f-f287a80c5c88
+        snippet: "glucocorticoid-induced osteoporosis in men and women at high risk for fracture"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE lists glucocorticoid-induced osteoporosis as an approved treatment population, asserting the drug→disease edge."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: RANKL, id: HGNC:11926, matched_label: TNFSF11}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:49e5afe9-a0c7-40c4-af9f-f287a80c5c88
+        snippet: "Prolia binds to RANKL, a transmembrane or soluble protein essential for the formation, function, and survival of osteoclasts, the cells responsible for bone resorption"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states denosumab binds RANKL and prevents it from activating RANK, i.e. causes decreased RANKL activity. RANKL is encoded by TNFSF11 (HGNC:11926)."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=49e5afe9-a0c7-40c4-af9f-f287a80c5c88
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

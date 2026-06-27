@@ -1,0 +1,51 @@
+biologic:
+  name: rituximab
+  id: NCIT:C1702
+  matched_label: Rituximab
+  synonyms: [Rituxan]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: Non-Hodgkin's lymphoma, id: MONDO:0018908, matched_label: non-Hodgkin lymphoma}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:b172773b-3905-4a1c-ad95-bab4b6126563
+        snippet: "RITUXAN is a CD20-directed cytolytic antibody indicated for the treatment of: Adult patients with Non-Hodgkin's Lymphoma (NHL)"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names Non-Hodgkin's Lymphoma as an approved treatment population, asserting the drug→disease edge."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: chronic lymphocytic leukemia, id: MONDO:0004948, matched_label: B-cell chronic lymphocytic leukemia}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:b172773b-3905-4a1c-ad95-bab4b6126563
+        snippet: "RITUXAN is indicated, in combination with fludarabine and cyclophosphamide (FC), for the treatment of patients with previously untreated and previously treated CD20-positive CLL"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names CD20-positive chronic lymphocytic leukemia as an approved treatment population; CD20-positive CLL is B-cell CLL, asserting the drug→disease edge."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: CD20, id: HGNC:7315, matched_label: MS4A1}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: abundance
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:b172773b-3905-4a1c-ad95-bab4b6126563
+        snippet: "Rituximab is a monoclonal antibody that targets the CD20 antigen expressed on the surface of pre-B and mature B-lymphocytes."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states rituximab is a CD20-directed cytolytic antibody that mediates B-cell lysis, depleting CD20-bearing cells → decreased abundance. CD20 is the prior symbol for the HGNC gene MS4A1."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=b172773b-3905-4a1c-ad95-bab4b6126563
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

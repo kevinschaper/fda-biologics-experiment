@@ -1,0 +1,12 @@
+# Configuration for linkml-reference-validator (FDA biologics ingest).
+#
+# FDA labels are authoritative provenance, not fetchable literature, so their snippets
+# are not quote-checked — skip the FDA prefix. PMID/PMC references ARE fetched and their
+# snippets verified as exact quotes.
+#
+# unknown_prefix_severity: WARNING downgrades unfetchable references (network/NCBI rate
+# limiting) to warnings so CI isn't flaky, while still failing on real snippet mismatches.
+unknown_prefix_severity: WARNING
+
+skip_prefixes:
+  - FDA

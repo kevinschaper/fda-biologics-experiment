@@ -1,0 +1,57 @@
+biologic:
+  name: ustekinumab
+  id: NCIT:C84237
+  matched_label: Ustekinumab
+  synonyms: [Stelara]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: plaque psoriasis, id: MONDO:0005083, matched_label: psoriasis}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:c77a9664-e3bb-4023-b400-127aa53bca2b
+        snippet: "moderate to severe plaque psoriasis in adult and pediatric patients 6 years of age and older who are candidates for phototherapy or systemic therapy"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names plaque psoriasis as an approved treatment population, asserting the drug→disease edge. No exact MONDO term for 'plaque psoriasis' was found by grounding; grounded to the parent concept psoriasis (MONDO:0005083) and flagged for review."
+    needs_review: true
+    candidates:
+      - curie: MONDO:0005083
+        label: psoriasis
+        score: 1.0
+        match_type: exact
+        source: oak:mondo
+  - predicate: biolink:ameliorates_condition
+    object: {name: Crohn's disease, id: MONDO:0005011, matched_label: Crohn disease}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:c77a9664-e3bb-4023-b400-127aa53bca2b
+        snippet: "adults and pediatric patients 2 years of age and older with moderately to severely active Crohn's disease"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names moderately to severely active Crohn's disease as an approved treatment population, asserting the drug→disease edge."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: IL-12/IL-23 p40 subunit, id: HGNC:5970, matched_label: IL12B}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:c77a9664-e3bb-4023-b400-127aa53bca2b
+        snippet: "binds with specificity to the p40 protein subunit used by both the IL-12 and IL-23 cytokines"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states ustekinumab binds the shared p40 subunit of IL-12 and IL-23 and disrupts their signaling, i.e. causes decreased activity of p40. The p40 subunit is encoded by IL12B (HGNC:5970)."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=c77a9664-e3bb-4023-b400-127aa53bca2b
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

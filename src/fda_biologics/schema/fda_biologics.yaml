@@ -1,0 +1,438 @@
+id: https://w3id.org/monarch/fda-biologics-schema
+name: fda-biologics-schema
+title: FDA Biologics Curation Schema
+description: >-
+  Schema for curated FDA biologic product edges: drug→disease (approved indications) and
+  drug→gene (molecular targets), one record per biologic. Names are grounded to ontology
+  CURIEs (NCIT drug, MONDO disease, HGNC gene). Evidence follows the dismech EvidenceItem
+  model and is checked by linkml-term-validator (ontology ids) and linkml-reference-validator
+  (PMID excerpts). See .claude/skills/fda-biologic-extraction for the extraction workflow.
+license: https://creativecommons.org/publicdomain/zero/1.0/
+default_range: string
+default_prefix: fda_biologics
+
+prefixes:
+  fda_biologics: https://w3id.org/monarch/fda-biologics-schema/
+  linkml: https://w3id.org/linkml/
+  biolink: https://w3id.org/biolink/vocab/
+  MONDO: http://purl.obolibrary.org/obo/MONDO_
+  NCIT: http://purl.obolibrary.org/obo/NCIT_
+  HGNC: https://identifiers.org/hgnc/
+  PMID: http://www.ncbi.nlm.nih.gov/pubmed/
+  FDA: https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=
+  infores: https://w3id.org/biolink/infores/
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  obo: http://purl.obolibrary.org/obo/
+
+imports:
+  - linkml:types
+
+# ---------------------------------------------------------------------------
+# Classes
+# ---------------------------------------------------------------------------
+classes:
+
+  BiologicRecord:
+    description: One curated FDA biologic — the subject plus its indication and target edges.
+    tree_root: true
+    slots:
+      - biologic
+      - indications
+      - targets
+      - provenance
+    slot_usage:
+      biologic:
+        bindings:
+          - binds_value_of: id
+            range: DrugTerm
+            obligation_level: REQUIRED
+
+  Biologic:
+    description: The biologic product (edge subject). Use the generic/proper name; brands are synonyms.
+    slots:
+      - name
+      - id
+      - matched_label
+      - synonyms
+    slot_usage:
+      name:
+        required: true
+
+  Concept:
+    description: A grounded ontology concept (the object of an edge).
+    slots:
+      - name
+      - id
+      - matched_label
+    slot_usage:
+      name:
+        required: true
+
+  Indication:
+    description: A drug→disease edge derived from an approved FDA indication.
+    slots:
+      - predicate
+      - object
+      - label_section
+      - evidence
+      - needs_review
+      - candidates
+    slot_usage:
+      predicate:
+        range: IndicationPredicateEnum
+        required: true
+      object:
+        range: Concept
+        required: true
+        bindings:
+          - binds_value_of: id
+            range: DiseaseTerm
+            obligation_level: REQUIRED
+      evidence:
+        required: true
+
+  Target:
+    description: >-
+      A drug→gene edge: the biologic affects its molecular target. Modeled as biolink:affects
+      with qualifiers (qualified_predicate=causes + object aspect + direction), e.g.
+      "adalimumab causes decreased activity of TNF".
+    slots:
+      - predicate
+      - object
+      - qualified_predicate
+      - object_aspect_qualifier
+      - object_direction_qualifier
+      - label_section
+      - evidence
+      - needs_review
+      - candidates
+    slot_usage:
+      predicate:
+        range: TargetPredicateEnum
+        required: true
+        ifabsent: "string(biolink:affects)"
+      object:
+        range: Concept
+        required: true
+        bindings:
+          - binds_value_of: id
+            range: GeneTerm
+            obligation_level: REQUIRED
+      object_direction_qualifier:
+        required: true
+      evidence:
+        required: true
+
+  EvidenceItem:
+    description: >-
+      A single piece of evidence for a claim (dismech EvidenceItem model). The FDA label is the
+      first item (evidence_source REGULATORY, reference FDA:<setid>); corroborating PMIDs layer
+      after it and are quote-validated.
+    slots:
+      - reference
+      - reference_title
+      - snippet
+      - supports
+      - evidence_source
+      - explanation
+
+  GroundingCandidate:
+    description: A candidate grounding kept for review when the match was not a confident exact hit.
+    slots:
+      - curie
+      - label
+      - score
+      - match_type
+      - source
+
+  Provenance:
+    description: Record-level provenance applied to every edge in the file.
+    slots:
+      - knowledge_level
+      - agent_type
+      - sources
+      - source_version
+      - retrieved
+    slot_usage:
+      sources:
+        required: true
+
+  RetrievalSource:
+    description: >-
+      A knowledge source contributing to an edge (Biolink RetrievalSource / Translator-TRAPI
+      style). FDA is the primary source; the ingest is the aggregator.
+    class_uri: biolink:RetrievalSource
+    slots:
+      - resource_id
+      - resource_role
+      - upstream_resource_ids
+      - source_record_urls
+
+# ---------------------------------------------------------------------------
+# Slots
+# ---------------------------------------------------------------------------
+slots:
+  biologic:
+    range: Biologic
+    inlined: true
+    required: true
+  indications:
+    range: Indication
+    multivalued: true
+    inlined_as_list: true
+  targets:
+    range: Target
+    multivalued: true
+    inlined_as_list: true
+  provenance:
+    range: Provenance
+    inlined: true
+    recommended: true
+
+  name:
+    description: The surface name as written in the source text.
+  id:
+    description: The grounded ontology CURIE for this concept.
+    range: uriorcurie
+  matched_label:
+    description: The ontology label of the grounded term (for human verification).
+  synonyms:
+    description: Alternative names, e.g. brand names.
+    multivalued: true
+
+  predicate:
+    description: The Biolink predicate for this edge.
+  object:
+    description: The grounded object concept of the edge.
+    inlined: true
+  qualified_predicate:
+    description: The core predicate qualified by the aspect/direction (for affects edges).
+    range: QualifiedPredicateEnum
+    ifabsent: "string(biolink:causes)"
+  object_aspect_qualifier:
+    description: The aspect of the target affected (activity, abundance, …).
+    range: ObjectAspectQualifierEnum
+    ifabsent: "string(activity_or_abundance)"
+    recommended: true
+  object_direction_qualifier:
+    description: Direction of the effect on the target (decreased for inhibitors/blockers).
+    range: ObjectDirectionQualifierEnum
+  label_section:
+    description: The FDA label section the claim was read from (e.g. INDICATIONS AND USAGE).
+  needs_review:
+    description: True when grounding or predicate choice was not confident; queues human review.
+    range: boolean
+    ifabsent: "boolean(false)"
+  candidates:
+    description: Alternative grounding candidates, populated when needs_review is true.
+    range: GroundingCandidate
+    multivalued: true
+    inlined_as_list: true
+
+  evidence:
+    description: Evidence supporting this edge; at least the FDA-label item.
+    range: EvidenceItem
+    multivalued: true
+    inlined_as_list: true
+
+  reference:
+    description: Authoritative reference — PMID:<id> (validated) or FDA:<SPL-setid> (label).
+    range: uriorcurie
+    pattern: "^(PMID:\\d+|FDA:[0-9A-Za-z-]+)$"
+    implements:
+      - linkml:authoritative_reference
+  reference_title:
+    description: Title of the referenced publication.
+    recommended: true
+  snippet:
+    description: Exact verbatim excerpt from the reference that supports/refutes the claim.
+    implements:
+      - linkml:excerpt
+  supports:
+    description: Whether the cited evidence supports the claim.
+    range: EvidenceItemSupportEnum
+    required: true
+  evidence_source:
+    description: Origin of the evidence item.
+    range: EvidenceSourceEnum
+  explanation:
+    description: Why the snippet supports (or refutes) the claim.
+    recommended: true
+
+  curie:
+    range: uriorcurie
+  label:
+  score:
+    range: float
+  match_type:
+  source:
+
+  knowledge_level:
+    description: Biolink knowledge_level — FDA approval is an asserted fact.
+    range: KnowledgeLevelEnum
+    ifabsent: "string(knowledge_assertion)"
+  agent_type:
+    description: >-
+      Biolink agent_type — who generated the edge. AI extraction from label prose is
+      text_mining_agent; promote to manual_validation_of_automated_agent once a curator
+      clears needs_review. Not manual_agent (no human authored it from scratch).
+    range: AgentTypeEnum
+    ifabsent: "string(text_mining_agent)"
+
+  sources:
+    description: Knowledge sources for every edge in this record (Translator RetrievalSource blocks).
+    range: RetrievalSource
+    multivalued: true
+    inlined_as_list: true
+  resource_id:
+    description: Infores id of the knowledge source.
+    range: uriorcurie
+    required: true
+  resource_role:
+    description: The role this source plays for the edge.
+    range: ResourceRoleEnum
+    required: true
+  upstream_resource_ids:
+    description: Infores ids this source draws from (e.g. the aggregator's upstream = FDA).
+    range: uriorcurie
+    multivalued: true
+  source_record_urls:
+    description: URL(s) of the specific source record, e.g. the DailyMed SPL label.
+    range: uriorcurie
+    multivalued: true
+  source_version:
+    description: >-
+      Version of the FDA label this record was read from (e.g. the SPL version number or
+      effective date). FDA labels version per-record, so this is the per-record anchor.
+  retrieved:
+    description: Date the FDA label was retrieved/curated (ISO 8601).
+    range: date
+
+# ---------------------------------------------------------------------------
+# Term enums (dynamic — validated by linkml-term-validator via oak_config.yaml)
+# ---------------------------------------------------------------------------
+enums:
+  DrugTerm:
+    description: An NCIT pharmacologic/biologic substance term (edge subject).
+    reachable_from:
+      source_nodes:
+        - NCIT:C1909   ## Pharmacologic Substance
+      is_direct: false
+      relationship_types:
+        - rdfs:subClassOf
+
+  DiseaseTerm:
+    description: A MONDO disease term (indication object).
+    reachable_from:
+      source_nodes:
+        - MONDO:0000001   ## disease
+      is_direct: false
+      relationship_types:
+        - rdfs:subClassOf
+
+  GeneTerm:
+    description: An HGNC gene term (target object).
+    comments:
+      - HGNC is not a subClassOf hierarchy; validated by prefix + exact label match against HGNC.
+
+  IndicationPredicateEnum:
+    description: Allowed Biolink predicates for drug→disease indication edges (treats family).
+    permissible_values:
+      "biolink:ameliorates_condition":
+        description: Acts on an existing disease (treat active disease).
+      "biolink:preventative_for_condition":
+        description: Prophylaxis / prevention / risk reduction.
+      "biolink:treats":
+        description: General approved-treatment claim, or when the specific child is unclear.
+
+  EvidenceItemSupportEnum:
+    description: The level of support a cited evidence item gives the claim.
+    permissible_values:
+      SUPPORT:
+        description: The cited evidence directly supports the claim.
+      REFUTE:
+        description: The cited evidence directly contradicts the claim.
+      PARTIAL:
+        description: The cited evidence partially or indirectly supports the claim.
+      NO_EVIDENCE:
+        description: The cited reference does not contain evidence relevant to the claim.
+      WRONG_STATEMENT:
+        description: The claim contains a demonstrable factual error documented by the reference.
+
+  EvidenceSourceEnum:
+    description: The provenance/source type of an evidence item.
+    permissible_values:
+      REGULATORY:
+        description: FDA approval / product labeling (our extension to the dismech enum).
+      HUMAN_CLINICAL:
+        description: Human clinical observations (patients, cohorts, trials, epidemiology).
+      MODEL_ORGANISM:
+        description: In vivo non-human animal evidence.
+      IN_VITRO:
+        description: In vitro / ex vivo assays.
+      COMPUTATIONAL:
+        description: In silico / modeling studies.
+      OTHER:
+        description: Evidence not fitting the above.
+
+  TargetPredicateEnum:
+    description: Allowed Biolink predicate for drug→gene target edges.
+    permissible_values:
+      "biolink:affects":
+        description: The drug affects the target; qualified by aspect + direction.
+
+  QualifiedPredicateEnum:
+    description: The qualified_predicate for an affects edge.
+    permissible_values:
+      "biolink:causes":
+        description: The drug causes the qualified effect on the target.
+
+  ObjectAspectQualifierEnum:
+    description: Aspect of the target affected (subset of Biolink GeneOrGeneProductOrChemicalEntityAspectEnum).
+    permissible_values:
+      activity_or_abundance:
+      activity:
+      abundance:
+      expression:
+      degradation:
+      localization:
+      secretion:
+      transport:
+
+  ObjectDirectionQualifierEnum:
+    description: Direction of effect (Biolink DirectionQualifierEnum).
+    permissible_values:
+      increased:
+      decreased:
+      upregulated:
+      downregulated:
+
+  KnowledgeLevelEnum:
+    description: Biolink knowledge_level values used by this ingest.
+    permissible_values:
+      knowledge_assertion:
+      prediction:
+      not_provided:
+
+  AgentTypeEnum:
+    description: Biolink agent_type values used by this ingest.
+    permissible_values:
+      text_mining_agent:
+        description: Edge extracted by an AI/NLP agent from the FDA label text (default).
+      manual_validation_of_automated_agent:
+        description: AI-extracted then verified by a human curator (after clearing needs_review).
+      manual_agent:
+        description: Authored directly by a human curator.
+      automated_agent:
+        description: Produced by an automated non-text-mining pipeline.
+      not_provided:
+
+  ResourceRoleEnum:
+    description: Biolink resource_role — the role a source plays for an edge.
+    permissible_values:
+      primary_knowledge_source:
+        description: The most upstream source asserting the edge (FDA).
+      aggregator_knowledge_source:
+        description: A source that aggregates/republishes the edge (this ingest).
+      supporting_data_source:
+        description: A dataset consulted in producing the edge.

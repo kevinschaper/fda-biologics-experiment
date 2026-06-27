@@ -1,0 +1,51 @@
+biologic:
+  name: bevacizumab
+  id: NCIT:C2039
+  matched_label: Bevacizumab
+  synonyms: [Avastin]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: metastatic colorectal cancer, id: MONDO:0005575, matched_label: colorectal cancer}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:939b5d1f-9fb2-4499-80ef-0607aa6b114e
+        snippet: "Avastin is a vascular endothelial growth factor inhibitor indicated for the treatment of: Metastatic colorectal cancer, in combination with intravenous fluorouracil-based chemotherapy for first- or second-line treatment."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names metastatic colorectal cancer as an approved treatment population; stripping the metastatic qualifier leaves colorectal cancer, asserting the drug→disease edge."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: non-small cell lung cancer, id: MONDO:0005233, matched_label: non-small cell lung carcinoma}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:939b5d1f-9fb2-4499-80ef-0607aa6b114e
+        snippet: "Avastin, in combination with carboplatin and paclitaxel, is indicated for the first-line treatment of patients with unresectable, locally advanced, recurrent or metastatic non-squamous non-small cell lung cancer (NSCLC)."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names non-squamous non-small cell lung cancer as an approved first-line treatment population; stripping qualifiers leaves non-small cell lung cancer, asserting the drug→disease edge."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: VEGF, id: HGNC:12680, matched_label: VEGFA}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:939b5d1f-9fb2-4499-80ef-0607aa6b114e
+        snippet: "Bevacizumab binds VEGF and prevents the interaction of VEGF to its receptors (Flt-1 and KDR) on the surface of endothelial cells."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states bevacizumab is a VEGF inhibitor that binds VEGF and blocks receptor interaction → decreased VEGF activity. VEGF is the prior symbol for the HGNC gene VEGFA."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=939b5d1f-9fb2-4499-80ef-0607aa6b114e
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

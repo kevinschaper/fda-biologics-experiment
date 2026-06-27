@@ -1,0 +1,62 @@
+biologic:
+  name: vedolizumab
+  id: NCIT:C95798
+  matched_label: Vedolizumab
+  synonyms: [Entyvio]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: ulcerative colitis, id: MONDO:0005101, matched_label: ulcerative colitis}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:6e94621c-1a95-4af9-98d1-52b9e6f1949c
+        snippet: "moderately to severely active ulcerative colitis (UC)"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names moderately to severely active ulcerative colitis as an approved treatment population, asserting the drug→disease edge."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: Crohn's disease, id: MONDO:0005011, matched_label: Crohn disease}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:6e94621c-1a95-4af9-98d1-52b9e6f1949c
+        snippet: "moderately to severely active Crohn's disease (CD)"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names moderately to severely active Crohn's disease as an approved treatment population, asserting the drug→disease edge."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: integrin alpha4beta7, id: HGNC:6162, matched_label: ITGB7}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:6e94621c-1a95-4af9-98d1-52b9e6f1949c
+        snippet: "specifically binds to the α4β7 integrin and blocks the interaction of α4β7 integrin with mucosal addressin cell adhesion molecule-1 (MAdCAM-1)"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states vedolizumab binds and antagonizes the α4β7 integrin, i.e. causes decreased α4β7 activity. The α4β7 integrin is a heterodimer (ITGA4 + ITGB7) with no single HGNC gene; grounded to the gut-selective β7 subunit ITGB7 (HGNC:6162) as the most representative gene and flagged for review."
+    needs_review: true
+    candidates:
+      - curie: HGNC:6162
+        label: ITGB7
+        score: 1.0
+        match_type: exact_symbol
+        source: genenames
+      - curie: HGNC:6140
+        label: ITGA4
+        score: 1.0
+        match_type: exact_symbol
+        source: genenames
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=6e94621c-1a95-4af9-98d1-52b9e6f1949c
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

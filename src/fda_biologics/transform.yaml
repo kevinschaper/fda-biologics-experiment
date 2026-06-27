@@ -1,0 +1,36 @@
+name: fda_biologics
+
+# Source = the curated per-drug YAML files (no download). koza's yaml reader yields
+# one BiologicRecord per file.
+reader:
+  format: yaml
+  files:
+    - kb/biologics/*.yaml
+
+transform:
+  code: transform.py   # resolved relative to this config file's directory
+
+writer:
+  format: jsonl   # KGX nodes/edges as JSON Lines
+  node_properties:
+    - id
+    - category
+    - name
+    - xref
+    - synonym
+    - provided_by
+  edge_properties:
+    - id
+    - subject
+    - predicate
+    - object
+    - category
+    - qualified_predicate
+    - object_aspect_qualifier
+    - object_direction_qualifier
+    - knowledge_level
+    - agent_type
+    - primary_knowledge_source
+    - aggregator_knowledge_source
+    - publications
+    - has_evidence

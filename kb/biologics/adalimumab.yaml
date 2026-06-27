@@ -1,0 +1,41 @@
+biologic:
+  name: adalimumab
+  id: NCIT:C65216
+  matched_label: Adalimumab
+  synonyms: [Humira]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: rheumatoid arthritis, id: MONDO:0008383, matched_label: rheumatoid arthritis}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:608d4f0e-a834-4f0c-a1d8-example
+        snippet: "indicated for the treatment of adults with moderately to severely active rheumatoid arthritis"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS names RA as an approved treatment population."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: TNF, id: HGNC:11892, matched_label: TNF}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity_or_abundance
+    object_direction_qualifier: decreased
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:608d4f0e-a834-4f0c-a1d8-example
+        snippet: "a tumor necrosis factor (TNF) blocker"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "TNF blockade → decreased TNF activity."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=humira-spl-setid-placeholder
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

@@ -1,0 +1,51 @@
+biologic:
+  name: omalizumab
+  id: NCIT:C29299
+  matched_label: Omalizumab
+  synonyms: [Xolair]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: asthma, id: MONDO:0004979, matched_label: asthma}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:7f6a2191-adfb-48b9-9bfa-0d9920479f0d
+        snippet: "XOLAIR is indicated for adults and pediatric patients 6 years of age and older with moderate to severe persistent asthma who have a positive skin test or in vitro reactivity to a perennial aeroallergen and whose symptoms are inadequately controlled with inhaled corticosteroids."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names moderate to severe persistent asthma as an approved treatment population; severity qualifiers are stripped for grounding to asthma (MONDO:0004979)."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: chronic spontaneous urticaria, id: MONDO:0044212, matched_label: chronic idiopathic urticaria}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:7f6a2191-adfb-48b9-9bfa-0d9920479f0d
+        snippet: "XOLAIR is indicated for the treatment of adults and adolescents 12 years of age and older with chronic spontaneous urticaria (CSU) who remain symptomatic despite H1 antihistamine treatment."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names chronic spontaneous urticaria (CSU) as an approved indication; CSU is the established synonym of chronic idiopathic urticaria (MONDO:0044212), the grounded term."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: IgE, id: HGNC:5522, matched_label: IGHE}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: abundance
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:7f6a2191-adfb-48b9-9bfa-0d9920479f0d
+        snippet: "Omalizumab binds to IgE and lowers free IgE levels."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MECHANISM OF ACTION states omalizumab binds IgE and lowers free IgE levels, i.e. it causes decreased IgE abundance; the HGNC gene IGHE (immunoglobulin heavy constant epsilon) stands in for the IgE product."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=7f6a2191-adfb-48b9-9bfa-0d9920479f0d
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

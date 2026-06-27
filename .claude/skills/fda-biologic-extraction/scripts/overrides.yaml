@@ -1,0 +1,15 @@
+# Curated name -> CURIE overrides for cases where ontology search fails or is ambiguous.
+# ground.py consults this BEFORE searching. Matching is case-insensitive after
+# whitespace normalization. Only add entries you have verified by hand.
+#
+# Format (keyed by type):
+#   drug:
+#     "ado-trastuzumab emtansine": {curie: NCIT:Cxxxxx, label: "Ado-Trastuzumab Emtansine"}
+#   disease:
+#     "covid-19": {curie: MONDO:0100096, label: "COVID-19"}
+#   gene:
+#     "pd-1": {curie: HGNC:8760, label: "PDCD1"}
+
+disease: {}
+drug: {}
+gene: {}

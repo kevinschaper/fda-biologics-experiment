@@ -1,0 +1,41 @@
+biologic:
+  name: trastuzumab
+  id: NCIT:C1647
+  matched_label: Trastuzumab
+  synonyms: [Herceptin]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: breast cancer, id: MONDO:0007254, matched_label: breast cancer}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:492dbdb2-077e-4064-bff3-372d6af0a7a2
+        snippet: "Herceptin is indicated in adults for adjuvant treatment of HER2 overexpressing node positive or node negative"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names HER2-overexpressing breast cancer as an approved adjuvant treatment population; stripping the HER2-overexpressing/node qualifiers leaves breast cancer, asserting the drug→disease edge."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: HER2, id: HGNC:3430, matched_label: ERBB2}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:492dbdb2-077e-4064-bff3-372d6af0a7a2
+        snippet: "Trastuzumab is a humanized IgG1 kappa monoclonal antibody that selectively binds with high affinity to the extracellular domain of the human epidermal growth factor receptor 2 protein, HER2."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states trastuzumab binds the extracellular domain of HER2, blocking its signaling → decreased HER2 activity. HER2 is an alias for the HGNC gene ERBB2."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=492dbdb2-077e-4064-bff3-372d6af0a7a2
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]
