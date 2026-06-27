@@ -1,0 +1,49 @@
+biologic:
+  name: relatlimab
+  id: NCIT:C111999
+  matched_label: Relatlimab
+  synonyms: [Opdualag, relatlimab-rmbw]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: melanoma, id: MONDO:0005105, matched_label: melanoma}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:b22c9d83-3256-4e17-85f7-f331a504adc6
+        snippet: "OPDUALAG is a combination of nivolumab, a programmed death receptor-1 (PD-1) blocking antibody, and relatlimab, a lymphocyte activation gene-3 (LAG-3) blocking antibody, indicated for the treatment of adult and pediatric patients 12 years of age or older with unresectable or metastatic melanoma."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names unresectable or metastatic melanoma as the approved treatment population for the fixed-combination Opdualag, of which relatlimab is a component; stripping the qualifiers leaves melanoma, asserting the relatlimab→disease edge."
+      - reference: PMID:40513285
+        reference_title: "Nivolumab plus relatlimab in advanced melanoma: RELATIVITY-047 4-year update."
+        snippet: "In phase 2/3 randomized RELATIVITY-047, nivolumab plus relatlimab demonstrated a statistically significant improvement in progression-free survival (PFS)"
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 2/3 RELATIVITY-047 RCT showing nivolumab plus relatlimab significantly improves progression-free survival versus nivolumab alone in previously untreated advanced melanoma, corroborating the relatlimab→melanoma edge."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: LAG-3, id: HGNC:6476, matched_label: LAG3}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:b22c9d83-3256-4e17-85f7-f331a504adc6
+        snippet: "Relatlimab is a human IgG4 monoclonal antibody that binds to the LAG-3 receptor, blocks interaction with its ligands, including MHC II, and reduces LAG-3 pathway-mediated inhibition of the immune response."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states relatlimab binds the LAG-3 receptor and blocks interaction with its ligands, i.e. causes decreased LAG-3 activity. LAG-3 is the exact symbol of the HGNC gene LAG3."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "3"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=b22c9d83-3256-4e17-85f7-f331a504adc6
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

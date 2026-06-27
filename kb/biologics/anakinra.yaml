@@ -1,0 +1,63 @@
+biologic:
+  name: anakinra
+  id: NCIT:C38717
+  matched_label: Anakinra
+  synonyms: [Kineret]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: rheumatoid arthritis, id: MONDO:0008383, matched_label: rheumatoid arthritis}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:d9d74915-6606-4570-9c52-c4001d3177de
+        snippet: "Reduction in signs and symptoms and slowing the progression of structural damage in moderately to severely active rheumatoid arthritis, in patients 18 years of age or older who have failed 1 or more disease modifying antirheumatic drugs (DMARDs)"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names moderately to severely active rheumatoid arthritis as an approved indication; the severity qualifier is stripped for grounding to rheumatoid arthritis (MONDO:0008383)."
+      - reference: PMID:11920396
+        reference_title: "Treatment of rheumatoid arthritis with anakinra, a recombinant human interleukin-1 receptor antagonist, in combination with methotrexate: results of a twenty-four-week, multicenter, randomized, double-blind, placebo-controlled trial."
+        snippet: "In patients with persistently active RA, the combination of anakinra and MTX was safe and well tolerated and provided significantly greater clinical benefit than MTX alone."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal multicenter randomized double-blind placebo-controlled trial demonstrating clinical efficacy of anakinra in active rheumatoid arthritis, corroborating the approved indication."
+    needs_review: false
+    candidates: []
+  - predicate: biolink:ameliorates_condition
+    object: {name: Neonatal-Onset Multisystem Inflammatory Disease, id: MONDO:0011776, matched_label: CINCA syndrome}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:d9d74915-6606-4570-9c52-c4001d3177de
+        snippet: "Treatment of Neonatal-Onset Multisystem Inflammatory Disease (NOMID)"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names Neonatal-Onset Multisystem Inflammatory Disease (NOMID) as an approved indication; NOMID is a registered synonym of CINCA syndrome (MONDO:0011776), matched via synonym rather than exact label."
+    needs_review: true
+    candidates:
+      - {curie: MONDO:0011776, label: CINCA syndrome, match_type: synonym, score: 0.9}
+targets:
+  - predicate: biolink:affects
+    object: {name: IL-1 type I receptor, id: HGNC:5993, matched_label: IL1R1}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:d9d74915-6606-4570-9c52-c4001d3177de
+        snippet: "KINERET blocks the biologic activity of IL-1 alpha and beta by competitively inhibiting IL-1 binding to the interleukin-1 type I receptor (IL-1RI)"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MECHANISM OF ACTION states anakinra is an IL-1 receptor antagonist that competitively inhibits IL-1 binding to the interleukin-1 type I receptor, i.e. causes decreased IL-1 type I receptor signaling activity. The IL-1 type I receptor is encoded by IL1R1 (HGNC:5993)."
+    needs_review: false
+    candidates: []
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "24"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=d9d74915-6606-4570-9c52-c4001d3177de
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

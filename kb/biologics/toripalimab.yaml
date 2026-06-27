@@ -1,0 +1,49 @@
+biologic:
+  name: toripalimab
+  id: NCIT:C131334
+  matched_label: Toripalimab
+  synonyms: [Loqtorzi, toripalimab-tpzi]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: nasopharyngeal carcinoma, id: MONDO:0015459, matched_label: nasopharyngeal carcinoma}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:82e7921a-1e84-4988-9799-0ad7d19b2a75
+        snippet: "LOQTORZI is indicated, in combination with cisplatin and gemcitabine, for the first-line treatment of adults with metastatic or with recurrent, locally advanced nasopharyngeal carcinoma (NPC)."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names metastatic or recurrent, locally advanced nasopharyngeal carcinoma as an approved treatment population; stripping the qualifiers leaves nasopharyngeal carcinoma, asserting the drug→disease edge."
+      - reference: PMID:38015220
+        reference_title: "Toripalimab Plus Chemotherapy for Recurrent or Metastatic Nasopharyngeal Carcinoma: The JUPITER-02 Randomized Clinical Trial."
+        snippet: "The addition of toripalimab to chemotherapy as first-line treatment for RM-NPC provided statistically significant and clinically meaningful progression-free survival and overall survival benefits compared with chemotherapy alone, with a manageable safety profile."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 3 JUPITER-02 RCT showing first-line toripalimab plus chemotherapy improves progression-free and overall survival in recurrent/metastatic nasopharyngeal carcinoma, corroborating the toripalimab→nasopharyngeal carcinoma edge."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: PD-1, id: HGNC:8760, matched_label: PDCD1}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:82e7921a-1e84-4988-9799-0ad7d19b2a75
+        snippet: "Toripalimab-tpzi is a humanized IgG4 monoclonal antibody that binds to the PD-1 receptor and blocks its interaction with PD-L1 and PD-L2"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states toripalimab binds PD-1 and blocks its interaction with PD-L1/PD-L2, i.e. causes decreased PD-1 activity. PD-1 is an alias of the HGNC gene PDCD1."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "8"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=82e7921a-1e84-4988-9799-0ad7d19b2a75
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

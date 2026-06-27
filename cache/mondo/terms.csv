@@ -1,71 +1,89 @@
 curie,label,retrieved_at
-MONDO:0008383,rheumatoid arthritis,2026-06-27T04:59:59.125294
-MONDO:0005575,colorectal cancer,2026-06-27T04:59:59.125298
-MONDO:0005233,non-small cell lung carcinoma,2026-06-27T04:59:59.125301
-MONDO:0008159,postmenopausal osteoporosis,2026-06-27T04:59:59.125303
-MONDO:0000757,glucocorticoid-induced osteoporosis,2026-06-27T04:59:59.125306
-MONDO:0005083,psoriasis,2026-06-27T04:59:59.125308
-MONDO:0005011,Crohn disease,2026-06-27T04:59:59.125311
-MONDO:0004979,asthma,2026-06-27T04:59:59.125313
-MONDO:0044212,chronic idiopathic urticaria,2026-06-27T04:59:59.125315
-MONDO:0005105,melanoma,2026-06-27T04:59:59.125318
-MONDO:0018908,non-Hodgkin lymphoma,2026-06-27T04:59:59.125320
-MONDO:0004948,B-cell chronic lymphocytic leukemia,2026-06-27T04:59:59.125322
-MONDO:0007254,breast cancer,2026-06-27T04:59:59.125325
-MONDO:0005101,ulcerative colitis,2026-06-27T04:59:59.125327
-MONDO:0005086,renal cell carcinoma,2026-06-27T04:59:59.125329
-MONDO:0008538,temporal arteritis,2026-06-27T04:59:59.125331
-MONDO:0011849,psoriatic arthritis,2026-06-27T04:59:59.125333
-MONDO:0004980,atopic eczema,2026-06-27T04:59:59.125336
-MONDO:0005150,age-related macular degeneration,2026-06-27T04:59:59.125338
-MONDO:0004728,diabetic macular edema,2026-06-27T04:59:59.125340
-MONDO:0015943,eosinophilic granulomatosis with polyangiitis,2026-06-27T04:59:59.125343
-MONDO:0005301,multiple sclerosis,2026-06-27T04:59:59.125345
-MONDO:0010150,head and neck squamous cell carcinoma,2026-06-27T04:59:59.125347
-MONDO:0000451,primary progressive multiple sclerosis,2026-06-27T04:59:59.125350
-MONDO:0018906,follicular lymphoma,2026-06-27T04:59:59.125352
-MONDO:0001056,gastric cancer,2026-06-27T04:59:59.125355
-MONDO:0009693,plasma cell myeloma,2026-06-27T04:59:59.125357
-MONDO:0100244,paroxysmal nocturnal hemoglobinuria,2026-06-27T04:59:59.125359
-MONDO:0016244,atypical hemolytic-uremic syndrome,2026-06-27T04:59:59.125361
-MONDO:0007915,systemic lupus erythematosus,2026-06-27T04:59:59.125364
-MONDO:0005556,lupus nephritis,2026-06-27T04:59:59.125366
-MONDO:0016168,cryopyrin-associated periodic syndrome,2026-06-27T04:59:59.125368
-MONDO:0005393,gout,2026-06-27T04:59:59.125371
-MONDO:0018328,homozygous familial hypercholesterolemia,2026-06-27T04:59:59.125373
-MONDO:0005439,familial hypercholesterolemia,2026-06-27T04:59:59.125376
-MONDO:0019735,polymyalgia rheumatica,2026-06-27T04:59:59.125378
-MONDO:0005277,migraine disorder,2026-06-27T04:59:59.125380
-MONDO:0043537,cluster headache syndrome,2026-06-27T04:59:59.125382
-MONDO:0019623,hereditary angioedema,2026-06-27T04:59:59.125385
-MONDO:0006031,chronic rhinosinusitis,2026-06-27T04:59:59.125387
-MONDO:0018922,cold agglutinin disease,2026-06-27T04:59:59.125389
-MONDO:0002529,skin squamous cell carcinoma,2026-06-27T04:59:59.125392
-MONDO:0020804,basal cell carcinoma,2026-06-27T04:59:59.125394
-MONDO:0019740,acquired thrombotic thrombocytopenic purpura,2026-06-27T04:59:59.125396
-MONDO:0011962,endometrial cancer,2026-06-27T04:59:59.125399
-MONDO:0011382,sickle cell disease,2026-06-27T04:59:59.125401
-MONDO:0005580,esophageal squamous cell carcinoma,2026-06-27T04:59:59.125403
-MONDO:0004132,anal canal squamous cell carcinoma,2026-06-27T04:59:59.125406
-MONDO:0019210,cutaneous neuroendocrine carcinoma,2026-06-27T04:59:59.125408
-MONDO:0007256,hepatocellular carcinoma,2026-06-27T04:59:59.125410
-MONDO:0005494,triple-negative breast carcinoma,2026-06-27T04:59:59.125413
-MONDO:0040679,urothelial carcinoma,2026-06-27T04:59:59.125415
-MONDO:0018905,diffuse large B-cell lymphoma,2026-06-27T04:59:59.125417
-MONDO:0005147,type 1 diabetes mellitus,2026-06-27T04:59:59.125420
-MONDO:0001509,endocrine exophthalmos,2026-06-27T04:59:59.125422
-MONDO:0004947,B-cell acute lymphoblastic leukemia,2026-06-27T04:59:59.125424
-MONDO:0008433,small cell lung carcinoma,2026-06-27T04:59:59.125427
-MONDO:0019100,neuromyelitis optica,2026-06-27T04:59:59.125429
-MONDO:0017287,immunoglobulin G4-related sclerosing disease,2026-06-27T04:59:59.125431
-MONDO:0009348,classic Hodgkin lymphoma,2026-06-27T04:59:59.125434
-MONDO:0004967,acute lymphoblastic leukemia,2026-06-27T04:59:59.125436
-MONDO:0018874,acute myeloid leukemia,2026-06-27T04:59:59.125439
-MONDO:0005140,ovarian carcinoma,2026-06-27T04:59:59.125441
-MONDO:0002158,fallopian tube cancer,2026-06-27T04:59:59.125443
-MONDO:0005417,wet macular degeneration,2026-06-27T04:59:59.125446
-MONDO:0010619,X-linked dominant hypophosphatemic rickets,2026-06-27T04:59:59.125448
-MONDO:0018124,Oncogenic osteomalacia,2026-06-27T04:59:59.125451
-MONDO:0004975,Alzheimer disease,2026-06-27T04:59:59.125453
-MONDO:0015541,hereditary hemophagocytic lymphohistiocytosis,2026-06-27T04:59:59.125455
-MONDO:0015545,macrophage activation syndrome,2026-06-27T04:59:59.125458
+MONDO:0008383,rheumatoid arthritis,2026-06-27T08:43:35.036631
+MONDO:0005575,colorectal cancer,2026-06-27T08:43:35.036641
+MONDO:0005233,non-small cell lung carcinoma,2026-06-27T08:43:35.036643
+MONDO:0008159,postmenopausal osteoporosis,2026-06-27T08:43:35.036646
+MONDO:0000757,glucocorticoid-induced osteoporosis,2026-06-27T08:43:35.036648
+MONDO:0005083,psoriasis,2026-06-27T08:43:35.036651
+MONDO:0005011,Crohn disease,2026-06-27T08:43:35.036653
+MONDO:0004979,asthma,2026-06-27T08:43:35.036655
+MONDO:0044212,chronic idiopathic urticaria,2026-06-27T08:43:35.036657
+MONDO:0005105,melanoma,2026-06-27T08:43:35.036660
+MONDO:0018908,non-Hodgkin lymphoma,2026-06-27T08:43:35.036662
+MONDO:0004948,B-cell chronic lymphocytic leukemia,2026-06-27T08:43:35.036664
+MONDO:0007254,breast cancer,2026-06-27T08:43:35.036667
+MONDO:0005101,ulcerative colitis,2026-06-27T08:43:35.036669
+MONDO:0005086,renal cell carcinoma,2026-06-27T08:43:35.036671
+MONDO:0008538,temporal arteritis,2026-06-27T08:43:35.036673
+MONDO:0011849,psoriatic arthritis,2026-06-27T08:43:35.036675
+MONDO:0004980,atopic eczema,2026-06-27T08:43:35.036678
+MONDO:0005150,age-related macular degeneration,2026-06-27T08:43:35.036680
+MONDO:0004728,diabetic macular edema,2026-06-27T08:43:35.036682
+MONDO:0015943,eosinophilic granulomatosis with polyangiitis,2026-06-27T08:43:35.036684
+MONDO:0005301,multiple sclerosis,2026-06-27T08:43:35.036687
+MONDO:0010150,head and neck squamous cell carcinoma,2026-06-27T08:43:35.036689
+MONDO:0000451,primary progressive multiple sclerosis,2026-06-27T08:43:35.036691
+MONDO:0018906,follicular lymphoma,2026-06-27T08:43:35.036694
+MONDO:0001056,gastric cancer,2026-06-27T08:43:35.036696
+MONDO:0009693,plasma cell myeloma,2026-06-27T08:43:35.036698
+MONDO:0100244,paroxysmal nocturnal hemoglobinuria,2026-06-27T08:43:35.036700
+MONDO:0016244,atypical hemolytic-uremic syndrome,2026-06-27T08:43:35.036703
+MONDO:0007915,systemic lupus erythematosus,2026-06-27T08:43:35.036705
+MONDO:0005556,lupus nephritis,2026-06-27T08:43:35.036707
+MONDO:0016168,cryopyrin-associated periodic syndrome,2026-06-27T08:43:35.036709
+MONDO:0005393,gout,2026-06-27T08:43:35.036712
+MONDO:0018328,homozygous familial hypercholesterolemia,2026-06-27T08:43:35.036714
+MONDO:0005439,familial hypercholesterolemia,2026-06-27T08:43:35.036716
+MONDO:0019735,polymyalgia rheumatica,2026-06-27T08:43:35.036718
+MONDO:0005277,migraine disorder,2026-06-27T08:43:35.036721
+MONDO:0043537,cluster headache syndrome,2026-06-27T08:43:35.036723
+MONDO:0019623,hereditary angioedema,2026-06-27T08:43:35.036725
+MONDO:0006031,chronic rhinosinusitis,2026-06-27T08:43:35.036727
+MONDO:0018922,cold agglutinin disease,2026-06-27T08:43:35.036730
+MONDO:0002529,skin squamous cell carcinoma,2026-06-27T08:43:35.036732
+MONDO:0020804,basal cell carcinoma,2026-06-27T08:43:35.036734
+MONDO:0019740,acquired thrombotic thrombocytopenic purpura,2026-06-27T08:43:35.036736
+MONDO:0011962,endometrial cancer,2026-06-27T08:43:35.036739
+MONDO:0011382,sickle cell disease,2026-06-27T08:43:35.036741
+MONDO:0005580,esophageal squamous cell carcinoma,2026-06-27T08:43:35.036743
+MONDO:0004132,anal canal squamous cell carcinoma,2026-06-27T08:43:35.036746
+MONDO:0019210,cutaneous neuroendocrine carcinoma,2026-06-27T08:43:35.036748
+MONDO:0007256,hepatocellular carcinoma,2026-06-27T08:43:35.036750
+MONDO:0005494,triple-negative breast carcinoma,2026-06-27T08:43:35.036752
+MONDO:0040679,urothelial carcinoma,2026-06-27T08:43:35.036755
+MONDO:0018905,diffuse large B-cell lymphoma,2026-06-27T08:43:35.036757
+MONDO:0005147,type 1 diabetes mellitus,2026-06-27T08:43:35.036759
+MONDO:0001509,endocrine exophthalmos,2026-06-27T08:43:35.036762
+MONDO:0004947,B-cell acute lymphoblastic leukemia,2026-06-27T08:43:35.036764
+MONDO:0008433,small cell lung carcinoma,2026-06-27T08:43:35.036766
+MONDO:0019100,neuromyelitis optica,2026-06-27T08:43:35.036769
+MONDO:0017287,immunoglobulin G4-related sclerosing disease,2026-06-27T08:43:35.036771
+MONDO:0009348,classic Hodgkin lymphoma,2026-06-27T08:43:35.036773
+MONDO:0004967,acute lymphoblastic leukemia,2026-06-27T08:43:35.036776
+MONDO:0018874,acute myeloid leukemia,2026-06-27T08:43:35.036778
+MONDO:0005140,ovarian carcinoma,2026-06-27T08:43:35.036780
+MONDO:0002158,fallopian tube cancer,2026-06-27T08:43:35.036782
+MONDO:0005417,wet macular degeneration,2026-06-27T08:43:35.036785
+MONDO:0010619,X-linked dominant hypophosphatemic rickets,2026-06-27T08:43:35.036787
+MONDO:0018124,Oncogenic osteomalacia,2026-06-27T08:43:35.036789
+MONDO:0004975,Alzheimer disease,2026-06-27T08:43:35.036792
+MONDO:0015541,hereditary hemophagocytic lymphohistiocytosis,2026-06-27T08:43:35.036794
+MONDO:0015545,macrophage activation syndrome,2026-06-27T08:43:35.036796
+MONDO:0009688,myasthenia gravis,2026-06-27T08:43:35.036798
+MONDO:0011776,CINCA syndrome,2026-06-27T08:43:35.036800
+MONDO:0005904,pericarditis,2026-06-27T08:43:35.036803
+MONDO:0100491,generalized pustular psoriasis,2026-06-27T08:43:35.036805
+MONDO:0026045,prurigo nodularis,2026-06-27T08:43:35.036807
+MONDO:0018013,complement 3 glomerulopathy,2026-06-27T08:43:35.036809
+MONDO:0005109,HIV infectious disease,2026-06-27T08:43:35.036812
+MONDO:0015459,nasopharyngeal carcinoma,2026-06-27T08:43:35.036814
+MONDO:1010185,transplant rejection,2026-06-27T08:43:35.036816
+MONDO:0001577,respiratory syncytial virus infectious disease,2026-06-27T08:43:35.036818
+MONDO:0009691,mycosis fungoides,2026-06-27T08:43:35.036821
+MONDO:0017844,Sezary syndrome,2026-06-27T08:43:35.036823
+MONDO:0000705,Clostridium difficile colitis,2026-06-27T08:43:35.036825
+MONDO:0005097,squamous cell lung carcinoma,2026-06-27T08:43:35.036827
+MONDO:0968974,large B-cell lymphoma,2026-06-27T08:43:35.036830
+MONDO:0002974,cervical cancer,2026-06-27T08:43:35.036832
+MONDO:0018078,soft tissue sarcoma,2026-06-27T08:43:35.036834
+MONDO:0005072,neuroblastoma,2026-06-27T08:43:35.036836

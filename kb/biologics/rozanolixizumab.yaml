@@ -1,0 +1,51 @@
+biologic:
+  name: rozanolixizumab
+  id: NCIT:C152270
+  matched_label: Rozanolixizumab
+  synonyms: [Rystiggo, rozanolixizumab-noli]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: generalized myasthenia gravis, id: MONDO:0009688, matched_label: myasthenia gravis}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:3c0eb8c2-c042-4954-b451-3baa77f5e6d1
+        snippet: "RYSTIGGO is indicated for the treatment of generalized myasthenia gravis (gMG) in adult patients who are anti-acetylcholine receptor (AChR) or anti-muscle-specific tyrosine kinase (MuSK) antibody positive."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names generalized myasthenia gravis (gMG) as the approved treatment population; the severity qualifier 'generalized' is stripped for grounding to myasthenia gravis (MONDO:0009688)."
+      - reference: PMID:37059507
+        reference_title: "Safety and efficacy of rozanolixizumab in patients with generalised myasthenia gravis (MycarinG): a randomised, double-blind, placebo-controlled, adaptive phase 3 study."
+        snippet: "Rozanolixizumab showed clinically meaningful improvements in patient-reported and investigator-assessed outcomes in patients with generalised myasthenia gravis, for both 7 mg/kg and 10 mg/kg doses."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 3 MycarinG randomized double-blind placebo-controlled trial demonstrating efficacy of rozanolixizumab in generalized myasthenia gravis, corroborating the approved indication."
+    needs_review: false
+    candidates: []
+targets:
+  - predicate: biolink:affects
+    object: {name: FcRn, id: HGNC:3621, matched_label: FCGRT}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:3c0eb8c2-c042-4954-b451-3baa77f5e6d1
+        snippet: "Rozanolixizumab-noli is a humanized IgG4 monoclonal antibody that binds to the neonatal Fc receptor (FcRn), resulting in the reduction of circulating IgG."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MECHANISM OF ACTION states rozanolixizumab binds FcRn and reduces circulating IgG; blocking FcRn-mediated IgG recycling decreases FcRn functional activity. FcRn is encoded by FCGRT (HGNC:3621)."
+    needs_review: false
+    candidates: []
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "10"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=3c0eb8c2-c042-4954-b451-3baa77f5e6d1
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

@@ -1,0 +1,49 @@
+biologic:
+  name: lebrikizumab
+  id: NCIT:C87767
+  matched_label: Lebrikizumab
+  synonyms: [Ebglyss, lebrikizumab-lbkz]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: atopic dermatitis, id: MONDO:0004980, matched_label: atopic eczema}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:7a774ea2-acde-4aaa-9a8f-ccba5a5b1d5f
+        snippet: "EBGLYSS is indicated for the treatment of moderate-to-severe atopic dermatitis in adults and pediatric patients 12 years of age and older who weigh at least 40 kg whose disease is not adequately controlled with topical prescription therapies or when those therapies are not advisable."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names moderate-to-severe atopic dermatitis as an approved treatment population; atopic eczema (MONDO:0004980) is the established synonym of atopic dermatitis, the grounded term."
+      - reference: PMID:41827153
+        reference_title: "Efficacy and Safety of Lebrikizumab in Adults with Moderate-to-Severe Atopic Dermatitis: A Systematic Review and Meta-Analysis."
+        snippet: "Lebrikizumab significantly increased the likelihood of achieving EASI-50 (RR 1.51, 95% CI 1.20-1.89), EASI-75 (RR 1.78, 95% CI 1.43-2.22), and EASI-90 (RR 2.26, 95% CI 1.67-3.06) compared with placebo, and was associated with clinically meaningful improvement in pruritus (RR 1.73, 95% CI 1.38-2.17)."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Systematic review and meta-analysis of RCTs showing lebrikizumab significantly increases EASI-50/75/90 response versus placebo in moderate-to-severe atopic dermatitis, corroborating the lebrikizumab→atopic dermatitis edge."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: IL-13, id: HGNC:5973, matched_label: IL13}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:7a774ea2-acde-4aaa-9a8f-ccba5a5b1d5f
+        snippet: "Lebrikizumab-lbkz inhibits IL-13-induced responses including the release of proinflammatory cytokines, chemokines and IgE."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states lebrikizumab binds interleukin-13 and inhibits IL-13 signaling/IL-13-induced responses, i.e. causes decreased IL-13 activity. IL-13 is encoded by IL13 (HGNC:5973)."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "13"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=7a774ea2-acde-4aaa-9a8f-ccba5a5b1d5f
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

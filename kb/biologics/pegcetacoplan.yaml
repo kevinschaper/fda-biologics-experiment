@@ -1,0 +1,59 @@
+biologic:
+  name: pegcetacoplan
+  id: NCIT:C121135
+  matched_label: Pegcetacoplan
+  synonyms: [Empaveli]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: paroxysmal nocturnal hemoglobinuria, id: MONDO:0100244, matched_label: paroxysmal nocturnal hemoglobinuria}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:c23d89e9-b00b-4520-e053-2995a90a95af
+        snippet: "for the treatment of adult patients with paroxysmal nocturnal hemoglobinuria (PNH)."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names paroxysmal nocturnal hemoglobinuria as an approved treatment population, asserting the drug→disease edge."
+      - reference: PMID:42322093
+        reference_title: "Efficacy and Safety of the C3 Inhibitor Pegcetacoplan in Paroxysmal Nocturnal Hemoglobinuria: A Systematic Review and Meta-Analysis."
+        snippet: "Pegcetacoplan demonstrates consistent efficacy signals across key hematologic endpoints and an acceptable safety profile"
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Systematic review and meta-analysis showing pegcetacoplan produces consistent efficacy across key hematologic endpoints (transfusion avoidance, LDH/hemoglobin normalization) in paroxysmal nocturnal hemoglobinuria, corroborating the pegcetacoplan→paroxysmal nocturnal hemoglobinuria edge."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: C3 glomerulopathy, id: MONDO:0018013, matched_label: complement 3 glomerulopathy}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:c23d89e9-b00b-4520-e053-2995a90a95af
+        snippet: "for the treatment of adult and pediatric patients aged 12 years and older with C3 glomerulopathy (C3G) or primary immune-complex membranoproliferative glomerulonephritis (IC-MPGN), to reduce proteinuria."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names C3 glomerulopathy as an approved treatment population; complement 3 glomerulopathy (MONDO:0018013) is the established synonym of C3 glomerulopathy, the grounded term."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: C3, id: HGNC:1318, matched_label: C3}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:c23d89e9-b00b-4520-e053-2995a90a95af
+        snippet: "Pegcetacoplan binds to complement protein C3 and its activation fragment C3b, thereby regulating the cleavage of C3 and the generation of downstream effectors of complement activation."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states pegcetacoplan binds complement protein C3 and regulates/inhibits its cleavage, blocking downstream complement activation → decreased C3 activity. C3 is encoded by C3 (HGNC:1318)."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "13"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=c23d89e9-b00b-4520-e053-2995a90a95af
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

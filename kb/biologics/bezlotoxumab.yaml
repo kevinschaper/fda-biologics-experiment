@@ -1,0 +1,51 @@
+biologic:
+  name: bezlotoxumab
+  id: NCIT:C153084
+  matched_label: Bezlotoxumab
+  synonyms: [Zinplava]
+indications:
+  - predicate: biolink:preventative_for_condition
+    object: {name: Clostridioides difficile infection, id: MONDO:0000705, matched_label: Clostridium difficile colitis}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:8f479bfe-2bfa-4cc5-9aee-1357364480b0
+        snippet: "ZINPLAVA™ is indicated to reduce recurrence of Clostridioides difficile infection (CDI) in adults and pediatric patients 1 year of age and older"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE states ZINPLAVA is indicated to reduce recurrence of Clostridioides difficile infection in patients receiving antibacterial CDI treatment; reducing recurrence is risk-reduction/prevention (the label notes it is not indicated for treatment of CDI), so preventative_for_condition. The disease grounds to MONDO:0000705 (Clostridium difficile colitis; 'Clostridium difficile infection' is a registered synonym)."
+      - reference: PMID:28121498
+        reference_title: "Bezlotoxumab for Prevention of Recurrent Clostridium difficile Infection."
+        snippet: "In both trials, the rate of recurrent C. difficile infection was significantly lower with bezlotoxumab alone than with placebo"
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 3 MODIFY I and MODIFY II randomized, placebo-controlled trials showing bezlotoxumab significantly lowered the rate of recurrent C. difficile infection versus placebo, corroborating the reduce-recurrence indication."
+    needs_review: false
+    candidates: []
+targets:
+  - predicate: biolink:affects
+    object: {name: Clostridioides difficile toxin B}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:8f479bfe-2bfa-4cc5-9aee-1357364480b0
+        snippet: "ZINPLAVA (bezlotoxumab) is a human monoclonal antibody that binds to C. difficile toxin B and neutralizes its effects"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MECHANISM OF ACTION states bezlotoxumab binds to C. difficile toxin B and neutralizes its effects → decreased toxin B activity. The target is Clostridioides difficile toxin B, a bacterial protein with no human HGNC gene, so no id is assigned — needs_review."
+    needs_review: true
+    candidates: []
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "12"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=8f479bfe-2bfa-4cc5-9aee-1357364480b0
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

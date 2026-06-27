@@ -1,0 +1,49 @@
+biologic:
+  name: margetuximab
+  id: NCIT:C91733
+  matched_label: Margetuximab
+  synonyms: [Margenza, margetuximab-cmkb]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: breast cancer, id: MONDO:0007254, matched_label: breast cancer}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:e97a5872-eabf-463b-8f4c-5b5aed9c7bf0
+        snippet: "MARGENZA is indicated, in combination with chemotherapy, for the treatment of adult patients with metastatic HER2-positive breast cancer who have received two or more prior anti-HER2 regimens, at least one of which was for metastatic disease"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names metastatic HER2-positive breast cancer as an approved treatment population; stripping the metastatic/HER2-positive qualifiers leaves breast cancer, asserting the drug→disease edge."
+      - reference: PMID:33480963
+        reference_title: "Efficacy of Margetuximab vs Trastuzumab in Patients With Pretreated ERBB2-Positive Advanced Breast Cancer: A Phase 3 Randomized Clinical Trial."
+        snippet: "margetuximab plus chemotherapy had acceptable safety and a statistically significant improvement in PFS compared with trastuzumab plus chemotherapy in ERBB2-positive ABC after progression on 2 or more prior anti-ERBB2 therapies."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 3 SOPHIA RCT showing margetuximab plus chemotherapy significantly improves progression-free survival versus trastuzumab plus chemotherapy in pretreated ERBB2/HER2-positive advanced breast cancer, corroborating the margetuximab→breast cancer edge."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: HER2, id: HGNC:3430, matched_label: ERBB2}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:e97a5872-eabf-463b-8f4c-5b5aed9c7bf0
+        snippet: "Margetuximab-cmkb binds to the extracellular domain of the human epidermal growth factor receptor 2 protein (HER2). Upon binding to HER2-expressing tumor cells, margetuximab-cmkb inhibits tumor cell proliferation, reduces shedding of the HER2 extracellular domain and mediates antibody-dependent cellular cytotoxicity (ADCC)."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states margetuximab binds HER2 and inhibits tumor cell proliferation (a HER2/neu receptor antagonist), i.e. causes decreased HER2 activity. HER2 is an alias of the HGNC gene ERBB2."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "6"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=e97a5872-eabf-463b-8f4c-5b5aed9c7bf0
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

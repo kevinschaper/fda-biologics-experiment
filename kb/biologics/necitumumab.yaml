@@ -1,0 +1,49 @@
+biologic:
+  name: necitumumab
+  id: NCIT:C88281
+  matched_label: Necitumumab
+  synonyms: [Portrazza]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: squamous non-small cell lung cancer, id: MONDO:0005097, matched_label: squamous cell lung carcinoma}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:89bcf553-669a-40b0-a9d7-67a5c1d2f591
+        snippet: "PORTRAZZA™ is indicated, in combination with gemcitabine and cisplatin, for first-line treatment of patients with metastatic squamous non-small cell lung cancer."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names metastatic squamous non-small cell lung cancer as an approved treatment population; stripping the metastatic qualifier leaves squamous (non-small cell) lung cancer, grounded to squamous cell lung carcinoma, asserting the drug→disease edge."
+      - reference: PMID:26045340
+        reference_title: "Necitumumab plus gemcitabine and cisplatin versus gemcitabine and cisplatin alone as first-line therapy in patients with stage IV squamous non-small-cell lung cancer (SQUIRE): an open-label, randomised, controlled phase 3 trial."
+        snippet: "Overall survival was significantly longer in the necitumumab plus gemcitabine and cisplatin group than in the gemcitabine and cisplatin alone group"
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 3 SQUIRE RCT showing first-line necitumumab added to gemcitabine and cisplatin significantly prolongs overall survival in stage IV squamous non-small cell lung cancer, corroborating the necitumumab→squamous lung cancer edge."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: EGFR, id: HGNC:3236, matched_label: EGFR}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:89bcf553-669a-40b0-a9d7-67a5c1d2f591
+        snippet: "binds to the human epidermal growth factor receptor (EGFR) and blocks the binding of EGFR to its ligands."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states necitumumab (an EGFR antagonist) binds EGFR and blocks binding of EGFR to its ligands → decreased EGFR activity. EGFR is the exact symbol of the HGNC gene EGFR."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "6"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=89bcf553-669a-40b0-a9d7-67a5c1d2f591
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

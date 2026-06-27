@@ -1,0 +1,53 @@
+biologic:
+  name: belatacept
+  id: NCIT:C80255
+  matched_label: Belatacept
+  synonyms: [Nulojix]
+indications:
+  - predicate: biolink:preventative_for_condition
+    object: {name: organ transplant rejection, id: MONDO:1010185, matched_label: transplant rejection}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:c16ac648-d5d2-9f7d-8637-e2328572754e
+        snippet: "NULOJIX ® (belatacept) is indicated for prophylaxis of organ rejection in adult patients receiving a kidney transplant."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE states NULOJIX is indicated for prophylaxis of organ rejection in adult kidney transplant recipients; prophylaxis is prevention/risk-reduction, so preventative_for_condition. The disease (organ/transplant rejection) grounds to transplant rejection (MONDO:1010185)."
+      - reference: PMID:26816011
+        reference_title: "Belatacept and Long-Term Outcomes in Kidney Transplantation."
+        snippet: "A 43% reduction in the risk of death or graft loss was observed for both the more-intensive and the less-intensive belatacept regimens as compared with the cyclosporine regimen"
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Final 7-year results of the pivotal phase 3 BENEFIT randomized trial showing belatacept-based immunosuppression reduced the risk of death or graft loss versus cyclosporine in kidney transplant recipients, corroborating its use for prophylaxis of organ (graft) rejection."
+    needs_review: false
+    candidates: []
+targets:
+  - predicate: biolink:affects
+    object: {name: CD80 and CD86}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:c16ac648-d5d2-9f7d-8637-e2328572754e
+        snippet: "Belatacept, a selective T cell (lymphocyte) costimulation blocker, binds to CD80 and CD86 on antigen-presenting cells thereby blocking CD28 mediated costimulation of T lymphocytes."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MECHANISM OF ACTION states belatacept (a CTLA-4-Ig fusion protein) binds CD80 and CD86 on antigen-presenting cells to block CD28-mediated T-cell costimulation → decreased CD80/CD86 costimulatory activity. The label names two distinct ligand targets (CD80=HGNC:1700, CD86=HGNC:1705), so a single confident HGNC grounding is not possible — needs_review with both candidates retained."
+    needs_review: true
+    candidates:
+      - {curie: HGNC:1700, label: CD80, score: 1.0, match_type: exact_symbol, source: genenames}
+      - {curie: HGNC:1705, label: CD86, score: 1.0, match_type: exact_symbol, source: genenames}
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "15"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=c16ac648-d5d2-9f7d-8637-e2328572754e
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

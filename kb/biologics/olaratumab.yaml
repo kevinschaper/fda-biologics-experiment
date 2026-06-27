@@ -1,0 +1,51 @@
+biologic:
+  name: olaratumab
+  id: NCIT:C79825
+  matched_label: Olaratumab
+  synonyms: [Lartruvo]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: soft tissue sarcoma, id: MONDO:0018078, matched_label: soft tissue sarcoma}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:6a5bff43-f922-46ae-a727-d54d9138c46e
+        snippet: "LARTRUVO™ is indicated, in combination with doxorubicin, for the treatment of adult patients with soft tissue sarcoma (STS) with a histologic subtype for which an anthracycline-containing regimen is appropriate and which is not amenable to curative treatment with radiotherapy or surgery."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names soft tissue sarcoma (STS) as the approved treatment population (in combination with doxorubicin); the disease name soft tissue sarcoma grounds to MONDO:0018078."
+      - reference: PMID:27291997
+        reference_title: "Olaratumab and doxorubicin versus doxorubicin alone for treatment of soft-tissue sarcoma: an open-label phase 1b and randomised phase 2 trial."
+        snippet: "This study of olaratumab with doxorubicin in patients with advanced soft-tissue sarcoma met its predefined primary endpoint for progression-free survival and achieved a highly significant improvement of 11.8 months in median overall survival, suggesting a potential shift in the treatment of soft-tissue sarcoma."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 1b/2 trial (JGDG) supporting the accelerated approval: olaratumab plus doxorubicin met its primary progression-free survival endpoint and improved median overall survival in advanced soft tissue sarcoma, corroborating the approved indication."
+    needs_review: false
+    candidates: []
+targets:
+  - predicate: biolink:affects
+    object: {name: PDGFR-alpha, id: HGNC:8803, matched_label: PDGFRA}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:6a5bff43-f922-46ae-a727-d54d9138c46e
+        snippet: "Olaratumab is a human IgG1 antibody that binds platelet-derived growth factor receptor alpha (PDGFR-α)."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MECHANISM OF ACTION states olaratumab is a PDGFR-alpha blocking antibody whose binding prevents PDGF ligand binding and receptor activation, blocking downstream PDGFR-alpha signaling -> decreased receptor activity. PDGFR-alpha is encoded by the HGNC gene PDGFRA (HGNC:8803)."
+    needs_review: false
+    candidates: []
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "10/2016"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=6a5bff43-f922-46ae-a727-d54d9138c46e
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

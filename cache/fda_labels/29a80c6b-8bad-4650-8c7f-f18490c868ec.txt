@@ -1,0 +1,2479 @@
+  
+ 
+    
+    
+    These highlights do not include all the information needed to use DANYELZA safely and effectively. See full prescribing information for DANYELZA.  
+        DANYELZA ®  (naxitamab-gqgk) injection, for intravenous use   Initial U.S. Approval: 2020 
+    
+    
+    
+    
+       
+       
+          
+             
+             Y-mAbs Therapeutics, Inc. 
+          
+       
+    
+    
+       
+          
+             
+                
+                
+                
+                
+                   
+                      
+                         
+                         DANYELZA 
+                         
+                         
+                            
+                               Naxitamab 
+                            
+                         
+                         
+                            
+                               
+                               
+                            
+                            
+                               
+                               Naxitamab 
+                               
+                                  
+                                     
+                                     Naxitamab 
+                                  
+                               
+                            
+                         
+                         
+                            
+                               
+                               TRISODIUM CITRATE DIHYDRATE 
+                            
+                         
+                         
+                            
+                               
+                               ANHYDROUS CITRIC ACID 
+                            
+                         
+                         
+                            
+                               
+                               SODIUM CHLORIDE 
+                            
+                         
+                         
+                            
+                               
+                               POLOXAMER 188 
+                            
+                         
+                         
+                            
+                               
+                               Water 
+                            
+                         
+                         
+                            
+                               
+                               
+                            
+                            
+                               
+                               
+                               
+                                  
+                                     
+                                     
+                                  
+                                  
+                                     
+                                     
+                                  
+                                  
+                                     
+                                        
+                                        
+                                        
+                                           
+                                        
+                                     
+                                  
+                               
+                            
+                            
+                               
+                                  
+                                  
+                               
+                            
+                         
+                      
+                      
+                         
+                            
+                            
+                            
+                               
+                                  
+                                     
+                                  
+                               
+                            
+                         
+                      
+                      
+                         
+                            
+                            
+                            
+                               
+                            
+                         
+                      
+                      
+                         
+                            
+                         
+                      
+                   
+                
+             
+          
+          
+             
+                
+                
+                
+                   WARNING: SERIOUS INFUSION-RELATED REACTIONS and NEUROTOXICITY 
+                
+                
+                
+                   
+                      
+                         WARNING: SERIOUS INFUSION-RELATED REACTIONS and NEUROTOXICITY 
+                         
+                            See full prescribing information for complete boxed warning 
+                         
+                         
+                            
+                               Serious Infusion-Related Reactions: DANYELZA can cause serious infusion reactions, including cardiac arrest, anaphylaxis, hypotension, bronchospasm, and stridor. Premedicate prior to each DANYELZA infusion as recommended. Reduce the rate, interrupt infusion, or permanently discontinue DANYELZA based on severity  ( 
+                                  2.2 ,  2.3 ,  4 ,  5.1 ). 
+                            
+                            
+                               Neurotoxicity: DANYELZA can cause severe neurotoxicity, including severe neuropathic pain, transverse myelitis, and reversible posterior leukoencephalopathy syndrome (RPLS). Premedicate to treat neuropathic pain as recommended. Permanently discontinue DANYELZA based on the adverse reaction and severity ( 2.2 ,  2.3 ,  5.2 ). 
+                            
+                         
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      
+                         Serious Infusion-Related Reactions 
+                         
+                            DANYELZA can cause serious infusion reactions, including cardiac arrest, anaphylaxis, hypotension, bronchospasm, and stridor. Infusion reactions of any Grade occurred in 94-100% of patients. Severe infusion reactions occurred in 32-68% and serious infusion reactions occurred in 4 - 18% of patients in DANYELZA clinical studies  [see  Warnings and Precautions (5.1) ]. 
+                            
+                            Premedicate prior to each DANYELZA infusion as recommended and monitor patients for at least 2 hours following completion of each infusion.  Reduce the rate, interrupt infusion, or permanently discontinue DANYELZA based on severity  [see  Dosage and Administration (2.2 ,   2.3) ,   Contraindications (4) , and  Warnings and Precautions (5.1) ]. 
+                            
+                         
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      
+                         Neurotoxicity 
+                         
+                            DANYELZA can cause severe neurotoxicity, including severe neuropathic pain, transverse myelitis and reversible posterior leukoencephalopathy syndrome (RPLS).  Pain of any Grade occurred in 94-100% of patients in DANYELZA clinical studies  [see  Warnings and Precautions (5.2) ]. 
+                            
+                            Premedicate to treat neuropathic pain as recommended. Permanently discontinue DANYELZA based on the adverse reaction and severity  [see  Dosage and Administration (2.2 ,   2.3)  and  Warnings and Precautions (5.2) ]. 
+                            
+                         
+                      
+                      
+                   
+                
+             
+          
+          
+             
+                
+                
+                1 INDICATIONS AND USAGE 
+                
+                   DANYELZA is indicated, in combination with granulocyte-macrophage colony-stimulating factor (GM-CSF), for the treatment of pediatric patients 1 year of age and older and adult patients with relapsed or refractory high-risk neuroblastoma in the bone or bone marrow who have demonstrated a partial response, minor response, or stable disease to prior therapy. 
+                   This indication is approved under accelerated approval based on overall response rate and duration of response  [see  Clinical Studies (14) ] . Continued approval for this indication may be contingent upon verification and description of clinical benefit in a confirmatory trial(s). 
+                
+                
+                
+                   
+                      
+                         DANYELZA is a GD2-binding monoclonal antibody indicated, in combination with granulocyte-macrophage colony-stimulating factor (GM-CSF), for the treatment of pediatric patients 1 year of age and older and adult patients with relapsed or refractory high-risk neuroblastoma in the bone or bone marrow who have demonstrated a partial response, minor response, or stable disease to prior therapy.   
+                         This indication is approved under accelerated approval based on overall response rate and duration of response. Continued approval for this indication may be contingent upon verification and description of clinical benefit in a confirmatory trial(s). ( 1 ) 
+                      
+                   
+                
+             
+          
+          
+             
+                
+                
+                2 DOSAGE AND ADMINISTRATION 
+                
+                
+                   
+                      
+                         The recommended dosage of DANYELZA is 3 mg/kg/day (up to 150 mg/day), administered as an intravenous infusion after dilution on Days 1, 3, and 5 of each treatment cycle. Treatment cycles are repeated every 4 weeks until complete response or partial response, followed by 5 additional cycles every 4 weeks.  Subsequent cycles may be repeated every 8 weeks.  Discontinue DANYELZA and GM-CSF for disease progression or unacceptable toxicity. Administer GM-CSF subcutaneously prior to and during each treatment cycle as recommended.  ( 2.1 ) 
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      2.1 Recommended Dosage 
+                      
+                         The recommended dosage of DANYELZA is 3 mg/kg/day (up to 150 mg/day) on Days 1, 3, and 5 of each treatment cycle, administered as an intravenous infusion after dilution  [see  Dosage and Administration (2.4  and  2.5) ]  in combination with GM-CSF subcutaneously as shown in Table 1. Refer to the GM-CSF Prescribing Information for recommended dosing information.  
+                         Treatment cycles are repeated every 4 weeks until complete response or partial response, followed by 5 additional cycles every 4 weeks. Subsequent cycles may be repeated every 8 weeks.  Discontinue DANYELZA and GM-CSF for disease progression or unacceptable toxicity. 
+                         Administer pre-infusion medications and supportive treatment, as appropriate, during infusion.  [see  Dosage and Administration (2.2) ] 
+                         
+                         The recommended dosage regimen for each treatment cycle is described below and in Table 1:  
+                         
+                            Days -4 to 0: administer GM-CSF 250 µg/m 2 /day by subcutaneous injection, beginning 5 days prior to DANYELZA infusion. 
+                            Days 1 to 5: administer GM-CSF 500 µg/m 2 /day by subcutaneous injection. Administer at least 1 hour prior to DANYELZA administration on Days 1, 3, and 5. 
+                            Days, 1, 3, and 5: administer DANYELZA 3 mg/kg/day (up to 150 mg/day) by intravenous infusion. 
+                         
+                         
+                            Table 1 Dose and Schedule of GM-CSF and DANYELZA Within One Treatment Cycle 
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                               
+                                  Day 
+                                  
+                                  -4 
+                                  -3 
+                                  -2 
+                                  -1 
+                                  0 
+                                  1 
+                                  2 
+                                  3 
+                                  4 
+                                  5 
+                               
+                            
+                            
+                               
+                                  Subcutaneous GM-CSF 
+                                  
+                                  250 µg/m 2 /day 
+                                  500 µg/m 2 /day 
+                               
+                               
+                                  Intravenous DANYELZA 
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  3 mg/kg/day 
+                                  
+                                  3 mg/kg/day 
+                                  
+                                  3 mg/kg/day 
+                               
+                            
+                         
+                      
+                      
+                      
+                         
+                            
+                            
+                            
+                               Missed Dose 
+                               If a DANYELZA dose is missed, administer the missed dose the following week by Day 10.  Administer GM-CSF 500 µg /m 2 /day on the first day of the DANYELZA infusion, and on the day before and on the day of the second and third infusion, respectively (i.e. a total of 5 days with 500 µg /m 2 /day). 
+                            
+                            
+                         
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      2.2 Premedications and Supportive Medications  
+                      
+                      
+                         
+                            
+                            
+                            
+                               
+                                  Pain Management Prior to and During Infusion 
+                                   [see  Warnings and Precautions (5.2) ]: 
+                               
+                               
+                                  Five days prior to the first infusion of DANYELZA in each cycle, initiate a 12-day course (Day -4 through Day 7) of prophylactic medication for neuropathic pain, such as gabapentin. 
+                                  Administer oral opioids 45-60 minutes prior to initiation of each DANYELZA infusion and additional intravenous opioids as needed for breakthrough pain during the infusion.  
+                                  Consider use of ketamine for pain that is not adequately controlled by opioids. 
+                               
+                            
+                            
+                         
+                      
+                      
+                         
+                            
+                            
+                            
+                               
+                                  Premedication: Reduce Risk of Infusion-Related Reactions and Nausea/Vomiting  
+                                  [see  Warnings and Precautions (5.1)  and  Adverse Reactions (6.1) ] . 
+                               
+                                  Administer intravenous corticosteroids (e.g. methylprednisolone 2 mg/kg with maximum dose of 80 mg or equivalent corticosteroid dose) 30 minutes to 2 hours prior to the first infusion of DANYELZA.  Administer corticosteroid premedication for subsequent infusions if a severe infusion reaction occurred with the previous infusion or during the previous cycle.  
+                                  Administer an antihistamine, an H2 antagonist, acetaminophen and an antiemetic 30 minutes prior to each infusion.  
+                               
+                            
+                            
+                         
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      2.3 Dosage Modifications for Adverse Reactions  
+                      
+                         The recommended dosage modifications for DANYELZA for adverse reactions are presented in Table 2.  
+                         
+                            Table 2. Recommended DANYELZA Dosage Modifications for Adverse Reactions 
+                            
+                            
+                            
+                            
+                               
+                                  Adverse Reaction 
+                                  Severity Based on Common Terminology Criteria for Adverse Events (CTCAE) v 5.0 
+                                  
+                                  Dosage Modifications 
+                               
+                            
+                            
+                               
+                                  Infusion-related reactions  [see  Warnings and Precautions (5.1) ] 
+                                  
+                                  Grade 2   Defined as: Therapy or infusion interruption indicated but responds promptly to symptomatic treatment (e.g., antihistamines, NSAIDS, narcotics, IV fluids); prophylactic medications indicated for ≤24 hours 
+                                  
+                                     
+                                        Reduce DANYELZA infusion rate to 50% of previous rate and monitor closely until recovery to Grade ≤ 1. 
+                                        Increase infusion rate gradually to rate prior to the event as tolerated. 
+                                     
+                                  
+                               
+                               
+                                  Grade 3  Defined as: Prolonged (e.g., not rapidly responsive to symptomatic medication and/or brief interruption of infusion); recurrence of symptoms following initial improvement; hospitalization indicated for clinical sequelae 
+                                  
+                                     
+                                        Immediately interrupt DANYELZA infusion and monitor closely until recovery to Grade ≤ 2. 
+                                        Resume infusion at 50% of the rate prior to the event and increase infusion rate gradually to infusion rate prior to the event as tolerated. 
+                                        Permanently discontinue DANYELZA in patients not responding to medical intervention. 
+                                     
+                                  
+                               
+                               
+                                  Grade 4 infusion-related reactions Defined as: Life-threatening consequences: urgent intervention indicated or Grade 3 or 4 anaphylaxis 
+                                  
+                                     
+                                        Permanently discontinue DANYELZA. 
+                                     
+                                  
+                               
+                               
+                                  Pain  [see  Warnings and Precautions (5.2) ] 
+                                  
+                                  Grade 3 unresponsive to maximum supportive measures 
+                                  
+                                     
+                                        Permanently discontinue DANYELZA. 
+                                     
+                                  
+                               
+                               
+                                  Reversible posterior leukoencephalopathy syndrome (RPLS)  [see  Warnings and Precautions (5.2) ] 
+                                  
+                                  All Grades 
+                                  
+                                     
+                                        Permanently discontinue DANYELZA. 
+                                     
+                                  
+                               
+                               
+                                  Transverse myelitis  [see  Warnings and Precautions (5.2) ] 
+                                  
+                                  All Grades 
+                                  
+                                     
+                                        Permanently discontinue DANYELZA. 
+                                     
+                                  
+                               
+                               
+                                  Peripheral neuropathy  [see  Warnings and Precautions (5.2) ] 
+                                  
+                                  Motor neuropathy: Grade 2 or greater or Sensory neuropathy: Grade 3 or 4 
+                                  
+                                     
+                                        Permanently discontinue DANYELZA. 
+                                     
+                                  
+                               
+                               
+                                  Neurological disorders of the eye  [see  Warnings and Precautions (5.2) ] 
+                                  
+                                  Grade 2 to 4 resulting in decreased visual acuity or limiting activities of daily living 
+                                  
+                                     
+                                        Withhold DANYELZA until resolution. 
+                                        If resolved resume DANYELZA at 50% of the prior dose; if tolerated without recurrence of symptoms, gradually increase DANYELZA to dose prior to onset of symptoms. 
+                                        Permanently discontinue DANYELZA if not resolved within 2 weeks or upon recurrence. 
+                                     
+                                  
+                               
+                               
+                                  Subtotal or total vision loss 
+                                  
+                                     
+                                        Permanently discontinue DANYELZA. 
+                                     
+                                  
+                               
+                               
+                                  Prolonged urinary retention  [see  Warnings and Precautions (5.2) ] 
+                                  
+                                  Persisting following discontinuation of opioids 
+                                  
+                                     
+                                        Permanently discontinue DANYELZA. 
+                                     
+                                  
+                               
+                               
+                                  Myocarditis  [see  Warnings and Precautions (5.3) ] 
+                                  
+                                  Grade 2 or 3 
+                                  
+                                     
+                                        Withhold, reduce dose, or permanently discontinue DANYELZA treatment based on severity and duration. 
+                                     
+                                  
+                               
+                               
+                                  Grade 4 
+                                  
+                                     
+                                        Permanently discontinue DANYELZA. 
+                                     
+                                  
+                               
+                               
+                                  Hypertension  [see  Warnings and Precautions (5.4) ] 
+                                  
+                                  Grade 3 
+                                  
+                                     
+                                        Withhold DANYELZA or pause infusion until recovery to ≤ Grade 2. 
+                                        Resume infusion at 50% of prior rate; if tolerated without recurrence of symptoms, gradually increase DANYELZA to rate prior to onset of symptoms. 
+                                        Permanently discontinue DANYELZA in patients not responding to medical intervention. 
+                                     
+                                  
+                               
+                               
+                                  Grade 4 
+                                  
+                                     
+                                        Permanently discontinue DANYELZA. 
+                                     
+                                  
+                               
+                               
+                                  Orthostatic hypotension 
+                                     [see  Warnings and precautions (5.5) ] 
+                                  
+                                  All grades 
+                                  
+                                     
+                                        Withhold DANYELZA until recovery to Grade ≤ 1. 
+                                        If resolved within 1 week, restart DANYELZA at 50% of the prior dose; if tolerated without recurrence of symptoms after completion of next cycle, resume to recommended dose for subsequent cycles. 
+                                        If not resolved within 1 week, permanently discontinue DANYELZA. 
+                                     
+                                  
+                               
+                               
+                                  Other Adverse Reactions  [see  Adverse Reactions (6.1) ] 
+                                  
+                                  Grade 3 
+                                  
+                                     
+                                        Withhold DANYELZA until recovery to Grade ≤ 2. 
+                                        If resolved to Grade ≤ 2 resume DANYELZA at same rate. 
+                                        Permanently discontinue DANYELZA if not resolved to Grade ≤2 within 2 weeks. 
+                                     
+                                  
+                               
+                               
+                                  Grade 4 
+                                  
+                                     
+                                        Permanently discontinue DANYELZA. 
+                                     
+                                  
+                               
+                            
+                         
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      2.4 Preparation  
+                      
+                         
+                            Use appropriate aseptic technique. 
+                            Visually inspect vial for particulate matter and discoloration prior to administration. Discard vial if solution is discolored, cloudy, or contains particulate matter. 
+                            Add appropriate quantities of 5% Albumin (Human), USP and 0.9% Sodium Chloride Injection, USP to an empty, sterile intravenous infusion bag large enough to hold the volume needed for the relevant dose as indicated in Table 3. Allow for 5-10 minutes of passive mixing. 
+                            Withdraw the required dose of DANYELZA and inject into the infusion bag containing the 5% Albumin (Human), USP and 0.9% Sodium Chloride Injection, USP. Discard any unused portion of DANYELZA left in the vial. 
+                         
+                         Preparation instructions for DANYELZA are described in Table 3. 
+                         
+                            Table 3. Preparation of DANYELZA, 4 mg/mL 
+                            
+                            
+                            
+                            
+                            
+                            
+                               
+                                  DANYELZA dose  (mg) 
+                                  DANYELZA volume  (mL) 
+                                  Volume of 5% Albumin (Human), USP  (mL) 
+                                  Total infusion volume achieved by adding sufficient 0.9% Sodium Chloride Injection, USP  (mL) 
+                                  Final concentration of prepared DANYELZA infusion  (mg/mL) 
+                               
+                            
+                            
+                               
+                                  ≤ 80 
+                                  ≤ 20 
+                                  10 
+                                  50 
+                                  ≤ 1.6 
+                               
+                               
+                                  81 to 120 
+                                  > 20 to 30 
+                                  15 
+                                  75 
+                                  1.1 to 1.6 
+                               
+                               
+                                  121 to 150 
+                                  > 30 to 37.5 
+                                  20 
+                                  100 
+                                  1.2 to 1.5 
+                               
+                            
+                         
+                         If not used immediately, store the diluted DANYELZA infusion solution at room temperature (15°C to 25°C [59ºF to 77ºF]) for up to 8 hours or refrigerate (2°C to 8°C [36°F to 46°F]) for up to 24 hours. Once removed from refrigeration, initiate infusion within 8 hours. 
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      2.5 Administration 
+                      
+                         
+                            Administer DANYELZA as a diluted intravenous infusion as recommended.  Do not administer DANYELZA as an intravenous push or bolus  [see  Dosage and Administration (2.4) ] . 
+                            For the first infusion (Cycle 1, Day 1), administer DANYELZA intravenously over 60 minutes. For subsequent infusions, administer DANYELZA intravenously over 30 to 60 minutes, as tolerated.  [see  Dosage and Administration (2.1 ,  2.3) ]. 
+                            
+                            Observe patients for a minimum of 2 hours following each infusion. 
+                         
+                      
+                      
+                   
+                
+             
+          
+          
+             
+                
+                
+                3 DOSAGE FORMS AND STRENGTHS 
+                
+                   Injection: 40 mg/10 mL (4 mg/mL) clear to slightly opalescent and colorless to slightly yellow solution in a single-dose vial. 
+                
+                
+                
+                   
+                      
+                         Injection: 40 mg/10 mL (4 mg/mL) in a single-dose vial. ( 3 ) 
+                      
+                   
+                
+             
+          
+          
+             
+                
+                
+                4 CONTRAINDICATIONS 
+                
+                   DANYELZA is contraindicated in patients with a history of severe hypersensitivity reaction to naxitamab-gqgk. Reactions have included anaphylaxis  [see  Warnings and Precautions (5.1) ]. 
+                   
+                
+                
+                
+                   
+                      
+                         History of severe hypersensitivity reaction to naxitamab-gqgk. ( 4 ) 
+                      
+                   
+                
+             
+          
+          
+             
+                
+                
+                5 WARNINGS AND PRECAUTIONS 
+                
+                
+                   
+                      
+                         
+                            
+                               Neurotoxicity:  Peripheral neuropathy, neurological disorders of the eye, and prolonged urinary retention have also occurred. Permanently discontinue as recommended. ( 2.3 ,  5.2 ) 
+                            
+                               Myocarditis:  Withhold, reduce dose, or discontinue based on severity. ( 2.3 ,  5.3 ) 
+                            
+                               Hypertension:  Monitor blood pressure during and after infusion as recommended. Withhold, reduce infusion rate, or discontinue based on severity. ( 2.3 ,  5.4 ) 
+                            
+                               Orthostatic Hypotension:  Severe orthostatic hypotension, including cases requiring hospitalization, have occurred. Withhold, reduce dose, or discontinue based on severity. ( 2.3 ,  5.5 ) 
+                            
+                               Embryo-Fetal Toxicity:  May cause fetal harm. Advise females of reproductive potential of potential risk to a fetus and to use effective contraception. ( 5.6 ) 
+                         
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      5.1 Serious Infusion-Related Reactions 
+                      
+                         DANYELZA can cause serious infusion reactions requiring urgent intervention including fluid resuscitation, administration of bronchodilators and corticosteroids, intensive care unit admission, infusion rate reduction or interruption of DANYELZA infusion. Infusion-related reactions included hypotension, bronchospasm, hypoxia, and stridor  [see  Adverse Reactions (6.1) ]. 
+                         
+                         Serious infusion-related reactions occurred in 4% of patients in Study 201 and in 18% of patients in Study 12-230. Infusion-related reactions of any Grade occurred in 100% of patients in Study 201 and 94% of patients in Study 12-230. Hypotension of any grade occurred in 100% of patients in Study 201 and 89% of patients in Study 12-230.  
+                         In Study 201, 68% of patients experienced Grade 3 or 4 infusion reactions; and in Study 12-230, 32% of patients experienced Grade 3 or 4 infusion reactions. Anaphylaxis occurred in 12% of patients and 2 patients (8%) permanently discontinued DANYELZA due to anaphylaxis in Study 201. One patient in Study 12-230 (1.4%) experienced a Grade 4 cardiac arrest 1.5 hours following completion of DANYELZA infusion. 
+                         In Study 201, infusion reactions generally occurred within 24 hours of completing a DANYELZA infusion, most often within 30 minutes of initiation. Infusion reactions were most frequent during the first infusion of DANYELZA in each cycle. Eighty percent of patients required reduction in infusion rate and 80% of patients had an infusion interrupted for at least one infusion-related reaction.  
+                         Caution is advised in patients with pre-existing cardiac disease, as this may exacerbate the risk of severe hypotension. 
+                         Premedicate with an antihistamine, acetaminophen, an H2 antagonist and corticosteroid as recommended  [see  Dosage and Administration (2.2) ].  Monitor patients closely for signs and symptoms of infusion reactions during and for at least 2 hours following completion of each DANYELZA infusion in a setting where cardiopulmonary resuscitation medication and equipment are available.  
+                         Reduce the rate, interrupt infusion, or permanently discontinue DANYELZA based on severity and institute appropriate medical management as needed  [see  Dosage and Administration (2.3)  and  Contraindications (4) ].  
+                         
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      5.2 Neurotoxicity  
+                      
+                         DANYELZA can cause severe neurotoxicity, including severe neuropathic pain, transverse myelitis, and reversible posterior leukoencephalopathy syndrome. 
+                      
+                      
+                      
+                         
+                            
+                            
+                            
+                               Pain 
+                               Pain, including abdominal pain, bone pain, neck pain, and extremity pain, occurred in 100% of patients in Study 201 and 94% of patients in Study 12-230. Grade 3 pain occurred in 72% of patients in Study 201. One patient in Study 201 (4%) required interruption of an infusion due to pain. Pain typically began during the infusion of DANYELZA and lasted a median of less than one day in Study 201 (range less than one day and up to 62 days)  [see  Adverse Reactions (6.1) ] . 
+                               Premedicate with drugs that treat neuropathic pain (e.g., gabapentin) and oral opioids. Administer intravenous opioids as needed for breakthrough pain  [see  Dosage and Administration (2.2) ].  Permanently discontinue DANYELZA based on severity  [see  Dosage and Administration (2.3) ]. 
+                               
+                            
+                            
+                         
+                      
+                      
+                         
+                            
+                            
+                            
+                               Transverse Myelitis 
+                               Transverse myelitis has occurred with DANYELZA. Permanently discontinue DANYELZA in patients who develop transverse myelitis  [see  Dosage and Administration (2.3) ] . 
+                            
+                            
+                         
+                      
+                      
+                         
+                            
+                            
+                            
+                               Reversible Posterior Leukoencephalopathy Syndrome (RPLS)  
+                               Reversible posterior leukoencephalopathy syndrome (RPLS) (also known as posterior reversible encephalopathy syndrome or PRES) occurred in 2 (2.8%) patients in Study 12-230. Events occurred 2 and 7 days following completion of the first cycle of DANYELZA. Monitor blood pressure during and following DANYELZA infusion and assess for neurologic symptoms  [see  Warnings and Precautions (5.3) ] . Permanently discontinue DANYELZA in case of symptomatic RPLS  [see  Dosage and Administration (2.3)  and  Adverse Reactions (6.1) ] . 
+                            
+                            
+                         
+                      
+                      
+                         
+                            
+                            
+                            
+                               Peripheral Neuropathy 
+                               Peripheral neuropathy, including peripheral sensory neuropathy, peripheral motor neuropathy, paresthesia, and neuralgia, occurred in 32% of patients in Study 201 and in 25% of patients in Study 12-230. Most signs and symptoms of neuropathy began on the day of the infusion and neuropathy lasted a median of 5.5 days (range 0 to 22 days) in Study 201 and 0 days (range 0 to 22 days) in Study 12-230  [see  Adverse Reactions (6.1) ] . 
+                               Permanently discontinue DANYELZA based on severity  [see  Dosage and Administration (2.3) ] . 
+                            
+                            
+                         
+                      
+                      
+                         
+                            
+                            
+                            
+                               Neurological Disorders of the Eye  
+                               Neurological disorders of the eye including unequal pupils, blurred vision, accommodation disorder, mydriasis, visual impairment, and photophobia occurred in 24% of patients in Study 201 and 19% of patients in Study 12-230. Neurological disorders of the eye lasted a median of 17 days (range 0 to 84 days) in Study 201 with two patients (8%) experiencing an event that had not resolved at the time of data cutoff, and a median of 1 day (range less than one day to 21 days) in Study 12-230. Permanently discontinue DANYELZA based on severity  [see  Dosage and Administration (2.3)  and  Adverse Reactions (6.1) ]. 
+                               
+                            
+                            
+                         
+                      
+                      
+                         
+                            
+                            
+                            
+                               Prolonged Urinary Retention  
+                               Urinary retention occurred in 1 (4%) patient in Study 201 and in 3 patients (4%) in Study 12-230. All events in both studies occurred on the day of an infusion of DANYELZA and lasted between 0 and 24 days. Permanently discontinue DANYELZA in patients with urinary retention that does not resolve following discontinuation of opioids  [see  Dosage and Administration (2.3)  and  Adverse Reactions (6.1) ]. 
+                               
+                            
+                            
+                         
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      5.3 Myocarditis 
+                      
+                         Myocarditis has occurred in adolescent patients receiving DANYELZA in clinical trials and expanded access programs. Myocarditis occurred within days of receiving DANYELZA requiring drug interruption. Monitor for signs and symptoms of myocarditis during treatment with DANYELZA. Withhold, reduce the dose, or permanently discontinue DANYELZA based on severity  [see  Dosage and Administration (2.3) ]. 
+                         
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      5.4 Hypertension 
+                      
+                         Hypertension occurred in 44% of patients in Study 201 and 28% of patients in Study 12-230 who received DANYELZA. Grade 3 or 4 hypertension occurred in 4% of patients in Study 201 and 7% of patients in Study 12-230. Four patients (6%) in Study 12-230 permanently discontinued DANYELZA due to hypertension. In both studies, most events occurred on the day of DANYELZA infusion and occurred up to 9 days following an infusion of DANYELZA.  
+                         Do not initiate DANYELZA in patients with uncontrolled hypertension. Monitor blood pressure during infusion, and at least daily on Days 1 to 8 of each cycle of DANYELZA and evaluate for complications of hypertension including RPLS  [see  Warnings and Precautions (5.2) ] . Interrupt DANYELZA infusion and resume at a reduced rate, or permanently discontinue DANYELZA based on the severity  [see  Dosage and Administration (2.3)  and  Adverse Reactions (6.1) ] . 
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      5.5 Orthostatic Hypotension 
+                      
+                         Orthostatic hypotension has occurred in patients receiving DANYELZA in clinical trials and expanded access programs. Severe orthostatic hypotension, including cases requiring hospitalization, have occurred. Cases occurred within hours to 6 days of DANYELZA infusions in any cycle. 
+                         In patients with symptoms of orthostatic hypotension, monitor postural blood pressure prior to initiating treatment with DANYELZA and as clinically indicated with subsequent dosing. Withhold, reduce dose, or permanently discontinue DANYELZA based on severity [ see  Dosage and Administration (2.3) 
+                            ]. 
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      5.6 Embryo-Fetal Toxicity 
+                      
+                         Based on its mechanism of action, DANYELZA may cause fetal harm when administered to a pregnant woman. Advise females of reproductive potential, including pregnant women, of the potential risk to a fetus. Advise females of reproductive potential to use effective contraceptive during treatment with DANYELZA and for two months after the last dose.  [see  Use in Specific Populations (8.1 ,  8.3) ] . 
+                      
+                      
+                   
+                
+             
+          
+          
+             
+                
+                
+                6 ADVERSE REACTIONS 
+                
+                   The following clinically significant adverse reactions are also described elsewhere in the labeling: 
+                   
+                      Serious Infusion-Related Reactions  [see  Warnings and Precautions (5.1) 
+                         ] 
+                      Neurotoxicity  [see  Warnings and Precautions (5.2) ] 
+                      
+                      Myocarditis  [see  Warnings and Precautions (5.3) ] 
+                      
+                      Hypertension  [see  Warnings and Precautions (5.4) ] 
+                      
+                      Orthostatic Hypotension  [see  Warnings and Precautions (5.5) ] 
+                      
+                   
+                
+                
+                
+                   
+                      
+                         
+                            The most common adverse reactions (≥25%) are infusion-related reaction, pain, tachycardia, vomiting, cough, nausea, diarrhea, decreased appetite, hypertension, fatigue, erythema multiforme, peripheral neuropathy, urticaria, pyrexia, headache, injection site reaction, edema, anxiety, localized edema, and irritability ( 6.1 ).  
+                            The most common Grade 3 or 4 laboratory abnormalities (≥5%) are decreased lymphocytes, decreased neutrophils, decreased hemoglobin, decreased platelet count, decreased potassium, increased alanine aminotransferase, decreased glucose, decreased calcium, decreased albumin, decreased sodium, and decreased phosphate ( 6.1 ).   
+                         
+                         
+                         To report SUSPECTED ADVERSE REACTIONS, contact Y-mAbs Therapeutics, Inc, at 1-833-339-6227 (1-833-33YMABS), or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch. 
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      6.1 Clinical Trials Experience 
+                      
+                         Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice. 
+                         The safety of DANYELZA in combination with GM-CSF was evaluated in patients with refractory or relapsed high-risk neuroblastoma in bone or bone marrow who had demonstrated a partial response, minor response, or stable disease following initial or subsequent therapy, and in patients who were in second complete remission, from two open-label, single arm studies, Study 201 (n=25) and Study 12-230 (n=72). Patients received DANYELZA 9 mg/kg/cycle administered as three separate intravenous infusions of 3 mg/kg (Day 1, 3 and 5) in the first week of each cycle. Patients also received GM-CSF 250 µg/m 2 /day subcutaneously on Days -4 to 0 and GM-CSF 500 µg/m 2 /day subcutaneously on Days 1 to 5  [see  Clinical Studies (14) ]. 
+                         
+                         The most common adverse reactions in Studies 201 and 12-230 (≥25% in either study) were infusion-related reaction, pain, tachycardia, vomiting, cough, nausea, diarrhea, decreased appetite, hypertension, fatigue, erythema multiforme, peripheral neuropathy, urticaria, pyrexia, headache, injection site reaction, edema, anxiety, localized edema and irritability. The most common Grade 3 or 4 laboratory abnormalities (≥5% in either study) were decreased lymphocytes, decreased neutrophils, decreased hemoglobin, decreased platelet count, decreased potassium, increased alanine aminotransferase, decreased glucose, decreased calcium, decreased albumin, decreased sodium and decreased phosphate.   
+                      
+                      
+                      
+                         
+                            
+                            
+                            
+                               Study 201 
+                               In Study 201, among 25 patients who received DANYELZA in combination with GM-CSF, 12% were exposed for 6 months or longer and none were exposed for greater than one year.   
+                               Serious adverse reactions occurred in 32% of patients who received DANYELZA in combination with GM-CSF. Serious adverse reactions in more than one patient included anaphylactic reaction (12%) and pain (8%). Permanent discontinuation of DANYELZA due to an adverse reaction occurred in 12% of patients. Adverse reactions resulting in permanent discontinuation of DANYELZA included anaphylactic reaction (8%) and respiratory depression (4%). 
+                               Dosage interruptions of DANYELZA due to an adverse reaction occurred in 84% of patients. Adverse reactions requiring dosage interruption in > 10% of patients included hypotension and bronchospasm. 
+                               Table 4 summarizes adverse reactions in Study 201. 
+                               
+                                  Table 4. Adverse Reactions (>10%) in Patients with Refractory or Relapsed High-Risk Neuroblastoma in Bone or Bone Marrow Who Received DANYELZA with GM-CSF in Study 201 
+                                  
+                                  
+                                  
+                                  
+                                     
+                                        
+                                        DANYELZA with GM-CSF Adverse reactions were graded using CTCAE version 4.0. 
+                                            (n=25) 
+                                     
+                                     
+                                        Adverse Reaction 
+                                        All Grades  (%) 
+                                        Grade 3 or 4  (%) 
+                                     
+                                     
+                                        Body system 
+                                        
+                                        
+                                     
+                                  
+                                  
+                                     
+                                        
+                                           General disorders and administration site conditions 
+                                        
+                                     
+                                     
+                                          Pain Pain includes pain, abdominal pain, pain in extremity, bone pain, neck pain, back pain, and musculoskeletal pain. 
+                                        
+                                        100 
+                                        72 
+                                     
+                                     
+                                          Infusion-related reaction Infusion-related reaction includes hypotension, bronchospasm, flushing, wheezing, stridor, urticaria, dyspnea, pyrexia, infusion-related reaction, face edema, edema mouth, tongue edema, lip edema, respiratory tract edema, chills, hypoxia, pruritis and rash occurring on the day of infusion or the day following an infusion. 
+                                        
+                                        100 
+                                        68 
+                                     
+                                     
+                                          Edema 
+                                        28 
+                                        0 
+                                     
+                                     
+                                          Fatigue Fatigue includes fatigue, asthenia. 
+                                        
+                                        28 
+                                        0 
+                                     
+                                     
+                                          Pyrexia Pyrexia not occurring on the day of infusion or the day following an infusion 
+                                        
+                                        28 
+                                        0 
+                                     
+                                     
+                                        
+                                           Respiratory, thoracic and mediastinal disorders 
+                                        
+                                     
+                                     
+                                          Cough 
+                                        60 
+                                        0 
+                                     
+                                     
+                                          Rhinorrhea 
+                                        24 
+                                        0 
+                                     
+                                     
+                                        
+                                           Vascular disorders 
+                                        
+                                     
+                                     
+                                          Hypertension 
+                                        44 
+                                        4 
+                                     
+                                     
+                                        
+                                           Gastrointestinal disorders 
+                                        
+                                     
+                                     
+                                          Vomiting 
+                                        60 
+                                        4 
+                                     
+                                     
+                                          Diarrhea 
+                                        56 
+                                        8 
+                                     
+                                     
+                                          Nausea 
+                                        56 
+                                        0 
+                                     
+                                     
+                                        
+                                           Skin and subcutaneous tissue disorders 
+                                        
+                                     
+                                     
+                                          Urticaria Urticaria, not occurring on the day of infusion or the day following an infusion 
+                                        
+                                        32 
+                                        4 
+                                     
+                                     
+                                        
+                                           Cardiac disorders 
+                                        
+                                     
+                                     
+                                          Tachycardia Tachycardia includes sinus tachycardia and tachycardia 
+                                        
+                                        84 
+                                        4 
+                                     
+                                     
+                                        
+                                           Nervous system disorders 
+                                        
+                                     
+                                     
+                                          Peripheral neuropathy Peripheral neuropathy includes peripheral sensory neuropathy, paresthesia, neuralgia.  
+                                        
+                                        32 
+                                        0 
+                                     
+                                     
+                                          Headache 
+                                        28 
+                                        8 
+                                     
+                                     
+                                          Depressed level of consciousness 
+                                        24 
+                                        16 
+                                     
+                                     
+                                        
+                                           Eye disorders 
+                                        
+                                     
+                                     
+                                          Neurological disorders of the eye Neurological disorders of the eye includes unequal pupils, blurred vision, and mydriasis. 
+                                        
+                                        24 
+                                        0 
+                                     
+                                     
+                                        
+                                           Immune system disorders 
+                                        
+                                     
+                                     
+                                          Anaphylactic reaction 
+                                        12 
+                                        12 
+                                     
+                                     
+                                        
+                                           Metabolism and nutrition disorders 
+                                        
+                                     
+                                     
+                                          Decreased appetite 
+                                        16 
+                                        0 
+                                     
+                                     
+                                        
+                                           Infections and infestations 
+                                        
+                                        
+                                        
+                                     
+                                     
+                                          Influenza 
+                                        12 
+                                        0 
+                                     
+                                     
+                                          Rhinovirus infection 
+                                        12 
+                                        0 
+                                     
+                                     
+                                          Upper respiratory tract infection 
+                                        12 
+                                        0 
+                                     
+                                     
+                                        
+                                           Investigations 
+                                        
+                                        
+                                        
+                                     
+                                     
+                                          Weight decreased 
+                                        12 
+                                        0 
+                                     
+                                     
+                                        
+                                           Psychiatric disorders 
+                                        
+                                        
+                                        
+                                     
+                                     
+                                          Anxiety 
+                                        12 
+                                        0 
+                                     
+                                  
+                               
+                               Clinically relevant adverse reactions occurring in ≤10% of patients who received DANYELZA with GM-CSF included peripheral edema (8%).  
+                               Table 5 summarizes the laboratory abnormalities in Study 201. 
+                               
+                                  Table 5. Selected Laboratory Abnormalities (>20%) Worsening from Baseline in Patients with Refractory or Relapsed High-Risk Neuroblastoma in Bone or Bone Marrow Who Received DANYELZA with GM-CSF in Study 201 
+                                  
+                                  
+                                  
+                                  
+                                     
+                                        Laboratory Abnormality 
+                                        DANYELZA with GM-CSF The table presents laboratory parameters with available grading according to CTCAE version 4.0. Baseline evaluation was the last non-missing value prior to first DANYELZA dosing. Each test incidence is based on the number of patients who had both a baseline value and at least one on-study laboratory measurement (range: 23 to 24 patients). 
+                                            n=25 
+                                     
+                                     
+                                        All Grades   (%) 
+                                        Grade 3 or 4   (%) 
+                                     
+                                  
+                                  
+                                     
+                                        
+                                           Chemistry 
+                                        
+                                        
+                                        
+                                     
+                                     
+                                        Decreased potassium 
+                                        63 
+                                        8 
+                                     
+                                     
+                                        Decreased albumin 
+                                        50 
+                                        0 
+                                     
+                                     
+                                        Increased alanine aminotransferase 
+                                        42 
+                                        8 
+                                     
+                                     
+                                        Decreased sodium 
+                                        29 
+                                        0 
+                                     
+                                     
+                                        
+                                           Hematology 
+                                        
+                                        
+                                        
+                                     
+                                     
+                                        Decreased lymphocytes 
+                                        74 
+                                        30 
+                                     
+                                     
+                                        Decreased platelet count 
+                                        65 
+                                        17 
+                                     
+                                     
+                                        Decreased neutrophils 
+                                        61 
+                                        39 
+                                     
+                                     
+                                        Decreased hemoglobin 
+                                        48 
+                                        4 
+                                     
+                                  
+                               
+                            
+                            
+                         
+                      
+                      
+                         
+                            
+                            
+                            
+                               Study 12-230 
+                               In Study 12-230, among 72 patients who received DANYELZA in combination with GM-CSF, 32% were exposed for 6 months or longer and 8% were exposed for greater than one year.   
+                               Serious adverse reactions occurred in 40% of patients who received DANYELZA in combination with GM-CSF. Serious adverse reactions in > 5% of patients included hypertension (14%), hypotension (11%), and pyrexia (8%). Permanent discontinuation of DANYELZA due to an adverse reaction occurred in 8% of patients. Four (6%) patients permanently discontinued DANYELZA due to hypertension and one (1.4%) patient discontinued due to RPLS.  
+                               Table 6 summarizes adverse reactions in Study 12-230. 
+                               
+                                  Table 6. Adverse Reactions (>10%) in Patients with Refractory or Relapsed High-Risk Neuroblastoma in Bone or Bone Marrow Who Received DANYELZA with GM-CSF in Study 12-230 
+                                  
+                                  
+                                  
+                                  
+                                     
+                                        
+                                        DANYELZA with GM-CSF In Study 12-230, all adverse reactions occurring in Cycle 1 and 2, and adverse reactions of ≥ Grade 3 severity occurring in subsequent cycles were reported. In the dose finding phase, Grade 2 unexpected adverse reactions were also reported for Cycles 3 and later. 
+                                           , 
+                                           Adverse reactions were graded using CTCAE version 4.0. 
+                                            (n=72) 
+                                     
+                                     
+                                        Adverse Reaction 
+                                        All Grades  (%) 
+                                        Grade 3 or 4  (%) 
+                                     
+                                     
+                                        Body system 
+                                        
+                                        
+                                     
+                                  
+                                  
+                                     
+                                        
+                                           General disorders and administration site conditions 
+                                        
+                                     
+                                     
+                                          Infusion-related reaction Infusion-related reaction includes hypotension, bronchospasm, flushing, wheezing, stridor, urticaria, dyspnea, pyrexia, face edema, periorbital edema, lip swelling, swollen tongue, chills, hypoxia, pruritis, rash maculopapular and rash erythematous occurring on the day of infusion or the day following an infusion. 
+                                        
+                                        94 
+                                        32 
+                                     
+                                     
+                                          Pain Pain includes pain, abdominal pain, pain in extremity, bone pain, neck pain, back pain, non-cardiac chest pain, flank pain, and musculoskeletal pain. 
+                                        
+                                        94 
+                                        2.8 
+                                     
+                                     
+                                          Fatigue Fatigue includes fatigue, asthenia. 
+                                        
+                                        44 
+                                        0 
+                                     
+                                     
+                                          Injection site reaction 
+                                        28 
+                                        0 
+                                     
+                                     
+                                          Localized edema 
+                                        25 
+                                        0 
+                                     
+                                     
+                                          Pyrexia Pyrexia not occurring on the day of infusion or the day following an infusion. 
+                                        
+                                        11 
+                                        0 
+                                     
+                                     
+                                        
+                                           Vascular disorders 
+                                        
+                                     
+                                     
+                                          Hypertension 
+                                        28 
+                                        7 
+                                     
+                                     
+                                        
+                                           Gastrointestinal disorders 
+                                        
+                                     
+                                     
+                                          Vomiting 
+                                        63 
+                                        2.8 
+                                     
+                                     
+                                          Nausea 
+                                        57 
+                                        1.4 
+                                     
+                                     
+                                          Diarrhea 
+                                        50 
+                                        4.2 
+                                     
+                                     
+                                          Constipation 
+                                        15 
+                                        0 
+                                     
+                                     
+                                        
+                                           Skin and subcutaneous tissue disorders 
+                                        
+                                     
+                                     
+                                          Erythema multiforme 
+                                        33 
+                                        0 
+                                     
+                                     
+                                          Hyperhidrosis 
+                                        17 
+                                        0 
+                                     
+                                     
+                                          Erythema 
+                                        11 
+                                        0 
+                                     
+                                     
+                                        
+                                           Respiratory, thoracic and mediastinal disorders 
+                                        
+                                     
+                                     
+                                          Cough 
+                                        57 
+                                        0 
+                                     
+                                     
+                                          Oropharyngeal pain 
+                                        15 
+                                        0 
+                                     
+                                     
+                                          Rhinorrhea 
+                                        15 
+                                        0 
+                                     
+                                     
+                                        
+                                           Nervous system disorders 
+                                        
+                                     
+                                     
+                                          Peripheral neuropathy Peripheral neuropathy includes peripheral sensory neuropathy, peripheral motor neuropathy, paresthesia, neuralgia. 
+                                        
+                                        25 
+                                        0 
+                                     
+                                     
+                                          Headache 
+                                        18 
+                                        0 
+                                     
+                                     
+                                          Lethargy 
+                                        14 
+                                        0 
+                                     
+                                     
+                                        
+                                           Metabolism and nutrition disorders 
+                                        
+                                     
+                                     
+                                          Decreased appetite 
+                                        53 
+                                        4.2 
+                                     
+                                     
+                                        
+                                           Cardiac disorders 
+                                        
+                                     
+                                     
+                                          Sinus tachycardia 
+                                        44 
+                                        1.4 
+                                     
+                                     
+                                        
+                                           Psychiatric disorders 
+                                        
+                                     
+                                     
+                                          Anxiety 
+                                        26 
+                                        0 
+                                     
+                                     
+                                          Irritability 
+                                        25 
+                                        0 
+                                     
+                                     
+                                        
+                                           Investigations 
+                                        
+                                     
+                                     
+                                          Breath sounds abnormal 
+                                        15 
+                                        0 
+                                     
+                                     
+                                        
+                                           Injury and procedural complications 
+                                        
+                                        
+                                        
+                                     
+                                     
+                                          Contusion 
+                                        15 
+                                        0 
+                                     
+                                     
+                                        
+                                           Infections and infestations 
+                                        
+                                        
+                                        
+                                     
+                                     
+                                          Rhinovirus infection 
+                                        14 
+                                        0 
+                                     
+                                     
+                                          Enterovirus infection 
+                                        13 
+                                        0 
+                                     
+                                     
+                                        
+                                           Eye Disorders 
+                                        
+                                        
+                                        
+                                     
+                                     
+                                          Neurological disorders of the eye  Neurological disorders of the eye includes unequal pupils, blurred vision, accommodation disorder, visual impairment and photophobia. 
+                                        
+                                        19 
+                                        0 
+                                     
+                                  
+                               
+                               Clinically relevant adverse reactions in ≤10% of patients who received DANYELZA with GM-CSF included apnea (4.2%), hypopnea (2.8%), generalized edema (2.8%), peripheral edema (8.3%), and device related infection (4.2%).  
+                               Table 7 summarizes the laboratory abnormalities in Study 12-230. 
+                               
+                                  Table 7. Selected Laboratory Abnormalities (>20%) Worsening from Baseline in Patients with Refractory or Relapsed High-Risk Neuroblastoma in Bone or Bone Marrow Who Received DANYELZA with GM-CSF in Study 12-230 
+                                  
+                                  
+                                  
+                                  
+                                     
+                                        Laboratory Abnormality 
+                                        DANYELZA with GM-CSF The table presents laboratory parameters with available grading according to CTCAE version 4.0. Baseline evaluation was the last non-missing value prior to first DANYELZA dosing. Each test incidence is based on the number of patients who had both a baseline value and at least one on-study laboratory measurement (range 19 to 72 patients). 
+                                            n=72 
+                                     
+                                     
+                                        All Grades   (%) 
+                                        Grade 3 or 4   (%) 
+                                     
+                                  
+                                  
+                                     
+                                        
+                                           Chemistry 
+                                        
+                                        
+                                        
+                                     
+                                     
+                                          Increased glucose 
+                                        74 
+                                        0 
+                                     
+                                     
+                                          Decreased albumin 
+                                        68 
+                                        7 
+                                     
+                                     
+                                          Decreased calcium 
+                                        64 
+                                        8 
+                                     
+                                     
+                                          Increased alanine aminotransferase 
+                                        55 
+                                        9 
+                                     
+                                     
+                                          Decreased magnesium 
+                                        54 
+                                        0 
+                                     
+                                     
+                                          Increased aspartate aminotransferase 
+                                        49 
+                                        4 
+                                     
+                                     
+                                          Decreased phosphate 
+                                        47 
+                                        5 
+                                     
+                                     
+                                          Decreased potassium 
+                                        47 
+                                        32 
+                                     
+                                     
+                                          Decreased sodium 
+                                        38 
+                                        6 
+                                     
+                                     
+                                          Decreased glucose 
+                                        29 
+                                        8 
+                                     
+                                     
+                                        
+                                           Hematology 
+                                        
+                                        
+                                        
+                                     
+                                     
+                                          Decreased lymphocytes 
+                                        79 
+                                        56 
+                                     
+                                     
+                                          Decreased hemoglobin 
+                                        76 
+                                        42 
+                                     
+                                     
+                                          Decreased neutrophils 
+                                        72 
+                                        46 
+                                     
+                                     
+                                          Decreased platelets 
+                                        71 
+                                        40 
+                                     
+                                  
+                               
+                            
+                            
+                         
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      6.2 Immunogenicity 
+                      
+                         As with all therapeutic proteins, there is a potential for immunogenicity. The detection of anti-drug antibody formation is highly dependent on the sensitivity and specificity of the assay.  Additionally, the observed incidence of anti-drug antibody (including neutralizing antibody) positivity in an assay may be influenced by several factors, including assay methodology, sample handling, timing of sample collection, concomitant medications, and underlying disease. For these reasons, comparison of the incidence of anti-drug antibodies in the studies described below with the incidence of anti-drug antibodies in other studies or to other naxitamab products may be misleading. 
+                         In Study 201, 2 of 24 (8%) patients tested positive for anti-drug antibodies (ADA) after treatment with DANYELZA.  
+                         In Study 12-230, 27 of 117 patients (23%) tested positive for ADA after treatment with DANYELZA by an assay that was not fully validated; therefore, the incidence of ADA may not be reliable. 
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      6.3 Postmarketing Experience/Spontaneous Reports 
+                      
+                         The following adverse reactions have been identified during expanded access and post-approval use of DANYELZA. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure. 
+                         
+                            Neurological:  Orthostatic hypotension, Transverse myelitis 
+                         
+                            Cardiac disorders:  Myocarditis 
+                      
+                      
+                   
+                
+             
+          
+          
+             
+                
+                
+                8 USE IN SPECIFIC POPULATIONS 
+                
+                
+                   
+                      
+                         Lactation: Advise not to breastfeed. ( 8.2 ) 
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      8.1 Pregnancy 
+                      
+                      
+                         
+                            
+                            
+                            
+                               Risk Summary 
+                               Based on its mechanism of action, DANYELZA may cause fetal harm when administered to pregnant women  [see  Clinical Pharmacology (12.1) 
+                                  ].  There are no available data on the use of DANYELZA in pregnant women and no animal reproduction studies have been conducted with DANYELZA. IgG1 monoclonal antibodies are transported across the placenta in a linear fashion as pregnancy progresses, with the largest amount transferred during the third trimester. Advise pregnant women of potential risk to a fetus.  
+                               In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2% to 4% and 15% to 20%, respectively. 
+                            
+                            
+                         
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      8.2 Lactation 
+                      
+                      
+                         
+                            
+                            
+                            
+                               Risk Summary 
+                               There are no data on the presence of naxitamab-gqgk in human milk or its effects on the breastfed child, or on milk production, however, human IgG is present in human milk. Because of the potential for serious adverse reactions in a breastfed child from DANYELZA, advise women not to breastfeed during treatment and for 2 months after the last dose of DANYELZA. 
+                            
+                            
+                         
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      8.3 Females and Males of Reproductive Potential 
+                      
+                         DANYELZA may cause fetal harm when administered to a pregnant woman  [see  Use in Specific Populations (8.1) ]. 
+                         
+                      
+                      
+                      
+                         
+                            
+                            
+                            
+                               Pregnancy Testing 
+                               Verify pregnancy status in females of reproductive potential prior to initiating DANYELZA. 
+                            
+                            
+                         
+                      
+                      
+                         
+                            
+                            
+                            
+                               Contraception 
+                            
+                            
+                            
+                               
+                                  
+                                  
+                                  
+                                     Females 
+                                     Advise females of reproductive potential to use effective contraception during treatment and for 2 months after the last dose of DANYELZA.  
+                                  
+                                  
+                               
+                            
+                         
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      8.4 Pediatric Use 
+                      
+                         The safety and effectiveness of DANYELZA, in combination with GM-CSF for the treatment of relapsed or refractory high-risk neuroblastoma in the bone or bone marrow who have demonstrated a partial response, minor response or stable disease following prior therapy, have been established in pediatric patients 1 year of age and older.  
+                         Safety and effectiveness have not been established in pediatric patients younger than 1 year of age. 
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      8.5 Geriatric Use 
+                      
+                         Neuroblastoma is largely a disease of pediatric and young adult patients.  Clinical studies of DANYELZA in combination with GM-CSF did not include patients 65 years of age and older. 
+                      
+                      
+                   
+                
+             
+          
+          
+             
+                
+                
+                11 DESCRIPTION 
+                
+                   Naxitamab-gqgk is a glycolipid disialoganglioside (GD2)-binding recombinant humanized monoclonal IgG1 antibody, that contains human framework regions and murine complementarity-determining regions. Naxitamab-gqgk is produced in a Chinese hamster ovary cell line and has an approximate molecular weight of 144 kDa without glycosylation.   
+                   DANYELZA (naxitamab-gqgk) injection is a sterile, preservative-free, clear to slightly opalescent and colorless to slightly yellow solution for intravenous infusion. Each single-dose vial contains 40 mg of naxitamab-gqgk in 10 mL of solution. Each mL of solution contains 4 mg of naxitamab-gqgk, and citric acid anhydrous (0.71 mg), poloxamer 188 (1.5 mg), sodium chloride (7.01 mg), sodium citrate (6.3 mg), and Water for Injection, USP. The pH is approximately 5.7. 
+                
+                
+             
+          
+          
+             
+                
+                
+                12 CLINICAL PHARMACOLOGY 
+                
+                
+                   
+                      
+                      
+                      12.1 Mechanism of Action 
+                      
+                         Naxitamab-gqgk binds to the glycolipid GD2. GD2 is a disialoganglioside that is overexpressed on neuroblastoma cells and other cells of neuroectodermal origin, including the central nervous system and peripheral nerves. In vitro, naxitamab-gqgk was able to bind to cell surface GD2 and induce complement dependent cytotoxicity (CDC) and antibody dependent cell-mediated cytotoxicity (ADCC). 
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      12.2 Pharmacodynamics 
+                      
+                         The exposure-response relationship and time course of pharmacodynamic response for the safety and effectiveness of naxitamab-gqgk have not been fully characterized. 
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      12.3 Pharmacokinetics 
+                      
+                         The geometric mean (CV%) maximum plasma concentration (C max ) of naxitamab-gqgk was 57.4 µg/mL (49%) following DANYELZA 3 mg/kg intravenous infusion over 30 minutes.  
+                      
+                      
+                      
+                         
+                            
+                            
+                            
+                               Elimination 
+                               The mean terminal half-life of naxitamab-gqgk was 8.2 days. 
+                            
+                            
+                         
+                      
+                      
+                         
+                            
+                            
+                            
+                               Metabolism 
+                               Naxitamab-gqgk is expected to be metabolized into small peptides by catabolic pathways. 
+                            
+                            
+                         
+                      
+                      
+                         
+                            
+                            
+                            
+                               Specific Populations 
+                               Population pharmacokinetic analyses suggest that age (range: 1 to 34 years), sex and race have no clinically important effect on the clearance (CL) of naxitamab-gqgk. The naxitamab-gqgk systemic exposure (AUC) at 150 mg/day (450 mg per cycle) for patients with body weight over 50 kg is not expected to differ clinically from that of the naxitamab-gqgk exposures at 3 mg/kg/day (9 mg/kg per cycle) for patients with body weight of 30 - 50 kg. 
+                            
+                            
+                         
+                      
+                   
+                
+             
+          
+          
+             
+                
+                
+                13 NONCLINICAL TOXICOLOGY 
+                
+                
+                   
+                      
+                      
+                      13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility 
+                      
+                         No animal studies have been conducted to evaluate the carcinogenic or mutagenic potential of naxitamab-gqgk. 
+                         Dedicated studies evaluating the effects of naxitamab-gqgk on fertility in animals have not been conducted. 
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      13.2 Animal Toxicology and/or Pharmacology 
+                      
+                         Non-clinical studies suggest that naxitamab-gqgk-induced neuropathic pain is mediated by binding of the antibody to the GD2 antigen located on the surface of peripheral nerve fibers and myelin and subsequent induction of immune-mediated cytotoxic activity. 
+                         In a nude rat model, slight-moderate hyperplasia and erosion of the glandular mucosa of the stomach occurred, occasionally accompanied by diffuse inflammation. Complete recovery of all histopathological findings in the stomachs of male rats was observed; however, only partial recovery was observed in the stomachs of female rats during the four week off-drug period. 
+                      
+                      
+                   
+                
+             
+          
+          
+             
+                
+                
+                14 CLINICAL STUDIES 
+                
+                   The efficacy of DANYELZA in combination with GM-CSF was evaluated in two open-label, single arm trials in patients with high-risk neuroblastoma with refractory or relapsed disease in the bone or bone marrow, Study 201 and Study 12-230.  
+                
+                
+                
+                   
+                      
+                      
+                      
+                         Study 201 
+                         The efficacy of DANYELZA in combination with GM-CSF was evaluated in Study 201 (NCT03363373), a multicenter open-label, single arm trial, in a subpopulation of patients who had refractory or relapsed high-risk neuroblastoma in the bone or bone marrow and demonstrated a partial response, minor response, or stable disease to prior therapy. Patients with progressive disease were excluded. All patients received at least one systemic therapy to treat disease outside of the bone or bone marrow prior to enrollment. Patients received DANYELZA 9 mg/kg/cycle administered as three separate intravenous infusions of 3 mg/kg on Days 1, 3 and 5 of each cycle. Patients received GM-CSF subcutaneously at 250 µg/m 2 /day on Days -4 to 0 and at 500 µg/m 2 /day on Days 1 to 5. Preplanned radiation to the primary site was allowed. 
+                         The major efficacy outcome measure was overall response rate (ORR) according to the revised International Neuroblastoma Response Criteria (INRC), as determined by independent pathology and imaging review and confirmed by at least one subsequent assessment. An additional efficacy outcome measure was duration of response (DOR).  
+                         Of the 22 patients included in the efficacy analysis, 64% had refractory disease and 36% had relapsed disease; the median age was 5 years (range 3 to 10 years), 59% were male; 45% were White, 50% were Asian and 5% were Black. MYCN amplification was present in 14% of patients and 86% of patients were International Neuroblastoma Staging System (INSS) stage 4 at time of diagnosis. Disease sites included 59% in the bone only, 9% in bone marrow only, and 32% in both. Prior therapies included surgery (91%), chemotherapy (95%), radiation (36%), autologous stem cell transplant (ASCT) (18%), and anti-GD2 antibody treatment (18%). 
+                         Efficacy results for Study 201 are described in Table 8.  
+                         
+                            Table 8. Efficacy Results from Study 201 
+                            
+                            
+                            
+                               
+                                  
+                                  DANYELZA with GM-CSF   (n=22) 
+                               
+                            
+                            
+                               
+                                  CI = confidence interval  NE: not estimable. 
+                               
+                            
+                            
+                               
+                                  
+                                     Overall response rate Overall response rate is defined as a complete or partial response according to the revised INRC (2017) that was confirmed by at least one subsequent assessment. Responses were observed in the bone, bone marrow, or both bone and bone marrow.  (95% CI) 
+                                  
+                                  45%    (24%, 68%) 
+                               
+                               
+                                    Complete response rate 
+                                  36% 
+                               
+                               
+                                    Partial response rate 
+                                  9% 
+                               
+                               
+                                  
+                                     Duration of response 
+                                  
+                                  
+                               
+                               
+                                    Median (95% CI), months 
+                                  6.2 (4.9, NE) 
+                               
+                               
+                                    Responders with DOR ≥ 6 months 
+                                  30% 
+                               
+                            
+                         
+                         In an exploratory analysis in the subset of patients previously treated with an anti-GD2 antibody (n=4), one patient demonstrated a confirmed complete response and no patients demonstrated a partial response.  
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      
+                         Study 12-230 
+                         The efficacy of DANYELZA in combination with GM-CSF was evaluated in Study 12-230 (NCT01757626), a single center, open-label, single arm trial, in a subpopulation of patients who had relapsed or refractory high-risk neuroblastoma in bone or bone marrow and demonstrated a partial response, minor response, or stable disease to prior therapy. Patients with progressive disease were excluded. All patients received at least one systemic therapy to treat disease outside of the bone or bone marrow prior to enrollment. Patients were required to have received at least one dose of DANYELZA at a dose of 3 mg/kg or greater per infusion and have evaluable disease at baseline according to independent review per the revised INRC.  
+                         Patients received DANYELZA 9 mg/kg/cycle administered as three separate intravenous infusions of 3 mg/kg (on Days 1, 3 and 5) in the first week of each cycle. Patients received GM-CSF subcutaneously at 250 µg/m 2 /day on Days -4 to 0 and at 500 µg/m 2 /day on Days 1 to 5. Radiation to non-target bony lesions and soft tissue lesions was permitted at the investigator's discretion; assessment of response excluded sites that received radiation. The major efficacy outcome measures were overall response rate (ORR) and duration of response (DOR), as determined by independent pathology and imaging review according to the revised INRC and confirmed by at least one subsequent assessment.   
+                         Of the 38 patients included in the efficacy analysis, 55% had relapsed neuroblastoma and 45% had refractory disease; 50% were male, the median age was 5 years (range 2 to 23 years), 74% were White, 8% Asian and 5% were Black, 5% Native American/American Indian/Alaska Native, 3% other races and 5% was not available. MYCN-amplification was present in 16% of patients and most patients were International Neuroblastoma Staging System (INSS) stage 4 (95%).  Fifty percent (50%) of patients had disease involvement in the bone only, 11% only in bone marrow, and 39% in both. Prior therapies included surgery (100%), chemotherapy (100%), radiation (47%), autologous stem cell transplant (ASCT) (42%), and anti-GD2 antibody treatment (58%).  
+                         Efficacy results are provided in Table 9.   
+                         
+                            Table 9. Efficacy Results from Study 12-230 
+                            
+                            
+                            
+                               
+                                  
+                                  DANYELZA with GM-CSF    (n=38) 
+                               
+                            
+                            
+                               
+                                  CI = confidence interval 
+                               
+                            
+                            
+                               
+                                  
+                                     Overall response rate Overall response rate is defined as a complete or partial response according to the revised INRC (2017) that was confirmed by at least one subsequent assessment. Responses were observed in the bone, bone marrow, or both bone and bone marrow.  (95% CI) 
+                                  
+                                  34%   (20%, 51%) 
+                               
+                               
+                                    Complete response rate 
+                                  26% 
+                               
+                               
+                                    Partial response rate 
+                                  8% 
+                               
+                               
+                                  
+                                     Duration of Response 
+                                  
+                                  
+                               
+                               
+                                    Responders with DOR ≥ 6 months 
+                                  23% 
+                               
+                            
+                         
+                         In an exploratory analysis in the subset of patients previously treated with an anti-GD2 antibody (n=22), the ORR was 18% (95% CI 5%, 40%), with no patients having a documented response of 6 months or greater.  
+                      
+                      
+                   
+                
+             
+          
+          
+             
+                
+                
+                16 HOW SUPPLIED / STORAGE AND HANDLING 
+                
+                   DANYELZA (naxitamab-gqgk) injection is a sterile, preservative-free, clear to slightly opalescent and colorless to slightly yellow solution for intravenous infusion supplied as a carton containing one 40mg/10 mL (4 mg/mL) single-dose vial. 
+                   NDC 73042-201-01 
+                
+                
+                
+                   
+                      
+                      
+                      
+                         Store DANYELZA vial refrigerated at 2°C to 8°C (36°F to 46°F) in the outer carton to protect from light until time of use.  
+                      
+                      
+                   
+                
+             
+          
+          
+             
+                
+                
+                17 PATIENT COUNSELING INFORMATION 
+                
+                   Advise the patient and caregiver to read the FDA-approved patient labeling (Patient Information). 
+                
+                
+                
+                   
+                      
+                      
+                      
+                         Serious Infusion-Related Reactions 
+                         Advise patients and caregivers that DANYELZA can cause serious infusion-related reactions and anaphylaxis and to immediately report any signs or symptoms, such as facial or lip swelling, urticaria, or difficulty breathing, that occur during or following the infusion  [see  Warnings and Precautions (5.1) ] . 
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      
+                         Neurotoxicity  
+                         Advise patients and caregivers that DANYELZA can cause neurotoxicity, including severe pain, peripheral neuropathy, neurological disorders of the eye, prolonged urinary retention, transverse myelitis, and reverse posterior leukoencephalopathy syndrome. Advise patients to contact their healthcare provider for any new or worsening neurological symptoms  [see  Warnings and Precautions (5.2) ]. 
+                         
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      
+                         Myocarditis 
+                         Advise patients and caregivers that myocarditis has been seen in patients taking DANYELZA and to report any signs or symptoms, such as chest pain, shortness of breath or abnormal heart rhythms during treatment with DANYELZA  [see  Warnings and Precautions (5.3) ]. 
+                         
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      
+                         Hypertension 
+                         Advise patients and caregivers that DANYELZA can cause hypertension and to immediately report signs or symptoms of hypertension  [see  Warnings and Precautions (5.4) ]. 
+                         
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      
+                         Orthostatic Hypotension 
+                         Advise patients and caregivers that DANYELZA can cause severe low blood pressure when standing after sitting or lying down. Advise patients and caregivers to report any signs or symptoms, such as dizziness, lightheadedness or fainting during treatment with DANYELZA  [see  Warnings and Precautions (5.5) ]. 
+                         
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      
+                         
+                            Embryo-Fetal Toxicity  
+                            [see  Warnings and Precautions (5.6)  and  Use in Specific Populations (8.1 ,  8.3) ] . 
+                         Advise females of reproductive potential, including pregnant women, of the potential risk to the fetus. 
+                         Advise females of reproductive potential to inform their healthcare provider of a known or suspected pregnancy and to use effective contraception during treatment with and for 2 months after the last dose of DANYELZA. 
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      
+                         Lactation 
+                         Advise women not to breastfeed during treatment with DANYELZA and for 2 months after the last dose  [see  Use in Specific Populations (8.2) ]. 
+                         
+                      
+                      
+                   
+                
+             
+          
+          
+             
+                
+                
+                
+                   DANYELZA ®  is a registered trademark of Y-mAbs Therapeutics, Inc. 
+                   © 2025 Y-mAbs Therapeutics, Inc. – All rights reserved.  
+                   Manufactured by:   Y-mAbs Therapeutics, Inc   202 Carnegie Center, Suite 301   Princeton, NJ 08540   U.S. License No. 2209 
+                
+                
+             
+          
+          
+             
+                
+                
+                
+                   
+                      
+                      
+                      
+                      
+                      
+                      
+                         
+                            This Patient Information has been approved by the U.S. Food and Drug Administration 
+                            Revised: 08/2025     
+                         
+                      
+                      
+                         
+                            
+                               PATIENT INFORMATION 
+                                DANYELZA ®  (dan-YEL-zah)   (naxitamab-gqgk)   injection, for intravenous use 									 
+                         
+                         
+                            
+                               What is the most important information I should know about DANYELZA?  DANYELZA may cause serious side effects, including: 
+                               
+                                  
+                                     Serious infusion-related reactions.  DANYELZA can cause serious infusion-related reactions that require immediate medical attention. Infusion-related reactions are common with DANYELZA. Tell your healthcare provider right away if you get any signs or symptoms during or after your DANYELZA infusion, including: 
+                               
+                            
+                         
+                         
+                            
+                            
+                               
+                                  swelling of your face, eyes, lips, mouth, or tongue 
+                                  itching 
+                                  redness on your face (flushing) 
+                                  skin rash or hives  
+                               
+                            
+                            
+                               
+                                  trouble breathing  
+                                  cough or wheezing 
+                                  noisy high-pitched breathing 
+                                  feeling faint or dizziness (low blood pressure)   
+                               
+                            
+                            
+                         
+                         
+                            
+                               
+                                  
+                                     Nervous system problems .  Talk to your healthcare provider right away if you have new symptoms or worsening of nervous system problems, including:  
+                                  
+                               
+                            
+                         
+                         
+                            
+                            
+                               
+                                  
+                                     Severe pain from nerves (neuropathic pain),  including pain in the belly (abdomen), bone, neck, legs or arms. Pain is common with DANYELZA and can be severe.  
+                                  
+                                     Inflammation of the spinal cord.  Signs or symptoms may include: 
+                               
+                            
+                         
+                         
+                            
+                            
+                            
+                               
+                                  weakness in your legs or arms  
+                                  bladder and bowel problems 
+                                  pain in back, legs, or stomach (abdomen) 
+                               
+                            
+                            
+                               
+                                  numbness 
+                                  tingling 
+                                  burning sensation 
+                               
+                            
+                            
+                         
+                         
+                            
+                            
+                               
+                                  
+                                     Reversible Posterior Leukoencephalopathy Syndrome (RPLS – also known as Posterior Reversible Encephalopathy Syndrome - PRES).  PRES is a condition that affects the brain. Your healthcare provider will monitor your blood pressure and check for any neurologic symptoms after your DANYELZA infusion. Signs or symptoms of PRES may include:  
+                               
+                            
+                         
+                         
+                            
+                            
+                            
+                               
+                                  severe headache  
+                                  vision changes 
+                                  changes in mental status, such as confusion, disorientation, or decreased alertness 
+                               
+                            
+                            
+                               
+                                  difficulty speaking 
+                                  weakness in your arms or legs 
+                                  seizures 
+                               
+                            
+                            
+                         
+                         
+                            
+                            
+                               
+                                  
+                                     Numbness, tingling, or burning sensation in the arms or legs.  
+                                  
+                                  
+                                     Nervous system problems of the eye.  Signs or symptoms may include: 
+                               
+                            
+                         
+                         
+                            
+                            
+                            
+                               
+                                  unequal pupil size   
+                                  blurred vision 
+                                  trouble focusing your eyes 
+                               
+                            
+                            
+                               
+                                  larger pupil size (dilated)  
+                                  decreased ability to see 
+                                  sensitivity to light 
+                               
+                            
+                            
+                         
+                         
+                            
+                            
+                               
+                                  
+                                     Problems urinating or emptying your bladder (prolonged urinary retention).  
+                                  
+                               
+                            
+                         
+                         
+                            
+                               What is DANYELZA? 
+                                DANYELZA is a prescription medicine used in combination with a medicine called granulocyte-macrophage colony-stimulating factor (GM-CSF) to treat children 1 year of age and older and adults with high-risk neuroblastoma in the bone or bone marrow that: 									 
+                                  has come back (relapsed) or that did not respond to previous treatment (refractory),  and 
+                                  
+                                  has shown a partial response, minor response, or stable disease to prior therapy. 
+                                It is not known if DANYELZA is safe and effective in children younger than 1 year of age. 									 
+                         
+                         
+                            
+                               Do not receive DANYELZA if you  have had a severe allergic reaction to naxitamab-gqgk, the active ingredient in DANYELZA .  Ask your healthcare provider if you are not sure. 									 
+                         
+                         
+                            
+                               Before receiving DANYELZA, tell your healthcare provider about all your medical conditions, including if you: 
+                               
+                                  have high blood pressure 
+                                  have heart disease  
+                                  are pregnant or plan to become pregnant. DANYELZA may harm your unborn baby.  
+                               
+                            
+                         
+                         
+                            
+                            
+                               
+                                  Your healthcare provider will do a pregnancy test before you start treatment with DANYELZA.  
+                                  Females who are able to become pregnant should use effective birth control (contraception) during treatment and for  2 months  after your last dose of DANYELZA. Talk to your healthcare provider about birth control choices that may be right for you during this time.  
+                                  Tell your healthcare provider right away if you become pregnant or think you might be pregnant during treatment with DANYELZA. 
+                               
+                            
+                         
+                         
+                            
+                               
+                                  are breastfeeding or plan to breastfeed. It is not known if DANYELZA passes into your breast milk. Do not breastfeed during treatment and for  2 months  after your last dose of DANYELZA. 
+                               
+                               Tell your healthcare provider about all the medicines you take,  including prescription and over-the-counter medicines, vitamins, and herbal supplements. 									 
+                         
+                         
+                            
+                               How will I receive DANYELZA? 
+                               
+                                  Your healthcare provider will give you DANYELZA into your vein through an intravenous (I.V.) line over 30 or 60 minutes. 
+                                  DANYELZA is given on Days 1, 3, and 5 of each treatment cycle.  
+                                  DANYELZA is used with another medicine called GM-CSF. You can ask your healthcare provider for information about GM-CSF. 
+                                  DANYELZA treatment cycles are usually repeated every 4 or 8 weeks. Your healthcare provider will decide how many treatment cycles you need. 
+                                  Your healthcare provider will give you certain medicines before and during your DANYELZA infusion to help decrease your risk of getting pain, infusion-related reactions, and nausea or vomiting. 
+                                  Your healthcare provider may slow down your infusion rate, temporarily stop DANYELZA infusion, or permanently stop treatment with DANYELZA if you have certain side effects.  
+                                  You will be monitored for side effects for at least 2 hours after each DANYELZA infusion. 
+                                  If you miss an appointment, call your healthcare provider as soon as possible to reschedule.  
+                               
+                            
+                         
+                         
+                            
+                               What are the possible side effects of DANYELZA?   DANYELZA may cause serious side effects, including: 
+                               
+                                  See " What is the most important information I should know about DANYELZA? " 
+                                  
+                                     Swelling of the heart (myocarditis).  Myocarditis has happened in adolescents ages 12 to 18 within days of receiving DANYELZA. Tell your healthcare provider if you get any signs or symptoms of myocarditis, including: 
+                               
+                            
+                         
+                         
+                            
+                            
+                               
+                                  chest pain 
+                                  shortness of breath  
+                               
+                            
+                            
+                               
+                                  irregular heartbeat or feel like your heart is racing 
+                               
+                            
+                         
+                         
+                            
+                               
+                                  
+                                     High blood pressure (hypertension).  High blood pressure is common in people who receive DANYELZA. Your blood pressure will be monitored during your DANYELZA infusion, and at least each day on Days 1 to 8 of each DANYELZA treatment cycle. Tell your healthcare provider right away if you get any signs or symptoms of high blood pressure, including: 
+                               
+                            
+                         
+                         
+                            
+                            
+                               
+                                  headaches 
+                                  seizures 
+                                  nausea or vomiting 
+                                  chest pain 
+                                  dizziness 
+                               
+                            
+                            
+                               
+                                  visual changes 
+                                  shortness of breath 
+                                  feeling that your heart is pounding or racing (palpitations) 
+                                  nose bleeds 
+                               
+                            
+                            
+                         
+                         
+                            
+                               
+                                  
+                                     Decreased blood pressure (orthostatic hypotension) that can be severe and require hospitalization.   You may feel dizzy, lightheaded, or pass out (faint) when you rise too quickly from a sitting or lying position. Your healthcare provider will monitor your blood pressure before you start and during treatment with DANYELZA.  
+                               
+                            
+                         
+                         
+                            
+                               The most common side effects of DANYELZA include: 
+                            
+                         
+                         
+                            
+                               
+                                  fast heart rate 
+                                  vomiting  
+                                  cough 
+                                  nausea 
+                                  decreased white blood cell, red blood cell, and platelet counts 
+                                  diarrhea 
+                                  decreased appetite 
+                                  tiredness 
+                                  skin rashes 
+                               
+                            
+                            
+                               
+                                  decreased level of potassium, sodium, and phosphate in the blood 
+                                  hives  
+                                  fever 
+                                  headache 
+                                  injection site reaction 
+                                  swelling of the body or only in one part of the body 
+                                  anxiety 
+                               
+                            
+                            
+                               
+                                  irritability 
+                                  increased liver function blood tests 
+                                  decreased blood sugar level 
+                                  decreased calcium levels in the blood  
+                                  decreased protein levels (albumin) in the blood 
+                               
+                            
+                         
+                         
+                            									These are not all of the possible side effects of DANYELZA.    Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088. 									 
+                         
+                         
+                            
+                               General information about the safe and effective use of DANYELZA. 
+                                Medicines are sometimes prescribed for purposes other than those listed in a Patient Information leaflet. You can ask your pharmacist or healthcare provider for information about DANYELZA that is written for health professionals. 									 
+                         
+                         
+                            
+                               What are the ingredients in DANYELZA? 
+                               
+                               Active ingredient:  naxitamab-gqgk  
+                               Inactive ingredients:  citric acid anhydrous, poloxamer 188, sodium chloride, sodium citrate, Water for Injection.    Manufactured by: Y-mAbs Therapeutics, Inc., 202 Carnegie Center, Suite 301, Princeton, NJ 08540   U.S. License number 2209   For more information, go to www.DANYELZA.com or call 1-833-339-6227 (1-833-33YMABS) 									 
+                         
+                      
+                   
+                
+                
+             
+          
+          
+             
+                
+                
+                PRINCIPAL DISPLAY PANEL - 10 mL Vial Carton 
+                
+                   NDC 73042-201-01 
+                   DANYELZA ® 
+                      (naxitamab-gqgk) Injection 
+                   40 mg/10 mL   (4 mg/mL) 
+                   Rx ONLY 
+                   For intravenous    infusion after dilution 
+                   Single-dose vial 
+                   Discard unused portion 
+                   No preservative 
+                   Y-mAbs Therapeutics, Inc.™ 
+                   
+                
+                
+                
+                   
+                      PRINCIPAL DISPLAY PANEL - 10 mL Vial Carton 
+                      
+                         
+                      
+                   
+                
+             
+          
+       
+    
+ 

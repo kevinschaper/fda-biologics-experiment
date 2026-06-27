@@ -1,0 +1,59 @@
+biologic:
+  name: mogamulizumab
+  id: NCIT:C62510
+  matched_label: Mogamulizumab
+  synonyms: [Poteligeo, mogamulizumab-kpkc]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: mycosis fungoides, id: MONDO:0009691, matched_label: mycosis fungoides}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:e53960ab-42a1-40d1-9c7d-eb013fe7f18f
+        snippet: "POTELIGEO is indicated for the treatment of adult patients with relapsed or refractory mycosis fungoides (MF) or Sézary syndrome (SS) after at least one prior systemic therapy."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names relapsed or refractory mycosis fungoides as an approved treatment population; stripping the relapsed/refractory qualifier leaves mycosis fungoides, asserting the drug→disease edge."
+      - reference: PMID:30100375
+        reference_title: "Mogamulizumab versus vorinostat in previously treated cutaneous T-cell lymphoma (MAVORIC): an international, open-label, randomised, controlled phase 3 trial."
+        snippet: "Mogamulizumab significantly prolonged progression-free survival compared with vorinostat, and could provide a new, effective treatment for patients with mycosis fungoides"
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 3 MAVORIC RCT showing mogamulizumab significantly prolongs progression-free survival versus vorinostat in previously treated cutaneous T-cell lymphoma (mycosis fungoides/Sézary syndrome), corroborating the mogamulizumab→mycosis fungoides edge."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: Sezary syndrome, id: MONDO:0017844, matched_label: Sezary syndrome}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:e53960ab-42a1-40d1-9c7d-eb013fe7f18f
+        snippet: "POTELIGEO is indicated for the treatment of adult patients with relapsed or refractory mycosis fungoides (MF) or Sézary syndrome (SS) after at least one prior systemic therapy."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names relapsed or refractory Sézary syndrome as an approved treatment population; stripping the relapsed/refractory qualifier leaves Sézary syndrome, asserting the drug→disease edge."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: CCR4, id: HGNC:1605, matched_label: CCR4}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: abundance
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:e53960ab-42a1-40d1-9c7d-eb013fe7f18f
+        snippet: "Mogamulizumab-kpkc is a defucosylated, humanized IgG1 kappa monoclonal antibody that binds to CCR4, a G protein-coupled receptor for CC chemokines that is involved in the trafficking of lymphocytes to various organs. Non-clinical in vitro studies demonstrate mogamulizumab-kpkc binding targets a cell for antibody-dependent cellular cytotoxicity (ADCC) resulting in depletion of the target cells."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states mogamulizumab binds CCR4 and mediates ADCC that depletes the CCR4-expressing target cells, i.e. causes decreased abundance of CCR4(-bearing cells). CCR4 is the exact symbol of the HGNC gene CCR4."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "20"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=e53960ab-42a1-40d1-9c7d-eb013fe7f18f
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

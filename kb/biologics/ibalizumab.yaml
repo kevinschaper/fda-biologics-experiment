@@ -1,0 +1,61 @@
+biologic:
+  name: ibalizumab
+  id: NCIT:C88612
+  matched_label: Ibalizumab
+  synonyms: [Trogarzo, ibalizumab-uiyk]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: HIV-1 infection, id: MONDO:0005109, matched_label: HIV infectious disease}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:c548ad82-9d1f-4d16-95b6-4e6106badf43
+        snippet: "TROGARZO, in combination with other antiretroviral(s), is indicated for the treatment of human immunodeficiency virus type 1 (HIV-1) infection in heavily treatment-experienced adults with multidrug resistant HIV-1 infection failing their current antiretroviral regimen."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names HIV-1 infection (with other antiretrovirals, in heavily treatment-experienced adults) as an approved treatment population, asserting the drug→disease edge. No HIV-1-specific MONDO term exists; grounded to the parent concept HIV infectious disease (MONDO:0005109) and flagged for review."
+      - reference: PMID:40465394
+        reference_title: "Ibalizumab plus an optimized background regimen in treatment-experienced patients infected with multidrug resistant HIV-1: A phase 3, multicenter, expanded access study."
+        snippet: "In patients with prior exposure to ibalizumab, 23/39 (59%) had viral load (VL) <50 RNA copies/mL at study initiation and 26/34 (76%) had VL <50 copies/mL at Week 24."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Phase 3 multicenter study (TMB-311) of ibalizumab plus an optimized background regimen in multidrug-resistant HIV-1 showing high rates of viral suppression (VL <50 copies/mL), corroborating the ibalizumab→HIV-1 infection edge."
+    needs_review: true
+    candidates:
+      - curie: MONDO:0005109
+        label: HIV infectious disease
+        score: 0.9
+        match_type: synonym
+        source: oak:mondo
+targets:
+  - predicate: biolink:affects
+    object: {name: CD4, id: HGNC:1678, matched_label: CD4}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MICROBIOLOGY
+    evidence:
+      - reference: FDA:c548ad82-9d1f-4d16-95b6-4e6106badf43
+        snippet: "blocks HIV-1 from infecting CD4 + T cells by binding to domain 2 of CD4 and interfering with post-attachment steps required for the entry of HIV-1 virus particles into host cells and preventing the viral transmission that occurs via cell-cell fusion."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "Microbiology MoA states ibalizumab binds domain 2 of CD4 on host T cells and blocks the CD4 post-attachment steps HIV-1 needs to enter cells, i.e. decreases CD4's activity as the viral entry receptor. CD4 is encoded by CD4 (HGNC:1678). Flagged for review because the label notes binding is to domain 2 and does NOT impair CD4-mediated immune function, so 'decreased activity' is specific to the viral-entry role."
+    needs_review: true
+    candidates:
+      - curie: HGNC:1678
+        label: CD4
+        score: 1.0
+        match_type: exact_symbol
+        source: genenames
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "13"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=c548ad82-9d1f-4d16-95b6-4e6106badf43
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

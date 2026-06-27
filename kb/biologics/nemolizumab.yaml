@@ -1,0 +1,59 @@
+biologic:
+  name: nemolizumab
+  id: NCIT:C170211
+  matched_label: Nemolizumab
+  synonyms: [Nemluvio, nemolizumab-ilto]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: prurigo nodularis, id: MONDO:0026045, matched_label: prurigo nodularis}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:e9229ef1-ac60-4c24-afb6-009d3c781687
+        snippet: "NEMLUVIO is indicated for the treatment of adults with prurigo nodularis."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names prurigo nodularis as an approved treatment population, asserting the drug→disease edge."
+      - reference: PMID:42254180
+        reference_title: "Targeting IL-31RA with nemolizumab in prurigo nodularis: a systematic review, GRADE-assessed meta-analysis, and trial sequential analysis of randomized controlled trials."
+        snippet: "This review confirms nemolizumab as an effective, well-tolerated treatment for PN, providing rapid relief from itching, skin lesions, and sleep issues."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "GRADE-assessed systematic review and meta-analysis of RCTs confirming nemolizumab is an effective treatment for prurigo nodularis, corroborating the nemolizumab→prurigo nodularis edge."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: atopic dermatitis, id: MONDO:0004980, matched_label: atopic eczema}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:e9229ef1-ac60-4c24-afb6-009d3c781687
+        snippet: "NEMLUVIO is indicated for the treatment of adults and pediatric patients 12 years of age and older with moderate-to-severe atopic dermatitis in combination with topical corticosteroids and/or calcineurin inhibitors when the disease is not adequately controlled with topical prescription therapies."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names moderate-to-severe atopic dermatitis as an approved treatment population; atopic eczema (MONDO:0004980) is the established synonym of atopic dermatitis, the grounded term."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: IL-31 RA, id: HGNC:18969, matched_label: IL31RA}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:e9229ef1-ac60-4c24-afb6-009d3c781687
+        snippet: "Nemolizumab-ilto is a humanized IgG2 monoclonal antibody that inhibits IL-31 signaling by binding selectively to IL-31 RA."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states nemolizumab binds the IL-31 receptor A and inhibits IL-31 signaling, i.e. causes decreased IL-31 receptor A activity. The IL-31 receptor A is encoded by IL31RA (HGNC:18969)."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "5"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=e9229ef1-ac60-4c24-afb6-009d3c781687
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

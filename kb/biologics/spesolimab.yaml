@@ -1,0 +1,49 @@
+biologic:
+  name: spesolimab
+  id: NCIT:C166849
+  matched_label: Spesolimab
+  synonyms: [Spevigo, spesolimab-sbzo]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: generalized pustular psoriasis, id: MONDO:0100491, matched_label: generalized pustular psoriasis}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:41a481ee-3062-45d1-aed5-17e8b105634d
+        snippet: "SPEVIGO is indicated for the treatment of generalized pustular psoriasis (GPP) in adults and pediatric patients 12 years of age and older and weighing at least 40 kg."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names generalized pustular psoriasis as an approved treatment population, asserting the drug→disease edge."
+      - reference: PMID:41625772
+        reference_title: "The efficacy and safety of spesolimab in patients with generalized pustular psoriasis flares: a systematic review and meta-analysis."
+        snippet: "Spesolimab provides clinically meaningful improvements in pustular clearance and symptom control during acute GPP flares and has a favorable safety profile"
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Systematic review and meta-analysis of randomized controlled trials showing spesolimab gives clinically meaningful improvement in pustular clearance during acute GPP flares, corroborating the spesolimab→generalized pustular psoriasis edge."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: IL36R, id: HGNC:5999, matched_label: IL1RL2}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:41a481ee-3062-45d1-aed5-17e8b105634d
+        snippet: "Spesolimab-sbzo is a humanized monoclonal immunoglobulin G1 antibody that inhibits interleukin-36 (IL-36) signaling by specifically binding to the IL36R."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states spesolimab binds the IL-36 receptor (IL36R) and prevents its activation, i.e. causes decreased IL36R activity. The IL-36 receptor is encoded by IL1RL2 (HGNC:5999)."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "7"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=41a481ee-3062-45d1-aed5-17e8b105634d
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

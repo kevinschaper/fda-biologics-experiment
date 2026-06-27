@@ -1,0 +1,51 @@
+biologic:
+  name: tisotumab vedotin
+  id: NCIT:C113164
+  matched_label: Tisotumab Vedotin
+  synonyms: [Tivdak]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: cervical cancer, id: MONDO:0002974, matched_label: cervical cancer}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:c9fe3f32-4219-466e-acb9-3f609b4f4df1
+        snippet: "is indicated for the treatment of adult patients with recurrent or metastatic cervical cancer with disease progression on or after chemotherapy."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names recurrent or metastatic cervical cancer with progression on/after chemotherapy as the approved treatment population; stripping the stage/line qualifiers leaves cervical cancer, which grounds to MONDO:0002974."
+      - reference: PMID:33845034
+        reference_title: "Efficacy and safety of tisotumab vedotin in previously treated recurrent or metastatic cervical cancer (innovaTV 204/GOG-3023/ENGOT-cx6): a multicentre, open-label, single-arm, phase 2 study."
+        snippet: "Tisotumab vedotin showed clinically meaningful and durable antitumour activity with a manageable and tolerable safety profile in women with previously treated recurrent or metastatic cervical cancer."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal innovaTV 204 phase 2 study demonstrating clinically meaningful and durable antitumour activity of tisotumab vedotin in previously treated recurrent or metastatic cervical cancer, corroborating the approved indication."
+    needs_review: false
+    candidates: []
+targets:
+  - predicate: biolink:affects
+    object: {name: tissue factor, id: HGNC:3541, matched_label: F3}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: abundance
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:c9fe3f32-4219-466e-acb9-3f609b4f4df1
+        snippet: "Tisotumab vedotin-tftv is a tissue factor (TF)-directed antibody drug conjugate (ADC). The antibody is a human IgG1 directed against cell surface TF."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MECHANISM OF ACTION states this is a tissue factor-directed antibody-drug conjugate whose IgG1 antibody binds cell-surface TF; after internalization of the ADC-TF complex it releases MMAE that kills the bound cell, so the internalizing ADC depletes TF-bearing cells -> decreased abundance. Tissue factor is encoded by the HGNC gene F3 (HGNC:3541)."
+    needs_review: false
+    candidates: []
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "10"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=c9fe3f32-4219-466e-acb9-3f609b4f4df1
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]
