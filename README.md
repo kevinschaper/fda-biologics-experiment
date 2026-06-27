@@ -3,15 +3,19 @@
 The U.S. Food & Drug Administration approves **biologic** products — monoclonal antibodies,
 fusion proteins, and related large molecules — each with an approved **indication** (the disease
 it treats) and, almost always, a well-defined **molecular target** (the gene product it acts on).
-Neither of these relationships exists as a structured, reusable dataset: they live in the prose of
-each product's FDA label. This resource reads those labels and turns them into curated, evidence-
-backed knowledge-graph edges for the Monarch graph.
+Both relationships are stated in the prose of each product's FDA label. This resource reads those
+labels and turns them into curated, evidence-backed knowledge-graph edges for the Monarch graph,
+taking the **FDA label as the authoritative primary source** for the approval.
 
-Following the [dismech](https://github.com/monarch-initiative/dismech) pattern, the source of
-truth is **hand-curated YAML, one file per biologic**, rather than a bulk download — because the
-edges only come into existence when a curator reads a label. Curation is performed by AI agents
-working from a fixed procedure (the bundled skills), and every assertion is grounded to a standard
-ontology identifier and checked against its source text before it is accepted.
+Related drug–disease and drug–target information is available in other resources; what this
+resource contributes is fidelity to that primary source: each edge is read directly from the
+approved label, carries a **verbatim, machine-verified quote** and a pointer to the specific label
+version, is grounded to a standard ontology identifier, and — for targets — records the
+**direction of effect**. Following the [dismech](https://github.com/monarch-initiative/dismech)
+pattern, the source of truth is **hand-curated YAML, one file per biologic** rather than a bulk
+download, because the edges are produced by a curator reading a label. Curation is performed by AI
+agents working from a fixed procedure (the bundled skills), and every assertion is grounded and
+checked against its source text before it is accepted.
 
 ## What is curated
 
@@ -76,12 +80,14 @@ Monarch API — so an edge is only released when its identifiers resolve and its
 
 ## Design decisions
 
-* **Curated, not downloaded.** FDA biologic drug→disease and drug→gene edges are not published as
-  structured data anywhere; they are read from labels. A curated, per-biologic knowledge base is
-  the honest representation of that work, and makes each edge reviewable in isolation.
-* **The target axis is the point.** Plain drug→disease "treats" edges are available from many
-  sources; biologics are distinctive because they have crisp molecular targets. Capturing the
-  target — with direction of effect — is where this resource adds information others do not have.
+* **Curated from the primary source, not inherited from an aggregator.** Each edge is read directly
+  from the approved FDA label rather than imported from a secondary dataset, so the indication
+  wording, the molecular target, and the supporting quote are tied to the specific label that
+  states them. A curated, per-biologic knowledge base keeps every edge reviewable in isolation and
+  carrying its own evidence.
+* **Targets with direction of effect.** Biologics have crisp molecular targets, and this resource
+  records each one together with the **direction** of the effect (inhibits / activates) and an
+  HGNC gene id — detail that target lists elsewhere often omit.
 * **Predicate precision.** Rather than one blanket `treats` predicate, each indication is mapped to
   the most specific member of the Biolink treats family that the label supports.
 * **Genes stand in for their products.** A biologic physically binds a *protein*; we record the
