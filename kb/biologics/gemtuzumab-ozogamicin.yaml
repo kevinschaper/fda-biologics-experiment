@@ -1,0 +1,51 @@
+biologic:
+  name: gemtuzumab ozogamicin
+  id: NCIT:C1806
+  matched_label: Gemtuzumab Ozogamicin
+  synonyms: [Mylotarg]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: acute myeloid leukemia, id: MONDO:0018874, matched_label: acute myeloid leukemia}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:32fd2bb2-1cfa-4250-feb8-d7956c794e05
+        snippet: "MYLOTARG is indicated for the treatment of newly-diagnosed CD33-positive acute myeloid leukemia in adults and pediatric patients 1 month and older"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names newly-diagnosed CD33-positive acute myeloid leukemia (AML) as an approved treatment population; stripping the CD33/newly-diagnosed qualifiers leaves acute myeloid leukemia, which grounds to MONDO:0018874."
+      - reference: PMID:30076173
+        reference_title: "Gemtuzumab ozogamicin for de novo acute myeloid leukemia: final efficacy and safety updates from the open-label, phase III ALFA-0701 trial."
+        snippet: "gemtuzumab ozogamicin added to standard intensive chemotherapy has a favorable benefit/risk ratio. These results expand front-line treatment options for adult patients with previously untreated AML."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 3 RCT (ALFA-0701) final analysis showing gemtuzumab ozogamicin added to standard front-line chemotherapy has a favorable benefit/risk ratio in previously untreated (newly-diagnosed) AML, corroborating the indication."
+    needs_review: false
+    candidates: []
+targets:
+  - predicate: biolink:affects
+    object: {name: CD33, id: HGNC:1659, matched_label: CD33}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: abundance
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:32fd2bb2-1cfa-4250-feb8-d7956c794e05
+        snippet: "Gemtuzumab ozogamicin is a CD33-directed antibody-drug conjugate (ADC). The antibody portion (hP67.6) recognizes human CD33 antigen. The small molecule, N-acetyl gamma calicheamicin, is a cytotoxic agent that is covalently attached to the antibody via a linker. Nonclinical data suggest that the anticancer activity of gemtuzumab ozogamicin is due to the binding of the ADC to CD33-expressing tumor cells, followed by internalization of the ADC-CD33 complex, and the intracellular release of N-acetyl gamma calicheamicin dimethyl hydrazide via hydrolytic cleavage of the linker."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MECHANISM OF ACTION states this CD33-directed antibody-drug conjugate binds CD33-expressing tumor cells and is internalized as the ADC-CD33 complex, releasing calicheamicin that induces DNA breaks and apoptosis; the directed, internalizing antibody depletes CD33-bearing cells -> decreased abundance. CD33 is encoded by the HGNC gene CD33 (HGNC:1659)."
+    needs_review: false
+    candidates: []
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "19"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=32fd2bb2-1cfa-4250-feb8-d7956c794e05
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

@@ -1,0 +1,51 @@
+biologic:
+  name: inotuzumab ozogamicin
+  id: NCIT:C71542
+  matched_label: Inotuzumab Ozogamicin
+  synonyms: [Besponsa]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: acute lymphoblastic leukemia, id: MONDO:0004967, matched_label: acute lymphoblastic leukemia}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:cc7014b1-c775-411d-b374-8113248b4077
+        snippet: "BESPONSA is indicated for the treatment of relapsed or refractory CD22-positive B-cell precursor acute lymphoblastic leukemia (ALL) in adult and pediatric patients 1 year and older"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names relapsed or refractory CD22-positive B-cell precursor acute lymphoblastic leukemia (ALL) as an approved treatment population; stripping the CD22/B-cell-precursor/relapse qualifiers leaves acute lymphoblastic leukemia, which grounds to MONDO:0004967."
+      - reference: PMID:27292104
+        reference_title: "Inotuzumab Ozogamicin versus Standard Therapy for Acute Lymphoblastic Leukemia."
+        snippet: "The rate of complete remission was higher with inotuzumab ozogamicin than with standard therapy, and a higher percentage of patients in the inotuzumab ozogamicin group had results below the threshold for minimal residual disease. Both progression-free and overall survival were longer with inotuzumab ozogamicin."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 3 RCT (INO-VATE ALL) showing inotuzumab ozogamicin produces higher complete remission rates and longer progression-free and overall survival versus standard therapy in relapsed or refractory acute lymphoblastic leukemia, corroborating the indication."
+    needs_review: false
+    candidates: []
+targets:
+  - predicate: biolink:affects
+    object: {name: CD22, id: HGNC:1643, matched_label: CD22}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: abundance
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:cc7014b1-c775-411d-b374-8113248b4077
+        snippet: "Inotuzumab ozogamicin is a CD22-directed antibody drug conjugate (ADC). Inotuzumab recognizes human CD22. The small molecule, N-acetyl-gamma-calicheamicin, is a cytotoxic agent that is covalently attached to the antibody via a linker. Nonclinical data suggest that the anticancer activity of inotuzumab ozogamicin is due to the binding of the ADC to CD22-expressing tumor cells, followed by internalization of the ADC-CD22 complex, and the intracellular release of N-acetyl-gamma-calicheamicin dimethylhydrazide via hydrolytic cleavage of the linker."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MECHANISM OF ACTION states this CD22-directed antibody-drug conjugate binds CD22-expressing tumor cells and is internalized as the ADC-CD22 complex, releasing calicheamicin that induces DNA breaks and apoptosis; the directed, internalizing antibody depletes CD22-bearing cells -> decreased abundance. CD22 is encoded by the HGNC gene CD22 (HGNC:1643)."
+    needs_review: false
+    candidates: []
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "8"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=cc7014b1-c775-411d-b374-8113248b4077
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

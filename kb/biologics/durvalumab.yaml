@@ -1,0 +1,59 @@
+biologic:
+  name: durvalumab
+  id: NCIT:C103194
+  matched_label: Durvalumab
+  synonyms: [Imfinzi]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: non-small cell lung cancer, id: MONDO:0005233, matched_label: non-small cell lung carcinoma}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:8baba4ea-2855-42fa-9bd9-5a7548d4cec3
+        snippet: "as a single agent, for the treatment of adult patients with unresectable, Stage III NSCLC whose disease has not progressed following concurrent platinum-based chemotherapy and radiation therapy."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names unresectable Stage III non-small cell lung cancer as an approved single-agent treatment population, asserting the drug→disease edge; stage qualifiers are stripped for grounding to non-small cell lung cancer (MONDO:0005233)."
+      - reference: PMID:42291345
+        reference_title: "Real-world outcomes of consolidative durvalumab after concurrent chemoradiotherapy in stage III non-small cell lung cancer: the prognostic role of clinical frailty in the post-PACIFIC era."
+        snippet: "In this real-world cohort, consolidative durvalumab was independently associated with improved OS, including in patients with PD-L1 expression ≥1%."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Real-world cohort of unresectable stage III NSCLC in which consolidative durvalumab after chemoradiotherapy was independently associated with improved overall survival, corroborating the durvalumab→non-small cell lung cancer edge."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: small cell lung carcinoma, id: MONDO:0008433, matched_label: small cell lung carcinoma}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:8baba4ea-2855-42fa-9bd9-5a7548d4cec3
+        snippet: "as a single agent, for the treatment of adult patients with limited-stage small cell lung cancer (LS-SCLC) whose disease has not progressed following concurrent platinum-based chemotherapy and radiation therapy."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names limited-stage small cell lung cancer as an approved single-agent treatment population, asserting the drug→disease edge; stage qualifiers are stripped for grounding to small cell lung carcinoma (MONDO:0008433)."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: PD-L1, id: HGNC:17635, matched_label: CD274}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:8baba4ea-2855-42fa-9bd9-5a7548d4cec3
+        snippet: "programmed death-ligand 1 (PD-L1) blocking antibody"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "The label describes durvalumab as a PD-L1 blocking antibody, i.e. causes decreased PD-L1 activity. PD-L1 is an alias of the HGNC gene CD274."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "33"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=8baba4ea-2855-42fa-9bd9-5a7548d4cec3
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

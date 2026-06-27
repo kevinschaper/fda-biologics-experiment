@@ -1,0 +1,49 @@
+biologic:
+  name: anifrolumab
+  id: NCIT:C166658
+  matched_label: Anifrolumab
+  synonyms: [Saphnelo, anifrolumab-fnia]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: systemic lupus erythematosus, id: MONDO:0007915, matched_label: systemic lupus erythematosus}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:d6203302-2128-41a7-b0b4-0e6c0704d4dc
+        snippet: "SAPHNELO is indicated for the treatment of adult patients with moderate to severe systemic lupus erythematosus (SLE), who are receiving standard therapy."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names moderate to severe systemic lupus erythematosus as an approved treatment population, asserting the drug→disease edge; severity qualifiers are stripped for grounding to systemic lupus erythematosus (MONDO:0007915)."
+      - reference: PMID:41466456
+        reference_title: "Efficacy and Safety of Subcutaneous Anifrolumab in Systemic Lupus Erythematosus: A Randomized, Phase 3 Study."
+        snippet: "The multinational, phase 3, double-blind, placebo-controlled TULIP-SC trial evaluated the efficacy and safety of subcutaneous anifrolumab in adults who have moderate to severe systemic lupus erythematosus (SLE) activity, despite receiving standard therapy."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 3 randomized controlled trial (TULIP-SC) demonstrating efficacy of anifrolumab in moderate to severe SLE, corroborating the anifrolumab→systemic lupus erythematosus edge."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: type I interferon receptor subunit 1, id: HGNC:5432, matched_label: IFNAR1}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:d6203302-2128-41a7-b0b4-0e6c0704d4dc
+        snippet: "Anifrolumab-fnia is a human IgG1κ monoclonal antibody that binds to subunit 1 of the type I interferon receptor (IFNAR) with high specificity and affinity. This binding inhibits type I IFN signaling, thereby blocking the biologic activity of type I IFNs."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MECHANISM OF ACTION states anifrolumab binds subunit 1 of the type I interferon receptor and inhibits type I IFN signaling, i.e. causes decreased receptor activity. Subunit 1 of the type I interferon receptor is encoded by IFNAR1 (HGNC:5432)."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "15"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=d6203302-2128-41a7-b0b4-0e6c0704d4dc
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

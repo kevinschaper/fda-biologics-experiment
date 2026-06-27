@@ -1,0 +1,49 @@
+biologic:
+  name: satralizumab
+  id: NCIT:C152307
+  matched_label: Satralizumab
+  synonyms: [Enspryng, satralizumab-mwge]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: neuromyelitis optica, id: MONDO:0019100, matched_label: neuromyelitis optica}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:64c156a4-9bad-4d45-a294-0733c141f47b
+        snippet: "ENSPRYNG is indicated for the treatment of neuromyelitis optica spectrum disorder (NMOSD) in adult patients who are anti-aquaporin-4 (AQP4) antibody positive."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names neuromyelitis optica spectrum disorder (AQP4 antibody positive) as an approved treatment population, asserting the drug→disease edge; grounded to neuromyelitis optica (MONDO:0019100)."
+      - reference: PMID:41494145
+        reference_title: "Real-World Efficacy and Safety of Neuromyelitis Optica Spectrum Disorder Disease-Modifying Treatments."
+        snippet: "Compared with rituximab, relapse risk was significantly lower with C5 inhibitors (HR 0.12, 95% CI 0.07-0.24), inebilizumab (HR 0.22, 95% CI 0.12-0.65), and satralizumab (HR 0.19, 95% CI 0.11-0.42)."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Real-world NMOSD cohort showing significantly lower relapse risk with satralizumab versus rituximab, corroborating the satralizumab→neuromyelitis optica edge."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: IL-6 receptor, id: HGNC:6019, matched_label: IL6R}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:64c156a4-9bad-4d45-a294-0733c141f47b
+        snippet: "ENSPRYNG is an interleukin-6 (IL-6) receptor antagonist"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "The label describes satralizumab as an IL-6 receptor antagonist that inhibits IL-6-mediated signaling, i.e. causes decreased IL-6 receptor activity. The IL-6 receptor is encoded by IL6R (HGNC:6019)."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "15"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=64c156a4-9bad-4d45-a294-0733c141f47b
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

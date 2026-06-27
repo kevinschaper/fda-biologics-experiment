@@ -1,0 +1,59 @@
+biologic:
+  name: inebilizumab
+  id: NCIT:C88283
+  matched_label: Inebilizumab
+  synonyms: [Uplizna, inebilizumab-cdon]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: neuromyelitis optica, id: MONDO:0019100, matched_label: neuromyelitis optica}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:834db232-afb0-4dcf-93e0-009ce8245c20
+        snippet: "UPLIZNA is indicated for the treatment of neuromyelitis optica spectrum disorder (NMOSD) in adult patients who are anti-aquaporin-4 (AQP4) antibody positive."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names neuromyelitis optica spectrum disorder (AQP4 antibody positive) as an approved treatment population, asserting the drug→disease edge; grounded to neuromyelitis optica (MONDO:0019100)."
+      - reference: PMID:42117361
+        reference_title: "Efficacy of Inebilizumab in N-MOmentum Trial Participants With or Without Prior Immunosuppressants."
+        snippet: "Inebilizumab treatment resulted in a sustained low annualized attack rate relative to the pretrial annualized attack rate and a high probability of remaining attack-free for up to 4 years among participants with and without prior immunosuppressant use."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Analysis of the pivotal N-MOmentum trial in AQP4-seropositive NMOSD in which inebilizumab produced a sustained low annualized attack rate and high attack-free probability, corroborating the inebilizumab→neuromyelitis optica edge."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: IgG4-related disease, id: MONDO:0017287, matched_label: immunoglobulin G4-related sclerosing disease}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:834db232-afb0-4dcf-93e0-009ce8245c20
+        snippet: "UPLIZNA is indicated for the treatment of Immunoglobulin G4-related disease (IgG4-RD) in adult patients."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names Immunoglobulin G4-related disease as an approved treatment population, asserting the drug→disease edge; IgG4-related disease grounds to immunoglobulin G4-related sclerosing disease (MONDO:0017287), its established synonym."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: CD19, id: HGNC:1633, matched_label: CD19}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: abundance
+    object_direction_qualifier: decreased
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:834db232-afb0-4dcf-93e0-009ce8245c20
+        snippet: "UPLIZNA is a CD19-directed cytolytic antibody"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "The label describes inebilizumab as a CD19-directed cytolytic antibody that depletes CD19+ B lymphocytes, i.e. causes decreased abundance of CD19-bearing cells. CD19 is the HGNC gene CD19 (HGNC:1633)."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "9"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=834db232-afb0-4dcf-93e0-009ce8245c20
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

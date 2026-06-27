@@ -1,0 +1,59 @@
+biologic:
+  name: avelumab
+  id: NCIT:C116870
+  matched_label: Avelumab
+  synonyms: [Bavencio]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: Merkel cell carcinoma, id: MONDO:0019210, matched_label: cutaneous neuroendocrine carcinoma}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:5cd725a1-2fa4-408a-a651-57a7b84b2118
+        snippet: "BAVENCIO (avelumab) is indicated for the treatment of adults and pediatric patients 12 years and older with metastatic Merkel cell carcinoma (MCC)"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names metastatic Merkel cell carcinoma as an approved treatment population, asserting the drug→disease edge. Merkel cell carcinoma is the established synonym of cutaneous neuroendocrine carcinoma (MONDO:0019210), the grounded term."
+      - reference: PMID:41572830
+        reference_title: "Avelumab real-world use in advanced Merkel cell carcinoma: a systematic review and non-comparative meta-analysis."
+        snippet: "The results of this study support broader use of avelumab in advanced MCC."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Systematic review and meta-analysis of real-world avelumab use in advanced Merkel cell carcinoma reporting favorable overall and progression-free survival, corroborating the avelumab→Merkel cell carcinoma edge."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: urothelial carcinoma, id: MONDO:0040679, matched_label: urothelial carcinoma}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:5cd725a1-2fa4-408a-a651-57a7b84b2118
+        snippet: "BAVENCIO is indicated for the maintenance treatment of patients with locally advanced or metastatic urothelial carcinoma (UC) that has not progressed with first-line platinum-containing chemotherapy"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names locally advanced or metastatic urothelial carcinoma as an approved maintenance-treatment population, asserting the drug→disease edge."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: PD-L1, id: HGNC:17635, matched_label: CD274}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:5cd725a1-2fa4-408a-a651-57a7b84b2118
+        snippet: "programmed death ligand-1 (PD-L1) blocking antibody"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "The label describes avelumab as a PD-L1 blocking antibody, i.e. causes decreased PD-L1 activity. PD-L1 is an alias of the HGNC gene CD274."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "23"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=5cd725a1-2fa4-408a-a651-57a7b84b2118
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

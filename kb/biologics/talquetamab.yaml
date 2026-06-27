@@ -1,0 +1,51 @@
+biologic:
+  name: talquetamab
+  id: NCIT:C171840
+  matched_label: Talquetamab
+  synonyms: [Talvey]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: multiple myeloma, id: MONDO:0009693, matched_label: plasma cell myeloma}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:9001355e-003d-4d4e-b4ce-337e0fd14952
+        snippet: "TALVEY is indicated for the treatment of adult patients with relapsed or refractory multiple myeloma who have received at least four prior lines of therapy, including a proteasome inhibitor, an immunomodulatory agent and an anti-CD38 monoclonal antibody."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names relapsed or refractory multiple myeloma as an approved treatment population (accelerated approval), asserting the drug→disease edge. Multiple myeloma grounds to MONDO:0009693 (plasma cell myeloma, an exact synonym)."
+      - reference: PMID:36507686
+        reference_title: "Talquetamab, a T-Cell-Redirecting GPRC5D Bispecific Antibody for Multiple Myeloma."
+        snippet: "Talquetamab induced a substantial response among patients with heavily pretreated relapsed or refractory multiple myeloma."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 1-2 trial (MonumenTAL-1) demonstrating that talquetamab induces substantial responses in heavily pretreated relapsed or refractory multiple myeloma, corroborating the indication."
+    needs_review: false
+    candidates: []
+targets:
+  - predicate: biolink:affects
+    object: {name: GPRC5D, id: HGNC:13310, matched_label: GPRC5D}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: abundance
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:9001355e-003d-4d4e-b4ce-337e0fd14952
+        snippet: "Talquetamab-tgvs is a bispecific T-cell engaging antibody that binds to the CD3 receptor expressed on the surface of T-cells and G protein-coupled receptor class C group 5 member D (GPRC5D) expressed on the surface of multiple myeloma cells and non-malignant plasma cells, as well as healthy tissues such as epithelial cells in keratinized tissues of the skin and tongue."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MECHANISM OF ACTION states talquetamab is a GPRC5D-directed CD3 T-cell engager that binds GPRC5D on multiple myeloma cells and redirects T-cells to lyse them, depleting GPRC5D-bearing cells → decreased abundance. GPRC5D is the tumor antigen and is the HGNC gene symbol (HGNC:13310)."
+    needs_review: false
+    candidates: []
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "5"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=9001355e-003d-4d4e-b4ce-337e0fd14952
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

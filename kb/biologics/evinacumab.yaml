@@ -1,0 +1,51 @@
+biologic:
+  name: evinacumab
+  id: NCIT:C169973
+  matched_label: Evinacumab
+  synonyms: [Evkeeza]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: homozygous familial hypercholesterolemia, id: MONDO:0018328, matched_label: homozygous familial hypercholesterolemia}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:73412138-6d8f-4ea6-bb72-a740190470ff
+        snippet: "EVKEEZA is an angiopoietin-like 3 (ANGPTL3) inhibitor indicated as an adjunct to diet and exercise and other low-density lipoprotein-cholesterol (LDL-C) lowering therapies to reduce LDL-C in adults and pediatric patients, aged 1 year and older, with homozygous familial hypercholesterolemia (HoFH)."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names homozygous familial hypercholesterolemia (HoFH) as the approved treatment population (adjunct to lower LDL-C), asserting the drug->disease edge. HoFH grounds to MONDO:0018328."
+      - reference: PMID:32813947
+        reference_title: "Evinacumab for Homozygous Familial Hypercholesterolemia."
+        snippet: "In patients with homozygous familial hypercholesterolemia receiving maximum doses of lipid-lowering therapy, the reduction from baseline in the LDL cholesterol level in the evinacumab group, as compared with the small increase in the placebo group, resulted in a between-group difference of 49.0 percentage points at 24 weeks."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 3 RCT (ELIPSE HoFH) demonstrating evinacumab significantly reduces LDL-C versus placebo in homozygous familial hypercholesterolemia, corroborating the indication."
+    needs_review: false
+    candidates: []
+targets:
+  - predicate: biolink:affects
+    object: {name: ANGPTL3, id: HGNC:491, matched_label: ANGPTL3}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:73412138-6d8f-4ea6-bb72-a740190470ff
+        snippet: "Evinacumab-dgnb is a recombinant human monoclonal antibody that binds to and inhibits ANGPTL3."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MECHANISM OF ACTION states evinacumab binds to and inhibits ANGPTL3, i.e. causes decreased ANGPTL3 activity. ANGPTL3 grounds to the HGNC gene ANGPTL3 (HGNC:491)."
+    needs_review: false
+    candidates: []
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "5"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=73412138-6d8f-4ea6-bb72-a740190470ff
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]
