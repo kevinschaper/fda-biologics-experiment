@@ -19,7 +19,7 @@ indications:
     label_section: INDICATIONS AND USAGE
     evidence:
       - reference: FDA:939b5d1f-9fb2-4499-80ef-0607aa6b114e
-        snippet: "Avastin, in combination with carboplatin and paclitaxel, is indicated for the first-line treatment of patients with unresectable, locally advanced, recurrent or metastatic non-squamous non-small cell lung cancer (NSCLC)."
+        snippet: "Avastin, in combination with carboplatin and paclitaxel, is indicated for the first-line treatment of patients with unresectable, locally advanced, recurrent or metastatic non–squamous non–small cell lung cancer (NSCLC)."
         supports: SUPPORT
         evidence_source: REGULATORY
         explanation: "INDICATIONS AND USAGE names non-squamous non-small cell lung cancer as an approved first-line treatment population; stripping qualifiers leaves non-small cell lung cancer, asserting the drug→disease edge."

@@ -9,7 +9,7 @@ indications:
     label_section: INDICATIONS AND USAGE
     evidence:
       - reference: FDA:c77a9664-e3bb-4023-b400-127aa53bca2b
-        snippet: "moderate to severe plaque psoriasis in adult and pediatric patients 6 years of age and older who are candidates for phototherapy or systemic therapy"
+        snippet: "Moderate to severe plaque psoriasis in adult and pediatric patients 6 years of age and older who are candidates for phototherapy or systemic therapy."
         supports: SUPPORT
         evidence_source: REGULATORY
         explanation: "INDICATIONS AND USAGE names plaque psoriasis as an approved treatment population, asserting the drug→disease edge. No exact MONDO term for 'plaque psoriasis' was found by grounding; grounded to the parent concept psoriasis (MONDO:0005083) and flagged for review."

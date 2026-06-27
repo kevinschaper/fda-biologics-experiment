@@ -19,7 +19,7 @@ indications:
     label_section: INDICATIONS AND USAGE
     evidence:
       - reference: FDA:b172773b-3905-4a1c-ad95-bab4b6126563
-        snippet: "RITUXAN is indicated, in combination with fludarabine and cyclophosphamide (FC), for the treatment of patients with previously untreated and previously treated CD20-positive CLL"
+        snippet: "RITUXAN, in combination with fludarabine and cyclophosphamide (FC), is indicated for the treatment of adult patients with previously untreated and previously treated CD20-positive CLL."
         supports: SUPPORT
         evidence_source: REGULATORY
         explanation: "INDICATIONS AND USAGE names CD20-positive chronic lymphocytic leukemia as an approved treatment population; CD20-positive CLL is B-cell CLL, asserting the drug→disease edge."
