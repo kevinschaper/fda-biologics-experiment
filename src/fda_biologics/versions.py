@@ -1,43 +1,31 @@
-"""Upstream source version fetcher for fda-biologics-ingest (kozahub-style metadata).
+"""Upstream source versions for fda-biologics-ingest.
 
-FDA labels are versioned per-record — each SPL setid (and optional source_version/retrieved)
-lives in the kb/biologics/*.yaml provenance — so there is no single upstream dataset version.
-We record the ontologies/services used for grounding and node enrichment as the reproducibility
-anchors, plus a per-record summary for the FDA labels themselves.
+Provides get_source_versions() consumed by scripts/write_metadata.py (which composes + validates
+the release receipt via the kozahub-metadata-schema package). FDA labels version per-record (SPL
+setid + optional source_version/retrieved in each kb file), so there is no single dataset version;
+we record the ontologies/services used for grounding and node enrichment as the reproducibility
+anchors plus a per-record FDA summary.
 """
 from __future__ import annotations
 
-import datetime
 import glob
 import json
 import urllib.request
 from typing import Any
 
 import yaml
+from kozahub_metadata_schema import now_iso, version_from_github_release
 
 
-def now_iso() -> str:
-    return datetime.datetime.now(datetime.timezone.utc).isoformat()
-
-
-def _github_latest(repo: str) -> tuple[str, str]:
-    try:
-        with urllib.request.urlopen(f"https://api.github.com/repos/{repo}/releases/latest", timeout=10) as r:
-            return (json.load(r).get("tag_name") or "unknown"), "github_release"
-    except Exception:
-        return "unknown", "unavailable"
-
-
-def _nodenorm_babel() -> tuple[str, str | None]:
+def _nodenorm_babel() -> str:
     try:
         with urllib.request.urlopen("https://nodenormalization-sri.renci.org/status", timeout=10) as r:
-            s = json.load(r)
-        return (s.get("babel_version") or "unknown"), (s.get("biolink_model") or {}).get("tag")
+            return json.load(r).get("babel_version") or "unknown"
     except Exception:
-        return "unknown", None
+        return "unknown"
 
 
-def _fda_record_summary() -> tuple[int, int]:
+def _fda_summary() -> tuple[int, int]:
     records = 0
     labels: set[str] = set()
     for path in glob.glob("kb/biologics/*.yaml"):
@@ -50,9 +38,9 @@ def _fda_record_summary() -> tuple[int, int]:
 
 
 def get_source_versions() -> list[dict[str, Any]]:
-    mondo_ver, mondo_method = _github_latest("monarch-initiative/mondo")
-    babel, biolink = _nodenorm_babel()
-    n_records, n_labels = _fda_record_summary()
+    mondo_ver, mondo_method = version_from_github_release("monarch-initiative/mondo")
+    babel = _nodenorm_babel()
+    n_records, n_labels = _fda_summary()
     return [
         {"id": "infores:fda",
          "name": "FDA structured product labels (DailyMed SPL) — indications and mechanism of action",
@@ -76,5 +64,5 @@ def get_source_versions() -> list[dict[str, Any]]:
          "urls": ["https://nodenormalization-sri.renci.org/status"],
          "version": babel,
          "version_method": "status_endpoint" if babel != "unknown" else "unavailable",
-         "biolink_model_version": biolink, "retrieved_at": now_iso()},
+         "retrieved_at": now_iso()},
     ]

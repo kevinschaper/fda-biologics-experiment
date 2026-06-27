@@ -1,0 +1,59 @@
+[build-system]
+requires = ["hatchling", "uv-dynamic-versioning"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fda-biologics-ingest"
+description = "Koza ingest of curated FDA biologic drug→disease (indication) and drug→gene (target) edges"
+authors = [
+  {name = "Kevin Schaper", email = "kevin@tislab.org"},
+]
+license = "BSD-3-Clause"
+readme = "README.md"
+requires-python = ">=3.11,<4.0"
+dynamic = ["version"]
+
+dependencies = [
+  "koza>=2.3.0",
+  "biolink-model>=4.2.0",
+  "oaklib>=0.6.0",
+  "bmt>=1.1.0",
+  "linkml>=1.8.0",
+  "linkml-term-validator>=0.1.0",
+  "linkml-reference-validator>=0.1.7",
+  "kozahub-metadata-schema",
+  "pyyaml>=6.0",
+]
+
+[tool.uv.sources]
+kozahub-metadata-schema = { git = "https://github.com/monarch-initiative/kozahub-metadata-schema", rev = "main" }
+
+[dependency-groups]
+dev = [
+  "pytest>=8.0.0",
+  "pytest-cov>=4.1.0",
+  "ruff>=0.4.8",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/fda_biologics"]
+
+[tool.hatch.version]
+source = "uv-dynamic-versioning"
+
+[tool.uv-dynamic-versioning]
+vcs = "git"
+style = "pep440"
+fallback-version = "0.0.0"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+extend-exclude = ["cache", "data", "output", "references_cache"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]

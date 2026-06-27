@@ -102,6 +102,21 @@ cache-rebuild:
     just terms-all
     just nodes
 
+# ---- Project / CI ------------------------------------------------------------
+
+# Install deps into a uv-managed venv
+install:
+    uv sync --group dev
+
+# Offline, deterministic QC gate (uses committed caches; no network) — what CI runs
+test: validate-all terms-all fda-all
+
+lint:
+    ruff check .
+
+format:
+    ruff format .
+
 gen-pydantic:
     gen-pydantic {{schema}} > src/fda_biologics/datamodel.py
 
