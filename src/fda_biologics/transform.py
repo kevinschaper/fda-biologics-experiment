@@ -55,8 +55,14 @@ def _pmids(evidence):
 def transform_record(koza_tx, record):
     bio = record["biologic"]
     drug_id = bio["id"]
-    prov = record.get("provenance") or {}
 
+    # needs_review = grounding not human-verified -> do not emit to KGX. A flagged subject taints
+    # every edge in the record, so skip the whole record; a flagged (or id-less) claim is skipped
+    # individually. Such edges stay parked in the KB until a curator clears the flag.
+    if bio.get("needs_review"):
+        return
+
+    prov = record.get("provenance") or {}
     common = dict(
         knowledge_level=prov.get("knowledge_level", "knowledge_assertion"),
         agent_type=prov.get("agent_type", "text_mining_agent"),
@@ -65,16 +71,14 @@ def transform_record(koza_tx, record):
         sources=_retrieval_sources(prov),
     )
 
-    nodes = {drug_id: _node(drug_id, bio.get("name"), "biolink:Drug",
-                            synonym=bio.get("synonyms") or [])}
     edges = []
+    used = {}  # endpoint id -> (category, fallback_name) — only nodes on emitted edges are written
 
     for ind in record.get("indications") or []:
         obj = ind["object"]
-        if not obj.get("id"):
-            continue  # ungrounded (needs_review) — parked in the KB, not emitted to KGX
-        nodes.setdefault(obj["id"], _node(
-            obj["id"], obj.get("matched_label") or obj.get("name"), "biolink:Disease"))
+        if ind.get("needs_review") or not obj.get("id"):
+            continue
+        used[obj["id"]] = ("biolink:Disease", obj.get("matched_label") or obj.get("name"))
         edges.append(bl.ChemicalOrDrugOrTreatmentToDiseaseOrPhenotypicFeatureAssociation(
             id=f"uuid:{uuid.uuid4()}",
             subject=drug_id, predicate=ind["predicate"], object=obj["id"],
@@ -82,10 +86,9 @@ def transform_record(koza_tx, record):
 
     for tgt in record.get("targets") or []:
         obj = tgt["object"]
-        if not obj.get("id"):
-            continue  # ungrounded target (e.g. multi-subunit, needs_review) — not emitted to KGX
-        nodes.setdefault(obj["id"], _node(
-            obj["id"], obj.get("matched_label") or obj.get("name"), "biolink:Gene"))
+        if tgt.get("needs_review") or not obj.get("id"):
+            continue
+        used[obj["id"]] = ("biolink:Gene", obj.get("matched_label") or obj.get("name"))
         edges.append(bl.ChemicalAffectsGeneAssociation(
             id=f"uuid:{uuid.uuid4()}",
             subject=drug_id, predicate=tgt["predicate"], object=obj["id"],
@@ -94,5 +97,10 @@ def transform_record(koza_tx, record):
             object_direction_qualifier=tgt.get("object_direction_qualifier"),
             publications=_pmids(tgt.get("evidence")), **common))
 
-    koza_tx.write(*nodes.values())
+    if not edges:
+        return  # no confident edges -> don't emit an orphan drug node
+
+    nodes = [_node(drug_id, bio.get("name"), "biolink:Drug", synonym=bio.get("synonyms") or [])]
+    nodes += [_node(oid, fname, cat) for oid, (cat, fname) in used.items()]
+    koza_tx.write(*nodes)
     koza_tx.write(*edges)

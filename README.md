@@ -120,6 +120,12 @@ The release pipeline emits KGX `nodes` and `edges` JSON Lines plus a schema-vali
 `release-metadata.yaml`. These are published as **release artifacts**; the knowledge-graph output
 is generated from the curated YAML on each release and is not itself checked into the repository.
 
+**Only confident edges are exported.** Any claim still flagged `needs_review` — an uncertain
+grounding (parent-concept disease, multi-subunit/non-human target) or an unverified drug subject —
+is held back from the KGX output and stays parked in the curated YAML until a curator clears the
+flag. So the graph contains only edges whose subject, object, and predicate are human-confirmed,
+while the knowledge base retains the full curation record including the open questions.
+
 ## Citation & license
 
 Primary source: FDA Structured Product Labels via [DailyMed](https://dailymed.nlm.nih.gov/).
