@@ -1,0 +1,49 @@
+biologic:
+  name: sutimlimab
+  id: NCIT:C153093
+  matched_label: Sutimlimab
+  synonyms: [Enjaymo]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: cold agglutinin disease, id: MONDO:0018922, matched_label: cold agglutinin disease}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:0a25363a-7781-d9f8-cb1c-be22987bf03b
+        snippet: "ENJAYMO (sutimlimab-jome) is indicated for the treatment of hemolysis in adults with cold agglutinin disease (CAD)."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names cold agglutinin disease as an approved treatment population, asserting the drug→disease edge."
+      - reference: PMID:33826820
+        reference_title: "Sutimlimab in Cold Agglutinin Disease."
+        snippet: "In patients with cold agglutinin disease who received sutimlimab, selective upstream inhibition of activity in the classic complement pathway rapidly halted hemolysis, increased hemoglobin levels, and reduced fatigue."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 3 trial (CARDINAL) demonstrating sutimlimab rapidly halted hemolysis, increased hemoglobin levels and reduced fatigue in patients with cold agglutinin disease, corroborating the indication."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: C1s, id: HGNC:1247, matched_label: C1S}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:0a25363a-7781-d9f8-cb1c-be22987bf03b
+        snippet: "Sutimlimab-jome is an immunoglobulin G (IgG), subclass 4 (IgG4) monoclonal antibody (mAb) that inhibits the classical complement pathway (CP) and specifically binds to complement protein component 1, s subcomponent (C1s), a serine protease which cleaves C4."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states sutimlimab binds C1s (complement component 1, s subcomponent) and inhibits the classical complement pathway → decreased C1s activity. C1S is the HGNC gene symbol (HGNC:1247)."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "4"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=0a25363a-7781-d9f8-cb1c-be22987bf03b
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

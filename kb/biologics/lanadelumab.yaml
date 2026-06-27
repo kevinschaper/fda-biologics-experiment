@@ -1,0 +1,49 @@
+biologic:
+  name: lanadelumab
+  id: NCIT:C166535
+  matched_label: Lanadelumab
+  synonyms: [Takhzyro, lanadelumab-flyo]
+indications:
+  - predicate: biolink:preventative_for_condition
+    object: {name: hereditary angioedema, id: MONDO:0019623, matched_label: hereditary angioedema}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:15f99d8c-efe7-4f7d-aa20-0d0f1e30c6e8
+        snippet: "is indicated for prophylaxis to prevent attacks of hereditary angioedema (HAE) in adult and pediatric patients aged 2 years and older."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names hereditary angioedema (HAE) as the approved population for prophylaxis to prevent attacks; 'prophylaxis to prevent' maps to preventative_for_condition. Grounds to MONDO:0019623 (hereditary angioedema)."
+      - reference: PMID:30480729
+        reference_title: "Effect of Lanadelumab Compared With Placebo on Prevention of Hereditary Angioedema Attacks: A Randomized Clinical Trial."
+        snippet: "During the treatment period, the mean number of attacks per month for the placebo group was 1.97; for the lanadelumab groups, 0.48 for the every-4-week 150-mg group; 0.53 for the every-4-week 300-mg group; and 0.26 for the every-2-week 300-mg group."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 3 randomized, double-blind, placebo-controlled trial (HELP) showing lanadelumab markedly reduces the monthly rate of hereditary angioedema attacks versus placebo, corroborating the prophylaxis indication."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: plasma kallikrein, id: HGNC:6371, matched_label: KLKB1}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:15f99d8c-efe7-4f7d-aa20-0d0f1e30c6e8
+        snippet: "binds plasma kallikrein and inhibits its proteolytic activity."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MECHANISM OF ACTION states lanadelumab binds plasma kallikrein and inhibits its proteolytic activity -> decreased plasma kallikrein activity. Plasma kallikrein is encoded by KLKB1 (HGNC:6371)."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "14"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=15f99d8c-efe7-4f7d-aa20-0d0f1e30c6e8
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

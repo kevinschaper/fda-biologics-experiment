@@ -1,0 +1,59 @@
+biologic:
+  name: tislelizumab
+  id: NCIT:C121775
+  matched_label: Tislelizumab
+  synonyms: [Tevimbra, tislelizumab-jsgr]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: esophageal squamous cell carcinoma, id: MONDO:0005580, matched_label: esophageal squamous cell carcinoma}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:08ef1e3e-496f-4b0b-94ee-fbba3cc1985a
+        snippet: "TEVIMBRA, in combination with platinum-containing chemotherapy, is indicated for the first-line treatment of adults with unresectable or metastatic esophageal squamous cell carcinoma (ESCC) whose tumors express PD-L1 (≥1)."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names unresectable or metastatic esophageal squamous cell carcinoma as an approved treatment population; stripping the qualifiers leaves esophageal squamous cell carcinoma, asserting the drug→disease edge."
+      - reference: PMID:41917381
+        reference_title: "First-line tislelizumab plus chemotherapy versus placebo plus chemotherapy in adults with advanced or metastatic esophageal squamous cell carcinoma: a Japanese subgroup analysis of RATIONALE-306 with ≥ 3 years of follow-up."
+        snippet: "tislelizumab plus chemotherapy showed improvements in median OS versus placebo plus chemotherapy"
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 3 RATIONALE-306 trial showing first-line tislelizumab plus chemotherapy improves overall survival versus placebo plus chemotherapy in advanced/metastatic esophageal squamous cell carcinoma, corroborating the tislelizumab→esophageal squamous cell carcinoma edge."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: gastric cancer, id: MONDO:0001056, matched_label: gastric cancer}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:08ef1e3e-496f-4b0b-94ee-fbba3cc1985a
+        snippet: "TEVIMBRA, in combination with platinum and fluoropyrimidine-based chemotherapy, is indicated for the first-line treatment of adults with unresectable or metastatic HER2-negative gastric or gastroesophageal junction adenocarcinoma (G/GEJ) whose tumors express PD-L1 (≥1)."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names unresectable or metastatic gastric (or gastroesophageal junction) adenocarcinoma as an approved treatment population; stripping the qualifiers leaves gastric cancer, asserting the drug→disease edge."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: PD-1, id: HGNC:8760, matched_label: PDCD1}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:08ef1e3e-496f-4b0b-94ee-fbba3cc1985a
+        snippet: "Tislelizumab-jsgr binds to PD-1 and blocks its interaction with PD-L1 and PD-L2"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states tislelizumab binds and blocks PD-1, i.e. causes decreased PD-1 activity. PD-1 is an alias of the HGNC gene PDCD1."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "12"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=08ef1e3e-496f-4b0b-94ee-fbba3cc1985a
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

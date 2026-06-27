@@ -1,0 +1,49 @@
+biologic:
+  name: crizanlizumab
+  id: NCIT:C133543
+  matched_label: Crizanlizumab
+  synonyms: [Adakveo]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: sickle cell disease, id: MONDO:0011382, matched_label: sickle cell disease}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:b2b7f8b4-fe9a-4a86-8129-9e43f99a20c6
+        snippet: "is indicated to reduce the frequency of vaso-occlusive crises (VOCs) in adults and pediatric patients aged 16 years and older with sickle cell disease."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names sickle cell disease as the approved treatment population, with crizanlizumab indicated to reduce the frequency of its vaso-occlusive crises, asserting the drug→disease edge."
+      - reference: PMID:27959701
+        reference_title: "Crizanlizumab for the Prevention of Pain Crises in Sickle Cell Disease."
+        snippet: "In patients with sickle cell disease, crizanlizumab therapy resulted in a significantly lower rate of sickle cell-related pain crises than placebo and was associated with a low incidence of adverse events."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 2 RCT (SUSTAIN) demonstrating crizanlizumab significantly lowered the rate of sickle cell-related (vaso-occlusive) pain crises versus placebo in patients with sickle cell disease, corroborating the indication."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: P-selectin, id: HGNC:10721, matched_label: SELP}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:b2b7f8b4-fe9a-4a86-8129-9e43f99a20c6
+        snippet: "Crizanlizumab-tmca is a humanized IgG2 kappa monoclonal antibody that binds to P-selectin and blocks interactions with its ligands, including P-selectin glycoprotein ligand 1 (PSGL-1)."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states crizanlizumab binds P-selectin and blocks its interactions with ligands such as PSGL-1 → decreased P-selectin activity. P-selectin is encoded by the HGNC gene SELP (HGNC:10721)."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "8"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=b2b7f8b4-fe9a-4a86-8129-9e43f99a20c6
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

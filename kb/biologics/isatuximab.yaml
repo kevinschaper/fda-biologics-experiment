@@ -1,0 +1,49 @@
+biologic:
+  name: isatuximab
+  id: NCIT:C90578
+  matched_label: Isatuximab
+  synonyms: [Sarclisa]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: multiple myeloma, id: MONDO:0009693, matched_label: plasma cell myeloma}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:a0473462-6f9d-4eca-a5bf-8620aea68e8a
+        snippet: "in combination with pomalidomide and dexamethasone, for the treatment of adult patients with multiple myeloma who have received at least 2 prior therapies including lenalidomide and a proteasome inhibitor."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names multiple myeloma as an approved treatment population (in combination with pomalidomide and dexamethasone), asserting the drug→disease edge. Multiple myeloma grounds to MONDO:0009693 (plasma cell myeloma, an exact synonym)."
+      - reference: PMID:31735560
+        reference_title: "Isatuximab plus pomalidomide and low-dose dexamethasone versus pomalidomide and low-dose dexamethasone in patients with relapsed and refractory multiple myeloma (ICARIA-MM): a randomised, multicentre, open-label, phase 3 study."
+        snippet: "The addition of isatuximab to pomalidomide-dexamethasone significantly improves progression-free survival in patients with relapsed and refractory multiple myeloma."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 3 RCT (ICARIA-MM) demonstrating isatuximab added to pomalidomide and dexamethasone significantly improves progression-free survival in relapsed and refractory multiple myeloma, corroborating the indication."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: CD38, id: HGNC:1667, matched_label: CD38}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: abundance
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:a0473462-6f9d-4eca-a5bf-8620aea68e8a
+        snippet: "Isatuximab-irfc is an IgG1-derived monoclonal antibody that binds to CD38 expressed on the surface of hematopoietic and tumor cells, including multiple myeloma cells. Isatuximab-irfc induces apoptosis of tumor cells and activation of immune effector mechanisms including antibody-dependent cell-mediated cytotoxicity (ADCC), antibody-dependent cellular phagocytosis (ADCP), and complement dependent cytotoxicity (CDC)."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states isatuximab is a CD38-directed cytolytic antibody that binds CD38 on tumor cells and kills them via apoptosis, ADCC, ADCP and CDC, depleting CD38-bearing cells → decreased abundance. CD38 is the HGNC gene symbol (HGNC:1667)."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "17"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=a0473462-6f9d-4eca-a5bf-8620aea68e8a
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

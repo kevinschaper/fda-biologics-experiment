@@ -1,0 +1,59 @@
+biologic:
+  name: cemiplimab
+  id: NCIT:C121540
+  matched_label: Cemiplimab
+  synonyms: [Libtayo, cemiplimab-rwlc]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: cutaneous squamous cell carcinoma, id: MONDO:0002529, matched_label: skin squamous cell carcinoma}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:4347ae1f-d397-4f18-8b70-03897e1c054a
+        snippet: "LIBTAYO is indicated for the treatment of adult patients with metastatic cutaneous squamous cell carcinoma (mCSCC) or locally advanced CSCC (laCSCC) who are not candidates for curative surgery or curative radiation."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names metastatic/locally advanced cutaneous squamous cell carcinoma as an approved treatment population; stripping the qualifiers leaves cutaneous squamous cell carcinoma, asserting the drug→disease edge."
+      - reference: PMID:41806521
+        reference_title: "Cemiplimab versus historical systemic treatments for locally advanced or metastatic cutaneous squamous cell carcinomas: Results from the French study TOSCA."
+        snippet: "TOSCA demonstrated better survival and response outcomes for cemiplimab versus HST in la/mCSCC"
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Multicenter clinical study (TOSCA) showing cemiplimab improves overall survival and response versus historical systemic therapies in locally advanced/metastatic cutaneous squamous cell carcinoma, corroborating the cemiplimab→cutaneous squamous cell carcinoma edge."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: basal cell carcinoma, id: MONDO:0020804, matched_label: basal cell carcinoma}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:4347ae1f-d397-4f18-8b70-03897e1c054a
+        snippet: "for the treatment of adult patients with locally advanced or metastatic BCC (laBCC or mBCC) who have been previously treated with a hedgehog pathway inhibitor or for whom a hedgehog pathway inhibitor is not appropriate."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names locally advanced or metastatic basal cell carcinoma (BCC) as an approved treatment population; stripping the qualifiers leaves basal cell carcinoma, asserting the drug→disease edge."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: PD-1, id: HGNC:8760, matched_label: PDCD1}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:4347ae1f-d397-4f18-8b70-03897e1c054a
+        snippet: "Cemiplimab-rwlc is a recombinant human immunoglobulin G4 (IgG4) monoclonal antibody that binds to PD-1 and blocks its interaction with PD-L1 and PD-L2"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states cemiplimab binds and blocks PD-1, i.e. causes decreased PD-1 activity. PD-1 is an alias of the HGNC gene PDCD1."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "23"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=4347ae1f-d397-4f18-8b70-03897e1c054a
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

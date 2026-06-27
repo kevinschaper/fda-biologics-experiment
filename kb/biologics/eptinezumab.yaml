@@ -1,0 +1,49 @@
+biologic:
+  name: eptinezumab
+  id: NCIT:C171835
+  matched_label: Eptinezumab
+  synonyms: [Vyepti, eptinezumab-jjmr]
+indications:
+  - predicate: biolink:preventative_for_condition
+    object: {name: migraine, id: MONDO:0005277, matched_label: migraine disorder}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:79065861-6aa5-4d1f-829f-3a6471286b36
+        snippet: "VYEPTI is indicated for the preventive treatment of migraine in adults."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names migraine as the approved preventive-treatment population; 'preventive treatment' maps to preventative_for_condition. Migraine grounds to MONDO:0005277 (migraine disorder)."
+      - reference: PMID:32075406
+        reference_title: "Eptinezumab in episodic migraine: A randomized, double-blind, placebo-controlled study (PROMISE-1)."
+        snippet: "Eptinezumab 100 mg and 300 mg met the primary endpoint, significantly reducing MMDs across weeks 1-12 compared with placebo"
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 3 randomized, double-blind, placebo-controlled trial (PROMISE-1) showing eptinezumab significantly reduces monthly migraine days versus placebo, corroborating the preventive migraine indication."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: CGRP, id: HGNC:1437, matched_label: CALCA}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:79065861-6aa5-4d1f-829f-3a6471286b36
+        snippet: "Eptinezumab-jjmr is a humanized monoclonal antibody that binds to calcitonin gene-related peptide (CGRP) ligand and blocks its binding to the receptor."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MECHANISM OF ACTION states eptinezumab binds the CGRP ligand and blocks its binding to the receptor -> decreased CGRP activity. The CGRP ligand is encoded by CALCA (HGNC:1437)."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "30"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=79065861-6aa5-4d1f-829f-3a6471286b36
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

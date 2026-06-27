@@ -1,0 +1,3215 @@
+  
+ 
+    
+    
+    These highlights do not include all the information needed to use TRODELVY safely and effectively. See full prescribing information for TRODELVY  
+        TRODELVY ®  (sacituzumab govitecan-hziy) for injection, for intravenous use  Initial U.S. Approval: 2020 
+    
+    
+    
+    
+       
+       
+          
+             
+             Gilead Sciences, Inc. 
+             
+                
+             
+          
+       
+    
+    
+       
+          
+             
+                
+                
+                
+                
+                   
+                      
+                         
+                         TRODELVY 
+                         
+                         
+                            
+                               SACITUZUMAB GOVITECAN 
+                            
+                         
+                         
+                            
+                               
+                               
+                            
+                            
+                               
+                               SACITUZUMAB GOVITECAN 
+                               
+                                  
+                                     
+                                     SACITUZUMAB GOVITECAN 
+                                  
+                               
+                            
+                         
+                         
+                            
+                               
+                               2-(N-morpholino)ethanesulfonic acid 
+                            
+                         
+                         
+                            
+                               
+                               trehalose 
+                            
+                         
+                         
+                            
+                               
+                               polysorbate 80 
+                            
+                         
+                         
+                            
+                               
+                               
+                            
+                            
+                               
+                               
+                               
+                                  
+                                     
+                                     
+                                  
+                                  
+                                     
+                                     
+                                  
+                                  
+                                     
+                                        
+                                        
+                                        
+                                           
+                                        
+                                     
+                                  
+                               
+                            
+                            
+                               
+                                  
+                                  
+                               
+                            
+                         
+                      
+                      
+                         
+                            
+                            
+                            
+                               
+                            
+                         
+                      
+                      
+                         
+                            
+                            
+                            
+                               
+                                  
+                                     
+                                  
+                               
+                            
+                         
+                      
+                      
+                         
+                            
+                         
+                      
+                   
+                
+             
+          
+          
+             
+                
+                
+                
+                   WARNING: NEUTROPENIA AND DIARRHEA 
+                
+                
+                   
+                      
+                         
+                            TRODELVY can cause severe, life-threatening, or fatal neutropenia. Withhold TRODELVY for absolute neutrophil count below 1500/mm 3  or neutropenic fever. Monitor blood cell counts periodically during treatment. Primary prophylaxis with G-CSF is recommended for all patients at increased risk of febrile neutropenia  [see  Dosage and Administration (2.3) ] . Initiate anti-infective treatment in patient with febrile neutropenia without delay  [see  Warnings and Precautions (5.1) ]. 
+                            
+                         
+                      
+                      
+                         
+                            TRODELVY can cause severe diarrhea. Monitor patients with diarrhea and give fluid and electrolytes as needed. At the onset of diarrhea, evaluate for infectious causes and, if negative, promptly initiate loperamide  [see  Warnings and Precautions (5.2) ].  If severe diarrhea occurs, withhold TRODELVY until resolved to 
+                          ≤  Grade 1 and reduce subsequent doses  [see  Dosage and Administration (2.3) ]. 
+                         
+                      
+                   
+                
+                
+                
+                   
+                      
+                         
+                            WARNING: NEUTROPENIA AND DIARRHEA 
+                         
+                         
+                            See full prescribing information for complete boxed warning 
+                            . 
+                         
+                         
+                            TRODELVY can cause severe, life-threatening, or fatal neutropenia. Withhold TRODELVY for absolute neutrophil count below 1500/mm 3  or neutropenic fever. Monitor blood cell counts periodically during treatment. Primary prophylaxis with G-CSF is recommended for all patients at increased risk of febrile neutropenia. Initiate anti-infective treatment in patients with febrile neutropenia without delay. ( 2.3 ,  5.1 ) 
+                         
+                         
+                            TRODELVY can cause severe diarrhea. Monitor patients with diarrhea and give fluid and electrolytes as needed. At the onset of diarrhea, evaluate for infectious causes and, if negative, promptly initiate loperamide. If severe diarrhea occurs, withhold TRODELVY until resolved to ≤ Grade 1 and reduce subsequent doses. ( 2.3 ,  5.2 ) 
+                         
+                      
+                   
+                
+             
+          
+          
+             
+                
+                
+                
+                
+                   
+                      
+                         
+                            
+                            
+                            
+                               
+                                  
+                                     Boxed Warning 
+                                  
+                                  03/2025 
+                               
+                               
+                                  Indications and Usage, Locally Advanced or Metastatic Urothelial Cancer – Accelerated Approval (text removed) (1.2) 
+                                  11/2024 
+                               
+                               
+                                  Dosage and Administration ( 2.2 ,  2.3 ,  2.4 ) 
+                                  03/2025 
+                               
+                               
+                                  Warnings and Precautions ( 5.1 ) 
+                                  03/2025 
+                               
+                            
+                         
+                      
+                   
+                
+             
+          
+          
+             
+                
+                
+                1 INDICATIONS AND USAGE 
+                
+                
+                   
+                      
+                         TRODELVY is a Trop-2-directed antibody and topoisomerase inhibitor conjugate indicated for the treatment of adult patients with: 
+                         
+                            Locally Advanced or Metastatic Breast Cancer 
+                         
+                         
+                            Unresectable locally advanced or metastatic triple-negative breast cancer (mTNBC) who have received two or more prior systemic therapies, at least one of them for metastatic disease. ( 1.1 ,  14.1 ) 
+                            Unresectable locally advanced or metastatic hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2)-negative (IHC 0, IHC 1+ or IHC 2+/ISH–) breast cancer who have received endocrine-based therapy and at least two additional systemic therapies in the metastatic setting. ( 1.1 ,  14.2 ) 
+                         
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      1.1  Locally Advanced or Metastatic Breast Cancer 
+                      
+                         
+                            TRODELVY is indicated for the treatment of adult patients with unresectable locally advanced or metastatic triple-negative breast cancer (mTNBC) who have received two or more prior systemic therapies, at least one of them for metastatic disease. 
+                            TRODELVY is indicated for the treatment of adult patients with unresectable locally advanced or metastatic hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2)-negative (IHC 0, IHC 1+ or IHC 2+/ISH–) breast cancer who have received endocrine-based therapy and at least two additional systemic therapies in the metastatic setting. 
+                         
+                      
+                      
+                   
+                
+             
+          
+          
+             
+                
+                
+                2 DOSAGE AND ADMINISTRATION 
+                
+                
+                   
+                      
+                         
+                            Do NOT substitute TRODELVY for or use with other drugs containing irinotecan or its active metabolite SN-38. ( 2.1 ) 
+                            For intravenous infusion only. Do not administer as an intravenous push or bolus. 
+                            The recommended dose is 10 mg/kg once weekly on Days 1 and 8 of continuous 21-day treatment cycles until disease progression or unacceptable toxicity. ( 2.2 ) 
+                            Premedication for prevention of infusion reactions and prevention of chemotherapy-induced nausea and vomiting is recommended. ( 2.2 )  
+                            Primary prophylaxis with G-CSF is recommended starting in the first cycle in all patients at increased risk of febrile neutropenia. ( 2.2 )  
+                            Monitor patients during the infusion and for at least 30 minutes after completion of infusion. Treatment interruption and/or dose reduction may be needed to manage adverse reactions. ( 2.2 ) 
+                            See Full Prescribing Information for preparation and administration instructions. ( 2.4 ) 
+                         
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      2.1 Important Use Information  
+                      
+                         
+                            Do NOT substitute TRODELVY for or use with other drugs containing irinotecan or its active metabolite SN-38. 
+                         
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      2.2 Recommended Dosage 
+                      
+                         The recommended dosage of TRODELVY is 10 mg/kg administered as an intravenous infusion once weekly on Days 1 and 8 of 21-day treatment cycles. Continue treatment until disease progression or unacceptable toxicity. Do not administer TRODELVY at doses greater than 10 mg/kg. 
+                         Administer TRODELVY as an intravenous infusion only. Do not administer as an intravenous push or bolus. 
+                         First infusion: Administer infusion over 3 hours. Observe patients during the infusion and for at least 30 minutes following the initial dose, for signs or symptoms of infusion-related reactions  [see  Warning and Precautions (5.3) ] . 
+                         Subsequent infusions: Administer infusion over 1 to 2 hours if prior infusions were tolerated. Observe patients during the infusion and for at least 30 minutes after infusion. 
+                      
+                      
+                      
+                         
+                            
+                            
+                            
+                               
+                                  Premedication 
+                               
+                               Prior to each dose of TRODELVY, premedication for prevention of infusion reactions and prevention of chemotherapy-induced nausea and vomiting (CINV) is recommended. 
+                               
+                                  Premedicate with antipyretics, H1 and H2 blockers prior to infusion, and corticosteroids may be used for patients who had prior infusion reactions. 
+                                  Premedicate with a two or three drug combination regimen (e.g., dexamethasone with either a 5-HT3 receptor antagonist or an NK 1  receptor antagonist, as well as other drugs as indicated). 
+                               
+                            
+                            
+                         
+                      
+                      
+                         
+                            
+                            
+                            
+                               
+                                  
+                                     Prophylaxis for Neutropenia 
+                                  
+                               
+                               
+                                  Primary prophylaxis with granulocyte colony-stimulating factor (G-CSF) is recommended starting in the first cycle for all patients at increased risk of febrile neutropenia  [see  Warnings and Precautions (5.1) ] . 
+                               
+                            
+                            
+                         
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      2.3 Dose Modifications for Adverse Reactions 
+                      
+                         
+                            Management of adverse reactions may require temporary interruption, dose reduction, or treatment discontinuation of TRODELVY as described in Tables 1 and 2. Do not re-escalate the TRODELVY dose after a dose reduction for adverse reactions has been made. 
+                         
+                         
+                            Table 1: Dosage Reduction Levels 
+                            
+                            
+                            
+                               
+                                  
+                                     Dose Level 
+                                  
+                                  Dosage and Schedule 
+                               
+                            
+                            
+                               
+                                  
+                                     Recommended starting dose 
+                                  
+                                  10 mg/kg once weekly on Days 1 and 8 of 21-day treatment cycles 
+                               
+                               
+                                  
+                                     First dose reduction 
+                                  
+                                  	Reduce to 7.5 mg/kg 
+                               
+                               
+                                  
+                                     Second dose reduction 
+                                  
+                                  Reduce to 5 mg/kg 
+                               
+                               
+                                  
+                                     Requirement for further dose reduction 
+                                  
+                                  Permanently discontinue TRODELVY 
+                               
+                            
+                         
+                         The recommended dosage modifications for adverse reactions are provided in Table 2. 
+                         
+                            Table 2: Dose Modifications for Adverse Reactions 
+                            
+                            
+                            
+                            
+                               
+                                  
+                                     Adverse reactions 
+                                  
+                                  Severity 
+                                  Dose Modification 
+                               
+                            
+                            
+                               
+                                  
+                                     
+                                        Neutropenia  
+                                        
+                                        [see  Warnings and Precautions (5.1) ] 
+                                     
+                                  
+                                  
+                                     
+                                        Grade 3–4 neutropenia (Absolute Neutrophil Count [ANC] <1000/mm 3 ) or febrile neutropenia 
+                                     
+                                  
+                                  
+                                     
+                                        Withhold TRODELVY until ANC ≥1500/mm 3  for Day 1 dose or ANC ≥1000/mm 3  for Day 8 Dose  
+                                        Administer G-CSF during treatment as clinically indicated. 
+                                        Reduce one dose level for each occurrence of febrile neutropenia or prolonged Grade 3–4 neutropenia, or discontinue according to Table 1. 
+                                     
+                                  
+                               
+                               
+                                  
+                                     
+                                        Nausea/Vomiting/ Diarrhea  
+                                        
+                                        [see  Warnings and Precautions (5.2 ,  5.4) ] 
+                                     
+                                  
+                                  
+                                     
+                                        Grade 3–4 nausea, vomiting or diarrhea that is not controlled with antiemetics or anti-diarrheal agents 
+                                     
+                                  
+                                  
+                                     
+                                        Withhold TRODELVY until resolved to ≤ Grade 1 
+                                        Reduce one dose level with each occurrence, or discontinue according to Table 1. 
+                                     
+                                  
+                               
+                               
+                                  
+                                     
+                                        Infusion-Related Reaction 
+                                        
+                                        [see  Warnings and Precautions (5.3) ] 
+                                     
+                                  
+                                  
+                                     
+                                        Grade 1–3 infusion-related reactions 
+                                     
+                                  
+                                  
+                                     
+                                        Slow infusion rate or interrupt the infusion  
+                                     
+                                  
+                               
+                               
+                                  
+                                     
+                                        Grade 4 infusion-related reactions 
+                                     
+                                  
+                                  
+                                     
+                                        Discontinue TRODELVY. 
+                                     
+                                  
+                               
+                               
+                                  
+                                     
+                                        Other Toxicities 
+                                     
+                                  
+                                  Other Grade 3–4 toxicities of any duration despite optimal medical management 
+                                  
+                                     
+                                        Withhold TRODELVY until resolved to ≤ Grade 1 
+                                        Reduce one dose level with each occurrence or discontinue according to Table 1. 
+                                     
+                                  
+                               
+                            
+                         
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      2.4 Preparation and Administration 
+                      
+                      
+                         
+                            
+                            
+                            
+                               
+                                  Reconstitution 
+                               
+                               
+                                  TRODELVY is a hazardous drug. 
+                                  Follow applicable special handling and disposal procedures 1 . 
+                                  
+                                     Calculate the required dose (mg) of TRODELVY based on the patient's current body weight  [see  Dosage and Administration (2.2) ] . 
+                                  
+                                  Using a sterile syringe, slowly inject 20 mL of 0.9% Sodium Chloride Injection, USP, into each 180 mg TRODELVY vial. Each vial contains overfill to compensate for liquid loss during preparation and after reconstitution, the total resulting volume delivers a  concentration of 10 mg/mL . 
+                                  Gently swirl vials and allow to dissolve for up to 15 minutes. Do not shake. Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit. The solution should be free of visible particulates, clear and yellow. Do not use the reconstituted solution if it is cloudy or discolored. 
+                                  Use immediately to prepare a diluted TRODELVY infusion solution. 
+                               
+                            
+                            
+                         
+                      
+                      
+                         
+                            
+                            
+                            
+                               
+                                  Dilution 
+                               
+                               
+                                  Calculate the required amount of the reconstituted TRODELVY solution needed to obtain the appropriate dose according to the patient's body weight. 
+                                  Determine the final volume of the infusion solution to deliver the appropriate dose at a TRODELVY concentration range of 1.1 mg/mL to 3.4 mg/mL. 
+                                  Use 0.9% Sodium Chloride Injection, USP only since the stability of the reconstituted TRODELVY solution has not been determined with other infusion-based solutions. Use a polyvinyl chloride, polypropylene/polyethylene, polyolefin, or ethylene vinyl acetate infusion bag. 
+                                  Withdraw and discard the volume of 0.9% Sodium Chloride Injection, USP from the final infusion bag that is necessary to achieve the indicated TRODELVY concentration following the addition of the calculated amount of reconstituted TRODELVY solution. 
+                                  Withdraw the calculated amount of the reconstituted TRODELVY solution from the vial(s) using a syringe. Discard any unused portion remaining in the vial(s). 
+                                  To minimize foaming, slowly inject the calculated amount of reconstituted TRODELVY solution into the infusion bag. Do not shake the contents. 
+                                  If not used immediately, the infusion bag containing TRODELVY solution can be stored refrigerated at 2°C to 8°C (36°F to 46°F) for up to 24 hours protected from light. After refrigeration, administer diluted solution at room temperature up to 25°C (77°F) within 8 hours (including infusion time). 
+                               
+                               Do Not Freeze or Shake. 
+                            
+                            
+                         
+                      
+                      
+                         
+                            
+                            
+                            
+                               
+                                  Administration 
+                               
+                               
+                                  Administer TRODELVY as an intravenous infusion. Protect infusion bag from light. The infusion bag should be covered during administration to the patient until dosing is complete. It is not necessary to cover the infusion tubing or to use light-protective tubing during the infusion. 
+                                  An infusion pump may be used. 
+                                  Do not mix TRODELVY, or administer as an infusion, with other medicinal products. 
+                                  Upon completion of the infusion, flush the intravenous line with 20 mL 0.9% Sodium Chloride Injection, USP. 
+                               
+                            
+                            
+                         
+                      
+                   
+                
+             
+          
+          
+             
+                
+                
+                3 DOSAGE FORMS AND STRENGTHS 
+                
+                   For injection: 180 mg off-white to yellowish lyophilized powder in a single-dose vial. 
+                
+                
+                
+                   
+                      
+                         For injection: 180 mg lyophilized powder in single-dose vials for reconstitution. ( 3 ) 
+                      
+                   
+                
+             
+          
+          
+             
+                
+                
+                4 CONTRAINDICATIONS 
+                
+                   TRODELVY is contraindicated in patients who have experienced a severe hypersensitivity reaction to TRODELVY  [see  Warnings and Precautions (5.3) ] . 
+                
+                
+                
+                   
+                      
+                         Severe hypersensitivity reaction to TRODELVY. ( 4 ,  5.3 ) 
+                      
+                   
+                
+             
+          
+          
+             
+                
+                
+                5 WARNINGS AND PRECAUTIONS 
+                
+                
+                   
+                      
+                         
+                            Hypersensitivity and Infusion-Related Reactions: Hypersensitivity reactions including severe anaphylactic reactions have been observed. Monitor patients for infusion-related reactions. Permanently discontinue TRODELVY if severe or life-threatening reactions occur. ( 5.3 ) 
+                            Nausea/Vomiting: Use antiemetic preventive treatment and withhold TRODELVY for patients with Grade 3 nausea or Grade 3–4 vomiting at the time of scheduled treatment. ( 5.4 ) 
+                            Patients with Reduced UGT1A1 Activity: Individuals who are homozygous for the uridine diphosphate-glucuronosyl transferase 1A1 (UGT1A1)*28 allele are at increased risk for neutropenia, febrile neutropenia, and anemia following initiation of TRODELVY treatment. ( 5.5 ) 
+                            Embryo-Fetal Toxicity: TRODELVY can cause fetal harm. Advise patients of potential risk to a fetus and to use effective contraception. ( 5.6 ,  8.1 ,  8.3 ) 
+                         
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      5.1 Neutropenia 
+                      
+                         
+                            TRODELVY can cause severe, life-threatening, or fatal neutropenia as early as the first cycle of treatment.  Neutropenia occurred in 64% of patients treated with TRODELVY. Grade 3–4 neutropenia occurred in 49% of patients. Febrile neutropenia occurred in 6% of patients. The median time to first onset of neutropenia (including febrile neutropenia) was 16 days (range: 1 to 435 days). Neutropenia occurred earlier in patients with reduced UGT1A1 activity  [see  Warnings and Precautions (5.5) ] . Neutropenic colitis occurred in 1.4% of patients. 
+                         
+                         
+                            Primary prophylaxis with G-CSF is recommended starting in the first cycle of treatment in all patients at increased risk of febrile neutropenia, including older patients, patients with previous neutropenia, poor performance status, organ dysfunction, or multiple comorbidities. 
+                         
+                         
+                            Monitor absolute neutrophil count (ANC) during treatment. Withhold TRODELVY for ANC below 1500/mm 3  on Day 1 of any cycle or below 1000/mm 3  on Day 8 of any cycle. Withhold TRODELVY for neutropenic fever. Dose modifications may be required due to neutropenia. Treat neutropenia with G-CSF and administer prophylaxis in subsequent cycles as clinically indicated or indicated in Table 2  [see  Dosage and Administration (2.3) ] . 
+                         
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      5.2 Diarrhea 
+                      
+                         TRODELVY can cause severe diarrhea. Diarrhea occurred in 64% of all patients treated with TRODELVY. Grade 3–4 diarrhea occurred in 11% of all patients treated with TRODELVY. One patient had intestinal perforation following diarrhea. Diarrhea that led to dehydration and subsequent acute kidney injury occurred in 0.7% of all patients. 
+                         Withhold TRODELVY for Grade 3–4 diarrhea at the time of scheduled treatment administration and resume when resolved to ≤ Grade 1  [see  Dosage and Administration (2.3) ]. 
+                         
+                         At the onset of diarrhea, evaluate for infectious causes and if negative, promptly initiate loperamide, 4 mg initially followed by 2 mg with every episode of diarrhea for a maximum of 16 mg daily. Discontinue loperamide 12 hours after diarrhea resolves. Additional supportive measures (e.g., fluid and electrolyte substitution) may also be employed as clinically indicated. 
+                         Patients who exhibit an excessive cholinergic response to treatment with TRODELVY (e.g., abdominal cramping, diarrhea, salivation, etc.) can receive appropriate premedication (e.g., atropine) for subsequent treatments. 
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      5.3 Hypersensitivity and Infusion-Related Reactions 
+                      
+                         TRODELVY can cause serious hypersensitivity reactions including life-threatening anaphylactic reactions. Severe signs and symptoms included cardiac arrest, hypotension, wheezing, angioedema, swelling, pneumonitis, and skin reactions  [see  Contraindications (4) ] . 
+                         Hypersensitivity reactions within 24 hours of dosing occurred in 35% of patients treated with TRODELVY. Grade 3–4 hypersensitivity occurred in 2% of patients treated with TRODELVY. The incidence of hypersensitivity reactions leading to permanent discontinuation of TRODELVY was 0.2%. The incidence of anaphylactic reactions was 0.2%. 
+                         Premedication for infusion reactions in patients receiving TRODELVY is recommended .  Have medications and emergency equipment to treat infusion-related reactions, including anaphylaxis, available for immediate use when administering TRODELVY  [see  Dosage and Administration (2.2) ]. 
+                         
+                         Closely monitor patients for hypersensitivity and infusion-related reactions during each TRODELVY infusion and for at least 30 minutes after completion of each infusion  [see  Dosage and Administration (2.3) ] . 
+                         Permanently discontinue TRODELVY for Grade 4 infusion-related reactions  [see  Dosage and Administration (2.3) ] . 
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      5.4 Nausea and Vomiting 
+                      
+                         TRODELVY is emetogenic and can cause severe nausea and vomiting. Nausea occurred in 64% of all patients treated with TRODELVY. Grade 3–4 nausea occurred in 3% of patients. 
+                         Vomiting occurred in 35% of all patients treated with TRODELVY. Grade 3–4 vomiting occurred in 2% of these patients. 
+                         Premedicate with a two or three drug combination regimen (e.g., dexamethasone with either a 5-HT3 receptor antagonist or an NK 1  receptor antagonist as well as other drugs as indicated) for prevention of chemotherapy-induced nausea and vomiting (CINV) [ see  Dosage and Administration (2.2) 
+                            ]. 
+                         Withhold TRODELVY doses for Grade 3 nausea or Grade 3–4 vomiting at the time of scheduled treatment administration and resume with additional supportive measures when resolved to ≤ Grade 1  [see  Dosage and Administration (2.3) ]. 
+                         
+                         Additional antiemetics and other supportive measures may also be employed as clinically indicated. All patients should be given take-home medications with clear instructions for prevention and treatment of nausea and vomiting. 
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      5.5 Increased Risk of Adverse Reactions in Patients with Reduced UGT1A1 Activity 
+                      
+                         Patients homozygous for the uridine diphosphate-glucuronosyl transferase 1A1 (UGT1A1)*28 allele are at increased risk for neutropenia, febrile neutropenia, and anemia; and may be at increased risk for other adverse reactions when treated with TRODELVY. 
+                         The incidence of neutropenia and anemia was analyzed in 948 patients who received TRODELVY and had UGT1A1 genotype results. In patients homozygous for the UGT1A1 *28 allele (n=112), the incidence of Grade 3–4 neutropenia was 58%. In patients heterozygous for the UGT1A1*28 allele (n=420), the incidence of Grade 3–4 neutropenia was 49%. In patients homozygous for the wild-type allele (n=416), the incidence of Grade 3–4 neutropenia was 43%  [see  Clinical Pharmacology (12.5) ] . In patients homozygous for the UGT1A1 *28 allele, the incidence of Grade 3–4 anemia was 21%. In patients heterozygous for the UGT1A1*28 allele, the incidence of Grade 3–4 anemia was 10%. In patients homozygous for the wild-type allele, the incidence of Grade 3–4 anemia was 9%. 
+                         The  median time to first neutropenia including febrile neutropenia was 9 days in patients homozygous for the UGT1A1*28 allele, 15 days in patients heterozygous for the UGT1A1*28 allele, and 20 days in patients homozygous for the wild-type allele. The median time to first anemia was 21 days in patients homozygous for the UGT1A1*28 allele, 25 days in patients heterozygous for the UGT1A1*28 allele, and 28 days in patients homozygous for the wild-type allele. 
+                         Closely monitor patients with known reduced UGT1A1 activity for adverse reactions. Withhold or permanently discontinue TRODELVY based on clinical assessment of the onset, duration and severity of the observed adverse reactions in patients with evidence of acute early-onset or unusually severe adverse reactions, which may indicate reduced UGT1A1 enzyme activity  [see  Dosage and Administration (2.3) ]. 
+                         
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      5.6 Embryo-Fetal Toxicity  
+                      
+                         Based on its mechanism of action, TRODELVY can cause teratogenicity and/or embryo-fetal lethality when administered to a pregnant woman. TRODELVY contains a genotoxic component, SN-38, and targets rapidly dividing cells  [see  Clinical Pharmacology (12.1)  and  Nonclinical Toxicology (13.1) ].  Advise pregnant women and females of reproductive potential of the potential risk to a fetus. Advise females of reproductive potential to use effective contraception during treatment with TRODELVY and for 6 months after the last dose. Advise male patients with female partners of reproductive potential to use effective contraception during treatment with TRODELVY and for 3 months after the last dose  [see  Use in Specific Populations (8.1 ,  8.3) ] . 
+                      
+                      
+                   
+                
+             
+          
+          
+             
+                
+                
+                6 ADVERSE REACTIONS 
+                
+                   The following adverse reactions are discussed in greater detail in other sections of the label: 
+                   
+                      Neutropenia  [see  Warnings and Precautions (5.1) ] 
+                      
+                      Diarrhea  [see  Warnings and Precautions (5.2) ] 
+                      
+                      Hypersensitivity and Infusion-Related Reactions  [see  Warnings and Precautions (5.3) ] 
+                      
+                      Nausea and Vomiting  [see  Warnings and Precautions (5.4) ] 
+                      
+                   
+                
+                
+                
+                   
+                      
+                         Most common adverse reactions (incidence ≥25%) are (including laboratory abnormalities) were decreased leukocyte count, decreased neutrophil count, decreased hemoglobin, diarrhea, nausea, decreased lymphocyte count, fatigue, alopecia, constipation, increased glucose, decreased albumin, vomiting, decreased appetite, decreased creatinine clearance, increased alkaline phosphatase, decreased magnesium, decreased potassium, and decreased sodium. ( 6.1 ) 
+                         
+                         
+                            To report SUSPECTED ADVERSE REACTIONS, contact Gilead Sciences, Inc. at 1-888-983-4668 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch. 
+                         
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      6.1 Clinical Trials Experience 
+                      
+                         Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in clinical practice. 
+                         The pooled safety population described in the Warnings and Precautions section reflect exposure to TRODELVY in 1063 patients, which included 366 patients with mTNBC and 322 patients with hormone receptor-positive (HR+)/human epidermal growth factor receptor 2-negative (HER2-) breast cancer  from IMMU-132-01, ASCENT, and TROPiCS-02; and 375 patients with other tumor types. TRODELVY was administered as an intravenous infusion once weekly on Days 1 and 8 of 21-day treatment cycles at doses of 10 mg/kg until disease progression or unacceptable toxicity. Among the 1063 patients treated with TRODELVY, the median duration of treatment was 4.1 months (range: 0 to 63 months). In this pooled safety population, the most common (≥ 25%) adverse reactions including laboratory abnormalities were decreased leukocyte count (84%), decreased neutrophil count (75%), decreased hemoglobin (69%), diarrhea (64%), nausea (64%), decreased lymphocyte count (63%), fatigue (51%), alopecia (45%), constipation (37%), increased glucose (37%), decreased albumin (35%), vomiting (35%), decreased appetite (30%), decreased creatinine clearance (28%), increased alkaline phosphatase (28%), decreased magnesium (27%), decreased potassium (26%), and decreased sodium (26%). 
+                      
+                      
+                      
+                         
+                            
+                            
+                            
+                               
+                                  Locally Advanced or Metastatic Triple-Negative Breast Cancer 
+                               
+                            
+                            
+                            
+                               
+                                  
+                                  
+                                  
+                                     
+                                        ASCENT Study 
+                                     
+                                     The safety of TRODELVY was evaluated in a randomized, active-controlled, open-label study (ASCENT) in patients with mTNBC who had previously received a taxane and at least two prior chemotherapies. Patients were randomized (1:1) to receive either TRODELVY (n=258) or single agent chemotherapy (n=224) and were treated until disease progression or unacceptable toxicity  [see  Clinical Studies (14.1) ] . For patients treated with TRODELVY, the median duration of treatment was 4.4 months (range: 0 to 23 months). 
+                                     Serious adverse reactions occurred in 27% of patients receiving TRODELVY.  Serious adverse reactions in > 1% of patients receiving TRODELVY included neutropenia (7%), diarrhea (4%), and pneumonia (3%).  Fatal adverse reactions occurred in 1.2% of patients who received TRODELVY, including respiratory failure (0.8%) and pneumonia (0.4%).  TRODELVY was permanently discontinued for adverse reactions in 5% of patients.  Adverse reactions leading to permanent discontinuation in ≥ 1 % of patients who received TRODELVY were pneumonia (1%) and fatigue (1%). 
+                                     Adverse reactions leading to a treatment interruption of TRODELVY occurred in 63% of patients. The most frequent (≥5%) adverse reactions leading to a treatment interruption were neutropenia (47%), diarrhea (5%), respiratory infection (5%), and leukopenia (5%). 
+                                     Adverse reactions leading to a dose reduction of TRODELVY occurred in 22% of patients. The most frequent (>4%) adverse reactions leading to a dose reduction were neutropenia (11%) and diarrhea (5%). 
+                                     Granulocyte-colony stimulating factor (G-CSF) was used in 44% of patients who received TRODELVY. 
+                                     Tables 3 and 4 summarize adverse reactions and laboratory abnormalities, respectively, in the ASCENT study. 
+                                     
+                                        Table 3: Adverse Reactions in ≥ 10% of Patients with mTNBC in ASCENT 
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                           
+                                              
+                                              TRODELVY (n=258) 
+                                              Single Agent Chemotherapy (n=224) 
+                                           
+                                           
+                                              Adverse Reaction 
+                                              All Grades % 
+                                              Grade 3 – 4 % 
+                                              All Grades % 
+                                              Grade 3 – 4 % 
+                                           
+                                        
+                                        
+                                           
+                                              *Single agent chemotherapy included one of the following single-agents: eribulin (n=139), capecitabine (n=33), gemcitabine (n=38), or vinorelbine (except if patient had ≥ Grade 2 neuropathy, n=52). 
+                                           
+                                           
+                                              Graded per NCI CTCAE v.5.0. 
+                                           
+                                        
+                                        
+                                           
+                                              
+                                                 Gastrointestinal disorders 
+                                              
+                                           
+                                           
+                                              Diarrhea 
+                                              59 
+                                              11 
+                                              17 
+                                              1 
+                                           
+                                           
+                                              Nausea 
+                                              57 
+                                              3 
+                                              26 
+                                              0.4 
+                                           
+                                           
+                                              Vomiting 
+                                              33 
+                                              2 
+                                              16 
+                                              1 
+                                           
+                                           
+                                              Constipation 
+                                              37 
+                                              0.4 
+                                              23 
+                                              0 
+                                           
+                                           
+                                              Abdominal Pain 
+                                              30 
+                                              3 
+                                              12 
+                                              1 
+                                           
+                                           
+                                              Stomatitis Including stomatitis, glossitis, mouth ulceration, and mucosal inflammation 
+                                              
+                                              17 
+                                              2 
+                                              13 
+                                              1 
+                                           
+                                           
+                                              
+                                                 General disorders and administration site conditions 
+                                              
+                                           
+                                           
+                                              Fatigue Including fatigue and asthenia 
+                                              
+                                              65 
+                                              6 
+                                              50 
+                                              9 
+                                           
+                                           
+                                              Pyrexia 
+                                              15 
+                                              0.4 
+                                              14 
+                                              2 
+                                           
+                                           
+                                              
+                                                 Infections and infestation 
+                                              
+                                           
+                                           
+                                              Urinary tract infection 
+                                              13 
+                                              0.4 
+                                              8 
+                                              0.4 
+                                           
+                                           
+                                              Upper respiratory tract infection 
+                                              12 
+                                              0 
+                                              3 
+                                              0 
+                                           
+                                           
+                                              
+                                                 Metabolism and nutrition disorders 
+                                              
+                                           
+                                           
+                                              Decreased appetite 
+                                              28 
+                                              2 
+                                              21 
+                                              1 
+                                           
+                                           
+                                              
+                                                 Musculoskeletal and connective tissue disorders 
+                                              
+                                           
+                                           
+                                              Back pain 
+                                              16 
+                                              1 
+                                              14 
+                                              2 
+                                           
+                                           
+                                              Arthralgia 
+                                              12 
+                                              0.4 
+                                              7 
+                                              0 
+                                           
+                                           
+                                              
+                                                 Nervous system disorders 
+                                              
+                                           
+                                           
+                                              Headache 
+                                              18 
+                                              0.8 
+                                              13 
+                                              0.4 
+                                           
+                                           
+                                              Dizziness 
+                                              10 
+                                              0 
+                                              7 
+                                              0 
+                                           
+                                           
+                                              
+                                                 Psychiatric disorders 
+                                              
+                                           
+                                           
+                                              Insomnia 
+                                              11 
+                                              0 
+                                              5 
+                                              0 
+                                           
+                                           
+                                              
+                                                 Respiratory, thoracic and mediastinal disorders 
+                                              
+                                           
+                                           
+                                              Cough 
+                                              24 
+                                              0 
+                                              18 
+                                              0.4 
+                                           
+                                           
+                                              
+                                                 Skin and subcutaneous tissue disorders 
+                                              
+                                           
+                                           
+                                              Alopecia 
+                                              47 
+                                              0 
+                                              16 
+                                              0 
+                                           
+                                           
+                                              Rash 
+                                              12 
+                                              0.4 
+                                              5 
+                                              0.4 
+                                           
+                                           
+                                              Pruritus 
+                                              10 
+                                              0 
+                                              3 
+                                              0 
+                                           
+                                        
+                                     
+                                     
+                                        Table 4: Laboratory Abnormalities in > 10% of Patients with mTNBC in ASCENT  
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                           
+                                              Laboratory Abnormality 
+                                              TRODELVY (n=258) 
+                                              Single Agent Chemotherapy (n=224) 
+                                           
+                                           
+                                              
+                                              All Grades (%) 
+                                              Grade 3 – 4 (%) 
+                                              All Grades (%) 
+                                              Grade 3 – 4 (%) 
+                                           
+                                        
+                                        
+                                           
+                                              
+                                                 Hematology 
+                                              
+                                              
+                                           
+                                           
+                                              Decreased hemoglobin 
+                                              94 
+                                              9 
+                                              57 
+                                              6 
+                                           
+                                           
+                                              Decreased lymphocyte count 
+                                              88 
+                                              31 
+                                              40 
+                                              24 
+                                           
+                                           
+                                              Decreased leukocyte count 
+                                              86 
+                                              41 
+                                              53 
+                                              25 
+                                           
+                                           
+                                              Decreased neutrophil count 
+                                              78 
+                                              49 
+                                              48 
+                                              36 
+                                           
+                                           
+                                              Decreased platelet count 
+                                              23 
+                                              1.2 
+                                              25 
+                                              2.7 
+                                           
+                                           
+                                              
+                                                 Chemistry 
+                                              
+                                              
+                                           
+                                           
+                                              Increased glucose 
+                                              49 
+                                              2.3 
+                                              43 
+                                              2.8 
+                                           
+                                           
+                                              Decreased calcium 
+                                              36 
+                                              1.6 
+                                              21 
+                                              1.4 
+                                           
+                                           
+                                              Decreased magnesium 
+                                              33 
+                                              0.4 
+                                              20 
+                                              0 
+                                           
+                                           
+                                              Decreased potassium 
+                                              33 
+                                              4.3 
+                                              28 
+                                              0.9 
+                                           
+                                           
+                                              Increased albumin 
+                                              32 
+                                              0.8 
+                                              25 
+                                              1.4 
+                                           
+                                           
+                                              Increased aspartate aminotransferase 
+                                              27 
+                                              1.2 
+                                              32 
+                                              1.4 
+                                           
+                                           
+                                              Increased alanine aminotransferase 
+                                              26 
+                                              1.2 
+                                              26 
+                                              1.8 
+                                           
+                                           
+                                              Increased alkaline phosphatase 
+                                              26 
+                                              0 
+                                              17 
+                                              0.5 
+                                           
+                                           
+                                              Decreased phosphate 
+                                              26 
+                                              7.8 
+                                              20 
+                                              3.3 
+                                           
+                                           
+                                              Decreased sodium 
+                                              22 
+                                              0.4 
+                                              17 
+                                              0.5 
+                                           
+                                           
+                                              Increased lactate dehydrogenase 
+                                              18 
+                                              0 
+                                              22 
+                                              0 
+                                           
+                                           
+                                              Decreased glucose 
+                                              10 
+                                              0 
+                                              3.2 
+                                              0 
+                                           
+                                        
+                                     
+                                  
+                                  
+                               
+                            
+                            
+                               
+                                  
+                                  
+                                  
+                                     
+                                        Study IMMU-132-01 
+                                     
+                                     The safety of TRODELVY was evaluated in a single-arm, open-label study (IMMU-132-01) in patients with mTNBC and other malignancies, which included 108 patients with mTNBC who had received at least two prior anticancer therapies for metastatic disease  [see  Clinical Studies (14.1) ] .  TRODELVY was administered as an intravenous infusion once weekly on Days 1 and 8 of 21-day treatment cycles at doses up to 10 mg/kg until disease progression or unacceptable toxicity.  The median treatment duration in these 108 patients was 5.1 months (range: 0 to 51 months). 
+                                     Serious adverse reactions occurred in 31% of the patients. Serious adverse reactions in > 1% of patients receiving TRODELVY included febrile neutropenia (6%) vomiting (5%), nausea (3%), dyspnea (3%), diarrhea (4%), anemia (2%), pleural effusion, neutropenia, pneumonia, dehydration (each 2%). 
+                                     TRODELVY was permanently discontinued for adverse reactions in 2% of patients. Adverse reactions leading to permanent discontinuation were anaphylaxis, anorexia/fatigue, headache (each 0.9%). Forty- five percent (45%) of patients experienced an adverse reaction leading to treatment interruption. The most common adverse reaction leading to treatment interruption was neutropenia (33%). Adverse reactions leading to dose reduction occurred in 33% of patients treated with TRODELVY, with 24% having one dose reduction, and 9% with two dose reductions. The most common adverse reaction leading to dose reductions was neutropenia/febrile neutropenia. 
+                                     Tables 5 and 6 summarize adverse reactions and laboratory abnormalities occurring in ≥ 10% of patients with mTNBC in the IMMU-132-01 study. 
+                                     
+                                        Table 5: Adverse Reactions in ≥ 10% of Patients with mTNBC in IMMU-132-01 
+                                        
+                                        
+                                        
+                                        
+                                           
+                                              Adverse Reaction 
+                                              TRODELVY (n=108) 
+                                           
+                                           
+                                              Grade 1–4 (%) 
+                                              Grade 3–4 (%) 
+                                           
+                                        
+                                        
+                                           
+                                              Graded per NCI CTCAE v. 4.0 
+                                           
+                                        
+                                        
+                                           
+                                              
+                                                 Any adverse reaction 
+                                              
+                                              100 
+                                              71 
+                                           
+                                           
+                                              
+                                                 Gastrointestinal disorders 
+                                              
+                                              95 
+                                              21 
+                                           
+                                           
+                                                Nausea 
+                                              69 
+                                              6 
+                                           
+                                           
+                                                Diarrhea 
+                                              63 
+                                              9 
+                                           
+                                           
+                                                Vomiting 
+                                              49 
+                                              6 
+                                           
+                                           
+                                                Constipation 
+                                              34 
+                                              1 
+                                           
+                                           
+                                                Abdominal pain Including abdominal pain, distention, pain (upper), discomfort, tenderness. 
+                                              
+                                              26 
+                                              1 
+                                           
+                                           
+                                                Mucositis Including stomatitis, esophagitis, and mucosal inflammation 
+                                              
+                                              14 
+                                              1 
+                                           
+                                           
+                                              
+                                                 General disorders and administration site conditions 
+                                              
+                                              77 
+                                              9 
+                                           
+                                           
+                                                Fatigue Including fatigue and asthenia. 
+                                              
+                                              57 
+                                              8 
+                                           
+                                           
+                                                Edema Including edema; and peripheral, localized, and periorbital edema 
+                                              
+                                              19 
+                                              0 
+                                           
+                                           
+                                                Pyrexia 
+                                              14 
+                                              0 
+                                           
+                                           
+                                              
+                                                 Metabolism and nutrition disorders 
+                                              
+                                              68 
+                                              22 
+                                           
+                                           
+                                                Decreased appetite 
+                                              30 
+                                              1 
+                                           
+                                           
+                                                Dehydration 
+                                              13 
+                                              5 
+                                           
+                                           
+                                              
+                                                 Skin and subcutaneous tissue disorders 
+                                              
+                                              63 
+                                              4 
+                                           
+                                           
+                                                Alopecia 
+                                              38 
+                                              0 
+                                           
+                                           
+                                                Rash Including rash; maculopapular, erythematous, generalized rash; dermatitis acneiform; skin disorder, irritation, and exfoliation 
+                                              
+                                              31 
+                                              3 
+                                           
+                                           
+                                                Pruritus 
+                                              17 
+                                              0 
+                                           
+                                           
+                                                Dry Skin 
+                                              15 
+                                              0 
+                                           
+                                           
+                                              
+                                                 Nervous system disorders 
+                                              
+                                              56 
+                                              4 
+                                           
+                                           
+                                                Headache 
+                                              23 
+                                              1 
+                                           
+                                           
+                                                Dizziness 
+                                              22 
+                                              0 
+                                           
+                                           
+                                                Neuropathy Including gait disturbance, hypoesthesia, muscular weakness, paresthesia, peripheral and sensory neuropathy 
+                                              
+                                              24 
+                                              0 
+                                           
+                                           
+                                                Dysgeusia 
+                                              11 
+                                              0 
+                                           
+                                           
+                                              
+                                                 Infections and infestations 
+                                              
+                                              55 
+                                              12 
+                                           
+                                           
+                                                Urinary Tract Infection 
+                                              21 
+                                              3 
+                                           
+                                           
+                                                Respiratory Infection Including lower and upper respiratory tract infection, pneumonia, influenza, viral upper respiratory infection, bronchitis and respiratory syncytial virus infection 
+                                              
+                                              26 
+                                              3 
+                                           
+                                           
+                                              
+                                                 Musculoskeletal and connective tissue disorders 
+                                              
+                                              54 
+                                              1 
+                                           
+                                           
+                                                Back pain 
+                                              23 
+                                              0 
+                                           
+                                           
+                                                Arthralgia 
+                                              17 
+                                              0 
+                                           
+                                           
+                                                Pain in extremity 
+                                              11 
+                                              0 
+                                           
+                                           
+                                              
+                                                 Respiratory, thoracic and mediastinal disorders 
+                                              
+                                              54 
+                                              5 
+                                           
+                                           
+                                                Cough Includes cough and productive cough 
+                                              
+                                              22 
+                                              0 
+                                           
+                                           
+                                                Dyspnea Includes dyspnea and exertional dyspnea  
+                                              
+                                              21 
+                                              3 
+                                           
+                                           
+                                              
+                                                 Psychiatric disorders 
+                                              
+                                              26 
+                                              1 
+                                           
+                                           
+                                                Insomnia 
+                                              13 
+                                              0 
+                                           
+                                        
+                                     
+                                     
+                                        Table 6: Laboratory Abnormalities observed in ≥ 10% of Patients while receiving TRODELVY in IMMU-132-01 
+                                        
+                                        
+                                        
+                                        
+                                           
+                                              Laboratory Abnormality 
+                                              TRODELVY (n=108) 
+                                           
+                                           
+                                              All Grades (%) 
+                                              Grade 3–4 (%) 
+                                           
+                                        
+                                        
+                                           
+                                              
+                                                 Hematology 
+                                              
+                                           
+                                           
+                                              Decreased hemoglobin 
+                                              93 
+                                              6 
+                                           
+                                           
+                                              Decreased leukocyte count 
+                                              91 
+                                              26 
+                                           
+                                           
+                                              Decreased neutrophil count 
+                                              82 
+                                              32 
+                                           
+                                           
+                                              Increased activated partial thromboplastin time 
+                                              60 
+                                              12 
+                                           
+                                           
+                                              Decreased platelet count 
+                                              30 
+                                              3 
+                                           
+                                           
+                                              
+                                                 Chemistry 
+                                              
+                                           
+                                           
+                                              Increased alkaline phosphatase 
+                                              57 
+                                              2 
+                                           
+                                           
+                                              Decreased magnesium 
+                                              51 
+                                              3 
+                                           
+                                           
+                                              Decreased calcium 
+                                              49 
+                                              3 
+                                           
+                                           
+                                              Increased aspartate aminotransferase 
+                                              45 
+                                              3 
+                                           
+                                           
+                                              Decreased albumin 
+                                              39 
+                                              1 
+                                           
+                                           
+                                              Increased alanine aminotransferase 
+                                              35 
+                                              2 
+                                           
+                                           
+                                              Increased glucose 
+                                              31 
+                                              2.8 
+                                           
+                                           
+                                              Decreased phosphate 
+                                              29 
+                                              5 
+                                           
+                                           
+                                              Decrease magnesium 
+                                              27 
+                                              1.9 
+                                           
+                                           
+                                              Decreased phosphate 
+                                              27 
+                                              6.5 
+                                           
+                                           
+                                              Decreased sodium 
+                                              25 
+                                              4.7 
+                                           
+                                           
+                                              Decreased potassium 
+                                              24 
+                                              3.7 
+                                           
+                                           
+                                              Decreased glucose 
+                                              19 
+                                              2 
+                                           
+                                        
+                                     
+                                  
+                                  
+                               
+                            
+                         
+                      
+                      
+                         
+                            
+                            
+                            
+                               
+                                  Locally Advanced or Metastatic HR-Positive, HER2-Negative Breast Cancer 
+                               
+                            
+                            
+                            
+                               
+                                  
+                                  
+                                  
+                                     
+                                        TROPiCS-02 Study 
+                                     
+                                     The safety of TRODELVY was evaluated in a randomized, active-controlled, open-label, study (TROPiCS-02) in patients with unresectable locally advanced or metastatic HR-positive, HER2-negative breast cancer whose disease has progressed after the following in any setting: a CDK 4/6 inhibitor, endocrine therapy, and a taxane; patients received at least two prior chemotherapies in the metastatic setting (one of which could be in the neoadjuvant or adjuvant setting if progression occurred within 12 months). Patients were randomized (1:1) to receive either TRODELVY (n=268) or single agent chemotherapy (n=249) and were treated until disease progression or unacceptable toxicity  [see  Clinical Studies (14.2) ] . For patients treated with TRODELVY, the median duration of treatment was 4.1 months (range: 0 to 63 months). 
+                                     Serious adverse reactions occurred in 28% of patients receiving TRODELVY.  Serious adverse reactions in > 1% of patients receiving TRODELVY included diarrhea (5%), febrile neutropenia (4%), neutropenia (3%), abdominal pain, colitis, neutropenic colitis, pneumonia, and vomiting (each 2%). Fatal adverse reactions occurred in 2% of patients who received TRODELVY including arrhythmia, COVID-19, nervous system disorder, pulmonary embolism, and septic shock (each 0.4%). TRODELVY was permanently discontinued for adverse reactions in 6% of patients. The most frequent (≥ 0.5%) adverse reactions leading to permanent discontinuation in patients who received TRODELVY were asthenia, general physical health deterioration, and neutropenia (each 0.7%). 
+                                     Adverse reactions leading to a treatment interruptions of TRODELVY occurred in 66% of patients. The most frequent (≥ 5%) adverse reaction leading to treatment interruption was neutropenia (50%). 
+                                     Adverse reaction leading to a dose reduction of TRODELVY occurred in 33% of patients. The most frequent (> 5%) adverse reaction leading to dose reduction were neutropenia (16%) and diarrhea (8%). G-CSF was used in 54% of patients who received TRODELVY. 
+                                     Tables 7 and 8 summarize adverse reactions and laboratory abnormalities in the TROPiCS-02 study. 
+                                     
+                                        Table 7: Adverse Reactions in ≥ 10% of Patients with HR+/HER2- mBC in TROPiCS-02 
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                           
+                                              
+                                              TRODELVY  (n=268) 
+                                              Single Agent Chemotherapy  (n=249) 
+                                           
+                                           
+                                              Adverse Reaction 
+                                              All Grades % 
+                                              Grade 3 – 4 % 
+                                              All Grades % 
+                                              Grade 3 – 4 % 
+                                           
+                                        
+                                        
+                                           
+                                              *Single agent chemotherapy included one of the following single-agents: eribulin (n=130), vinorelbine (n=63), gemcitabine (n=56), or capecitabine (n=22). 
+                                           
+                                           
+                                              Graded per NCI CTCAE v.5.0. 
+                                           
+                                        
+                                        
+                                           
+                                              
+                                                 Gastrointestinal disorders 
+                                              
+                                           
+                                           
+                                              Diarrhea 
+                                              62 
+                                              10 
+                                              23 
+                                              1 
+                                           
+                                           
+                                              Nausea 
+                                              59 
+                                              1 
+                                              35 
+                                              3 
+                                           
+                                           
+                                              Constipation 
+                                              34 
+                                              1 
+                                              25 
+                                              0 
+                                           
+                                           
+                                              Vomiting 
+                                              23 
+                                              1 
+                                              16 
+                                              2 
+                                           
+                                           
+                                              Abdominal Pain 
+                                              20 
+                                              0 
+                                              14 
+                                              0 
+                                           
+                                           
+                                              Dyspepsia Including dyspepsia, gastroesophageal reflux disease. 
+                                              
+                                              11 
+                                              0 
+                                              6 
+                                              0 
+                                           
+                                           
+                                              
+                                                 General disorders and administration site conditions 
+                                              
+                                           
+                                           
+                                              Fatigue Including fatigue, asthenia. 
+                                              
+                                              60 
+                                              8 
+                                              51 
+                                              4 
+                                           
+                                           
+                                              
+                                                 Metabolism and nutrition disorders 
+                                              
+                                           
+                                           
+                                              Decreased appetite 
+                                              21 
+                                              2 
+                                              21 
+                                              0 
+                                           
+                                           
+                                              Hypokalemia 
+                                              10 
+                                              2 
+                                              4 
+                                              0 
+                                           
+                                           
+                                              
+                                                 Musculoskeletal and connective tissue disorders 
+                                              
+                                           
+                                           
+                                              Arthralgia 
+                                              15 
+                                              0 
+                                              12 
+                                              0 
+                                           
+                                           
+                                              
+                                                 Nervous system disorders 
+                                              
+                                           
+                                           
+                                              Headache 
+                                              16 
+                                              1 
+                                              15 
+                                              1 
+                                           
+                                           
+                                              
+                                                 Respiratory, thoracic and mediastinal disorders 
+                                              
+                                           
+                                           
+                                              Dyspnea  Including dyspnea; exertional dyspnea 
+                                              
+                                              20 
+                                              0 
+                                              17 
+                                              0 
+                                           
+                                           
+                                              Cough 
+                                              12 
+                                              0 
+                                              7 
+                                              0 
+                                           
+                                           
+                                              
+                                                 Skin and subcutaneous tissue disorders 
+                                              
+                                           
+                                           
+                                              Alopecia 
+                                              48 
+                                              0 
+                                              19 
+                                              0 
+                                           
+                                           
+                                              Pruritus 
+                                              12 
+                                              0 
+                                              2 
+                                              0 
+                                           
+                                        
+                                     
+                                     Other clinically significant adverse reactions in TROPiCS-02 (≤ 10%) include: hypotension (5%), pain (5%), rhinorrhea (5%), hypocalcemia (3%), nasal congestion (3%), skin hyperpigmentation, (3%), colitis or neutropenic colitis (2%), hyponatremia (2%), pneumonia (2%), proteinuria (1%), enteritis (0.4%). 
+                                     
+                                        Table 8: Laboratory Abnormalities in > 10% of Patients with HR+/HER2- mBC in TROPiCS-02 
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                           
+                                              Laboratory Abnormality 
+                                              TRODELVY (n=268) 
+                                              Single Agent Chemotherapy (n=249) 
+                                           
+                                           
+                                              
+                                              All Grades (%) 
+                                              Grade 3 – 4 (%) 
+                                              All Grades (%) 
+                                              Grade 3 – 4 (%) 
+                                           
+                                        
+                                        
+                                           
+                                              
+                                                 Hematology 
+                                              
+                                           
+                                           
+                                              Decreased leukocyte count 
+                                              88 
+                                              38 
+                                              73 
+                                              26 
+                                           
+                                           
+                                              Decreased neutrophil count 
+                                              83 
+                                              53 
+                                              67 
+                                              40 
+                                           
+                                           
+                                              Decreased hemoglobin 
+                                              73 
+                                              8 
+                                              59 
+                                              5 
+                                           
+                                           
+                                              Decreased lymphocyte count 
+                                              65 
+                                              21 
+                                              47 
+                                              14 
+                                           
+                                           
+                                              Decreased platelet count 
+                                              21 
+                                              1 
+                                              30 
+                                              4 
+                                           
+                                           
+                                              Eosinophilia 
+                                              13 
+                                              0 
+                                              4 
+                                              0 
+                                           
+                                           
+                                              
+                                                 Chemistry 
+                                              
+                                           
+                                           
+                                              Increased glucose 
+                                              37 
+                                              0 
+                                              31 
+                                              0 
+                                           
+                                           
+                                              Decreased albumin 
+                                              32 
+                                              0 
+                                              27 
+                                              0.4 
+                                           
+                                           
+                                              Decreased creatinine clearance 
+                                              24 
+                                              2 
+                                              19 
+                                              1 
+                                           
+                                           
+                                              Increased alkaline phosphatase 
+                                              23 
+                                              0 
+                                              23 
+                                              1 
+                                           
+                                           
+                                              Decreased potassium 
+                                              22 
+                                              3 
+                                              12 
+                                              0.4 
+                                           
+                                           
+                                              Increased alanine aminotransferase 
+                                              21 
+                                              1 
+                                              31 
+                                              2 
+                                           
+                                           
+                                              Decreased sodium 
+                                              19 
+                                              1 
+                                              17 
+                                              0.4 
+                                           
+                                           
+                                              Decreased magnesium 
+                                              18 
+                                              0 
+                                              15 
+                                              0 
+                                           
+                                           
+                                              Decreased phosphate 
+                                              17 
+                                              0 
+                                              10 
+                                              0 
+                                           
+                                           
+                                              Increased phosphate 
+                                              16 
+                                              0 
+                                              16 
+                                              0 
+                                           
+                                           
+                                              Increased lactate dehydrogenase 
+                                              16 
+                                              0 
+                                              28 
+                                              0 
+                                           
+                                           
+                                              Increased aspartate aminotransferase 
+                                              15 
+                                              2 
+                                              25 
+                                              1 
+                                           
+                                           
+                                              Increased potassium 
+                                              14 
+                                              2 
+                                              9 
+                                              0 
+                                           
+                                        
+                                     
+                                  
+                                  
+                               
+                            
+                         
+                      
+                   
+                
+             
+          
+          
+             
+                
+                
+                7 DRUG INTERACTIONS 
+                
+                
+                   
+                      
+                         
+                            UGT1A1 inhibitors or inducers: Avoid concomitant use. ( 7 ) 
+                         
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      7.1 Effect of Other Drugs on TRODELVY 
+                      
+                      
+                         
+                            
+                            
+                            
+                               
+                                  UGT1A1 Inhibitors 
+                               
+                               Concomitant administration of TRODELVY with inhibitors of UGT1A1 may increase the incidence of adverse reactions due to potential increase in systemic exposure to SN-38  [see  Warning and Precaution (5.5)  and  Clinical Pharmacology (12.3 ,  12.5) ] . Avoid administering UGT1A1 inhibitors with TRODELVY. 
+                            
+                            
+                         
+                      
+                      
+                         
+                            
+                            
+                            
+                               
+                                  UGT1A1 Inducers 
+                               
+                               Exposure to SN-38 may be reduced in patients concomitantly receiving UGT1A1 enzyme inducers  [see  Warning and Precaution (5.5)  and  Clinical Pharmacology (12.3 ,  12.5) ] . Avoid administering UGT1A1 inducers with TRODELVY. 
+                            
+                            
+                         
+                      
+                   
+                
+             
+          
+          
+             
+                
+                
+                8 USE IN SPECIFIC POPULATIONS 
+                
+                
+                   
+                      
+                         
+                            Lactation: Advise not to breastfeed. ( 8.2 ) 
+                         
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      8.1 Pregnancy 
+                      
+                      
+                         
+                            
+                            
+                            
+                               
+                                  Risk Summary 
+                               
+                               Based on its mechanism of action, TRODELVY can cause teratogenicity and/or embryo-fetal lethality when administered to a pregnant woman. There are no available data in pregnant women to inform the drug-associated risk. TRODELVY contains a genotoxic component, SN-38, and is toxic to rapidly dividing cells  [see  Clinical Pharmacology (12.1)  and  Nonclinical Toxicology (13.1) ] . Advise pregnant women and females of reproductive potential of the potential risk to a fetus. 
+                               The estimated background risk of major birth defects and miscarriage for the indicated population is unknown. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2 – 4% and 15 – 20%, respectively. 
+                            
+                            
+                         
+                      
+                      
+                         
+                            
+                            
+                            
+                               
+                                  Data 
+                               
+                            
+                            
+                            
+                               
+                                  
+                                  
+                                  
+                                     
+                                        Animal data 
+                                     
+                                     There were no reproductive and developmental toxicology studies conducted with sacituzumab govitecan-hziy. 
+                                  
+                                  
+                               
+                            
+                         
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      8.2 Lactation 
+                      
+                      
+                         
+                            
+                            
+                            
+                               
+                                  Risk Summary 
+                               
+                               There is no information regarding the presence of sacituzumab govitecan-hziy or SN-38 in human milk, the effects on the breastfed child, or the effects on milk production. Because of the potential for serious adverse reactions in a breastfed child, advise women not to breastfeed during treatment and for 1 month after the last dose of TRODELVY. 
+                            
+                            
+                         
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      8.3 Females and Males of Reproductive Potential 
+                      
+                      
+                         
+                            
+                            
+                            
+                               
+                                  Pregnancy Testing 
+                               
+                               Verify the pregnancy status of females of reproductive potential prior to the initiation of TRODELVY. 
+                            
+                            
+                         
+                      
+                      
+                         
+                            
+                            
+                            
+                               
+                                  Contraception 
+                               
+                            
+                            
+                            
+                               
+                                  
+                                  
+                                  
+                                     
+                                        Females 
+                                     
+                                     TRODELVY can cause fetal harm when administered to a pregnant woman  [see  Use in Specific Populations (8.1) ] . Advise females of reproductive potential to use effective contraception during treatment with TRODELVY and for 6 months after the last dose. 
+                                  
+                                  
+                               
+                            
+                            
+                               
+                                  
+                                  
+                                  
+                                     
+                                        Males 
+                                     
+                                     Because of the potential for genotoxicity, advise male patients with female partners of reproductive potential to use effective contraception during treatment with TRODELVY and for 3 months after the last dose. 
+                                  
+                                  
+                               
+                            
+                         
+                      
+                      
+                         
+                            
+                            
+                            
+                               
+                                  Infertility 
+                               
+                            
+                            
+                            
+                               
+                                  
+                                  
+                                  
+                                     
+                                        Females 
+                                     
+                                     Based on findings in animals, TRODELVY may impair fertility in females of reproductive potential  [see  Nonclinical Toxicology (13.1) ] . 
+                                  
+                                  
+                               
+                            
+                         
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      8.4 Pediatric Use 
+                      
+                         Safety and effectiveness of TRODELVY have not been established in pediatric patients. 
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      8.5 Geriatric Use 
+                      
+                         Of the 366 patients with TNBC who were treated with TRODELVY, 19% of patients were 65 years and 3% were 75 years and older. Patients 65 and older had an increased incidence of neutropenia, including fatal outcomes. No other differences in safety and effectiveness were observed between patients ≥ 65 years of age and younger patients. 
+                         Of the 322 patients with HR+/HER2- breast cancer who were treated with TRODELVY, 26% of patients were 65 years and older and 6% were 75 years and older. No overall differences in effectiveness were observed between patients ≥ 65 years of age and younger patients. There was a higher discontinuation rate due to adverse reactions in patients aged 65 years or older (14%) compared with younger patients (3%). 
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      8.6 Hepatic Impairment 
+                      
+                         No adjustment to the starting dosage is required when administering TRODELVY to patients with mild hepatic impairment  [see  Clinical Pharmacology (12.3) ] . 
+                         The safety of TRODELVY in patients with moderate (total bilirubin > 1.5 to 3.0 × ULN) or severe (total bilirubin > 3.0 × upper limit of normal [ULN]) hepatic impairment has not been established. TRODELVY has not been tested in patients with AST or ALT > 3 ULN without liver metastases, or AST or ALT > 5 ULN with liver metastases. No recommendations can be made for the starting dosage in these patients. 
+                      
+                      
+                   
+                
+             
+          
+          
+             
+                
+                
+                10 OVERDOSAGE 
+                
+                   In a clinical trial, planned doses of up to 18 mg/kg (approximately 1.8 times the maximum recommended dose of 10 mg/kg) of TRODELVY were administered. In these patients, a higher incidence of severe neutropenia was observed.  
+                
+                
+             
+          
+          
+             
+                
+                
+                11 DESCRIPTION 
+                
+                   Sacituzumab govitecan-hziy is a Trop-2 directed antibody and topoisomerase inhibitor conjugate, composed of the following three components: 
+                   
+                      the humanized monoclonal antibody, hRS7 IgG1κ (also called sacituzumab), which binds to Trop-2 (the trophoblast cell-surface antigen-2); 
+                      the drug SN-38, a topoisomerase inhibitor; 
+                      a hydrolysable linker (called CL2A), which links the humanized monoclonal antibody to SN-38. 
+                   
+                   The recombinant monoclonal antibody is produced by mammalian (murine myeloma) cells, while the small molecule components SN-38 and CL2A are produced by chemical synthesis. Sacituzumab govitecan-hziy contains on average 7 to 8 molecules of SN-38 per antibody molecule. Sacituzumab govitecan-hziy has a molecular weight of approximately 160 kilodaltons. Sacituzumab govitecan-hziy has the following chemical structure. 
+                   
+                      
+                      
+                         
+                            
+                               
+                            
+                         
+                      
+                   
+                   TRODELVY (sacituzumab govitecan-hziy) for injection is a sterile, preservative-free, off-white to yellowish lyophilized powder for intravenous use in a 50 mL clear glass single-dose vial, with a rubber stopper and crimp-sealed with an aluminum flip-off cap. 
+                   Each single-dose vial of TRODELVY delivers 180 mg sacituzumab govitecan-hziy, 71.7 mg 2-(N-morpholino) ethane sulfonic acid (MES), 1.8 mg polysorbate 80 and 153.99 mg trehalose. Reconstitution with 20 mL of 0.9% Sodium Chloride Injection, USP, results in a concentration of 10 mg/mL with a pH of 6.5. 
+                
+                
+                
+                   
+                      Chemical Structure 
+                      
+                         
+                      
+                   
+                
+             
+          
+          
+             
+                
+                
+                12 CLINICAL PHARMACOLOGY 
+                
+                
+                   
+                      
+                      
+                      12.1 Mechanism of Action 
+                      
+                         Sacituzumab govitecan-hziy is a Trop-2-directed antibody-drug conjugate. Sacituzumab is a humanized antibody that recognizes Trop-2. The small molecule, SN-38, is a topoisomerase I inhibitor, which is covalently attached to the antibody by a linker. Pharmacology data suggest that sacituzumab govitecan-hziy binds to Trop-2-expressing cancer cells and is internalized with the subsequent release of SN-38 via hydrolysis of the linker. SN-38 interacts with topoisomerase I and prevents re-ligation of topoisomerase I-induced single strand breaks. The resulting DNA damage leads to apoptosis and cell death. Sacituzumab govitecan-hziy decreased tumor growth in mouse xenograft models of triple-negative breast cancer.  
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      12.2 Pharmacodynamics 
+                      
+                         The TRODELVY exposure-response relationships and pharmacodynamic time course for efficacy have not been fully characterized. 
+                      
+                      
+                      
+                         
+                            
+                            
+                            
+                               
+                                  Cardiac electrophysiology 
+                               
+                               The maximum mean change from baseline was 9.7 msec (the upper bound of the two-sided 90% confidence interval is 16.8 msec) at the recommended dose. A positive exposure-response relationship was observed between QTc increases and SN-38 concentrations. 
+                            
+                            
+                         
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      12.3 Pharmacokinetics 
+                      
+                         The serum pharmacokinetics of sacituzumab govitecan-hziy and SN-38 were evaluated in patients with mBC who received sacituzumab govitecan-hziy as a single agent at a dose of 10 mg/kg. The pharmacokinetic parameters of sacituzumab govitecan-hziy and free SN-38 are presented in Table 9.  
+                         
+                            Table 9: Summary of Mean PK Parameters (CV%) of Sacituzumab Govitecan-hziy and Free SN-38 Parameters estimated based on population PK analyses  
+                            
+                            
+                            
+                            
+                            
+                               
+                                  
+                                  Sacituzumab govitecan-hziy (N=693) 
+                                  Free SN-38 (N=681) 
+                               
+                            
+                            
+                               
+                                  C max : maximum serum concentration from 0–168 hours after the first dose 
+                               
+                               
+                                  AUC 0–168 : area under serum concentration curve through 168 hours after the first dose 
+                               
+                            
+                            
+                               
+                                  
+                                     C max 
+                                      [ng/mL] 
+                                  239000 (11%) 
+                                  98.0 (45%) 
+                               
+                               
+                                  
+                                     AUC 0–168 
+                                      [ng*h/mL] 
+                                  5640000 (22%) 
+                                  3696 (56%) 
+                               
+                            
+                         
+                      
+                      
+                      
+                         
+                            
+                            
+                            
+                               
+                                  Distribution 
+                               
+                               Based on population pharmacokinetic analysis, steady state volume of  distribution of sacituzumab govetican-hziy is 3.6L. 
+                            
+                            
+                         
+                      
+                      
+                         
+                            
+                            
+                            
+                               
+                                  Elimination 
+                               
+                               The median elimination half-life (t 1/2 ) of sacituzumab govitecan-hziy and free SN-38 in patients with metastatic triple negative breast cancer was 23.4 and 17.6 hours, respectively. Based on population pharmacokinetic analysis, the estimated mean (%CV) clearance of the sacituzumab govitecan-hziy is 0.13 L/h (12%). 
+                            
+                            
+                         
+                      
+                      
+                         
+                            
+                            
+                            
+                               
+                                  Metabolism 
+                               
+                               No metabolism studies with sacituzumab govitecan-hziy have been conducted. SN-38 (the small molecule moiety of sacituzumab govitecan-hziy) is metabolized via UGT1A1. The glucuronide metabolite of SN-38 (SN-38G) was detectable in the serum of patients. 
+                            
+                            
+                         
+                      
+                      
+                         
+                            
+                            
+                            
+                               
+                                  Specific Populations 
+                               
+                               Pharmacokinetic analyses in patients treated with TRODELVY did not identify an effect of age (27 to 88 years), race (White, Black, or Asian), or mild renal impairment to moderate renal impairment (CLcr 30 to 89 mL/min) on the pharmacokinetics of sacituzumab govitecan-hziy. Renal elimination is known to contribute minimally to the excretion of SN-38, the small molecule moiety of sacituzumab govitecan-hziy. There are no data on the pharmacokinetics of sacituzumab govitecan-hziy in patients with severe renal impairment (CLcr 15 to 29 mL/min), or end-stage renal disease (CLcr < 15 mL/min). 
+                            
+                            
+                         
+                      
+                      
+                         
+                            
+                            
+                            
+                               
+                                  Patients with Hepatic Impairment 
+                               
+                               The exposure of sacituzumab govitecan-hziy is similar in patients with mild hepatic impairment (total bilirubin ≤ ULN with AST > ULN, or bilirubin >1.0 to ≤ 1.5 ULN with any AST; n=257) to patients with normal hepatic function (total bilirubin and AST < ULN; n=526). 
+                               Sacituzumab govitecan-hziy and free SN-38 exposures are unknown in patients with moderate (total bilirubin > 1.5 to 3.0 × ULN) or severe (total bilirubin > 3.0 × ULN) hepatic impairment. 
+                            
+                            
+                         
+                      
+                      
+                         
+                            
+                            
+                            
+                               
+                                  Drug Interaction Studies 
+                               
+                               No drug-drug interaction studies were conducted with sacituzumab govitecan-hziy or its components. Inhibitors or inducers of UGT1A1 may increase or decrease SN-38 exposure, respectively  [see  Drug Interactions (7) ] . 
+                            
+                            
+                         
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      12.5 Pharmacogenomics 
+                      
+                         SN-38 is metabolized via UGT1A1 [ see  Clinical Pharmacology (12.3) 
+                            ]. Genetic variants of the UGT1A1 gene such as the UGT1A1*28 allele lead to reduced UGT1A1 enzyme activity. Individuals who are homozygous or heterozygous for the UGT1A1*28 allele are at increased risk for neutropenia, febrile neutropenia, and anemia from TRODELVY compared to individuals who are wildtype (*1/*1)  [see  Warnings and Precautions (5.5) ].  Approximately 20% of the Black or African American population, 10% of the White population, and 2% of the East Asian population are homozygous for the UGT1A1*28 allele (*28/*28). Approximately 40% of the Black or African American population, 50% of the White population, and 25% of the East Asian population are heterozygous for the UGT1A1*28 allele (*1/*28). Decreased function alleles other than UGT1A1*28 may be present in certain populations. 
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      12.6 Immunogenicity  
+                      
+                         The detection of antibody formation is highly dependent on the sensitivity and specificity of the assay. Differences in assay methods preclude meaningful comparisons of the incidence of anti-drug antibodies in the studies described below with the incidence of anti-drug antibodies in other studies, including those of TRODELVY. 
+                         During the median 4-month treatment period across clinical studies in patients treated with TRODELVY, 9 (1.1%) of 785 patients developed antibodies to sacituzumab govitecan; 6 of these patients (0.8% of all patients treated with TRODELVY) had neutralizing antibodies against sacituzumab govitecan. Because of the low occurrence of anti-drug antibodies, the effect of these antibodies on the pharmacokinetics, pharmacodynamics, safety, and/or effectiveness of sacituzumab govitecan is unknown. 
+                      
+                      
+                   
+                
+             
+          
+          
+             
+                
+                
+                13 NONCLINICAL TOXICOLOGY 
+                
+                
+                   
+                      
+                      
+                      13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility 
+                      
+                         Carcinogenicity studies have not been conducted with sacituzumab govitecan-hziy. 
+                         SN-38 was clastogenic in an  in vitro  mammalian cell micronucleus test in Chinese hamster ovary cells and was not mutagenic in an  in vitro  bacterial reverse mutation (Ames) assay. 
+                         Fertility studies with sacituzumab govitecan-hziy have not been conducted. In a repeat-dose toxicity study in cynomolgus monkeys, intravenous administration of sacituzumab govitecan-hziy on Day 1 and Day 4 resulted in endometrial atrophy, uterine hemorrhage, increased follicular atresia of the ovary, and atrophy of vaginal epithelial cells at doses ≥ 60 mg/kg (≥ 6 times the human recommended dose of 10 mg/kg based on body weight). 
+                      
+                      
+                   
+                
+             
+          
+          
+             
+                
+                
+                14 CLINICAL STUDIES 
+                
+                
+                   
+                      
+                      
+                      14.1 Locally Advanced or Metastatic Triple-Negative Breast Cancer 
+                      
+                      
+                         
+                            
+                            
+                            
+                               
+                                  ASCENT 
+                               
+                               Efficacy was evaluated in a multicenter, open-label, randomized study (ASCENT; NCT02574455) conducted in 529 patients with unresectable locally advanced or metastatic triple-negative breast cancer (mTNBC) who had relapsed after at least two prior chemotherapies for breast cancer (one of which could be in the neoadjuvant or adjuvant setting provided progression occurred within a 12 month period). All patients received previous taxane treatment in either the adjuvant, neoadjuvant, or advanced stage unless there was a contraindication or intolerance to taxanes during or at the end of the first taxane cycle. Magnetic resonance imaging (MRI) to determine brain metastases was required prior to enrollment for patients with known or suspected brain metastases. Patients with brain metastases were allowed to enroll up to a pre-defined maximum of 15% of patients in the ASCENT study. Patients with known Gilbert's disease or bone-only disease were excluded. 
+                               Patients were randomized (1:1) to receive TRODELVY 10 mg/kg as an intravenous infusion on Days 1 and 8 of a 21-day (n=267) or physician's choice of single agent chemotherapy (n=262). Single agent chemotherapy was determined by the investigator before randomization from one of the following choices: eribulin (n=139), capecitabine (n=33), gemcitabine (n=38), or vinorelbine (n=52). 
+                               Patients were treated until disease progression or unacceptable toxicity. The major efficacy outcome was progression-free survival (PFS) in patients without brain metastases at baseline (i.e., BMNeg) as measured by a blinded, independent, centralized review assessed using Response Evaluation Criteria in Solid Tumors (RECIST) v1.1 criteria. Additional efficacy measures included PFS for the full population (all patients with and without brain metastases) and overall survival (OS). 
+                               The median age of patients in the full population (n = 529) was 54 years (range: 27 to 82 years); 99.6% were female; 79% were White, 12% were Black/African American; and 81% of patients were < 65 years of age.  All patients had an ECOG performance status of 0 (43%) or 1 (57%). Forty-two percent of patients had hepatic metastases, 9% were BRCA1/BRCA2 mutational status positive, and 70% were TNBC at diagnosis. Twelve percent had baseline brain metastases previously treated and stable (n=61; 32 on TRODELVY arm and 29 on single agent chemotherapy arm). Overall, 29% of patients had received prior PD-1/PD-L1 therapy. Thirteen percent of patients in the TRODELVY group in the full population received only 1 prior line of systemic therapy in the metastatic setting. 
+                               The efficacy results are summarized in Table 10 and are shown in Figure 1 and Figure 2. Efficacy results for the subgroup of patients who had received only 1 prior line of systemic therapy in the metastatic setting (in addition to having disease recurrence or progression within 12 months of neoadjuvant/adjuvant systemic therapy) were consistent with those who had received at least two prior lines in the metastatic setting. 
+                               
+                                  Table 10: Efficacy Results from ASCENT 
+                                  
+                                  
+                                  
+                                  
+                                     
+                                        
+                                        All Randomized Patients 
+                                     
+                                     
+                                        
+                                        TRODELVY n=267 
+                                        Single Agent Chemotherapy n=262 
+                                     
+                                  
+                                  
+                                     
+                                        CI = Confidence Interval 
+                                     
+                                  
+                                  
+                                     
+                                        
+                                           Progression-Free Survival PFS is defined as the time from the date of randomization to the date of the first radiological disease progression or death due to any cause, whichever comes first.  per BICR 
+                                        
+                                     
+                                     
+                                        Disease Progression or Death (%) 
+                                        190 (71%) 
+                                        171 (65%) 
+                                     
+                                     
+                                        Median PFS in months (95% CI) 
+                                        4.8 (4.1, 5.8) 
+                                        1.7 (1.5, 2.5) 
+                                     
+                                     
+                                          Hazard ratio Stratified log-rank test adjusted for stratification factors: number of prior chemotherapies, presence of known brain metastases at study entry, and region.  (95% CI) 
+                                        0.43 (0.35, 0.54) 
+                                     
+                                     
+                                          p-value 
+                                        <0.0001 
+                                     
+                                     
+                                        
+                                           Overall Survival 
+                                        
+                                     
+                                     
+                                        Deaths (%) 
+                                        179 (67%) 
+                                        206 (79%) 
+                                     
+                                     
+                                        Median OS in months (95% CI) 
+                                        11.8 (10.5, 13.8) 
+                                        6.9 (5.9, 7.6) 
+                                     
+                                     
+                                          Hazard ratio  (95% CI) 
+                                        0.51 (0.41, 0.62) 
+                                     
+                                     
+                                          p-value 
+                                        <0.0001 
+                                     
+                                  
+                               
+                               
+                                  Figure 1: Kaplan-Meier Plot of PFS by BICR (All Randomized Patients) in ASCENT 
+                               
+                               
+                                  
+                               
+                               
+                                  Figure 2: Kaplan-Meier Plot of OS (All Randomized Patients) in ASCENT 
+                               
+                               
+                                  
+                               
+                               An exploratory analysis of PFS in patients with previously treated, stable brain metastases showed a stratified HR of 0.65 (95% CI: 0.35, 1.22). The median PFS in the TRODELVY arm was 2.8 months (95% CI: 1.5, 3.9) and the median PFS with single agent chemotherapy was 1.6 months (95% CI: 1.3, 2.9).  Exploratory OS analysis in the same population showed a stratified HR of 0.87 (95% CI: 0.47, 1.63). The median OS in the TRODELVY arm was 6.8 months (95% CI: 4.7, 14.1) and the median OS with single agent chemotherapy was 7.4 months (95% CI: 4.7, 11.1). 
+                            
+                            
+                            
+                               
+                                  Figure 1 
+                                  
+                                     
+                                  
+                               
+                            
+                            
+                               
+                                  Figure 2 
+                                  
+                                     
+                                  
+                               
+                            
+                         
+                      
+                      
+                         
+                            
+                            
+                            
+                               
+                                  IMMU-132-01 
+                               
+                               The efficacy of TRODELVY was evaluated in a multicenter, single-arm, study (NCT01631552) that enrolled 108 patients with metastatic triple-negative breast cancer (mTNBC) who had received at least two prior anticancer therapies for metastatic disease. Patients with bulky disease, defined as a mass > 7 cm, were not eligible. Patients with treated brain metastases not receiving high dose steroids (> 20 mg prednisone or equivalent) for at least four weeks were eligible. Patients with known Gilbert's disease were excluded. 
+                               Patients received TRODELVY 10 mg/kg intravenously on Days 1 and 8 of a 21-day treatment cycle. Patients were treated with TRODELVY until disease progression or intolerance to the therapy. Tumor imaging was obtained every 8 weeks, with confirmatory CT/MRI scans obtained 4–6 weeks after an initial partial or complete response, until progression requiring treatment discontinuation. Major efficacy outcome measures were investigator assessed overall response rate (ORR) using RECIST 1.1 and duration of response. 
+                               The median age was 55 years (range: 31 to 80 years); 87% of patients were younger than 65 years. The majority of patients were female (99%) and White (76%). At study entry, all patients had an ECOG performance status of 0 (29%) or 1 (71%). Seventy-six percent had visceral disease, 42% had hepatic metastases, 56% had lung/pleura metastases, and 2% had brain metastases. Twelve patients (11%) had Stage IV disease at the time of initial diagnosis. 
+                               The median number of prior systemic therapies received in the metastatic setting was 3 (range: 2 to 10). Prior chemotherapies in the metastatic setting included carboplatin or cisplatin (69%), gemcitabine (55%), paclitaxel or docetaxel (53%), capecitabine (51%), eribulin (45%), doxorubicin (24%), vinorelbine (16%), cyclophosphamide (19%), and ixabepilone (8%). 
+                               Overall, 98% of patients had received prior taxanes and 86% had received prior anthracyclines either in the (neo)adjuvant or metastatic setting. 
+                               Table 11 summarizes the efficacy results. 
+                               
+                                  Table 11: Efficacy results for patients with mTNBC in IMMU-132-01 
+                                  
+                                  
+                                  
+                                     
+                                        
+                                        TRODELVY (N=108) 
+                                     
+                                  
+                                  
+                                     
+                                        CI: confidence interval 
+                                     
+                                     
+                                        +: denotes ongoing 
+                                     
+                                  
+                                  
+                                     
+                                        
+                                           Overall Response Rate  investigator assessment 
+                                           
+                                        
+                                        
+                                     
+                                     
+                                          ORR (95% CI) 
+                                        33.3% (24.6, 43.1) 
+                                     
+                                     
+                                            Complete response 
+                                        2.8% 
+                                     
+                                     
+                                            Partial response 
+                                        30.6% 
+                                     
+                                     
+                                        
+                                           Response duration  
+                                           
+                                        
+                                        
+                                     
+                                     
+                                          Number of responders 
+                                        36 
+                                     
+                                     
+                                          Median, Months (95% CI) 
+                                        7.7 (4.9, 10.8) 
+                                     
+                                     
+                                          Range, Months 
+                                        1.9+, 30.4+ 
+                                     
+                                     
+                                          % with duration ≥ 6 months 
+                                        55.6% 
+                                     
+                                     
+                                          % with duration ≥ 12 months 
+                                        16.7% 
+                                     
+                                  
+                               
+                            
+                            
+                         
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      14.2 Locally Advanced or Metastatic HR-Positive, HER2-Negative Breast Cancer 
+                      
+                      
+                         
+                            
+                            
+                            
+                               
+                                  TROPiCS-02 Study 
+                               
+                               The efficacy of TRODELVY was evaluated in a multicenter, open label, randomized study (TROPiCS-02; NCT03901339) conducted in 543 patients with unresectable locally advanced or metastatic HR-positive, HER2-negative (IHC 0, IHC 1+ or IHC 2+/ISH–) breast cancer whose disease has progressed after the following in any setting: a CDK 4/6 inhibitor, endocrine therapy, and a taxane; patients received at least two prior chemotherapies in the metastatic setting (one of which could be in the neoadjuvant or adjuvant setting if recurrence occurred within 12 months). 
+                               Patients were randomized (1:1) to receive TRODELVY 10 mg/kg as an intravenous infusion on Days 1 and 8 of a 21 day cycle (n=272) or single agent chemotherapy (n=271). Single agent chemotherapy was determined by the investigator before randomization from one of the following choices: eribulin (n=130), vinorelbine (n=63), gemcitabine (n=56), or capecitabine (n=22). Randomization was stratified by the following factors: prior chemotherapy regimens for metastatic disease (2 vs. 3–4), visceral metastasis (Yes or No), and endocrine therapy in the metastatic setting for at least 6 months (Yes or No). 
+                               Patients were treated until disease progression or unacceptable toxicity. Administration of TRODELVY was permitted beyond RECIST-defined disease progression if the patient was clinically stable and considered by the investigator to be deriving clinical benefit. The primary efficacy outcome measure was PFS as determined by BICR per RECIST v1.1. Additional efficacy measures included OS, ORR by BICR, and DOR by BICR. 
+                               The median age of patients in the study population was 56 years (range: 27–86 years), 26% of patients were 65 years or over. The majority of patients were female (99%); 67% were White, 4% were Black and 3% were Asian, and 26% were of unknown race. Patients received a median of 7 (range: 3 to 17) prior systemic regimens in any setting and 3 (range: 0 to 8) prior systemic chemotherapy regimens in the metastatic setting. Approximately 42% of patients had 2 prior chemotherapy regimens for treatment of metastatic disease compared to 58% of patients who had 3 to 4 prior chemotherapy regimens and all patients had an ECOG performance status of 0 (45%) or 1 (55%). Ninety-five percent of patients had visceral metastases. Most patients received endocrine therapy in the metastatic setting for ≥ 6 months (86%).  
+                               TRODELVY demonstrated a statistically significant improvement in PFS and OS versus single agent chemotherapy.  
+                               The efficacy results are summarized in Table 12 and Figure 3 and Figure 4. 
+                               
+                                  Table 12: Efficacy Results from TROPiCS-02 
+                                  
+                                  
+                                  
+                                  
+                                     
+                                        
+                                        All Randomized Patients 
+                                     
+                                     
+                                        
+                                        TRODELVY n=272 
+                                        Single Agent Chemotherapy n=271 
+                                     
+                                  
+                                  
+                                     
+                                        
+                                           Progression-Free Survival by BICR PFS is defined as the time from the date of randomization to the date of the first radiological disease progression or death due to any cause, whichever comes first. 
+                                           
+                                        
+                                     
+                                     
+                                        Median PFS in months  (95% CI) 
+                                        5.5 (4.2, 7.0) 
+                                        4.0 (3.1, 4.4) 
+                                     
+                                     
+                                        Hazard ratio (95% CI) 
+                                        0.661 (0.529, 0.826) 
+                                     
+                                     
+                                        p-value Stratified log-rank test adjusted for stratification factors: prior chemotherapy regimens for metastatic disease (2 vs. 3–4), visceral metastasis (Y/N), and endocrine therapy in the metastatic setting for at least 6 months (Yes or No). BICR = Blinded Independent Central Review; CI = Confidence Interval 
+                                        
+                                        0.0003 
+                                     
+                                     
+                                        
+                                           Overall Survival Second interim OS analysis (conducted when 390 OS events were observed) 
+                                           
+                                        
+                                     
+                                     
+                                        Median OS in months  (95% CI) 
+                                        14.4 (13.0, 15.7) 
+                                        11.2 (10.1, 12.7) 
+                                     
+                                     
+                                        Hazard ratio (95% CI) 
+                                        0.789 (0.646, 0.964) 
+                                     
+                                     
+                                        p-value 
+                                        
+                                        0.0200 
+                                     
+                                     
+                                        
+                                           Objective Response Rate by BICR 
+                                        
+                                     
+                                     
+                                        Response Rate, % (95% CI) 
+                                        21.0 (16.3, 26.3) 
+                                        14.0 (10.1, 18.7) 
+                                     
+                                     
+                                        Odds ratio (95% CI) 
+                                        1.625 (1.034, 2.555) 
+                                     
+                                     
+                                        p-value 
+                                        0.0348 
+                                     
+                                     
+                                        
+                                           Duration of Response (DOR) by BICR 
+                                        
+                                     
+                                     
+                                        Median DOR in months (95% CI) 
+                                        8.1  (6.7, 9.1) 
+                                        5.6  (3.8, 7.9) 
+                                     
+                                  
+                               
+                               
+                                  Figure 3: Kaplan-Meier Plot of PFS by BICR in TROPiCS-02 
+                               
+                               
+                                  
+                               
+                               
+                                  Figure 4: Kaplan-Meier Plot of OS in TROPiCS-02 
+                               
+                               
+                                  
+                               
+                            
+                            
+                            
+                               
+                                  Figure 3 
+                                  
+                                     
+                                  
+                               
+                            
+                            
+                               
+                                  Figure 4 
+                                  
+                                     
+                                  
+                               
+                            
+                         
+                      
+                   
+                
+             
+          
+          
+             
+                
+                
+                15 REFERENCES 
+                
+                   1. 	"OSHA Hazardous Drugs." OSHA.  http://www.osha.gov/SLTC/hazardousdrugs/index.html . 
+                
+                
+             
+          
+          
+             
+                
+                
+                16 HOW SUPPLIED/STORAGE AND HANDLING 
+                
+                   TRODELVY (sacituzumab govitecan-hziy) for injection is a sterile, off-white to yellowish lyophilized powder in a single-dose vial. Each TRODELVY vial is individually boxed in a carton: 
+                   
+                      NDC 55135-132-01 contains one 180 mg vial 
+                   
+                
+                
+                
+                   
+                      
+                      
+                      
+                         Store vials in a refrigerator at 2°C to 8°C (36°F to 46°F) in the original carton to protect from light until time of reconstitution. Do not freeze. 
+                         TRODELVY is a hazardous drug. Follow applicable special handling and disposal procedures 1 . 
+                      
+                      
+                   
+                
+             
+          
+          
+             
+                
+                
+                17 PATIENT COUNSELING INFORMATION 
+                
+                   
+                      Advise the patient to read the FDA-approved patient labeling (Patient Information) 
+                   
+                
+                
+                
+                   
+                      
+                      
+                      
+                         
+                            Neutropenia 
+                         
+                         Advise patients of the risk of neutropenia. Instruct patients to immediately contact their healthcare provider if they experience fever, chills, or other signs of infection  [see  Warnings and Precautions (5.1) ] . 
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      
+                         
+                            Diarrhea 
+                         
+                         Advise patients of the risk of diarrhea. Instruct patients to immediately contact their healthcare provider if they experience diarrhea for the first time during treatment; black or bloody stools; symptoms of dehydration such as lightheadedness, dizziness, or faintness; inability to take fluids by mouth due to nausea or vomiting; or inability to get diarrhea under control within 24 hours  [see  Warnings and Precautions (5.2) ]. 
+                         
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      
+                         
+                            Hypersensitivity and Infusion-Related Reactions 
+                         
+                         Inform patients of the risk of serious infusion reactions and anaphylaxis. Instruct patients to immediately contact their healthcare provider if they experience facial, lip, tongue, or throat swelling, urticaria, difficulty breathing, lightheadedness, dizziness, chills, rigors, wheezing, pruritus, flushing, rash, hypotension, or fever that occur during or within 24 hours following the infusion  [see  Warnings and Precautions (5.3) ] . 
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      
+                         
+                            Nausea/Vomiting 
+                         
+                         Advise patients of the risk of nausea and vomiting. Premedication according to established guidelines with a two or three drug regimen for prevention of chemotherapy-induced nausea and vomiting (CINV) is also recommended. Additional antiemetics, sedatives, and other supportive measures may also be employed as clinically indicated. All patients should receive take-home medications for preventing and treating delayed nausea and vomiting, with clear instructions. Instruct patients to immediately contact their healthcare provider if they experience uncontrolled nausea or vomiting  [see  Warnings and Precautions (5.4) ] . 
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      
+                         
+                            Embryo-Fetal Toxicity 
+                         
+                         Advise female patients to contact their healthcare provider if they are pregnant or become pregnant. Inform female patients of the risk to a fetus and potential loss of the pregnancy  [see  Use in Specific Populations (8.1) ]. 
+                         
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      
+                         
+                            Contraception 
+                         
+                         Advise female patients of reproductive potential to use effective contraception during treatment and for 6 months after the last dose of TRODELVY  [see  Use in Specific Populations (8.3) ] . 
+                         Advise male patients with female partners of reproductive potential to use effective contraception during treatment and for 3 months after the last dose of TRODELVY  [see  Use in Specific Populations (8.3) ] . 
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      
+                         
+                            Lactation 
+                         
+                         Advise women not to breastfeed during treatment and for 1 month after the last dose of TRODELVY  [see  Use in Specific Populations (8.2) ]. 
+                         
+                      
+                      
+                   
+                
+                
+                   
+                      
+                      
+                      
+                         
+                            Infertility 
+                         
+                         Advise females of reproductive potential that TRODELVY may impair fertility  [see  Use in Specific Populations (8.3) ]. 
+                         
+                      
+                      
+                   
+                
+             
+          
+          
+             
+                
+                
+                
+                   Manufactured by: 
+                   Gilead Sciences, Inc. 333 Lakeside Dr. Foster City, CA 94404, USA 
+                      U.S. License No. 2258 
+                
+                
+             
+          
+          
+             
+                
+                
+                
+                   
+                      
+                      
+                      
+                      
+                         
+                            The Patient Information has been approved by the U.S. Food and Drug Administration. 
+                            Revised: 03/2025 
+                         
+                      
+                      
+                         
+                            
+                               Patient Information 
+                               TRODELVY ®  (troh-DELL-vee) (sacituzumab govitecan-hziy) for injection, for intravenous use 
+                         
+                         
+                            
+                               
+                                  What is the most important information I should know about TRODELVY? TRODELVY can cause serious side effects, including: 
+                               
+                               
+                                  
+                                     Low white blood cell count (neutropenia).  Low white blood cell counts are common with TRODELVY and can sometimes be severe and lead to infections that can be life-threatening or cause death as early as the first cycle of treatment. Your healthcare provider should check your blood cell counts during treatment with TRODELVY and may give a medicine to help prevent low blood cell count starting in the first cycle of treatment if you have an increased risk for developing low white blood cell count with a fever (febrile neutropenia). If your white blood cell count is too low, your healthcare provider may need to delay treatment or lower your dose of TRODELVY, give you a medicine to treat low blood cell count, or in some cases may permanently stop TRODELVY. Your healthcare provider may need to give you antibiotic medicines if you develop fever while your white blood cell count is low.  
+                                     Call your healthcare provider right away if you develop any of the following signs of infection during treatment with TRODELVY : 
+                               
+                            
+                         
+                         
+                            
+                            
+                               
+                                  fever 
+                                  chills 
+                                  cough 
+                               
+                            
+                            
+                               
+                                  shortness of breath 
+                                  burning or pain when you urinate 
+                               
+                            
+                         
+                         
+                            
+                               
+                                  
+                                     Severe diarrhea.  Diarrhea is common with TRODELVY and can also be severe. Severe diarrhea can lead to loss of too much body fluid (dehydration) and kidney problems. Your healthcare provider should monitor you for diarrhea and give you medicine as needed to help control your diarrhea. If you lose too much body fluid, your healthcare provider may need to give you fluids and electrolytes to replace body salts. If you develop diarrhea during treatment with TRODELVY, your healthcare provider should check to see if diarrhea may be caused by an infection. Your healthcare provider may decrease your dose, delay treatment, or permanently stop TRODELVY if your diarrhea is severe and cannot be controlled with anti-diarrheal medicines. 
+                                     Call your healthcare provider right away: 
+                                     
+                                        the first time that you get diarrhea during treatment with TRODELVY 
+                                        if you have black or bloody stools 
+                                        if you have symptoms of losing too much body fluid and body salts, such as lightheadedness, dizziness, or faintness 
+                                        if you are unable to take fluids by mouth due to nausea or vomiting 
+                                        if you are not able to get your diarrhea under control within 24 hours 
+                                     
+                                  
+                               
+                            
+                         
+                         
+                            
+                               What is TRODELVY? 
+                               TRODELVY is a prescription medicine used to treat adults with: 
+                                  a type of breast cancer called triple-negative breast cancer (TNBC), which is estrogen and progesterone hormone receptor (HR)-negative and human epidermal growth factor receptor 2 (HER2)-negative. TRODELVY may be used: 
+                                        when your breast cancer has spread to other parts of the body (metastatic) or cannot be removed by surgery,  
+                                           and 
+                                        
+                                        if you previously received two or more prior treatments, including at least one treatment for metastatic disease.  
+                                     
+                                  
+                                  a type of breast cancer that is HR-positive and HER2-negative. TRODELVY may be used: 
+                                        when your breast cancer has spread to other parts of the body or cannot be removed by surgery, 
+                                           and 
+                                           if you previously received endocrine therapy and at least two additional treatments for metastatic disease. 
+                                     
+                                  
+                               									It is not known if TRODELVY is safe and effective in people with moderate or severe liver problems. It is not known if TRODELVY is safe and effective in children. 
+                         
+                         
+                            
+                               Do not receive TRODELVY if you have had a severe allergic reaction to TRODELVY.  Ask your healthcare provider if you are not sure. 
+                         
+                         
+                            
+                               Before receiving TRODELVY, tell your healthcare provider about all of your medical conditions, including if you: 
+                               
+                                  have been told that you carry a gene for uridine diphosphate-glucuronosyl transferase 1A1 (UGT1A1)*28. People who carry this gene have an increased risk of getting side effects with TRODELVY, especially low white blood cell counts, a fever while your white blood cell count is low, and low red blood cell counts.  See " What is the most important information I should know about TRODELVY? " 
+                                  
+                                  have liver problems. 
+                                  are pregnant or plan to become pregnant. TRODELVY can harm your unborn baby. Your healthcare provider should check to see if you are pregnant before you start receiving TRODELVY. 
+                                        Females who can become pregnant should use effective birth control during treatment and for 6 months after your last dose of TRODELVY. Talk to your healthcare provider about birth control choices that may be right for you during this time. Tell your healthcare provider right away if you become pregnant during treatment with TRODELVY. 
+                                        Males with a female partner who can become pregnant should use effective birth control during treatment and for 3 months after your last dose of TRODELVY. 
+                                     
+                                  
+                                  are breastfeeding or plan to breastfeed. It is not known if TRODELVY passes into your breastmilk and can harm your baby. Do not breastfeed during treatment and for 1 month after your last dose of TRODELVY. 
+                               
+                               Tell your healthcare provider about all the medicines you take , including prescription and over-the-counter medicines, vitamins, and herbal supplements. Certain medicines may affect the way TRODELVY works. 
+                         
+                         
+                            
+                               How will I receive TRODELVY? 
+                               
+                                  Your healthcare provider will give you TRODELVY into your vein through an intravenous (IV) line. 
+                                  TRODELVY is given 1 time each week, on Day 1 and on Day 8 of a 21-day treatment cycle.  
+                                  You will receive the first dose of TRODELVY over 3 hours. If you tolerate the first dose well, future doses may be given over 1 to 2 hours. 
+                                  Before each dose of TRODELVY, you will receive medicines to help prevent infusion-related reactions, and nausea and vomiting. 
+                                  You will be monitored for side effects during and for at least 30 minutes after you receive each infusion of TRODELVY. 
+                                  Your healthcare provider may slow down or temporarily stop your infusion of TRODELVY if you have an infusion-related reaction, or permanently stop TRODELVY if you have a life-threatening infusion-related reaction. 
+                                  Your healthcare provider will decide how long you will continue to receive TRODELVY. 
+                               
+                            
+                         
+                         
+                            
+                               What are the possible side effects of TRODELVY? 
+                               TRODELVY can cause serious side effects, including: 
+                                  
+                                     See " What is the most important information I should know about TRODELVY? " 
+                                  
+                                  
+                                     
+                                        Allergic and infusion-related reactions . TRODELVY can cause serious or life-threatening allergic and infusion-related reactions. Tell your healthcare provider or nurse right away if you get any of the following symptoms of an allergic or infusion-related reaction during your infusion of TRODELVY or within 24 hours after you receive a dose of TRODELVY: 
+                                  
+                               
+                            
+                         
+                         
+                            
+                            
+                               
+                                  swelling of your face, lips, tongue, or throat 
+                                  hives 
+                                  skin rash, itching, or flushing of your skin 
+                                  fever 
+                               
+                            
+                            
+                               
+                                  difficulty breathing or wheezing 
+                                  lightheadedness, dizziness, feeling faint or pass out  
+                                  chills or shaking chills (rigors) 
+                               
+                            
+                         
+                         
+                            
+                               
+                                  
+                                     Nausea and vomiting . Nausea and vomiting are common with TRODELVY and can sometimes be severe. Before each dose of TRODELVY, you will receive medicines to help prevent nausea and vomiting. You should be given medicines to take home with you, along with instructions about how to take them to help prevent and treat any nausea and vomiting after you receive TRODELVY. Call your healthcare provider right away if you have nausea or vomiting that is not controlled with the medicines prescribed for you. Your healthcare provider may decide to decrease your dose, delay treatment, or permanently stop TRODELVY if your nausea and vomiting is severe and cannot be controlled with anti-nausea medicines. 
+                               
+                               The most common side effects of TRODELVY include: 
+                            
+                         
+                         
+                            
+                            
+                               
+                                  decreased white blood cell (leukocyte and lymphocyte) and red blood cell counts 
+                                  feeling tired or weak 
+                                  hair loss 
+                                  constipation 
+                                  increased sugar levels in the blood 
+                                  decreased protein levels (albumin) in the blood 
+                               
+                            
+                            
+                               
+                                  decreased appetite 
+                                  changes in kidney function test 
+                                  increased levels of enzyme called alkaline phosphatase in the blood (test for liver or bone problems) 
+                                  decreased levels of magnesium, potassium, and sodium in the blood 
+                               
+                            
+                         
+                         
+                            TRODELVY may cause fertility problems in females, which could affect your ability to have a baby. Talk to your healthcare provider if fertility is a concern for you. These are not all of the possible side effects of TRODELVY. Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088. 
+                         
+                         
+                            
+                               General information about the safe and effective use of TRODELVY. 
+                               Medicines are sometimes prescribed for purposes other than those listed in a Patient Information leaflet. You can ask your pharmacist or healthcare provider for information about TRODELVY that is written for health professionals. 
+                         
+                         
+                            
+                               What are the ingredients in TRODELVY? Active ingredient : sacituzumab govitecan-hziy 
+                               Inactive ingredients : 2-(N-morpholino) ethane sulfonic acid (MES), polysorbate 80 and trehalose Manufactured by: Gilead Sciences, Inc., 333 Lakeside Dr., Foster City, CA 94404, USA U.S. License No. 2258 761115-GS-010 For more information about TRODELVY, go to www.TRODELVY.com or call 1-888-983-4668. 
+                         
+                      
+                   
+                
+                
+             
+          
+          
+             
+                
+                
+                PRINCIPAL DISPLAY PANEL - 180 mg Vial Label 
+                
+                   NDC 55135-132-01 
+                   Rx only 
+                   TRODELVY ® 
+                      						sacituzumab govitecan-hziy 						For injection 
+                   180 mg per vial 
+                   For intravenous infusion only 
+                   Warning: Hazardous Drug 
+                   Single-dose vial Discard unused portion 
+                   90370103 
+                   
+                
+                
+                
+                   
+                      PRINCIPAL DISPLAY PANEL - 180 mg Vial Label 
+                      
+                         
+                      
+                   
+                
+             
+          
+          
+             
+                
+                
+                PRINCIPAL DISPLAY PANEL - 180 mg Vial Box 
+                
+                   NDC 55135-132-01 
+                   Rx only 
+                   TRODELVY ® 
+                      						sacituzumab govitecan-hziy 						For injection 
+                   180 mg per vial 
+                   For intravenous infusion only 
+                   Warning: Hazardous Drug 
+                   Reconstitute and dilute immediately prior to use 
+                   Single-dose vial Discard unused portion 
+                   1 Vial 
+                   
+                
+                
+                
+                   
+                      PRINCIPAL DISPLAY PANEL - 180 mg Vial Box 
+                      
+                         
+                      
+                   
+                
+             
+          
+       
+    
+ 

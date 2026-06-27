@@ -1,0 +1,51 @@
+biologic:
+  name: tralokinumab
+  id: NCIT:C152710
+  matched_label: Tralokinumab
+  synonyms: [Adbry, tralokinumab-ldrm]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: atopic dermatitis, id: MONDO:0004980, matched_label: atopic eczema}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:d8020b69-3001-44e2-9b5d-5f93d9aaf6e1
+        snippet: "ADBRY is indicated for the treatment of moderate-to-severe atopic dermatitis in adults and pediatric patients 12 years of age and older whose disease is not adequately controlled with topical prescription therapies or when those therapies are not advisable."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names moderate-to-severe atopic dermatitis as an approved treatment population, asserting the drug→disease edge; atopic eczema (MONDO:0004980) is the established synonym of atopic dermatitis, the grounded term."
+      - reference: PMID:33000465
+        reference_title: "Tralokinumab for moderate-to-severe atopic dermatitis: results from two 52-week, randomized, double-blind, multicentre, placebo-controlled phase III trials (ECZTRA 1 and ECZTRA 2)."
+        snippet: "more patients who received tralokinumab vs. placebo achieved an IGA score of 0 or 1"
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase III RCTs (ECZTRA 1 and ECZTRA 2) showing tralokinumab achieves higher IGA 0/1 response than placebo in moderate-to-severe atopic dermatitis, corroborating the indication."
+    needs_review: false
+    candidates: []
+targets:
+  - predicate: biolink:affects
+    object: {name: IL-13, id: HGNC:5973, matched_label: IL13}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:d8020b69-3001-44e2-9b5d-5f93d9aaf6e1
+        snippet: "specifically binds to human interleukin-13 (IL-13) and inhibits its interaction with the IL-13 receptor"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MECHANISM OF ACTION states tralokinumab is an IL-13 antagonist that binds IL-13 and inhibits its receptor interaction → decreased IL-13 activity. IL-13 grounds to the HGNC gene IL13 (HGNC:5973)."
+    needs_review: false
+    candidates: []
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "15"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=d8020b69-3001-44e2-9b5d-5f93d9aaf6e1
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

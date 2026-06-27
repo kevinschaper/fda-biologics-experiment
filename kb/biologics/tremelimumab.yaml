@@ -1,0 +1,59 @@
+biologic:
+  name: tremelimumab
+  id: NCIT:C49085
+  matched_label: Tremelimumab
+  synonyms: [Imjudo, tremelimumab-actl]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: hepatocellular carcinoma, id: MONDO:0007256, matched_label: hepatocellular carcinoma}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:6690679c-be2f-4588-a2e4-89fff74dd6be
+        snippet: "IMJUDO, in combination with durvalumab, is indicated for the treatment of adult patients with unresectable hepatocellular carcinoma (uHCC)."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names unresectable hepatocellular carcinoma as an approved treatment population; stripping the qualifier leaves hepatocellular carcinoma, asserting the drug→disease edge."
+      - reference: PMID:41799527
+        reference_title: "Advances in Systemic Therapy for Unresectable Hepatocellular Carcinoma: Commentary on The Impact of the STRIDE Regimen in HIMALAYA Trial."
+        snippet: "achieved a median overall survival (OS) of 16.43 months compared to 13.77 months with sorafenib"
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Reports the pivotal phase 3 HIMALAYA trial result for the Single Tremelimumab Regular Interval Durvalumab (STRIDE) regimen, which improved median overall survival versus sorafenib in unresectable hepatocellular carcinoma, corroborating the tremelimumab→hepatocellular carcinoma edge."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: non-small cell lung cancer, id: MONDO:0005233, matched_label: non-small cell lung carcinoma}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:6690679c-be2f-4588-a2e4-89fff74dd6be
+        snippet: "IMJUDO, in combination with durvalumab and platinum-based chemotherapy, is indicated for the treatment of adult patients with metastatic NSCLC with no sensitizing epidermal growth factor receptor (EGFR) mutations or anaplastic lymphoma kinase (ALK) genomic tumor aberrations."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names metastatic non-small cell lung cancer (NSCLC) as an approved treatment population; stripping the qualifiers leaves non-small cell lung cancer, asserting the drug→disease edge."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: CTLA-4, id: HGNC:2505, matched_label: CTLA4}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:6690679c-be2f-4588-a2e4-89fff74dd6be
+        snippet: "Tremelimumab-actl is a monoclonal antibody that binds to CTLA-4 and blocks the interaction with its ligands CD80 and CD86, releasing CTLA-4-mediated inhibition of T-cell activation."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states tremelimumab binds CTLA-4 and blocks the interaction with its ligands, i.e. causes decreased CTLA-4 activity. CTLA-4 is an alias of the HGNC gene CTLA4."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "14"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=6690679c-be2f-4588-a2e4-89fff74dd6be
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

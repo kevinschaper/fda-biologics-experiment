@@ -1,0 +1,67 @@
+biologic:
+  name: tezepelumab
+  id: NCIT:C152582
+  matched_label: Tezepelumab
+  synonyms: [Tezspire, tezepelumab-ekko]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: severe asthma, id: MONDO:0004979, matched_label: asthma}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:60f0aa03-ad25-4d48-80ce-7fcfa76f325f
+        snippet: "TEZSPIRE is indicated for the add-on maintenance treatment of adult and pediatric patients aged 12 years and older with severe asthma."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names severe asthma as an approved add-on maintenance treatment population; stripping the severity qualifier leaves asthma, asserting the drug→disease edge."
+      - reference: PMID:33979488
+        reference_title: "Tezepelumab in Adults and Adolescents with Severe, Uncontrolled Asthma."
+        snippet: "Patients with severe, uncontrolled asthma who received tezepelumab had fewer exacerbations and better lung function, asthma control, and health-related quality of life than those who received placebo."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 3 RCT (NAVIGATOR) showing tezepelumab reduces exacerbations and improves lung function and asthma control in severe asthma, corroborating the indication."
+    needs_review: false
+    candidates: []
+  - predicate: biolink:ameliorates_condition
+    object: {name: chronic rhinosinusitis with nasal polyps, id: MONDO:0006031, matched_label: chronic rhinosinusitis}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:60f0aa03-ad25-4d48-80ce-7fcfa76f325f
+        snippet: "TEZSPIRE is indicated for the add-on maintenance treatment of adult and pediatric patients aged 12 years and older with inadequately controlled chronic rhinosinusitis with nasal polyps (CRSwNP)."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names chronic rhinosinusitis with nasal polyps (CRSwNP) as an approved add-on maintenance treatment population, asserting the drug→disease edge. No exact MONDO term for 'chronic rhinosinusitis with nasal polyps' was found by grounding; grounded to the parent concept chronic rhinosinusitis (MONDO:0006031) and flagged for review."
+    needs_review: true
+    candidates:
+      - curie: MONDO:0006031
+        label: chronic rhinosinusitis
+        score: 1.0
+        match_type: exact
+        source: oak:mondo
+targets:
+  - predicate: biolink:affects
+    object: {name: TSLP, id: HGNC:30743, matched_label: TSLP}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:60f0aa03-ad25-4d48-80ce-7fcfa76f325f
+        snippet: "binds to human TSLP with a dissociation constant of 15.8 pM and blocks its interaction with the heterodimeric TSLP receptor"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MECHANISM OF ACTION states tezepelumab is a TSLP blocker that binds TSLP and blocks its receptor interaction → decreased TSLP activity. TSLP grounds to the HGNC gene TSLP (HGNC:30743)."
+    needs_review: false
+    candidates: []
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "15"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=60f0aa03-ad25-4d48-80ce-7fcfa76f325f
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

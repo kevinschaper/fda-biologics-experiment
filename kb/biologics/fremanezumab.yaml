@@ -1,0 +1,49 @@
+biologic:
+  name: fremanezumab
+  id: NCIT:C174842
+  matched_label: Fremanezumab
+  synonyms: [Ajovy, fremanezumab-vfrm]
+indications:
+  - predicate: biolink:preventative_for_condition
+    object: {name: migraine, id: MONDO:0005277, matched_label: migraine disorder}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:98e344ea-5916-4947-b6f2-4a76ccc04b6b
+        snippet: "AJOVY is indicated for: the preventive treatment of migraine in adults"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names migraine as the approved preventive-treatment population; 'preventive treatment' maps to preventative_for_condition. Migraine grounds to MONDO:0005277 (migraine disorder)."
+      - reference: PMID:29171818
+        reference_title: "Fremanezumab for the Preventive Treatment of Chronic Migraine."
+        snippet: "Fremanezumab as a preventive treatment for chronic migraine resulted in a lower frequency of headache than placebo in this 12-week trial."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 3 randomized, double-blind, placebo-controlled trial (HALO CM) showing fremanezumab as preventive treatment lowers headache frequency versus placebo, corroborating the preventive migraine indication."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: CGRP, id: HGNC:1437, matched_label: CALCA}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:98e344ea-5916-4947-b6f2-4a76ccc04b6b
+        snippet: "Fremanezumab-vfrm is a humanized monoclonal antibody that binds to calcitonin gene-related peptide (CGRP) ligand and blocks its binding to the receptor."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MECHANISM OF ACTION states fremanezumab binds the CGRP ligand and blocks its binding to the receptor -> decreased CGRP activity. The CGRP ligand is encoded by CALCA (HGNC:1437)."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "24"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=98e344ea-5916-4947-b6f2-4a76ccc04b6b
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

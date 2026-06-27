@@ -1,0 +1,49 @@
+biologic:
+  name: dostarlimab
+  id: NCIT:C126799
+  matched_label: Dostarlimab
+  synonyms: [Jemperli, dostarlimab-gxly]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: endometrial cancer, id: MONDO:0011962, matched_label: endometrial cancer}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:095eab9f-545a-4f12-bfb7-19477fb901a5
+        snippet: "JEMPERLI, in combination with carboplatin and paclitaxel, followed by JEMPERLI as a single agent, is indicated for the treatment of adult patients with primary advanced or recurrent endometrial cancer (EC)."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names primary advanced or recurrent endometrial cancer as an approved treatment population; stripping the qualifiers leaves endometrial cancer, asserting the drug→disease edge."
+      - reference: PMID:42215378
+        reference_title: "Four-year survival outcomes with dostarlimab plus chemotherapy in mismatch repair deficient/microsatellite instability-high primary advanced or recurrent endometrial cancer in the RUBY trial."
+        snippet: "Dostarlimab+CP demonstrated sustained OS and PFS benefits."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal randomized RUBY trial showing dostarlimab plus chemotherapy confers sustained overall- and progression-free-survival benefit in primary advanced or recurrent endometrial cancer, corroborating the dostarlimab→endometrial cancer edge."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: PD-1, id: HGNC:8760, matched_label: PDCD1}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:095eab9f-545a-4f12-bfb7-19477fb901a5
+        snippet: "Dostarlimab-gxly is a humanized monoclonal antibody of the IgG4 isotype that binds to the PD-1 receptor and blocks its interaction with PD-L1 and PD-L2"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states dostarlimab binds and blocks the PD-1 receptor, i.e. causes decreased PD-1 activity. PD-1 is an alias of the HGNC gene PDCD1."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "14"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=095eab9f-545a-4f12-bfb7-19477fb901a5
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

@@ -1,0 +1,49 @@
+biologic:
+  name: caplacizumab
+  id: NCIT:C128625
+  matched_label: Caplacizumab
+  synonyms: [Cablivi]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: acquired thrombotic thrombocytopenic purpura, id: MONDO:0019740, matched_label: acquired thrombotic thrombocytopenic purpura}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:2348f06e-8004-4040-832e-e9e86a39f905
+        snippet: "CABLIVI is indicated for the treatment of adult and pediatric patients 12 years of age and older with acquired thrombotic thrombocytopenic purpura (aTTP), in combination with plasma exchange and immunosuppressive therapy."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names acquired thrombotic thrombocytopenic purpura as an approved treatment population (co-administered with plasma exchange and immunosuppressive therapy), asserting the drug→disease edge."
+      - reference: PMID:30625070
+        reference_title: "Caplacizumab Treatment for Acquired Thrombotic Thrombocytopenic Purpura."
+        snippet: "Among patients with TTP, treatment with caplacizumab was associated with faster normalization of the platelet count"
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 3 RCT (HERCULES) demonstrating caplacizumab produced faster platelet-count normalization and a lower rate of TTP recurrence than placebo in acquired thrombotic thrombocytopenic purpura, corroborating the indication."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: von Willebrand factor, id: HGNC:12726, matched_label: VWF}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:2348f06e-8004-4040-832e-e9e86a39f905
+        snippet: "Caplacizumab-yhdp targets the A1-domain of vWF, and inhibits the interaction between vWF and platelets, thereby reducing both vWF-mediated platelet adhesion and platelet consumption."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states caplacizumab targets the A1-domain of von Willebrand factor and inhibits the vWF–platelet interaction → decreased vWF activity. VWF is the HGNC gene symbol (HGNC:12726)."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "18"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=2348f06e-8004-4040-832e-e9e86a39f905
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

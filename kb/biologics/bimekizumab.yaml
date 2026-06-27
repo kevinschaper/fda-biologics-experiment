@@ -1,0 +1,67 @@
+biologic:
+  name: bimekizumab
+  id: NCIT:C171829
+  matched_label: Bimekizumab
+  synonyms: [Bimzelx, bimekizumab-bkzx]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: plaque psoriasis, id: MONDO:0005083, matched_label: psoriasis}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:26b88358-871f-4c80-9d80-b2fb16477f81
+        snippet: "BIMZELX is indicated for the treatment of moderate to severe plaque psoriasis in adults who are candidates for systemic therapy or phototherapy."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names moderate to severe plaque psoriasis as an approved treatment population, asserting the drug→disease edge. No exact MONDO term for 'plaque psoriasis' was found by grounding; grounded to the parent concept psoriasis (MONDO:0005083) and flagged for review."
+      - reference: PMID:33549192
+        reference_title: "Bimekizumab efficacy and safety in moderate to severe plaque psoriasis (BE READY): a multicentre, double-blind, placebo-controlled, randomised withdrawal phase 3 trial."
+        snippet: "317 (91%) of 349 patients receiving bimekizumab 320 mg every 4 weeks achieved PASI90, compared with one (1%) of 86 patients receiving placebo"
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 3 RCT (BE READY) showing bimekizumab achieves PASI90 in 91% of patients versus 1% on placebo in moderate-to-severe plaque psoriasis, corroborating the indication."
+    needs_review: true
+    candidates:
+      - curie: MONDO:0005083
+        label: psoriasis
+        score: 1.0
+        match_type: exact
+        source: oak:mondo
+  - predicate: biolink:ameliorates_condition
+    object: {name: psoriatic arthritis, id: MONDO:0011849, matched_label: psoriatic arthritis}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:26b88358-871f-4c80-9d80-b2fb16477f81
+        snippet: "BIMZELX is indicated for the treatment of adults with active psoriatic arthritis."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names active psoriatic arthritis as an approved treatment population, asserting the drug→disease edge."
+    needs_review: false
+    candidates: []
+targets:
+  - predicate: biolink:affects
+    object: {name: IL-17A, id: HGNC:5981, matched_label: IL17A}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:26b88358-871f-4c80-9d80-b2fb16477f81
+        snippet: "selectively bind to human interleukin 17A (IL-17A), interleukin 17F (IL-17F), and interleukin 17-AF cytokines, and inhibits their interaction with the IL-17 receptor complex"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MECHANISM OF ACTION states bimekizumab selectively binds IL-17A (and IL-17F/IL-17AF) and inhibits their receptor interaction → decreased IL-17A activity. This dual IL-17A/IL-17F antagonist is grounded to IL-17A, encoded by IL17A (HGNC:5981)."
+    needs_review: false
+    candidates: []
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "14"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=26b88358-871f-4c80-9d80-b2fb16477f81
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

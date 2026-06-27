@@ -1,0 +1,59 @@
+biologic:
+  name: retifanlimab
+  id: NCIT:C142168
+  matched_label: Retifanlimab
+  synonyms: [Zynyz, retifanlimab-dlwr]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: squamous cell carcinoma of the anal canal, id: MONDO:0004132, matched_label: anal canal squamous cell carcinoma}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:109648d0-d30a-42fc-8273-39cb1540a751
+        snippet: "ZYNYZ, in combination with carboplatin and paclitaxel, is indicated for the first-line treatment of adult patients with inoperable locally recurrent or metastatic squamous cell carcinoma of the anal canal (SCAC)."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names inoperable locally recurrent or metastatic squamous cell carcinoma of the anal canal as an approved treatment population; stripping the qualifiers leaves squamous cell carcinoma of the anal canal, asserting the drug→disease edge."
+      - reference: PMID:40517007
+        reference_title: "Retifanlimab with carboplatin and paclitaxel for locally recurrent or metastatic squamous cell carcinoma of the anal canal (POD1UM-303/InterAACT-2): a global, phase 3 randomised controlled trial."
+        snippet: "Retifanlimab provides clinical benefit, with a manageable safety profile, when added to first-line chemotherapy in advanced squamous cell carcinoma of the anal canal"
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 3 POD1UM-303/InterAACT-2 randomized controlled trial showing retifanlimab added to first-line chemotherapy provides clinical benefit in advanced squamous cell carcinoma of the anal canal, corroborating the retifanlimab→squamous cell carcinoma of the anal canal edge."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: Merkel cell carcinoma, id: MONDO:0019210, matched_label: cutaneous neuroendocrine carcinoma}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:109648d0-d30a-42fc-8273-39cb1540a751
+        snippet: "ZYNYZ is indicated for the treatment of adult patients with metastatic or recurrent locally advanced Merkel cell carcinoma (MCC)."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names metastatic or recurrent locally advanced Merkel cell carcinoma as an approved treatment population; stripping the qualifiers leaves Merkel cell carcinoma (an exact synonym of MONDO:0019210 cutaneous neuroendocrine carcinoma), asserting the drug→disease edge."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: PD-1, id: HGNC:8760, matched_label: PDCD1}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:109648d0-d30a-42fc-8273-39cb1540a751
+        snippet: "Retifanlimab-dlwr binds to the PD-1 receptor, blocks interaction with its ligands PD-L1"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states retifanlimab binds the PD-1 receptor and blocks interaction with its ligands, i.e. causes decreased PD-1 activity. PD-1 is an alias of the HGNC gene PDCD1."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "16"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=109648d0-d30a-42fc-8273-39cb1540a751
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

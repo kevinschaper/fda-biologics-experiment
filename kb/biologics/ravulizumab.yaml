@@ -1,0 +1,59 @@
+biologic:
+  name: ravulizumab
+  id: NCIT:C124657
+  matched_label: Ravulizumab
+  synonyms: [Ultomiris]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: paroxysmal nocturnal hemoglobinuria, id: MONDO:0100244, matched_label: paroxysmal nocturnal hemoglobinuria}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:a9a590d9-0217-43c7-908d-e62a71279791
+        snippet: "the treatment of adult and pediatric patients one month of age and older with paroxysmal nocturnal hemoglobinuria (PNH)."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names paroxysmal nocturnal hemoglobinuria as an approved treatment population, asserting the drug→disease edge."
+      - reference: PMID:30510080
+        reference_title: "Ravulizumab (ALXN1210) vs eculizumab in adult patients with PNH naive to complement inhibitors: the 301 study."
+        snippet: "Ravulizumab was noninferior to eculizumab for both coprimary and all key secondary end points"
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 3 RCT (study 301) demonstrating ravulizumab is noninferior to eculizumab for all coprimary and key secondary efficacy endpoints in complement-inhibitor-naive patients with paroxysmal nocturnal hemoglobinuria, corroborating the indication."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: atypical hemolytic uremic syndrome, id: MONDO:0016244, matched_label: atypical hemolytic-uremic syndrome}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:a9a590d9-0217-43c7-908d-e62a71279791
+        snippet: "the treatment of adult and pediatric patients one month of age and older with atypical hemolytic uremic syndrome (aHUS) to inhibit complement-mediated thrombotic microangiopathy (TMA)."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names atypical hemolytic uremic syndrome as an approved treatment population, asserting the drug→disease edge."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: C5, id: HGNC:1331, matched_label: C5}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:a9a590d9-0217-43c7-908d-e62a71279791
+        snippet: "Ravulizumab-cwvz is a terminal complement inhibitor that specifically binds to the complement protein C5 with high affinity, thereby inhibiting its cleavage to C5a (the proinflammatory anaphylatoxin) and C5b (the initiating subunit of the membrane attack complex [MAC or C5b-9]) thus preventing MAC formation."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states ravulizumab binds complement protein C5 and inhibits its cleavage to C5a and C5b, blocking terminal complement activation → decreased C5 activity. C5 is the HGNC gene symbol (HGNC:1331)."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "19"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=a9a590d9-0217-43c7-908d-e62a71279791
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

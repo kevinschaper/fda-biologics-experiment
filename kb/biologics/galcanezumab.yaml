@@ -1,0 +1,59 @@
+biologic:
+  name: galcanezumab
+  id: NCIT:C166816
+  matched_label: Galcanezumab
+  synonyms: [Emgality, galcanezumab-gnlm]
+indications:
+  - predicate: biolink:preventative_for_condition
+    object: {name: migraine, id: MONDO:0005277, matched_label: migraine disorder}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:33a147be-233a-40e8-a55e-e40936e28db0
+        snippet: "EMGALITY is indicated for the preventive treatment of migraine in adults."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE (1.1 Migraine) names migraine as the approved preventive-treatment population; 'preventive treatment' maps to preventative_for_condition. Migraine grounds to MONDO:0005277 (migraine disorder)."
+      - reference: PMID:29813147
+        reference_title: "Evaluation of Galcanezumab for the Prevention of Episodic Migraine: The EVOLVE-1 Randomized Clinical Trial."
+        snippet: "The primary objective was met for both galcanezumab doses; treatment with galcanezumab significantly reduced monthly migraine headache days (both P < .001) by 4.7 days (120 mg) and 4.6 days (240 mg) compared with placebo (2.8 days)."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 3 randomized, double-blind, placebo-controlled trial (EVOLVE-1) showing galcanezumab significantly reduces monthly migraine headache days versus placebo, corroborating the preventive migraine indication."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: episodic cluster headache, id: MONDO:0043537, matched_label: cluster headache syndrome}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:33a147be-233a-40e8-a55e-e40936e28db0
+        snippet: "EMGALITY is indicated for the treatment of episodic cluster headache in adults."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE (1.2 Episodic Cluster Headache) names episodic cluster headache as an approved active-treatment population; 'treatment of' an existing condition maps to ameliorates_condition. Grounds to MONDO:0043537 (cluster headache syndrome)."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: CGRP, id: HGNC:1437, matched_label: CALCA}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:33a147be-233a-40e8-a55e-e40936e28db0
+        snippet: "Galcanezumab-gnlm is a humanized monoclonal antibody that binds to calcitonin gene-related peptide (CGRP) ligand and blocks its binding to the receptor."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MECHANISM OF ACTION states galcanezumab binds the CGRP ligand and blocks its binding to the receptor -> decreased CGRP activity. The CGRP ligand is encoded by CALCA (HGNC:1437)."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "17"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=33a147be-233a-40e8-a55e-e40936e28db0
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

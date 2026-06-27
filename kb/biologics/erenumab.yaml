@@ -1,0 +1,52 @@
+biologic:
+  name: erenumab
+  id: NCIT:C169958
+  matched_label: Erenumab
+  synonyms: [Aimovig, erenumab-aooe]
+indications:
+  - predicate: biolink:preventative_for_condition
+    object: {name: migraine, id: MONDO:0005277, matched_label: migraine disorder}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:b998ed05-94b0-47fd-b28f-cddd1e128fd8
+        snippet: "AIMOVIG is indicated for the preventive treatment of migraine in adults."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names migraine as the approved preventive-treatment population; 'preventive treatment' maps to preventative_for_condition. Migraine grounds to MONDO:0005277 (migraine disorder)."
+      - reference: PMID:29171821
+        reference_title: "A Controlled Trial of Erenumab for Episodic Migraine."
+        snippet: "by months 4 through 6, the number of days was reduced by 3.2 in the 70-mg erenumab group and by 3.7 in the 140-mg erenumab group, as compared with 1.8 days in the placebo group (P<0.001 for each dose vs. placebo)."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 3 randomized, double-blind, placebo-controlled trial (STRIVE) showing erenumab significantly reduces monthly migraine days versus placebo, corroborating the preventive migraine indication."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: CGRP receptor, id: HGNC:16709, matched_label: CALCRL}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:b998ed05-94b0-47fd-b28f-cddd1e128fd8
+        snippet: "Erenumab-aooe is a human monoclonal antibody that binds to the calcitonin gene-related peptide (CGRP) receptor and antagonizes CGRP receptor function."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MECHANISM OF ACTION states erenumab binds the CGRP receptor and antagonizes its function -> decreased CGRP receptor activity. The CGRP receptor is a heterodimeric complex (CALCRL + RAMP1), so no single HGNC gene is an unambiguous target; provisionally grounded to the CALCRL subunit (HGNC:16709) and flagged for review with both subunits as candidates."
+    needs_review: true
+    candidates:
+      - {curie: HGNC:16709, label: CALCRL, score: 1.0, match_type: exact_symbol, source: genenames}
+      - {curie: HGNC:9843, label: RAMP1, score: 1.0, match_type: exact_symbol, source: genenames}
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "24"
+  retrieved: "2026-06-27"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=b998ed05-94b0-47fd-b28f-cddd1e128fd8
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]
