@@ -85,6 +85,14 @@ metadata:
 # Full build: enrich nodes from canonical sources -> transform -> write release metadata
 release: nodes transform metadata
 
+# Rebuild the committed caches deterministically from canonical sources.
+# Term/enum caches (cache/) and the node-detail cache (data/node_details.json) are committed so
+# CI runs offline without the OAK sqlite DBs; rebuild + review the diff when ontologies are bumped.
+cache-rebuild:
+    rm -rf cache
+    just terms-all
+    just nodes
+
 gen-pydantic:
     gen-pydantic {{schema}} > src/fda_biologics/datamodel.py
 
