@@ -3,7 +3,7 @@ requires = ["hatchling", "uv-dynamic-versioning"]
 build-backend = "hatchling.build"
 
 [project]
-name = "fda-biologics-ingest"
+name = "fda-biologics"
 description = "Koza ingest of curated FDA biologic drug→disease (indication) and drug→gene (target) edges"
 authors = [
   {name = "Kevin Schaper", email = "kevin@tislab.org"},
