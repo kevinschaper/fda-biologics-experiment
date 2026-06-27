@@ -1,0 +1,59 @@
+biologic:
+  name: ocrelizumab
+  id: NCIT:C66250
+  matched_label: Ocrelizumab
+  synonyms: [Ocrevus]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: relapsing forms of multiple sclerosis, id: MONDO:0005301, matched_label: multiple sclerosis}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:9da42362-3bb5-4b83-b4bb-b59fd4e55f0d
+        snippet: "OCREVUS is a CD20-directed cytolytic antibody indicated for the treatment of: Relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names relapsing forms of multiple sclerosis as an approved treatment population, asserting the drug→disease edge. Grounded to the multiple sclerosis genus (MONDO:0005301)."
+      - reference: PMID:28002679
+        reference_title: "Ocrelizumab versus Interferon Beta-1a in Relapsing Multiple Sclerosis."
+        snippet: "Among patients with relapsing multiple sclerosis, ocrelizumab was associated with lower rates of disease activity and progression than interferon beta-1a over a period of 96 weeks."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 3 RCTs (OPERA I and II) demonstrating ocrelizumab efficacy versus interferon beta-1a in relapsing multiple sclerosis, corroborating the indication."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: primary progressive multiple sclerosis, id: MONDO:0000451, matched_label: primary progressive multiple sclerosis}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:9da42362-3bb5-4b83-b4bb-b59fd4e55f0d
+        snippet: "Primary progressive MS, in adults"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names primary progressive MS as an approved treatment population, asserting the drug→disease edge."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: CD20, id: HGNC:7315, matched_label: MS4A1}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: abundance
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:9da42362-3bb5-4b83-b4bb-b59fd4e55f0d
+        snippet: "is presumed to involve binding to CD20, a cell surface antigen present on pre-B and mature B lymphocytes. Following cell surface binding to B lymphocytes, ocrelizumab results in antibody-dependent cellular cytolysis and complement-mediated lysis."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states ocrelizumab is a CD20-directed cytolytic antibody that binds CD20 and mediates antibody-dependent cellular cytolysis and complement-mediated lysis, depleting CD20-bearing B cells → decreased abundance. CD20 is the prior symbol for the HGNC gene MS4A1."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "24"
+  retrieved: "2026-06-26"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=9da42362-3bb5-4b83-b4bb-b59fd4e55f0d
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

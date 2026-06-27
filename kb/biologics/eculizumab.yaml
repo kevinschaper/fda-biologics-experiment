@@ -1,0 +1,59 @@
+biologic:
+  name: eculizumab
+  id: NCIT:C48386
+  matched_label: Eculizumab
+  synonyms: [Soliris]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: paroxysmal nocturnal hemoglobinuria, id: MONDO:0100244, matched_label: paroxysmal nocturnal hemoglobinuria}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:ebcd67fa-b4d1-4a22-b33d-ee8bf6b9c722
+        snippet: "the treatment of patients with paroxysmal nocturnal hemoglobinuria (PNH) to reduce hemolysis."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names paroxysmal nocturnal hemoglobinuria as an approved treatment population, asserting the drug→disease edge."
+      - reference: PMID:16990386
+        reference_title: "The complement inhibitor eculizumab in paroxysmal nocturnal hemoglobinuria."
+        snippet: "Eculizumab is an effective therapy for PNH."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 3 RCT (TRIUMPH, Hillmen et al.) demonstrating eculizumab stabilizes hemoglobin, reduces transfusions and intravascular hemolysis in paroxysmal nocturnal hemoglobinuria, corroborating the indication."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: atypical hemolytic uremic syndrome, id: MONDO:0016244, matched_label: atypical hemolytic-uremic syndrome}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:ebcd67fa-b4d1-4a22-b33d-ee8bf6b9c722
+        snippet: "the treatment of patients with atypical hemolytic uremic syndrome (aHUS) to inhibit complement-mediated thrombotic microangiopathy."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names atypical hemolytic uremic syndrome as an approved treatment population, asserting the drug→disease edge."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: C5, id: HGNC:1331, matched_label: C5}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:ebcd67fa-b4d1-4a22-b33d-ee8bf6b9c722
+        snippet: "Eculizumab, the active ingredient in SOLIRIS, is a monoclonal antibody that specifically binds to the complement protein C5 with high affinity, thereby inhibiting its cleavage to C5a and C5b and preventing the generation of the terminal complement complex C5b-9."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states eculizumab binds complement protein C5 and inhibits its cleavage, blocking terminal complement activation → decreased C5 activity."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "42"
+  retrieved: "2026-06-26"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=ebcd67fa-b4d1-4a22-b33d-ee8bf6b9c722
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

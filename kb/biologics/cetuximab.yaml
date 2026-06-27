@@ -1,0 +1,59 @@
+biologic:
+  name: cetuximab
+  id: NCIT:C1723
+  matched_label: Cetuximab
+  synonyms: [Erbitux]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: head and neck squamous cell carcinoma, id: MONDO:0010150, matched_label: head and neck squamous cell carcinoma}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:8bc6397e-4bd8-4d37-a007-a327e4da34d9
+        snippet: "Locally or regionally advanced squamous cell carcinoma of the head and neck in combination with radiation therapy."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names squamous cell carcinoma of the head and neck as an approved treatment population, asserting the drug→disease edge."
+      - reference: PMID:16467544
+        reference_title: "Radiotherapy plus cetuximab for squamous-cell carcinoma of the head and neck."
+        snippet: "Treatment of locoregionally advanced head and neck cancer with concomitant high-dose radiotherapy plus cetuximab improves locoregional control and reduces mortality"
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal RCT (Bonner et al.) showing cetuximab added to radiotherapy improves locoregional control and survival in locoregionally advanced head and neck squamous cell carcinoma, corroborating the indication."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: colorectal cancer, id: MONDO:0005575, matched_label: colorectal cancer}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:8bc6397e-4bd8-4d37-a007-a327e4da34d9
+        snippet: "K-Ras wild-type, EGFR-expressing, metastatic colorectal cancer as determined by an FDA-approved test in combination with FOLFIRI for first-line treatment"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names metastatic colorectal cancer as an approved treatment population; stripping the metastatic/molecular qualifiers leaves colorectal cancer, asserting the drug→disease edge."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: EGFR, id: HGNC:3236, matched_label: EGFR}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:8bc6397e-4bd8-4d37-a007-a327e4da34d9
+        snippet: "Cetuximab binds specifically to the EGFR on both normal and tumor cells, and competitively inhibits the binding of epidermal growth factor (EGF) and other ligands, such as transforming growth factor-alpha."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states cetuximab is an EGFR antagonist that binds EGFR and competitively inhibits ligand binding → decreased EGFR activity."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "58"
+  retrieved: "2026-06-26"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=8bc6397e-4bd8-4d37-a007-a327e4da34d9
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

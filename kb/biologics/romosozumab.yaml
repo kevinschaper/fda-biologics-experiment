@@ -1,0 +1,49 @@
+biologic:
+  name: romosozumab
+  id: NCIT:C152246
+  matched_label: Romosozumab
+  synonyms: [Evenity, romosozumab-aqqg]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: postmenopausal osteoporosis, id: MONDO:0008159, matched_label: postmenopausal osteoporosis}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:471baba2-7154-4488-9891-0db2f46791e7
+        snippet: "EVENITY is indicated for the treatment of osteoporosis in postmenopausal women at high risk for fracture, defined as a history of osteoporotic fracture, or multiple risk factors for fracture; or patients who have failed or are intolerant to other available osteoporosis therapy."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names osteoporosis in postmenopausal women at high risk for fracture as the approved treatment population; this grounds to postmenopausal osteoporosis (MONDO:0008159), asserting the drug->disease edge."
+      - reference: PMID:27641143
+        reference_title: "Romosozumab Treatment in Postmenopausal Women with Osteoporosis."
+        snippet: "At 12 months, new vertebral fractures had occurred in 16 of 3321 patients (0.5%) in the romosozumab group, as compared with 59 of 3322 (1.8%) in the placebo group (representing a 73% lower risk with romosozumab; P<0.001)."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal randomized, double-blind, placebo-controlled trial (FRAME) demonstrating romosozumab significantly lowers new vertebral fracture risk in postmenopausal women with osteoporosis, corroborating the indication."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: sclerostin, id: HGNC:13771, matched_label: SOST}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:471baba2-7154-4488-9891-0db2f46791e7
+        snippet: "EVENITY inhibits the action of sclerostin, a regulatory factor in bone metabolism."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MECHANISM OF ACTION states romosozumab inhibits the action of sclerostin, i.e. causes decreased sclerostin activity (the direct molecular effect on the target; the net physiologic effect is increased bone formation). Sclerostin is encoded by SOST (HGNC:13771)."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "17"
+  retrieved: "2026-06-26"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=471baba2-7154-4488-9891-0db2f46791e7
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

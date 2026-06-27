@@ -1,0 +1,62 @@
+biologic:
+  name: abatacept
+  id: NCIT:C28898
+  matched_label: Abatacept
+  synonyms: [Orencia]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: rheumatoid arthritis, id: MONDO:0008383, matched_label: rheumatoid arthritis}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:0836c6ac-ee37-5640-2fed-a3185a0b16eb
+        snippet: "the treatment of adult patients with moderately to severely active rheumatoid arthritis (RA)."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names moderately to severely active rheumatoid arthritis as an approved treatment population; severity qualifiers are stripped for grounding to rheumatoid arthritis (MONDO:0008383)."
+      - reference: PMID:41733109
+        reference_title: "Baseline Interleukin-10 Levels as a Predictive Biomarker for Achieving Clinical Response With Abatacept in Patients Who Were Disease-Modifying Antirheumatic Drug Naive and Anti-Citrullinated Protein Antibody Positive With Early Rheumatoid Arthritis."
+        snippet: "High baseline interleukin-10 (IL-10) levels were associated with greater probability of achieving efficacy measures by week 52 in patients receiving abatacept and MTX versus placebo and MTX"
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Analysis of the phase 3 AVERT-2 randomized trial in which abatacept plus methotrexate produced efficacy measures versus placebo in early rheumatoid arthritis, corroborating the indication."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: psoriatic arthritis, id: MONDO:0011849, matched_label: psoriatic arthritis}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:0836c6ac-ee37-5640-2fed-a3185a0b16eb
+        snippet: "the treatment of patients 2 years of age and older with active psoriatic arthritis (PsA)."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names active psoriatic arthritis as an approved indication, asserting the drug→disease edge on an existing active condition."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: CD80 and CD86}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:0836c6ac-ee37-5640-2fed-a3185a0b16eb
+        snippet: "Abatacept, a selective costimulation modulator, inhibits T-cell (T lymphocyte) activation by binding to CD80 and CD86, thereby blocking interaction with CD28."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "Abatacept is a CTLA-4-Ig fusion protein; MECHANISM OF ACTION states it binds CD80 and CD86 to block T-cell costimulation. The label names two distinct ligand targets (CD80=HGNC:1700, CD86=HGNC:1705), so a single confident HGNC grounding is not possible — needs_review with both candidates retained."
+    needs_review: true
+    candidates:
+      - {curie: HGNC:1700, label: CD80, score: 1.0, match_type: exact_symbol, source: genenames}
+      - {curie: HGNC:1705, label: CD86, score: 1.0, match_type: exact_symbol, source: genenames}
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "35"
+  retrieved: "2026-06-26"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=0836c6ac-ee37-5640-2fed-a3185a0b16eb
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

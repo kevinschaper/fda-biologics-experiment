@@ -30,9 +30,11 @@ def collect_ids() -> dict[str, str]:
         rec = yaml.safe_load(open(path))
         ids[rec["biologic"]["id"]] = "drug"
         for ind in rec.get("indications") or []:
-            ids[ind["object"]["id"]] = "disease"
+            if ind["object"].get("id"):
+                ids[ind["object"]["id"]] = "disease"
         for tgt in rec.get("targets") or []:
-            ids[tgt["object"]["id"]] = "gene"
+            if tgt["object"].get("id"):
+                ids[tgt["object"]["id"]] = "gene"
     return ids
 
 

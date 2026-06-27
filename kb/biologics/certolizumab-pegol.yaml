@@ -1,0 +1,59 @@
+biologic:
+  name: certolizumab pegol
+  id: NCIT:C80972
+  matched_label: Certolizumab Pegol
+  synonyms: [Cimzia]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: Crohn's disease, id: MONDO:0005011, matched_label: Crohn disease}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:b4c2c9dc-a0bb-4d64-a667-a67ebe88392d
+        snippet: "CIMZIA is indicated for reducing signs and symptoms of Crohn's disease and maintaining clinical response in adult patients with moderately to severely active disease who have had an inadequate response to conventional therapy."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names moderately to severely active Crohn's disease as an approved treatment population; Crohn disease (MONDO:0005011) is the grounded synonym."
+      - reference: PMID:17634458
+        reference_title: "Certolizumab pegol for the treatment of Crohn's disease."
+        snippet: "In patients with moderate-to-severe Crohn's disease, induction and maintenance therapy with certolizumab pegol was associated with a modest improvement in response rates, as compared with placebo, but with no significant improvement in remission rates."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal randomized controlled trial (PRECiSE) showing certolizumab pegol improved clinical response versus placebo in moderate-to-severe Crohn's disease, the basis of the approved indication for reducing signs and symptoms and maintaining response."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: rheumatoid arthritis, id: MONDO:0008383, matched_label: rheumatoid arthritis}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:b4c2c9dc-a0bb-4d64-a667-a67ebe88392d
+        snippet: "CIMZIA is indicated for the treatment of adults with moderately to severely active rheumatoid arthritis (RA)."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names moderately to severely active rheumatoid arthritis as an approved treatment population; severity qualifiers are stripped for grounding to rheumatoid arthritis (MONDO:0008383)."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: TNFα, id: HGNC:11892, matched_label: TNF}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:b4c2c9dc-a0bb-4d64-a667-a67ebe88392d
+        snippet: "Certolizumab pegol binds to human TNFα with a KD of 90pM."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MECHANISM OF ACTION states certolizumab pegol binds and selectively neutralizes TNFα, i.e. causes decreased TNF activity. TNFα is encoded by TNF (HGNC:11892)."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "47"
+  retrieved: "2026-06-26"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=b4c2c9dc-a0bb-4d64-a667-a67ebe88392d
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

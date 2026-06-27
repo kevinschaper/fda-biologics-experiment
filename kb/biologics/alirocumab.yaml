@@ -1,0 +1,61 @@
+biologic:
+  name: alirocumab
+  id: NCIT:C174849
+  matched_label: Alirocumab
+  synonyms: [Praluent]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: homozygous familial hypercholesterolemia, id: MONDO:0018328, matched_label: homozygous familial hypercholesterolemia}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:446f6b5c-0dd4-44ff-9bc2-c2b41f2806b4
+        snippet: "adults with homozygous familial hypercholesterolemia (HoFH)."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names homozygous familial hypercholesterolemia (HoFH) as an approved treatment population (adjunct to diet/exercise to reduce LDL-C), asserting the drug->disease edge."
+      - reference: PMID:32646561
+        reference_title: "Efficacy and Safety of Alirocumab in Adults With Homozygous Familial Hypercholesterolemia: The ODYSSEY HoFH Trial."
+        snippet: "In the largest randomized controlled interventional trial in HoFH patients to date, alirocumab resulted in significant and clinically meaningful reductions in LDL-C at week 12."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal randomized, double-blind, placebo-controlled phase 3 trial (ODYSSEY HoFH) demonstrating alirocumab significantly reduces LDL-C in adults with homozygous familial hypercholesterolemia, corroborating the indication."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: heterozygous familial hypercholesterolemia, id: MONDO:0005439, matched_label: familial hypercholesterolemia}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:446f6b5c-0dd4-44ff-9bc2-c2b41f2806b4
+        snippet: "adults and pediatric patients aged 8 years and older with heterozygous familial hypercholesterolemia (HeFH)."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names heterozygous familial hypercholesterolemia (HeFH) as an approved treatment population. MONDO has no exact term for the heterozygous subtype, so this is grounded to the parent familial hypercholesterolemia (MONDO:0005439); flagged for review."
+    needs_review: true
+    candidates:
+      - {curie: MONDO:0005439, label: familial hypercholesterolemia, score: 1.0, match_type: parent, source: oak:mondo}
+targets:
+  - predicate: biolink:affects
+    object: {name: PCSK9, id: HGNC:20001, matched_label: PCSK9}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:446f6b5c-0dd4-44ff-9bc2-c2b41f2806b4
+        snippet: "Alirocumab is a human monoclonal antibody that binds to proprotein convertase subtilisin kexin type 9 (PCSK9)."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MECHANISM OF ACTION states alirocumab binds PCSK9 and the label designates it a PCSK9 inhibitor, i.e. causes decreased PCSK9 activity. PCSK9 grounds to the HGNC gene PCSK9 (HGNC:20001)."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "33"
+  retrieved: "2026-06-26"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=446f6b5c-0dd4-44ff-9bc2-c2b41f2806b4
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

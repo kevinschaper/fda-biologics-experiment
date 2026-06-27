@@ -1,0 +1,49 @@
+biologic:
+  name: pertuzumab
+  id: NCIT:C38692
+  matched_label: Pertuzumab
+  synonyms: [Perjeta]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: breast cancer, id: MONDO:0007254, matched_label: breast cancer}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:17f85d17-ab71-4f5b-9fe3-0b8c822f69ff
+        snippet: "PERJETA is indicated for use in combination with trastuzumab and docetaxel for the treatment of adults with HER2-positive metastatic breast cancer who have not received prior anti-HER2 therapy or chemotherapy for metastatic disease"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names HER2-positive metastatic breast cancer as an approved treatment population; stripping the HER2-positive/metastatic qualifiers leaves breast cancer, asserting the drug→disease edge."
+      - reference: PMID:22149875
+        reference_title: "Pertuzumab plus trastuzumab plus docetaxel for metastatic breast cancer."
+        snippet: "when used as first-line treatment for HER2-positive metastatic breast cancer, significantly prolonged progression-free survival, with no increase in cardiac toxic effects"
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal RCT (CLEOPATRA, Baselga et al.) showing pertuzumab added to trastuzumab and docetaxel significantly prolongs progression-free survival in HER2-positive metastatic breast cancer, corroborating the indication."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: HER2, id: HGNC:3430, matched_label: ERBB2}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:17f85d17-ab71-4f5b-9fe3-0b8c822f69ff
+        snippet: "Pertuzumab targets the extracellular dimerization domain (Subdomain II) of the human epidermal growth factor receptor 2 protein (HER2) and, thereby, blocks ligand-dependent heterodimerization of HER2 with other HER family members, including EGFR, HER3, and HER4."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states pertuzumab targets the HER2 dimerization domain and blocks HER2 heterodimerization/signaling → decreased HER2 activity. HER2 is an alias for the HGNC gene ERBB2."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "27"
+  retrieved: "2026-06-26"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=17f85d17-ab71-4f5b-9fe3-0b8c822f69ff
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

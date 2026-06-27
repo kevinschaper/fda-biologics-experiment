@@ -31,6 +31,21 @@
    "UniProtKB:Q5T9Y4"
   ]
  },
+ "HGNC:11929": {
+  "category": "biolink:Gene",
+  "name": "TNFSF13B",
+  "xref": [
+   "NCBIGene:10673",
+   "ENSEMBL:ENSG00000102524",
+   "OMIM:603969",
+   "UMLS:C1420816",
+   "UniProtKB:A0A0U5J7Q1",
+   "UniProtKB:Q9Y275",
+   "PR:Q9Y275",
+   "UMLS:C1682317",
+   "MESH:C505719"
+  ]
+ },
  "HGNC:12680": {
   "category": "biolink:Gene",
   "name": "VEGFA",
@@ -45,6 +60,68 @@
    "ENSEMBL:ENSP00000230480.6",
    "UniProtKB:P15692",
    "PR:P15692"
+  ]
+ },
+ "HGNC:1331": {
+  "category": "biolink:Gene",
+  "name": "C5",
+  "xref": [
+   "NCBIGene:727",
+   "ENSEMBL:ENSG00000106804",
+   "OMIM:120900",
+   "UMLS:C1367710",
+   "UniProtKB:A0A8Q3SID6",
+   "ENSEMBL:ENSP00000512521",
+   "ENSEMBL:ENSP00000512521.1",
+   "UniProtKB:P01031",
+   "PR:P01031",
+   "ENSEMBL:ENSP00000223642"
+  ]
+ },
+ "HGNC:13771": {
+  "category": "biolink:Gene",
+  "name": "SOST",
+  "xref": [
+   "NCBIGene:50964",
+   "ENSEMBL:ENSG00000167941",
+   "OMIM:605740",
+   "UMLS:C1422190",
+   "UniProtKB:Q9BQB4",
+   "PR:Q9BQB4",
+   "UMLS:C1447914",
+   "UMLS:C3542926",
+   "MESH:C422903"
+  ]
+ },
+ "HGNC:15488": {
+  "category": "biolink:Gene",
+  "name": "IL23A",
+  "xref": [
+   "NCBIGene:51561",
+   "ENSEMBL:ENSG00000110944",
+   "OMIM:605580",
+   "UMLS:C1423526",
+   "UniProtKB:Q9NPF7",
+   "PR:Q9NPF7",
+   "ENSEMBL:ENSP00000228534",
+   "ENSEMBL:ENSP00000228534.4",
+   "UMLS:C1700278",
+   "MESH:C508840"
+  ]
+ },
+ "HGNC:1667": {
+  "category": "biolink:Gene",
+  "name": "CD38",
+  "xref": [
+   "NCBIGene:952",
+   "ENSEMBL:ENSG00000004468",
+   "OMIM:107270",
+   "UMLS:C1413221",
+   "UniProtKB:B4E006",
+   "UniProtKB:P28907",
+   "PR:P28907",
+   "UMLS:C1567019",
+   "MESH:C498154"
   ]
  },
  "HGNC:17635": {
@@ -62,6 +139,38 @@
    "MESH:C423236"
   ]
  },
+ "HGNC:20001": {
+  "category": "biolink:Gene",
+  "name": "PCSK9",
+  "xref": [
+   "NCBIGene:255738",
+   "ENSEMBL:ENSG00000169174",
+   "OMIM:607786",
+   "UMLS:C1426592",
+   "UniProtKB:A0A669KBG0",
+   "ENSEMBL:ENSP00000501257",
+   "ENSEMBL:ENSP00000501257.1",
+   "UniProtKB:A0AAQ5BGX4",
+   "ENSEMBL:ENSP00000519088",
+   "ENSEMBL:ENSP00000519088.1"
+  ]
+ },
+ "HGNC:21394": {
+  "category": "biolink:Gene",
+  "name": "SLAMF7",
+  "xref": [
+   "NCBIGene:57823",
+   "ENSEMBL:ENSG00000026751",
+   "OMIM:606625",
+   "UMLS:C1427539",
+   "UniProtKB:B4DVL7",
+   "ENSEMBL:ENSP00000403294",
+   "ENSEMBL:ENSP00000403294.2",
+   "UniProtKB:B4DW98",
+   "ENSEMBL:ENSP00000483774",
+   "ENSEMBL:ENSP00000483774.1"
+  ]
+ },
  "HGNC:2505": {
   "category": "biolink:Gene",
   "name": "CTLA4",
@@ -76,6 +185,22 @@
    "UMLS:C1120969",
    "UMLS:C1619962",
    "UMLS:C2350360"
+  ]
+ },
+ "HGNC:3236": {
+  "category": "biolink:Gene",
+  "name": "EGFR",
+  "xref": [
+   "NCBIGene:1956",
+   "ENSEMBL:ENSG00000146648",
+   "OMIM:131550",
+   "UMLS:C1414313",
+   "UniProtKB:B7Z2I3",
+   "UniProtKB:C9JYS6",
+   "ENSEMBL:ENSP00000413354",
+   "ENSEMBL:ENSP00000413354.2",
+   "UniProtKB:E7BSV0",
+   "UniProtKB:F2YGG7"
   ]
  },
  "HGNC:3430": {
@@ -133,6 +258,36 @@
    "MESH:C508717"
   ]
  },
+ "HGNC:5985": {
+  "category": "biolink:Gene",
+  "name": "IL17RA",
+  "xref": [
+   "NCBIGene:23765",
+   "ENSEMBL:ENSG00000177663",
+   "OMIM:605461",
+   "UMLS:C1825593",
+   "UniProtKB:Q96F46",
+   "PR:Q96F46",
+   "UMLS:C0669927",
+   "MESH:C109985"
+  ]
+ },
+ "HGNC:5992": {
+  "category": "biolink:Gene",
+  "name": "IL1B",
+  "xref": [
+   "NCBIGene:3553",
+   "ENSEMBL:ENSG00000125538",
+   "OMIM:147720",
+   "UMLS:C1334112",
+   "UniProtKB:P01584",
+   "PR:P01584",
+   "ENSEMBL:ENSP00000263341",
+   "ENSEMBL:ENSP00000263341.2",
+   "UMLS:C1702300",
+   "MESH:C508585"
+  ]
+ },
  "HGNC:6015": {
   "category": "biolink:Gene",
   "name": "IL4R",
@@ -162,6 +317,21 @@
    "UMLS:C1702088",
    "MESH:C508599",
    "MESH:D015848"
+  ]
+ },
+ "HGNC:6017": {
+  "category": "biolink:Gene",
+  "name": "IL5RA",
+  "xref": [
+   "NCBIGene:3568",
+   "ENSEMBL:ENSG00000091181",
+   "OMIM:147851",
+   "UMLS:C1334120",
+   "UniProtKB:Q01344",
+   "PR:Q01344",
+   "UMLS:C1451756",
+   "MESH:C485918",
+   "UniProtKB:Q8NHV7"
   ]
  },
  "HGNC:6019": {
@@ -207,6 +377,21 @@
    "MESH:C000712028"
   ]
  },
+ "HGNC:6307": {
+  "category": "biolink:Gene",
+  "name": "KDR",
+  "xref": [
+   "NCBIGene:3791",
+   "ENSEMBL:ENSG00000128052",
+   "OMIM:191306",
+   "UMLS:C1334306",
+   "UniProtKB:P35968",
+   "PR:P35968",
+   "UMLS:C3840403",
+   "UMLS:C3849882",
+   "MESH:C000588866"
+  ]
+ },
  "HGNC:7315": {
   "category": "biolink:Gene",
   "name": "MS4A1",
@@ -238,11 +423,40 @@
    "ENSEMBL:ENSP00000480684"
   ]
  },
+ "MONDO:0000451": {
+  "category": "biolink:Disease",
+  "name": "primary progressive multiple sclerosis",
+  "xref": [
+   "DOID:0050784",
+   "EFO:0008520",
+   "UMLS:C0751964",
+   "MEDDRA:10063401",
+   "SNOMEDCT:428700003",
+   "medgen:155968",
+   "icd11.foundation:1020720762"
+  ]
+ },
  "MONDO:0000757": {
   "category": "biolink:Disease",
   "name": "glucocorticoid-induced osteoporosis",
   "xref": [
    "DOID:0060343"
+  ]
+ },
+ "MONDO:0001056": {
+  "category": "biolink:Disease",
+  "name": "gastric cancer",
+  "xref": [
+   "DOID:10534",
+   "OMIM:613659",
+   "UMLS:C0024623",
+   "UMLS:C0153421",
+   "UMLS:C0153422",
+   "UMLS:C0153423",
+   "UMLS:C3150911",
+   "MEDDRA:10017758",
+   "MEDDRA:10017760",
+   "MEDDRA:10017796"
   ]
  },
  "MONDO:0004728": {
@@ -435,6 +649,54 @@
    "SNOMEDCT:24700007"
   ]
  },
+ "MONDO:0005393": {
+  "category": "biolink:Disease",
+  "name": "gout",
+  "xref": [
+   "DOID:13189",
+   "EFO:0004274",
+   "UMLS:C0003868",
+   "UMLS:C0018099",
+   "MESH:D006073",
+   "MESH:D015210",
+   "MEDDRA:10003257",
+   "MEDDRA:10003435",
+   "MEDDRA:10018627",
+   "MEDDRA:10018633"
+  ]
+ },
+ "MONDO:0005439": {
+  "category": "biolink:Disease",
+  "name": "familial hypercholesterolemia",
+  "xref": [
+   "DOID:13810",
+   "OMIM.PS:143890",
+   "EFO:0004911",
+   "UMLS:C0020445",
+   "UMLS:C0549399",
+   "MESH:D006938",
+   "MEDDRA:10017340",
+   "MEDDRA:10017341",
+   "MEDDRA:10021668",
+   "MEDDRA:10024055"
+  ]
+ },
+ "MONDO:0005556": {
+  "category": "biolink:Disease",
+  "name": "lupus nephritis",
+  "xref": [
+   "DOID:0080162",
+   "EFO:0005761",
+   "UMLS:C0024143",
+   "MESH:D008181",
+   "MEDDRA:10025140",
+   "MEDDRA:10029141",
+   "MEDDRA:10029142",
+   "MEDDRA:10040970",
+   "MEDDRA:10089276",
+   "NCIT:C34789"
+  ]
+ },
  "MONDO:0005575": {
   "category": "biolink:Disease",
   "name": "colorectal cancer",
@@ -465,6 +727,22 @@
    "MEDDRA:10025541",
    "NCIT:C9335",
    "SNOMEDCT:254837009"
+  ]
+ },
+ "MONDO:0007915": {
+  "category": "biolink:Disease",
+  "name": "EXCESS LMW-DNA",
+  "xref": [
+   "DOID:9074",
+   "OMIM:152700",
+   "orphanet:536",
+   "UMLS:C0024141",
+   "UMLS:C1835309",
+   "MESH:D008180",
+   "MEDDRA:10013446",
+   "MEDDRA:10024065",
+   "MEDDRA:10024067",
+   "MEDDRA:10025133"
   ]
  },
  "MONDO:0008159": {
@@ -513,6 +791,38 @@
    "MEDDRA:10018250"
   ]
  },
+ "MONDO:0009693": {
+  "category": "biolink:Disease",
+  "name": "plasma cell myeloma",
+  "xref": [
+   "DOID:9538",
+   "OMIM:254500",
+   "orphanet:29073",
+   "EFO:0001378",
+   "UMLS:C0026764",
+   "MESH:D009101",
+   "MEDDRA:10028228",
+   "MEDDRA:10028566",
+   "MEDDRA:10028568",
+   "MEDDRA:10028569"
+  ]
+ },
+ "MONDO:0010150": {
+  "category": "biolink:Disease",
+  "name": "head and neck squamous cell carcinoma",
+  "xref": [
+   "DOID:5520",
+   "OMIM:275355",
+   "EFO:0000181",
+   "UMLS:C1168401",
+   "MESH:C535575",
+   "MESH:D000077195",
+   "MEDDRA:10060121",
+   "NCIT:C34447",
+   "SNOMEDCT:716659002",
+   "medgen:257911"
+  ]
+ },
  "MONDO:0011849": {
   "category": "biolink:Disease",
   "name": "psoriatic arthritis",
@@ -545,6 +855,65 @@
    "MEDDRA:10014957"
   ]
  },
+ "MONDO:0016168": {
+  "category": "biolink:Disease",
+  "name": "cryopyrin-associated periodic syndrome",
+  "xref": [
+   "orphanet:208650",
+   "UMLS:C2316212",
+   "MESH:D056587",
+   "MEDDRA:10068850",
+   "NCIT:C84657",
+   "SNOMEDCT:430079001",
+   "medgen:412215",
+   "icd11.foundation:2139918612"
+  ]
+ },
+ "MONDO:0016244": {
+  "category": "biolink:Disease",
+  "name": "atypical hemolytic-uremic syndrome",
+  "xref": [
+   "DOID:0080301",
+   "orphanet:2134",
+   "UMLS:C2931788",
+   "MESH:D065766",
+   "MEDDRA:10079840",
+   "MEDDRA:10079841",
+   "MEDDRA:10079842",
+   "NCIT:C123223",
+   "SNOMEDCT:789660001",
+   "medgen:444141"
+  ]
+ },
+ "MONDO:0018328": {
+  "category": "biolink:Disease",
+  "name": "homozygous familial hypercholesterolemia",
+  "xref": [
+   "orphanet:391665",
+   "UMLS:C0342881",
+   "MESH:D000090542",
+   "MEDDRA:10057080",
+   "MEDDRA:10057100",
+   "SNOMEDCT:238078005",
+   "medgen:575266"
+  ]
+ },
+ "MONDO:0018906": {
+  "category": "biolink:Disease",
+  "name": "follicular lymphoma",
+  "xref": [
+   "DOID:0050873",
+   "orphanet:545",
+   "UMLS:C0024301",
+   "MESH:D008224",
+   "MEDDRA:10029473",
+   "MEDDRA:10029478",
+   "MEDDRA:10085128",
+   "MEDDRA:10085262",
+   "NCIT:C3209",
+   "SNOMEDCT:303055001"
+  ]
+ },
  "MONDO:0018908": {
   "category": "biolink:Disease",
   "name": "non-Hodgkin lymphoma",
@@ -561,6 +930,22 @@
    "MEDDRA:10029593"
   ]
  },
+ "MONDO:0019735": {
+  "category": "biolink:Disease",
+  "name": "polymyalgia rheumatica",
+  "xref": [
+   "DOID:853",
+   "EFO:0008518",
+   "UMLS:C0032533",
+   "UMLS:C1527406",
+   "MESH:D011111",
+   "MEDDRA:10036099",
+   "MEDDRA:10068240",
+   "NCIT:C85018",
+   "SNOMEDCT:65323003",
+   "medgen:19393"
+  ]
+ },
  "MONDO:0044212": {
   "category": "biolink:Disease",
   "name": "chronic idiopathic urticaria",
@@ -574,6 +959,22 @@
    "HP:0410133"
   ]
  },
+ "MONDO:0100244": {
+  "category": "biolink:Disease",
+  "name": "paroxysmal nocturnal hemoglobinuria",
+  "xref": [
+   "DOID:0060284",
+   "OMIM.PS:300818",
+   "orphanet:447",
+   "UMLS:C0019050",
+   "UMLS:C0024790",
+   "MESH:D006457",
+   "MEDDRA:10034042",
+   "MEDDRA:10055629",
+   "NCIT:C61233",
+   "SNOMEDCT:1963002"
+  ]
+ },
  "NCIT:C106250": {
   "category": "biolink:Drug",
   "name": "Atezolizumab",
@@ -584,9 +985,34 @@
   "name": "Pembrolizumab",
   "xref": []
  },
+ "NCIT:C150390": {
+  "category": "biolink:Drug",
+  "name": "Guselkumab",
+  "xref": []
+ },
+ "NCIT:C152227": {
+  "category": "biolink:Drug",
+  "name": "Risankizumab",
+  "xref": []
+ },
+ "NCIT:C152246": {
+  "category": "biolink:Drug",
+  "name": "Romosozumab",
+  "xref": []
+ },
+ "NCIT:C152302": {
+  "category": "biolink:Drug",
+  "name": "Sarilumab",
+  "xref": []
+ },
  "NCIT:C152315": {
   "category": "biolink:Drug",
   "name": "Secukinumab",
+  "xref": []
+ },
+ "NCIT:C152627": {
+  "category": "biolink:Drug",
+  "name": "Tildrakizumab",
   "xref": []
  },
  "NCIT:C157376": {
@@ -604,14 +1030,44 @@
   "name": "Trastuzumab",
   "xref": []
  },
+ "NCIT:C166971": {
+  "category": "biolink:Drug",
+  "name": "Brodalumab",
+  "xref": []
+ },
  "NCIT:C1702": {
   "category": "biolink:Drug",
   "name": "Rituximab",
   "xref": []
  },
+ "NCIT:C1723": {
+  "category": "biolink:Drug",
+  "name": "Cetuximab",
+  "xref": []
+ },
+ "NCIT:C174646": {
+  "category": "biolink:Drug",
+  "name": "Ixekizumab",
+  "xref": []
+ },
+ "NCIT:C174672": {
+  "category": "biolink:Drug",
+  "name": "Evolocumab",
+  "xref": []
+ },
+ "NCIT:C174849": {
+  "category": "biolink:Drug",
+  "name": "Alirocumab",
+  "xref": []
+ },
  "NCIT:C1789": {
   "category": "biolink:Drug",
   "name": "Infliximab",
+  "xref": []
+ },
+ "NCIT:C1857": {
+  "category": "biolink:Drug",
+  "name": "Panitumumab",
   "xref": []
  },
  "NCIT:C2039": {
@@ -629,9 +1085,24 @@
   "name": "Ipilimumab",
   "xref": []
  },
+ "NCIT:C28898": {
+  "category": "biolink:Drug",
+  "name": "Abatacept",
+  "xref": []
+ },
  "NCIT:C29299": {
   "category": "biolink:Drug",
   "name": "Omalizumab",
+  "xref": []
+ },
+ "NCIT:C38692": {
+  "category": "biolink:Drug",
+  "name": "Pertuzumab",
+  "xref": []
+ },
+ "NCIT:C48386": {
+  "category": "biolink:Drug",
+  "name": "Eculizumab",
   "xref": []
  },
  "NCIT:C61313": {
@@ -644,6 +1115,21 @@
   "name": "Adalimumab",
   "xref": []
  },
+ "NCIT:C66250": {
+  "category": "biolink:Drug",
+  "name": "Ocrelizumab",
+  "xref": []
+ },
+ "NCIT:C66952": {
+  "category": "biolink:Drug",
+  "name": "Ofatumumab",
+  "xref": []
+ },
+ "NCIT:C66982": {
+  "category": "biolink:Drug",
+  "name": "Elotuzumab",
+  "xref": []
+ },
  "NCIT:C67562": {
   "category": "biolink:Drug",
   "name": "Ranibizumab",
@@ -654,9 +1140,34 @@
   "name": "Nivolumab",
   "xref": []
  },
+ "NCIT:C70741": {
+  "category": "biolink:Drug",
+  "name": "Obinutuzumab",
+  "xref": []
+ },
+ "NCIT:C70792": {
+  "category": "biolink:Drug",
+  "name": "Ramucirumab",
+  "xref": []
+ },
+ "NCIT:C74007": {
+  "category": "biolink:Drug",
+  "name": "Daratumumab",
+  "xref": []
+ },
  "NCIT:C77862": {
   "category": "biolink:Drug",
   "name": "Natalizumab",
+  "xref": []
+ },
+ "NCIT:C80971": {
+  "category": "biolink:Drug",
+  "name": "Canakinumab",
+  "xref": []
+ },
+ "NCIT:C80972": {
+  "category": "biolink:Drug",
+  "name": "Certolizumab Pegol",
   "xref": []
  },
  "NCIT:C84217": {
@@ -667,6 +1178,21 @@
  "NCIT:C84237": {
   "category": "biolink:Drug",
   "name": "Ustekinumab",
+  "xref": []
+ },
+ "NCIT:C87766": {
+  "category": "biolink:Drug",
+  "name": "Golimumab",
+  "xref": []
+ },
+ "NCIT:C88594": {
+  "category": "biolink:Drug",
+  "name": "Benralizumab",
+  "xref": []
+ },
+ "NCIT:C91385": {
+  "category": "biolink:Drug",
+  "name": "Belimumab",
   "xref": []
  },
  "NCIT:C95798": {

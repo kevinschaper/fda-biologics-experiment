@@ -1,0 +1,49 @@
+biologic:
+  name: elotuzumab
+  id: NCIT:C66982
+  matched_label: Elotuzumab
+  synonyms: [Empliciti]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: multiple myeloma, id: MONDO:0009693, matched_label: plasma cell myeloma}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:80686b7e-f6f4-4154-b5c0-c846425e2d91
+        snippet: "EMPLICITI is indicated in combination with lenalidomide and dexamethasone for the treatment of adult patients with multiple myeloma who have received one to three prior therapies."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names multiple myeloma (in combination with lenalidomide and dexamethasone) as an approved treatment population, asserting the drug→disease edge. Multiple myeloma grounds to MONDO:0009693 (plasma cell myeloma, an exact synonym)."
+      - reference: PMID:26035255
+        reference_title: "Elotuzumab Therapy for Relapsed or Refractory Multiple Myeloma."
+        snippet: "Patients with relapsed or refractory multiple myeloma who received a combination of elotuzumab, lenalidomide, and dexamethasone had a significant relative reduction of 30% in the risk of disease progression or death."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 3 RCT (ELOQUENT-2) demonstrating elotuzumab added to lenalidomide and dexamethasone reduces risk of progression or death in relapsed or refractory multiple myeloma, corroborating the indication."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: SLAMF7, id: HGNC:21394, matched_label: SLAMF7}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: increased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:80686b7e-f6f4-4154-b5c0-c846425e2d91
+        snippet: "Elotuzumab directly activates NK cells through the SLAMF7 pathway."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA describes elotuzumab as a SLAMF7-directed immunostimulatory antibody that directly activates NK cells through the SLAMF7 pathway, i.e. causes increased SLAMF7 (pathway) activity → activity, increased. SLAMF7 is the HGNC gene symbol (HGNC:21394)."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "13"
+  retrieved: "2026-06-26"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=80686b7e-f6f4-4154-b5c0-c846425e2d91
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

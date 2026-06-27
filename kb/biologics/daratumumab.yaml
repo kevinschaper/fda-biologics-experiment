@@ -1,0 +1,49 @@
+biologic:
+  name: daratumumab
+  id: NCIT:C74007
+  matched_label: Daratumumab
+  synonyms: [Darzalex]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: multiple myeloma, id: MONDO:0009693, matched_label: plasma cell myeloma}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:a4d0efe9-5e54-467e-9eb4-56fa7d53b60b
+        snippet: "DARZALEX is indicated for the treatment of adult patients with multiple myeloma:"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names multiple myeloma as an approved treatment population, asserting the drug→disease edge. Multiple myeloma grounds to MONDO:0009693 (plasma cell myeloma, an exact synonym)."
+      - reference: PMID:27705267
+        reference_title: "Daratumumab, Lenalidomide, and Dexamethasone for Multiple Myeloma."
+        snippet: "The addition of daratumumab to lenalidomide and dexamethasone significantly lengthened progression-free survival among patients with relapsed or refractory multiple myeloma."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 3 RCT (POLLUX) demonstrating daratumumab added to lenalidomide and dexamethasone prolongs progression-free survival in relapsed or refractory multiple myeloma, corroborating the indication."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: CD38, id: HGNC:1667, matched_label: CD38}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: abundance
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:a4d0efe9-5e54-467e-9eb4-56fa7d53b60b
+        snippet: "binds to CD38 and inhibits the growth of CD38 expressing tumor cells by inducing apoptosis directly through Fc mediated cross linking as well as by immune-mediated tumor cell lysis through complement dependent cytotoxicity (CDC), antibody dependent cell mediated cytotoxicity (ADCC) and antibody dependent cellular phagocytosis (ADCP)."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states daratumumab binds CD38 and kills CD38-expressing tumor cells via apoptosis, CDC, ADCC and ADCP, depleting CD38-bearing cells → decreased abundance. CD38 is the HGNC gene symbol (HGNC:1667)."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "44"
+  retrieved: "2026-06-26"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=a4d0efe9-5e54-467e-9eb4-56fa7d53b60b
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

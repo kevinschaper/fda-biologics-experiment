@@ -1,0 +1,59 @@
+biologic:
+  name: benralizumab
+  id: NCIT:C88594
+  matched_label: Benralizumab
+  synonyms: [Fasenra]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: severe eosinophilic asthma, id: MONDO:0004979, matched_label: asthma}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:da6aca1a-19ed-44a4-abb7-696c7d58b784
+        snippet: "FASENRA is indicated for the add-on maintenance treatment of adult and pediatric patients aged 6 years and older with severe asthma, and with an eosinophilic phenotype."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names severe asthma with an eosinophilic phenotype as an approved add-on maintenance treatment population; stripping severity/phenotype qualifiers leaves asthma (MONDO:0004979), asserting the drug->disease edge."
+      - reference: PMID:27609406
+        reference_title: "Benralizumab, an anti-interleukin-5 receptor α monoclonal antibody, as add-on treatment for patients with severe, uncontrolled, eosinophilic asthma (CALIMA): a randomised, double-blind, placebo-controlled phase 3 trial."
+        snippet: "Benralizumab resulted in significantly lower annual exacerbation rates with the Q4W regimen ... compared with placebo"
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal randomized, double-blind, placebo-controlled phase 3 trial (CALIMA) demonstrating benralizumab significantly lowers annual exacerbation rates in patients with severe, uncontrolled eosinophilic asthma, corroborating the indication."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: eosinophilic granulomatosis with polyangiitis, id: MONDO:0015943, matched_label: eosinophilic granulomatosis with polyangiitis}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:da6aca1a-19ed-44a4-abb7-696c7d58b784
+        snippet: "treatment of adult patients with eosinophilic granulomatosis with polyangiitis (EGPA)."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names eosinophilic granulomatosis with polyangiitis (EGPA) as an approved treatment population, asserting the drug->disease edge (MONDO:0015943)."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: IL-5 receptor alpha, id: HGNC:6017, matched_label: IL5RA}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:da6aca1a-19ed-44a4-abb7-696c7d58b784
+        snippet: "Benralizumab is a humanized afucosylated, monoclonal antibody (IgG1, kappa) that directly binds to the alpha subunit of the human interleukin-5 receptor (IL-5Rα) with a dissociation constant of 11 pM."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MECHANISM OF ACTION states benralizumab directly binds the alpha subunit of the IL-5 receptor (a receptor-directed cytolytic antibody), i.e. causes decreased IL-5 receptor alpha activity. The IL-5 receptor alpha subunit is encoded by IL5RA (HGNC:6017)."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "27"
+  retrieved: "2026-06-26"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=da6aca1a-19ed-44a4-abb7-696c7d58b784
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

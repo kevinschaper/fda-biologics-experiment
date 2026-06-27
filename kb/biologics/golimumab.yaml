@@ -1,0 +1,59 @@
+biologic:
+  name: golimumab
+  id: NCIT:C87766
+  matched_label: Golimumab
+  synonyms: [Simponi]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: rheumatoid arthritis, id: MONDO:0008383, matched_label: rheumatoid arthritis}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:f86cb4a7-c358-4136-ae57-b32bda9bba00
+        snippet: "SIMPONI, in combination with methotrexate, is indicated for the treatment of adult patients with moderately to severely active rheumatoid arthritis."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names moderately to severely active rheumatoid arthritis as an approved treatment population; severity qualifiers are stripped for grounding to rheumatoid arthritis (MONDO:0008383)."
+      - reference: PMID:42087050
+        reference_title: "Golimumab for the Treatment of Rheumatoid Arthritis: A Narrative Review of Pivotal Randomized Trials and Real-World Studies."
+        snippet: "Collectively, these studies demonstrated that golimumab is an effective and safe treatment for RA when used according to the approved indication."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Review of the golimumab pivotal RCTs concluding that golimumab is an effective treatment for rheumatoid arthritis, corroborating the FDA indication."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: psoriatic arthritis, id: MONDO:0011849, matched_label: psoriatic arthritis}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:f86cb4a7-c358-4136-ae57-b32bda9bba00
+        snippet: "SIMPONI, alone or in combination with methotrexate, is indicated for the treatment of adult patients with active psoriatic arthritis."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names active psoriatic arthritis as an approved indication, asserting the drug→disease edge on an existing active condition."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: TNFα, id: HGNC:11892, matched_label: TNF}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:f86cb4a7-c358-4136-ae57-b32bda9bba00
+        snippet: "Golimumab is a human monoclonal antibody that binds to both the soluble and transmembrane bioactive forms of human TNFα. This interaction prevents the binding of TNFα to its receptors, thereby inhibiting the biological activity of TNFα"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MECHANISM OF ACTION states golimumab binds TNFα and inhibits its biological activity, i.e. causes decreased TNF activity. TNFα is encoded by TNF (HGNC:11892)."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "42"
+  retrieved: "2026-06-26"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=f86cb4a7-c358-4136-ae57-b32bda9bba00
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

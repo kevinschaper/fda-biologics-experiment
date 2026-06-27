@@ -1,0 +1,59 @@
+biologic:
+  name: ramucirumab
+  id: NCIT:C70792
+  matched_label: Ramucirumab
+  synonyms: [Cyramza]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: gastric cancer, id: MONDO:0001056, matched_label: gastric cancer}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:c6080942-dee6-423e-b688-1272c2ae90d4
+        snippet: "as a single agent or in combination with paclitaxel, for treatment of adults with advanced or metastatic gastric or gastro-esophageal junction adenocarcinoma with disease progression on or after prior fluoropyrimidine- or platinum-containing chemotherapy."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names advanced or metastatic gastric adenocarcinoma as an approved treatment population; stripping the advanced/metastatic and gastro-esophageal qualifiers leaves gastric cancer, asserting the drug→disease edge."
+      - reference: PMID:24094768
+        reference_title: "Ramucirumab monotherapy for previously treated advanced gastric or gastro-oesophageal junction adenocarcinoma (REGARD): an international, randomised, multicentre, placebo-controlled, phase 3 trial."
+        snippet: "Ramucirumab is the first biological treatment given as a single drug that has survival benefits in patients with advanced gastric or gastro-oesophageal junction adenocarcinoma progressing after first-line chemotherapy"
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 3 RCT (REGARD, Fuchs et al.) showing ramucirumab monotherapy confers a survival benefit in previously treated advanced gastric/gastro-esophageal junction adenocarcinoma, corroborating the indication."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: non-small cell lung cancer, id: MONDO:0005233, matched_label: non-small cell lung carcinoma}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:c6080942-dee6-423e-b688-1272c2ae90d4
+        snippet: "in combination with docetaxel, for treatment of adults with metastatic non-small cell lung cancer with disease progression on or after platinum-based chemotherapy."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names metastatic non-small cell lung cancer as an approved treatment population; stripping the metastatic qualifier leaves non-small cell lung cancer, asserting the drug→disease edge."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: VEGFR2, id: HGNC:6307, matched_label: KDR}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:c6080942-dee6-423e-b688-1272c2ae90d4
+        snippet: "Ramucirumab is a VEGFR2 antagonist that specifically binds VEGFR2 and blocks binding of VEGFR ligands, VEGF-A, VEGF-C, and VEGF-D."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states ramucirumab is a VEGFR2 antagonist that binds VEGFR2 and blocks ligand binding/activation → decreased VEGFR2 activity. VEGFR2 is an alias for the HGNC gene KDR."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "48"
+  retrieved: "2026-06-26"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=c6080942-dee6-423e-b688-1272c2ae90d4
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

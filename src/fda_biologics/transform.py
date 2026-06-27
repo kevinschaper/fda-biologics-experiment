@@ -71,6 +71,8 @@ def transform_record(koza_tx, record):
 
     for ind in record.get("indications") or []:
         obj = ind["object"]
+        if not obj.get("id"):
+            continue  # ungrounded (needs_review) — parked in the KB, not emitted to KGX
         nodes.setdefault(obj["id"], _node(
             obj["id"], obj.get("matched_label") or obj.get("name"), "biolink:Disease"))
         edges.append(bl.ChemicalOrDrugOrTreatmentToDiseaseOrPhenotypicFeatureAssociation(
@@ -80,6 +82,8 @@ def transform_record(koza_tx, record):
 
     for tgt in record.get("targets") or []:
         obj = tgt["object"]
+        if not obj.get("id"):
+            continue  # ungrounded target (e.g. multi-subunit, needs_review) — not emitted to KGX
         nodes.setdefault(obj["id"], _node(
             obj["id"], obj.get("matched_label") or obj.get("name"), "biolink:Gene"))
         edges.append(bl.ChemicalAffectsGeneAssociation(

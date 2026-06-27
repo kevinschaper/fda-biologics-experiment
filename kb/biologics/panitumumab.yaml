@@ -1,0 +1,49 @@
+biologic:
+  name: panitumumab
+  id: NCIT:C1857
+  matched_label: Panitumumab
+  synonyms: [Vectibix]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: colorectal cancer, id: MONDO:0005575, matched_label: colorectal cancer}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:e0fa4bca-f245-4d92-ae29-b0c630a315c2
+        snippet: "Vectibix is indicated for the treatment of adult patients with wild-type RAS (defined as wild-type in both KRAS and NRAS as determined by an FDA-approved test) metastatic colorectal cancer (mCRC)"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names wild-type RAS metastatic colorectal cancer as an approved treatment population; stripping the metastatic/molecular qualifiers leaves colorectal cancer, asserting the drug→disease edge."
+      - reference: PMID:20921465
+        reference_title: "Randomized, phase III trial of panitumumab with infusional fluorouracil, leucovorin, and oxaliplatin (FOLFOX4) versus FOLFOX4 alone as first-line treatment in patients with previously untreated metastatic colorectal cancer: the PRIME study."
+        snippet: "This study demonstrated that panitumumab-FOLFOX4 was well tolerated and significantly improved PFS in patients with WT KRAS tumors"
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase III RCT (PRIME, Douillard et al.) showing panitumumab added to FOLFOX4 significantly improves progression-free survival in wild-type KRAS metastatic colorectal cancer, corroborating the indication."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: EGFR, id: HGNC:3236, matched_label: EGFR}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:e0fa4bca-f245-4d92-ae29-b0c630a315c2
+        snippet: "Panitumumab binds specifically to EGFR on both normal and tumor cells, and competitively inhibits the binding of ligands for EGFR."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states panitumumab is an EGFR antagonist that binds EGFR and competitively inhibits ligand binding → decreased EGFR activity."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "161"
+  retrieved: "2026-06-26"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=e0fa4bca-f245-4d92-ae29-b0c630a315c2
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

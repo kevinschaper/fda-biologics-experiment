@@ -98,7 +98,7 @@ release: nodes transform metadata
 # Term/enum caches (cache/) and the node-detail cache (data/node_details.json) are committed so
 # CI runs offline without the OAK sqlite DBs; rebuild + review the diff when ontologies are bumped.
 cache-rebuild:
-    rm -rf cache
+    rm -rf cache/enums cache/mondo cache/ncit
     just terms-all
     just nodes
 

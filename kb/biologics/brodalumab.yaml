@@ -1,0 +1,56 @@
+biologic:
+  name: brodalumab
+  id: NCIT:C166971
+  matched_label: Brodalumab
+  synonyms: [Siliq]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: plaque psoriasis, id: MONDO:0005083, matched_label: psoriasis}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:1a550c33-456a-4833-814e-8591aea7c688
+        snippet: "indicated for the treatment of moderate to severe plaque psoriasis in adult patients who are candidates for systemic therapy or phototherapy and have failed to respond or have lost response to other systemic therapies."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names moderate to severe plaque psoriasis as an approved treatment population, asserting the drug→disease edge. No exact MONDO term for 'plaque psoriasis' was found by grounding; grounded to the parent concept psoriasis (MONDO:0005083) and flagged for review."
+      - reference: PMID:26422722
+        reference_title: "Phase 3 Studies Comparing Brodalumab with Ustekinumab in Psoriasis."
+        snippet: "At week 12, the PASI 75 response rates were higher with brodalumab at the 210-mg and 140-mg doses than with placebo"
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 3 RCT (AMAGINE-2/3) showing brodalumab achieves higher PASI 75 response rates than placebo in moderate-to-severe plaque psoriasis, corroborating the indication."
+    needs_review: true
+    candidates:
+      - curie: MONDO:0005083
+        label: psoriasis
+        score: 1.0
+        match_type: exact
+        source: oak:mondo
+targets:
+  - predicate: biolink:affects
+    object: {name: IL-17 receptor A, id: HGNC:5985, matched_label: IL17RA}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:1a550c33-456a-4833-814e-8591aea7c688
+        snippet: "selectively binds to human IL-17RA and inhibits its interactions with cytokines IL-17A, IL-17F, IL-17C, IL-17A/F heterodimer, and IL-25"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states brodalumab binds human IL-17RA and inhibits its cytokine interactions, i.e. causes decreased activity of the IL-17 receptor A, which is encoded by IL17RA (HGNC:5985)."
+    needs_review: false
+    candidates: []
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "24"
+  retrieved: "2026-06-26"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=1a550c33-456a-4833-814e-8591aea7c688
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

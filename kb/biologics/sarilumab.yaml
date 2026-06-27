@@ -1,0 +1,59 @@
+biologic:
+  name: sarilumab
+  id: NCIT:C152302
+  matched_label: Sarilumab
+  synonyms: [Kevzara]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: rheumatoid arthritis, id: MONDO:0008383, matched_label: rheumatoid arthritis}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:827bc01c-d379-4266-a18c-c7f904b76af3
+        snippet: "KEVZARA ® is indicated for treatment of adult patients with moderately to severely active rheumatoid arthritis who have had an inadequate response or intolerance to one or more disease-modifying antirheumatic drugs (DMARDs)."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names moderately to severely active rheumatoid arthritis as an approved treatment population; severity qualifiers are stripped for grounding to rheumatoid arthritis (MONDO:0008383)."
+      - reference: PMID:25733246
+        reference_title: "Sarilumab Plus Methotrexate in Patients With Active Rheumatoid Arthritis and Inadequate Response to Methotrexate: Results of a Phase III Study."
+        snippet: "For all 3 co-primary end points, the sarilumab 150 mg and 200 mg groups demonstrated statistically significant improvements as compared with the placebo group"
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 3 randomized trial (MOBILITY) demonstrating sarilumab significantly improves ACR20, HAQ-DI, and radiographic outcomes in active rheumatoid arthritis, corroborating the indication."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: polymyalgia rheumatica, id: MONDO:0019735, matched_label: polymyalgia rheumatica}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:827bc01c-d379-4266-a18c-c7f904b76af3
+        snippet: "KEVZARA is indicated for treatment of adult patients with polymyalgia rheumatica who have had an inadequate response to corticosteroids or who cannot tolerate corticosteroid taper."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names polymyalgia rheumatica as an approved treatment population, asserting the drug->disease edge (MONDO:0019735)."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: IL-6 receptor, id: HGNC:6019, matched_label: IL6R}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:827bc01c-d379-4266-a18c-c7f904b76af3
+        snippet: "Sarilumab binds to both soluble and membrane-bound IL-6 receptors (sIL-6R and mIL-6R), and has been shown to inhibit IL-6-mediated signaling through these receptors."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MECHANISM OF ACTION states sarilumab binds the IL-6 receptor and inhibits IL-6-mediated signaling, i.e. causes decreased IL-6 receptor activity. The IL-6 receptor is encoded by IL6R (HGNC:6019)."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "15"
+  retrieved: "2026-06-26"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=827bc01c-d379-4266-a18c-c7f904b76af3
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

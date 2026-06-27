@@ -1,0 +1,59 @@
+biologic:
+  name: obinutuzumab
+  id: NCIT:C70741
+  matched_label: Obinutuzumab
+  synonyms: [Gazyva]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: chronic lymphocytic leukemia, id: MONDO:0004948, matched_label: B-cell chronic lymphocytic leukemia}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:df12ceb2-5b4b-4ab5-a317-2a36bf2a3cda
+        snippet: "in combination with chlorambucil, for the treatment of patients with previously untreated chronic lymphocytic leukemia (CLL)."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names previously untreated chronic lymphocytic leukemia as an approved treatment population, asserting the drug→disease edge. CLL grounds to B-cell chronic lymphocytic leukemia (MONDO:0004948)."
+      - reference: PMID:24401022
+        reference_title: "Obinutuzumab plus chlorambucil in patients with CLL and coexisting conditions."
+        snippet: "Combining an anti-CD20 antibody with chemotherapy improved outcomes in patients with CLL and coexisting conditions. In this patient population, obinutuzumab was superior to rituximab when each was combined with chlorambucil."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 3 RCT (CLL11) demonstrating obinutuzumab plus chlorambucil improves outcomes in previously untreated CLL, corroborating the indication."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: follicular lymphoma, id: MONDO:0018906, matched_label: follicular lymphoma}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:df12ceb2-5b4b-4ab5-a317-2a36bf2a3cda
+        snippet: "for the treatment of patients with follicular lymphoma (FL)who relapsed after, or are refractory to, a rituximab-containing regimen."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names follicular lymphoma (relapsed/refractory after a rituximab-containing regimen) as an approved treatment population, asserting the drug→disease edge."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: CD20, id: HGNC:7315, matched_label: MS4A1}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: abundance
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:df12ceb2-5b4b-4ab5-a317-2a36bf2a3cda
+        snippet: "Obinutuzumab is a monoclonal antibody that targets the CD20 antigen expressed on the surface of pre-B and mature B lymphocytes. Upon binding to CD20, obinutuzumab mediates B-cell lysis through"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states obinutuzumab is a CD20-directed cytolytic antibody that binds CD20 and mediates B-cell lysis, depleting CD20-bearing B cells → decreased abundance. CD20 is the prior symbol for the HGNC gene MS4A1."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "22"
+  retrieved: "2026-06-26"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=df12ceb2-5b4b-4ab5-a317-2a36bf2a3cda
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

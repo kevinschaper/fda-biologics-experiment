@@ -1,0 +1,56 @@
+biologic:
+  name: tildrakizumab
+  id: NCIT:C152627
+  matched_label: Tildrakizumab
+  synonyms: [Ilumya, tildrakizumab-asmn]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: plaque psoriasis, id: MONDO:0005083, matched_label: psoriasis}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:c6a322bb-51b9-4f0e-8642-62a9682ffcde
+        snippet: "indicated for the treatment of adults with moderate-to-severe plaque psoriasis who are candidates for systemic therapy or phototherapy."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names moderate-to-severe plaque psoriasis as an approved treatment population, asserting the drug→disease edge. No exact MONDO term for 'plaque psoriasis' was found by grounding; grounded to the parent concept psoriasis (MONDO:0005083) and flagged for review."
+      - reference: PMID:28596043
+        reference_title: "Tildrakizumab versus placebo or etanercept for chronic plaque psoriasis (reSURFACE 1 and reSURFACE 2): results from two randomised controlled, phase 3 trials."
+        snippet: "At week 12, 192 patients (62%) in the 200 mg group and 197 patients (64%) in the 100 mg group achieved PASI 75, compared with 9 patients (6%) in the placebo group"
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 3 RCT (reSURFACE 1) showing tildrakizumab achieves PASI 75 far more than placebo in chronic plaque psoriasis, corroborating the indication."
+    needs_review: true
+    candidates:
+      - curie: MONDO:0005083
+        label: psoriasis
+        score: 1.0
+        match_type: exact
+        source: oak:mondo
+targets:
+  - predicate: biolink:affects
+    object: {name: IL-23 p19 subunit, id: HGNC:15488, matched_label: IL23A}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:c6a322bb-51b9-4f0e-8642-62a9682ffcde
+        snippet: "selectively binds to the p19 subunit of IL-23 and inhibits its interaction with the IL-23 receptor"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states tildrakizumab binds the p19 subunit of IL-23 and inhibits its receptor interaction, i.e. causes decreased activity of the IL-23 p19 subunit, which is encoded by IL23A (HGNC:15488)."
+    needs_review: false
+    candidates: []
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "18"
+  retrieved: "2026-06-26"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=c6a322bb-51b9-4f0e-8642-62a9682ffcde
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

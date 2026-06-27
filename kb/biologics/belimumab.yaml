@@ -1,0 +1,59 @@
+biologic:
+  name: belimumab
+  id: NCIT:C91385
+  matched_label: Belimumab
+  synonyms: [Benlysta]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: systemic lupus erythematosus, id: MONDO:0007915, matched_label: systemic lupus erythematosus}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:2fa3c528-1777-4628-8a55-a69dae2381a3
+        snippet: "Active systemic lupus erythematosus (SLE) who are receiving standard therapy"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names active systemic lupus erythematosus as an approved treatment population, asserting the drug→disease edge on an existing active condition."
+      - reference: PMID:42308962
+        reference_title: "Efficacy and safety of belimumab and anifrolumab in systemic lupus erythematosus: A systematic review and network meta-analysis."
+        snippet: "Both biologics were associated with higher odds of achieving an SRI-4 response than placebo: anifrolumab OR 1.78 (95% CI 1.41-2.24); belimumab OR 1.62 (95% CI 1.38-1.90), with no significant difference between active treatments."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Network meta-analysis of randomized controlled trials showing belimumab significantly increased the odds of an SRI-4 response versus placebo in SLE, corroborating the indication."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: lupus nephritis, id: MONDO:0005556, matched_label: lupus nephritis}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:2fa3c528-1777-4628-8a55-a69dae2381a3
+        snippet: "Active lupus nephritis who are receiving standard therapy."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names active lupus nephritis as an approved treatment population, asserting the drug→disease edge on an existing active condition."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: BLyS, id: HGNC:11929, matched_label: TNFSF13B}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:2fa3c528-1777-4628-8a55-a69dae2381a3
+        snippet: "BENLYSTA is a BLyS-specific inhibitor that blocks the binding of soluble BLyS, a B-cell survival factor, to its receptors on B cells."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MECHANISM OF ACTION states belimumab is a BLyS-specific inhibitor that blocks BLyS binding to its receptors, i.e. causes decreased BLyS activity. BLyS (B-lymphocyte stimulator / BAFF) is encoded by TNFSF13B (HGNC:11929)."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "37"
+  retrieved: "2026-06-26"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=2fa3c528-1777-4628-8a55-a69dae2381a3
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

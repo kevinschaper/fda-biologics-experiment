@@ -1,0 +1,61 @@
+biologic:
+  name: evolocumab
+  id: NCIT:C174672
+  matched_label: Evolocumab
+  synonyms: [Repatha]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: homozygous familial hypercholesterolemia, id: MONDO:0018328, matched_label: homozygous familial hypercholesterolemia}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:cd61e902-166d-4aa6-9f3c-a18c1008d07e
+        snippet: "adults and pediatric patients aged 10 years and older with homozygous familial hypercholesterolemia (HoFH)."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names homozygous familial hypercholesterolemia (HoFH) as an approved treatment population (adjunct to diet/exercise to reduce LDL-C), asserting the drug->disease edge."
+      - reference: PMID:25282520
+        reference_title: "Inhibition of PCSK9 with evolocumab in homozygous familial hypercholesterolaemia (TESLA Part B): a randomised, double-blind, placebo-controlled trial."
+        snippet: "In patients with homozygous familial hypercholesterolaemia receiving stable background lipid-lowering treatment and not on apheresis, evolocumab 420 mg administered every 4 weeks was well tolerated and significantly reduced LDL cholesterol compared with placebo."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal randomized, double-blind, placebo-controlled trial (TESLA Part B) demonstrating evolocumab significantly reduces LDL cholesterol in patients with homozygous familial hypercholesterolemia, corroborating the indication."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: heterozygous familial hypercholesterolemia, id: MONDO:0005439, matched_label: familial hypercholesterolemia}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:cd61e902-166d-4aa6-9f3c-a18c1008d07e
+        snippet: "adults and pediatric patients aged 10 years and older with heterozygous familial hypercholesterolemia (HeFH)."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names heterozygous familial hypercholesterolemia (HeFH) as an approved treatment population. MONDO has no exact term for the heterozygous subtype, so this is grounded to the parent familial hypercholesterolemia (MONDO:0005439); flagged for review."
+    needs_review: true
+    candidates:
+      - {curie: MONDO:0005439, label: familial hypercholesterolemia, score: 1.0, match_type: parent, source: oak:mondo}
+targets:
+  - predicate: biolink:affects
+    object: {name: PCSK9, id: HGNC:20001, matched_label: PCSK9}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:cd61e902-166d-4aa6-9f3c-a18c1008d07e
+        snippet: "Evolocumab is a human monoclonal IgG2 directed against human proprotein convertase subtilisin kexin type 9 (PCSK9)."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MECHANISM OF ACTION states evolocumab is directed against PCSK9 and the label designates it a PCSK9 inhibitor, i.e. causes decreased PCSK9 activity. PCSK9 grounds to the HGNC gene PCSK9 (HGNC:20001)."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "27"
+  retrieved: "2026-06-26"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=cd61e902-166d-4aa6-9f3c-a18c1008d07e
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

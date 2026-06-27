@@ -1,0 +1,59 @@
+biologic:
+  name: canakinumab
+  id: NCIT:C80971
+  matched_label: Canakinumab
+  synonyms: [Ilaris]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: Cryopyrin-Associated Periodic Syndromes, id: MONDO:0016168, matched_label: cryopyrin-associated periodic syndrome}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:7d271f3b-e4f9-4d80-8dcf-28d49123f80e
+        snippet: "ILARIS is indicated for the treatment of Cryopyrin-Associated Periodic Syndromes (CAPS), in adults and pediatric patients 4 years of age and older"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names Cryopyrin-Associated Periodic Syndromes (CAPS) as an approved indication; cryopyrin-associated periodic syndrome (MONDO:0016168) is the grounded term."
+      - reference: PMID:39334417
+        reference_title: "Effectiveness and safety of canakinumab in cryopyrin-associated periodic syndrome: a retrospective study in China."
+        snippet: "Canakinumab may be effective and tolerable for Chinese CAPS patients, helping to reduce the dosage of corticosteroids."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Clinical effectiveness study in which canakinumab produced complete remission or minimal disease activity in CAPS patients, corroborating the indication."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: gout flares, id: MONDO:0005393, matched_label: gout}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:7d271f3b-e4f9-4d80-8dcf-28d49123f80e
+        snippet: "Gout flares in adults in whom non-steroidal anti-inflammatory drugs (NSAIDs) and colchicine are contraindicated, are not tolerated, or do not provide an adequate response, and in whom repeated courses of corticosteroids are not appropriate"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names gout flares as an approved indication; the manifestation phrase is grounded to gout (MONDO:0005393)."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: IL-1β, id: HGNC:5992, matched_label: IL1B}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:7d271f3b-e4f9-4d80-8dcf-28d49123f80e
+        snippet: "Canakinumab binds to human IL-1β and neutralizes its activity by blocking its interaction with IL-1 receptors"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MECHANISM OF ACTION states canakinumab binds human IL-1β and neutralizes its activity, i.e. causes decreased IL-1β activity. IL-1β is encoded by IL1B (HGNC:5992)."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "31"
+  retrieved: "2026-06-26"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=7d271f3b-e4f9-4d80-8dcf-28d49123f80e
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]
