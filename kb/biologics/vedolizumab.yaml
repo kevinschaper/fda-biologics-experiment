@@ -13,6 +13,12 @@ indications:
         supports: SUPPORT
         evidence_source: REGULATORY
         explanation: "INDICATIONS AND USAGE names moderately to severely active ulcerative colitis as an approved treatment population, asserting the drug→disease edge."
+      - reference: PMID:23964932
+        reference_title: "Vedolizumab as induction and maintenance therapy for ulcerative colitis."
+        snippet: "Response rates at week 6 were 47.1% and 25.5% among patients in the vedolizumab group and placebo group, respectively"
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal RCT (GEMINI 1) showing vedolizumab improves response rates in ulcerative colitis, corroborating the indication."
     needs_review: false
   - predicate: biolink:ameliorates_condition
     object: {name: Crohn's disease, id: MONDO:0005011, matched_label: Crohn disease}

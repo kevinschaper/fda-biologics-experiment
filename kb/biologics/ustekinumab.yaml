@@ -13,6 +13,12 @@ indications:
         supports: SUPPORT
         evidence_source: REGULATORY
         explanation: "INDICATIONS AND USAGE names plaque psoriasis as an approved treatment population, asserting the drug→disease edge. No exact MONDO term for 'plaque psoriasis' was found by grounding; grounded to the parent concept psoriasis (MONDO:0005083) and flagged for review."
+      - reference: PMID:18486739
+        reference_title: "Efficacy and safety of ustekinumab, a human interleukin-12/23 monoclonal antibody, in patients with psoriasis: 76-week results from a randomised, double-blind, placebo-controlled trial (PHOENIX 1)."
+        snippet: "171 (67.1%) patients receiving ustekinumab 45 mg, 170 (66.4%) receiving ustekinumab 90 mg, and eight (3.1%) receiving placebo achieved PASI 75 at week 12"
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 3 RCT (PHOENIX 1) showing ustekinumab achieves PASI 75 in moderate-to-severe plaque psoriasis, corroborating the indication."
     needs_review: true
     candidates:
       - curie: MONDO:0005083

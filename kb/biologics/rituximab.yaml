@@ -13,6 +13,12 @@ indications:
         supports: SUPPORT
         evidence_source: REGULATORY
         explanation: "INDICATIONS AND USAGE names Non-Hodgkin's Lymphoma as an approved treatment population, asserting the drug→disease edge."
+      - reference: PMID:11807147
+        reference_title: "CHOP chemotherapy plus rituximab compared with CHOP alone in elderly patients with diffuse large-B-cell lymphoma."
+        snippet: "The addition of rituximab to the CHOP regimen increases the complete-response rate and prolongs event-free and overall survival in elderly patients with diffuse large-B-cell lymphoma"
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal RCT showing rituximab added to CHOP improves outcomes in diffuse large-B-cell lymphoma (a non-Hodgkin's lymphoma), corroborating the indication."
     needs_review: false
   - predicate: biolink:ameliorates_condition
     object: {name: chronic lymphocytic leukemia, id: MONDO:0004948, matched_label: B-cell chronic lymphocytic leukemia}

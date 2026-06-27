@@ -13,6 +13,12 @@ indications:
         supports: SUPPORT
         evidence_source: REGULATORY
         explanation: "INDICATIONS AND USAGE names moderately to severely active Crohn's disease as an approved treatment population, asserting the drug→disease edge on an existing active condition."
+      - reference: PMID:9321530
+        reference_title: "A short-term study of chimeric monoclonal antibody cA2 to tumor necrosis factor alpha for Crohn's disease. Crohn's Disease cA2 Study Group."
+        snippet: "At 12 weeks, 41 percent of the cA2-treated patients (34 of 83) had had a clinical response, as compared with 12 percent of the patients in the placebo group (3 of 25)"
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal placebo-controlled trial of cA2 (the chimeric anti-TNF antibody later named infliximab) showing clinical response in Crohn's disease, corroborating the indication."
     needs_review: false
   - predicate: biolink:ameliorates_condition
     object: {name: rheumatoid arthritis, id: MONDO:0008383, matched_label: rheumatoid arthritis}

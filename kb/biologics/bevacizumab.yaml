@@ -13,6 +13,12 @@ indications:
         supports: SUPPORT
         evidence_source: REGULATORY
         explanation: "INDICATIONS AND USAGE names metastatic colorectal cancer as an approved treatment population; stripping the metastatic qualifier leaves colorectal cancer, asserting the drug→disease edge."
+      - reference: PMID:15175435
+        reference_title: "Bevacizumab plus irinotecan, fluorouracil, and leucovorin for metastatic colorectal cancer."
+        snippet: "The median duration of survival was 20.3 months in the group given IFL plus bevacizumab, as compared with 15.6 months in the group given IFL plus placebo"
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal RCT (Hurwitz et al.) showing bevacizumab added to chemotherapy prolongs survival in metastatic colorectal cancer, corroborating the indication."
     needs_review: false
   - predicate: biolink:ameliorates_condition
     object: {name: non-small cell lung cancer, id: MONDO:0005233, matched_label: non-small cell lung carcinoma}

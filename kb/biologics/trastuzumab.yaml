@@ -13,6 +13,12 @@ indications:
         supports: SUPPORT
         evidence_source: REGULATORY
         explanation: "INDICATIONS AND USAGE names HER2-overexpressing breast cancer as an approved adjuvant treatment population; stripping the HER2-overexpressing/node qualifiers leaves breast cancer, asserting the drug→disease edge."
+      - reference: PMID:11248153
+        reference_title: "Use of chemotherapy plus a monoclonal antibody against HER2 for metastatic breast cancer that overexpresses HER2."
+        snippet: "The addition of trastuzumab to chemotherapy was associated with a longer time to disease progression"
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal RCT (Slamon et al.) showing trastuzumab improves outcomes in HER2-overexpressing breast cancer, corroborating the indication."
     needs_review: false
 targets:
   - predicate: biolink:affects

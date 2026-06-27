@@ -13,6 +13,12 @@ indications:
         supports: SUPPORT
         evidence_source: REGULATORY
         explanation: "INDICATIONS AND USAGE lists melanoma as an approved treatment population, asserting the drug→disease edge."
+      - reference: PMID:25891173
+        reference_title: "Pembrolizumab versus Ipilimumab in Advanced Melanoma."
+        snippet: "The anti-PD-1 antibody pembrolizumab prolonged progression-free survival and overall survival and had less high-grade toxicity than did ipilimumab in patients with advanced melanoma."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal phase 3 RCT (KEYNOTE-006) showing pembrolizumab improves survival in advanced melanoma, corroborating the indication."
     needs_review: false
 targets:
   - predicate: biolink:affects

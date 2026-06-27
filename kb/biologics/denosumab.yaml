@@ -13,6 +13,12 @@ indications:
         supports: SUPPORT
         evidence_source: REGULATORY
         explanation: "INDICATIONS AND USAGE names postmenopausal osteoporosis (high fracture risk) as an approved treatment population, asserting the drug→disease edge."
+      - reference: PMID:19671655
+        reference_title: "Denosumab for prevention of fractures in postmenopausal women with osteoporosis."
+        snippet: "As compared with placebo, denosumab reduced the risk of new radiographic vertebral fracture, with a cumulative incidence of 2.3% in the denosumab group, versus 7.2% in the placebo group"
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal RCT (FREEDOM trial) showing denosumab reduces fracture risk in postmenopausal women with osteoporosis, corroborating the indication."
     needs_review: false
   - predicate: biolink:ameliorates_condition
     object: {name: glucocorticoid-induced osteoporosis, id: MONDO:0000757, matched_label: glucocorticoid-induced osteoporosis}

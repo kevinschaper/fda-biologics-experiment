@@ -13,6 +13,12 @@ indications:
         supports: SUPPORT
         evidence_source: REGULATORY
         explanation: "INDICATIONS AND USAGE names moderate to severe persistent asthma as an approved treatment population; severity qualifiers are stripped for grounding to asthma (MONDO:0004979)."
+      - reference: PMID:11496232
+        reference_title: "Omalizumab, anti-IgE recombinant humanized monoclonal antibody, for the treatment of severe allergic asthma."
+        snippet: "The addition of omalizumab to standard asthma therapy reduces asthma exacerbations and decreases inhaled corticosteroid and rescue medication use."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Pivotal placebo-controlled trial (Busse et al.) showing omalizumab reduces exacerbations in allergic asthma, corroborating the indication."
     needs_review: false
   - predicate: biolink:ameliorates_condition
     object: {name: chronic spontaneous urticaria, id: MONDO:0044212, matched_label: chronic idiopathic urticaria}
