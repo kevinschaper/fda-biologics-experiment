@@ -3,6 +3,13 @@ biologic:
   id: NCIT:C2682
   matched_label: Ziv-Aflibercept
   synonyms: [Eylea]
+  needs_review: true   # only aflibercept concept in the NCIT build is "Ziv-Aflibercept" (a related but distinct product)
+  candidates:
+    - curie: NCIT:C2682
+      label: Ziv-Aflibercept
+      score: 0.9
+      match_type: synonym
+      source: oak:ncit
 indications:
   - predicate: biolink:ameliorates_condition
     object: {name: neovascular (wet) age-related macular degeneration, id: MONDO:0005150, matched_label: age-related macular degeneration}

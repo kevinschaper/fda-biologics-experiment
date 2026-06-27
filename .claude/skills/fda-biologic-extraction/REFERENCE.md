@@ -93,6 +93,10 @@ field name. It currently fetches PubMed/PMC only, so `FDA:` references are not q
 - **Pediatric/subpopulation indications**: same disease edge; capture the population in
   `original_text` (population qualifiers are out of scope for v1).
 - **Ambiguous grounding**: keep all `candidates`, set `needs_review: true`, never auto-pick.
+- **Uncertain subject (drug)**: `needs_review`/`candidates` also exist on the `biologic` subject.
+  Flag it when the drug grounds only via synonym/partial match, or the NCIT concept is a
+  related-but-distinct product (e.g. aflibercept matching the "Ziv-Aflibercept" concept). The id
+  is still emitted (best available); the flag just queues it for human verification.
 
 ## Growing the overrides table
 

@@ -54,6 +54,8 @@ classes:
       - id
       - matched_label
       - synonyms
+      - needs_review
+      - candidates
     slot_usage:
       name:
         required: true
