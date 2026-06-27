@@ -1,0 +1,59 @@
+biologic:
+  name: ranibizumab
+  id: NCIT:C67562
+  matched_label: Ranibizumab
+  synonyms: [Lucentis]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: neovascular (wet) age-related macular degeneration, id: MONDO:0005150, matched_label: age-related macular degeneration}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:de4e66cc-ca05-4dc9-8262-e00e9b41c36d
+        snippet: "LUCENTIS, a vascular endothelial growth factor (VEGF) inhibitor, is indicated for the treatment of patients with: Neovascular (Wet) Age-Related Macular Degeneration (AMD)"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names Neovascular (Wet) Age-Related Macular Degeneration as an approved treatment population; stripping the neovascular (wet) qualifier leaves age-related macular degeneration, asserting the drug→disease edge."
+      - reference: PMID:41860622
+        reference_title: "Clinical efficacy and safety of anti-VEGF biosimilars compared to reference anti-VEGF agents for neovascular age-related macular degeneration: a systematic review, meta-analysis, and meta-regression."
+        snippet: "Current treatment options include intravitreal anti-VEGF therapy with ranibizumab and aflibercept. These medications are very effective but expensive."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Systematic review/meta-analysis of phase 3 RCTs identifying ranibizumab as a highly effective anti-VEGF treatment for neovascular AMD, corroborating the indication edge."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: diabetic macular edema, id: MONDO:0004728, matched_label: diabetic macular edema}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:de4e66cc-ca05-4dc9-8262-e00e9b41c36d
+        snippet: "Diabetic Macular Edema (DME) ( 1.3 )"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE lists Diabetic Macular Edema (DME) as an approved indication, asserting the drug→disease edge."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: VEGF-A, id: HGNC:12680, matched_label: VEGFA}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:de4e66cc-ca05-4dc9-8262-e00e9b41c36d
+        snippet: "The binding of ranibizumab to VEGF-A prevents the interaction of VEGF-A with its receptors (VEGFR1 and VEGFR2) on the surface of endothelial cells, reducing endothelial cell proliferation, vascular leakage, and new blood vessel formation."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MECHANISM OF ACTION states ranibizumab binds VEGF-A and blocks its receptor interaction → decreased VEGF-A activity. VEGF-A grounds to the HGNC gene VEGFA."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "27"
+  retrieved: "2026-06-26"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=de4e66cc-ca05-4dc9-8262-e00e9b41c36d
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

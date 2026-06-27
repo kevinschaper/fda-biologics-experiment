@@ -1,0 +1,63 @@
+biologic:
+  name: secukinumab
+  id: NCIT:C152315
+  matched_label: Secukinumab
+  synonyms: [Cosentyx]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: plaque psoriasis, id: MONDO:0005083, matched_label: psoriasis}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:77c4b13e-7df3-42d4-81db-3d0cddb7f67a
+        snippet: "moderate to severe plaque psoriasis (PsO) in adults and pediatric patients 6 years and older who are candidates for systemic therapy or phototherapy."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names moderate to severe plaque psoriasis as an approved treatment population. No exact MONDO term for 'plaque psoriasis' was found by grounding; grounded to the parent concept psoriasis (MONDO:0005083) and flagged for review."
+      - reference: PMID:42186071
+        reference_title: "Clinical efficacy analysis of secukinumab combined with calcipotriol cream in the treatment of moderate to severe psoriasis in elderly patients."
+        snippet: "This study evaluates the clinical efficacy of combining Secukinumab with Calcipotriol Cream in elderly patients with moderate to severe psoriasis."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Clinical efficacy study of secukinumab in patients with moderate to severe plaque psoriasis, corroborating the drug→disease edge."
+    needs_review: true
+    candidates:
+      - curie: MONDO:0005083
+        label: psoriasis
+        score: 1.0
+        match_type: exact
+        source: oak:mondo
+  - predicate: biolink:ameliorates_condition
+    object: {name: psoriatic arthritis, id: MONDO:0011849, matched_label: psoriatic arthritis}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:77c4b13e-7df3-42d4-81db-3d0cddb7f67a
+        snippet: "active psoriatic arthritis (PsA) in adults and pediatric patients 2 years of age and older."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names active psoriatic arthritis as an approved treatment population, asserting the drug→disease edge."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: IL-17A, id: HGNC:5981, matched_label: IL17A}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:77c4b13e-7df3-42d4-81db-3d0cddb7f67a
+        snippet: "Secukinumab is a human IgG1 monoclonal antibody that selectively binds to the interleukin-17A (IL-17A) cytokine and inhibits its interaction with the IL-17 receptor."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MECHANISM OF ACTION states secukinumab selectively binds the IL-17A cytokine and inhibits its interaction with the IL-17 receptor, i.e. causes decreased IL-17A activity. IL-17A is encoded by IL17A (HGNC:5981)."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=77c4b13e-7df3-42d4-81db-3d0cddb7f67a
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

@@ -1,0 +1,59 @@
+biologic:
+  name: natalizumab
+  id: NCIT:C77862
+  matched_label: Natalizumab
+  synonyms: [Tysabri]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: relapsing forms of multiple sclerosis, id: MONDO:0005301, matched_label: multiple sclerosis}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:c5fdde91-1989-4dd2-9129-4f3323ea2962
+        snippet: "TYSABRI is indicated as monotherapy for the treatment of relapsing forms of multiple sclerosis, to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names relapsing forms of multiple sclerosis as an approved monotherapy treatment population; stripping the relapsing-forms qualifier leaves multiple sclerosis, asserting the drug→disease edge."
+      - reference: PMID:40451284
+        reference_title: "Comparative effectiveness of natalizumab and anti-CD20 monoclonal antibodies in relapsing-remitting multiple sclerosis: a real-world propensity-score matched study."
+        snippet: "Natalizumab significantly reduced ARR compared with anti-CD20 therapies (0.062 vs 0.092, p=0.001)."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Real-world propensity-matched cohort showing natalizumab significantly reduced annualised relapse rate in relapsing-remitting MS, corroborating the indication edge."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: Crohn's disease, id: MONDO:0005011, matched_label: Crohn disease}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:c5fdde91-1989-4dd2-9129-4f3323ea2962
+        snippet: "TYSABRI is indicated for inducing and maintaining clinical response and remission in adult patients with moderately to severely active Crohn's disease with evidence of inflammation"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names moderately to severely active Crohn's disease as an approved treatment population; stripping severity qualifiers leaves Crohn's disease (grounds to Crohn disease, MONDO:0005011), asserting the drug→disease edge."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: integrin alpha-4, id: HGNC:6140, matched_label: ITGA4}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:c5fdde91-1989-4dd2-9129-4f3323ea2962
+        snippet: "Natalizumab binds to the α4-subunit of α4β1 and α4β7 integrins expressed on the surface of all leukocytes except neutrophils, and inhibits the α4-mediated adhesion of leukocytes to their counter-receptor(s)."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MECHANISM OF ACTION states natalizumab binds the α4-subunit of α4β1 and α4β7 integrins and inhibits α4-mediated leukocyte adhesion → decreased integrin alpha-4 activity. The α4-subunit grounds to the HGNC gene ITGA4."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "47"
+  retrieved: "2026-06-26"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=c5fdde91-1989-4dd2-9129-4f3323ea2962
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

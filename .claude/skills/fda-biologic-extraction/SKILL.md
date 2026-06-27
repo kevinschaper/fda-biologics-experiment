@@ -122,7 +122,7 @@ provenance:
   knowledge_level: knowledge_assertion
   agent_type: text_mining_agent              # you are extracting from label prose — see note below
   source_version: "5"                         # the label's SPL Version (or effective date)
-  retrieved: 2026-06-26                        # date you fetched the label
+  retrieved: "2026-06-26"                      # date you fetched the label — QUOTE it (bare YAML dates fail validation)
   sources:                                    # Translator RetrievalSource blocks (applied to every edge)
     - resource_id: infores:fda
       resource_role: primary_knowledge_source

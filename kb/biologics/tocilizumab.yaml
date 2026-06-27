@@ -1,0 +1,57 @@
+biologic:
+  name: tocilizumab
+  id: NCIT:C84217
+  matched_label: Tocilizumab
+  synonyms: [Actemra]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: rheumatoid arthritis, id: MONDO:0008383, matched_label: rheumatoid arthritis}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:2e5365ff-cb2a-4b16-b2c7-e35c6bf2de13
+        snippet: "Adult patients with moderately to severely active rheumatoid arthritis who have had an inadequate response to one or more Disease-Modifying Anti-Rheumatic Drugs (DMARDs)."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names moderately to severely active rheumatoid arthritis as an approved treatment population; severity qualifiers are stripped for grounding to rheumatoid arthritis (MONDO:0008383)."
+      - reference: PMID:42312506
+        reference_title: "Efficacy and Safety of Tocilizumab Biosimilars Compared to Reference Tocilizumab in the Treatment of Rheumatoid Arthritis: A Systematic Review and Meta-analysis of Randomized Controlled Trials."
+        snippet: "No statistically significant differences were found between biosimilars and reference tocilizumab for ACR20, ACR50, or ACR70 DAS28-CRP responses at 12, 24 weeks, and approximately 1 year."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Meta-analysis of phase 3 RCTs in adult RA patients in which reference tocilizumab produced ACR20/50/70 and DAS28 responses, corroborating tocilizumab efficacy in rheumatoid arthritis."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: giant cell arteritis, id: MONDO:0008538, matched_label: temporal arteritis}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:2e5365ff-cb2a-4b16-b2c7-e35c6bf2de13
+        snippet: "Adult patients with giant cell arteritis."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names giant cell arteritis as an approved indication; temporal arteritis (MONDO:0008538) is the established synonym of giant cell arteritis, the grounded term."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: IL-6 receptor, id: HGNC:6019, matched_label: IL6R}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:2e5365ff-cb2a-4b16-b2c7-e35c6bf2de13
+        snippet: "Tocilizumab binds to both soluble and membrane-bound IL-6 receptors (sIL-6R and mIL-6R), and has been shown to inhibit IL-6-mediated signaling through these receptors."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MECHANISM OF ACTION states tocilizumab binds the IL-6 receptor and inhibits IL-6-mediated signaling, i.e. causes decreased IL-6 receptor activity. The IL-6 receptor is encoded by IL6R (HGNC:6019)."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=2e5365ff-cb2a-4b16-b2c7-e35c6bf2de13
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

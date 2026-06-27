@@ -1,0 +1,49 @@
+biologic:
+  name: atezolizumab
+  id: NCIT:C106250
+  matched_label: Atezolizumab
+  synonyms: [Tecentriq]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: non-small cell lung cancer, id: MONDO:0005233, matched_label: non-small cell lung carcinoma}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:6fa682c9-a312-4932-9831-f286908660ee
+        snippet: "for the first-line treatment of adult patients with metastatic NSCLC"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names metastatic NSCLC as an approved first-line treatment population, asserting the drug→disease edge."
+      - reference: PMID:42214243
+        reference_title: "Efficacy and safety of subcutaneous and intravenous administration of atezolizumab in patients with non-small cell lung cancer, including early-stage, locally advanced or metastatic disease: Updated results of the IMscin001 and IMscin002 randomized studies."
+        snippet: "Part 2 of IMscin001 (NCT03735121) met its co-primary endpoints and demonstrated non-inferior drug exposure at cycle 1 with atezolizumab SC versus atezolizumab IV in patients with non-small cell lung cancer (NSCLC)."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Randomized study (IMscin001) of atezolizumab in patients with non-small cell lung cancer, corroborating the atezolizumab→NSCLC edge."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: PD-L1, id: HGNC:17635, matched_label: CD274}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:6fa682c9-a312-4932-9831-f286908660ee
+        snippet: "programmed death-ligand 1 (PD-L1) blocking antibody"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "The label describes atezolizumab as a PD-L1 blocking antibody, i.e. causes decreased PD-L1 activity. PD-L1 is an alias of the HGNC gene CD274."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "45"
+  retrieved: "2026-06-26"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=6fa682c9-a312-4932-9831-f286908660ee
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

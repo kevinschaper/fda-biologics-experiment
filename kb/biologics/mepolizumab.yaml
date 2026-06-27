@@ -1,0 +1,59 @@
+biologic:
+  name: mepolizumab
+  id: NCIT:C157376
+  matched_label: Mepolizumab
+  synonyms: [Nucala]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: severe eosinophilic asthma, id: MONDO:0004979, matched_label: asthma}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:fefb887c-e4ac-431e-8893-e9d1a5a63fea
+        snippet: "Add-on maintenance treatment of adult and pediatric patients aged 6 years and older with severe asthma and with an eosinophilic phenotype."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names severe asthma with an eosinophilic phenotype as an approved add-on maintenance treatment population; stripping severity/phenotype qualifiers leaves asthma, asserting the drug→disease edge."
+      - reference: PMID:41376929
+        reference_title: "Efficacy and safety of mepolizumab in severe eosinophilic asthma: a systematic review and meta-analysis."
+        snippet: "This meta-analysis demonstrates the efficacy and safety of mepolizumab in severe eosinophilic asthma, showing improvements in lung function, exacerbation reduction, and asthma control."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Meta-analysis of RCTs demonstrating mepolizumab efficacy (improved lung function, fewer exacerbations, better asthma control) in severe eosinophilic asthma, corroborating the indication edge."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: eosinophilic granulomatosis with polyangiitis, id: MONDO:0015943, matched_label: eosinophilic granulomatosis with polyangiitis}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:fefb887c-e4ac-431e-8893-e9d1a5a63fea
+        snippet: "The treatment of adult patients with eosinophilic granulomatosis with polyangiitis (EGPA)."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names eosinophilic granulomatosis with polyangiitis (EGPA) as an approved treatment population, asserting the drug→disease edge."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: IL-5, id: HGNC:6016, matched_label: IL5}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:fefb887c-e4ac-431e-8893-e9d1a5a63fea
+        snippet: "Mepolizumab binds to IL-5 with a dissociation constant of 100 pM, inhibiting the bioactivity of IL-5 by blocking its binding to the alpha chain of the IL-5 receptor complex expressed on the eosinophil cell surface."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MECHANISM OF ACTION states mepolizumab is an IL-5 antagonist that binds IL-5 and inhibits its bioactivity → decreased IL-5 activity. IL-5 grounds to the HGNC gene IL5."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "24"
+  retrieved: "2026-06-26"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=fefb887c-e4ac-431e-8893-e9d1a5a63fea
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

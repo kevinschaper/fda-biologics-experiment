@@ -69,7 +69,7 @@ provenance:
   knowledge_level: knowledge_assertion
   agent_type: text_mining_agent
   source_version: "5"                  # the label's SPL Version (or effective date)
-  retrieved: 2026-06-26                  # date the label was fetched
+  retrieved: "2026-06-26"               # date the label was fetched — QUOTE it (bare YAML dates fail validation)
   sources:
     - resource_id: infores:fda
       resource_role: primary_knowledge_source

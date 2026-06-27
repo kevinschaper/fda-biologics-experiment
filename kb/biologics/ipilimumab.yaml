@@ -1,0 +1,59 @@
+biologic:
+  name: ipilimumab
+  id: NCIT:C2654
+  matched_label: Ipilimumab
+  synonyms: [Yervoy]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: melanoma, id: MONDO:0005105, matched_label: melanoma}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:2265ef30-253e-11df-8a39-0800200c9a66
+        snippet: "Treatment of unresectable or metastatic melanoma in adults and pediatric patients 12 years and older as a single agent or in combination with nivolumab."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names unresectable or metastatic melanoma as an approved treatment population; stripping the qualifiers leaves melanoma, asserting the drug→disease edge."
+      - reference: PMID:42168665
+        reference_title: "Nivolumab and ipilimumab combination therapy for melanoma efficacy, safety and clinical integration in metastatic and adjuvant settings."
+        snippet: "This narrative review critically examines the clinical integration of nivolumab-ipilimumab (Nivo-Ipi) combination therapy across metastatic, neoadjuvant, and adjuvant melanoma settings, with emphasis on efficacy, safety, and emerging clinical challenges."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Review of pivotal randomized trial evidence showing ipilimumab-based therapy is clinically integrated for advanced melanoma, corroborating the ipilimumab→melanoma edge."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: renal cell carcinoma, id: MONDO:0005086, matched_label: renal cell carcinoma}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:2265ef30-253e-11df-8a39-0800200c9a66
+        snippet: "Treatment of adult patients with intermediate or poor risk advanced renal cell carcinoma, as first-line treatment in combination with nivolumab."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names advanced renal cell carcinoma as an approved treatment population; stripping the qualifiers leaves renal cell carcinoma, asserting the drug→disease edge."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: CTLA-4, id: HGNC:2505, matched_label: CTLA4}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:2265ef30-253e-11df-8a39-0800200c9a66
+        snippet: "Ipilimumab is a monoclonal antibody that binds to CTLA-4 and blocks the interaction of CTLA-4 with its ligands, CD80/CD86."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states ipilimumab binds CTLA-4 and blocks its interaction with its ligands, i.e. causes decreased CTLA-4 activity. CTLA-4 is an alias of the HGNC gene CTLA4."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "45"
+  retrieved: "2026-06-26"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=2265ef30-253e-11df-8a39-0800200c9a66
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

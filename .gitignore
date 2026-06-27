@@ -22,3 +22,6 @@ __pycache__/
 *.pyc
 .venv/
 *.egg-info/
+
+# Stray working dirs
+scratchpad/

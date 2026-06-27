@@ -1,0 +1,59 @@
+biologic:
+  name: nivolumab
+  id: NCIT:C68814
+  matched_label: Nivolumab
+  synonyms: [Opdivo]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: melanoma, id: MONDO:0005105, matched_label: melanoma}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:f570b9c4-6846-4de2-abfa-4d0a4ae4e394
+        snippet: "adult and pediatric (12 years and older) patients with unresectable or metastatic melanoma, as a single agent or in combination with ipilimumab."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names unresectable or metastatic melanoma as an approved treatment population; stripping the qualifiers leaves melanoma, asserting the drug→disease edge."
+      - reference: PMID:42168665
+        reference_title: "Nivolumab and ipilimumab combination therapy for melanoma efficacy, safety and clinical integration in metastatic and adjuvant settings."
+        snippet: "Nivo-Ipi confers substantial improvements in overall survival compared with ipilimumab monotherapy, and numerically superior outcomes compared with nivolumab monotherapy"
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Review of pivotal randomized trial evidence (CheckMate 067) showing nivolumab-based therapy improves overall survival in advanced melanoma, corroborating the nivolumab→melanoma edge."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: non-small cell lung cancer, id: MONDO:0005233, matched_label: non-small cell lung carcinoma}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:f570b9c4-6846-4de2-abfa-4d0a4ae4e394
+        snippet: "adult patients with resectable (tumors ≥4 cm or node positive) non-small cell lung cancer in the neoadjuvant setting, in combination with platinum-doublet chemotherapy."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names non-small cell lung cancer as an approved treatment population, asserting the drug→disease edge."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: PD-1, id: HGNC:8760, matched_label: PDCD1}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:f570b9c4-6846-4de2-abfa-4d0a4ae4e394
+        snippet: "Nivolumab is a human immunoglobulin G4 (IgG4) monoclonal antibody that binds to the PD-1 receptor and blocks its interaction with PD-L1 and PD-L2"
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MoA states nivolumab binds and blocks the PD-1 receptor, i.e. causes decreased PD-1 activity. PD-1 is an alias of the HGNC gene PDCD1."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  source_version: "67"
+  retrieved: "2026-06-26"
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=f570b9c4-6846-4de2-abfa-4d0a4ae4e394
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]

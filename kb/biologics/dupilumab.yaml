@@ -1,0 +1,57 @@
+biologic:
+  name: dupilumab
+  id: NCIT:C162455
+  matched_label: Dupilumab
+  synonyms: [Dupixent]
+indications:
+  - predicate: biolink:ameliorates_condition
+    object: {name: atopic dermatitis, id: MONDO:0004980, matched_label: atopic eczema}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:595f437d-2729-40bb-9c62-c8ece1f82780
+        snippet: "for the treatment of adult and pediatric patients aged 6 months and older with moderate-to-severe AD whose disease is not adequately controlled with topical prescription therapies or when those therapies are not advisable."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names moderate-to-severe atopic dermatitis (AD) as an approved treatment population; atopic eczema (MONDO:0004980) is the established synonym of atopic dermatitis, the grounded term."
+      - reference: PMID:42148141
+        reference_title: "Comparative efficacy of pediatric atopic dermatitis treatments: a network meta-analysis highlighting dupilumab and pimecrolimus for SCORAD and EASI improvement."
+        snippet: "Meta-analysis showed Dupilumab was more effective than Melatonin, Probiotics, SCG, Synbiotic, and Vitamin D for SCORAD."
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        explanation: "Network meta-analysis of RCTs showing dupilumab was among the most effective treatments for atopic dermatitis (SCORAD improvement), corroborating the drug→disease edge."
+    needs_review: false
+  - predicate: biolink:ameliorates_condition
+    object: {name: asthma, id: MONDO:0004979, matched_label: asthma}
+    label_section: INDICATIONS AND USAGE
+    evidence:
+      - reference: FDA:595f437d-2729-40bb-9c62-c8ece1f82780
+        snippet: "as an add-on maintenance treatment of adult and pediatric patients aged 6 years and older with moderate-to-severe asthma characterized by an eosinophilic phenotype or with oral corticosteroid dependent asthma."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "INDICATIONS AND USAGE names moderate-to-severe asthma as an approved add-on maintenance treatment population; severity qualifiers are stripped for grounding to asthma (MONDO:0004979)."
+    needs_review: false
+targets:
+  - predicate: biolink:affects
+    object: {name: IL-4 receptor alpha, id: HGNC:6015, matched_label: IL4R}
+    qualified_predicate: biolink:causes
+    object_aspect_qualifier: activity
+    object_direction_qualifier: decreased
+    label_section: MECHANISM OF ACTION
+    evidence:
+      - reference: FDA:595f437d-2729-40bb-9c62-c8ece1f82780
+        snippet: "Dupilumab is a human monoclonal IgG4 antibody that inhibits interleukin-4 (IL-4) and interleukin-13 (IL-13) signaling by specifically binding to the IL-4Rα subunit shared by the IL-4 and IL-13 receptor complexes."
+        supports: SUPPORT
+        evidence_source: REGULATORY
+        explanation: "MECHANISM OF ACTION states dupilumab binds the IL-4Rα subunit and inhibits IL-4/IL-13 signaling, i.e. causes decreased IL-4 receptor alpha activity. The IL-4 receptor alpha subunit is encoded by IL4R (HGNC:6015)."
+    needs_review: false
+provenance:
+  knowledge_level: knowledge_assertion
+  agent_type: text_mining_agent
+  sources:
+    - resource_id: infores:fda
+      resource_role: primary_knowledge_source
+      source_record_urls:
+        - https://dailymed.nlm.nih.gov/dailymed/spl.cfm?setid=595f437d-2729-40bb-9c62-c8ece1f82780
+    - resource_id: infores:monarch-fda-biologics
+      resource_role: aggregator_knowledge_source
+      upstream_resource_ids: [infores:fda]
