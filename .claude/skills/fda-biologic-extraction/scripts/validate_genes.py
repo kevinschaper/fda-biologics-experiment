@@ -12,8 +12,8 @@ Exit 0 if all gene ids valid, 1 otherwise.
 """
 from __future__ import annotations
 
-import sys
 import json
+import sys
 import urllib.error
 import urllib.parse
 import urllib.request
