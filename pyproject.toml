@@ -24,9 +24,10 @@ dependencies = [
   "linkml-reference-validator>=0.1.7",
   "kozahub-metadata-schema",
   "pyyaml>=6.0",
-  # oaklib's eager NCBI/eutils import does `import pkg_resources`; setuptools provides it
-  # (a fresh uv venv does not install setuptools by default, unlike a system/pyenv env).
-  "setuptools>=68",
+  # oaklib eagerly imports eutils, which does `import pkg_resources` (provided by setuptools).
+  # setuptools >=81 REMOVED pkg_resources, so cap below it; a fresh uv venv also won't install
+  # setuptools at all unless declared. Remove the cap once oaklib/eutils drop pkg_resources.
+  "setuptools>=68,<81",
 ]
 
 [tool.uv.sources]
