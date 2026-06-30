@@ -138,7 +138,7 @@ Every claim carries an `evidence[]` list (dismech `EvidenceItem` model): the FDA
 quote-validated. Always write the `explanation`.
 
 **agent_type (set carefully):** you are an AI extracting edges from label text → use
-`text_mining_agent`. It becomes `manual_validation_of_automated_agent` only after a human curator
+`text_mining_agent`. It becomes `manual_validation_of_automated_agent` only after a human reviewer
 verifies the record. Never `manual_agent` (that claims a human authored it). `knowledge_level`
 stays `knowledge_assertion` — FDA approval is an asserted fact regardless of who extracted it.
 

@@ -1,13 +1,16 @@
 #!/usr/bin/env python
-"""Fetch canonical node details from canonical sources (run by `just nodes`).
+"""Fetch node details (name, category, xref) for the curated corpus (run by `just nodes`).
 
-For every unique node id across kb/biologics/*.yaml:
-  - diseases (MONDO) and genes (HGNC): SRI Node Normalizer — canonical label, biolink category,
-    and equivalent identifiers (e.g. HGNC -> NCBIGene/ENSEMBL), kept as xrefs for downstream merge.
-  - drugs (NCIT): NodeNorm does not cover NCIt drugs, so fall back to the OAK NCIt adapter label.
+Node names and Biolink categories come from the AUTHORITATIVE source for each id:
+  - diseases -> MONDO            (OAK sqlite:obo:mondo)
+  - drugs    -> NCI Thesaurus    (OAK sqlite:obo:ncit)
+  - genes    -> HGNC, via the Monarch API (returns the HGNC symbol + biolink:Gene)
 
-Writes data/node_details.json: {curie: {name, category, xref}}. The koza transform reads this so
-node attributes come from canonical sources rather than the hand-curated matched_label.
+Equivalent identifiers (cross-references, e.g. HGNC -> NCBIGene / ENSEMBL / UniProt) come from the
+SRI Node Normalizer, which is an equivalence / normalization service (Babel cliques) — useful for
+xrefs, but NOT the authority for MONDO labels or HGNC symbols, so it is not used for name/category.
+
+Writes data/node_details.json: {curie: {name, category, xref}}, consumed by the koza transform.
 """
 from __future__ import annotations
 
@@ -20,8 +23,10 @@ from pathlib import Path
 import yaml
 
 NODENORM = "https://nodenormalization-sri.renci.org/get_normalized_nodes"
-ROLE_CATEGORY = {"drug": "biolink:Drug", "disease": "biolink:Disease", "gene": "biolink:Gene"}
-_ncit = None
+MONARCH = "https://api-v3.monarchinitiative.org/v3/api/entity/"
+OAK_ADAPTER = {"disease": "sqlite:obo:mondo", "drug": "sqlite:obo:ncit"}
+CATEGORY = {"disease": "biolink:Disease", "drug": "biolink:Drug", "gene": "biolink:Gene"}
+_adapters: dict[str, object] = {}
 
 
 def collect_ids() -> dict[str, str]:
@@ -38,7 +43,26 @@ def collect_ids() -> dict[str, str]:
     return ids
 
 
-def nodenorm(curies: list[str]) -> dict[str, dict]:
+def _oak_label(adapter_str: str, curie: str):
+    if adapter_str not in _adapters:
+        from oaklib import get_adapter
+        _adapters[adapter_str] = get_adapter(adapter_str)
+    return _adapters[adapter_str].label(curie)
+
+
+def _monarch_name(curie: str):
+    req = urllib.request.Request(MONARCH + urllib.parse.quote(curie, safe=":"),
+                                 headers={"Accept": "application/json"})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            d = json.load(r)
+        return d.get("name") or d.get("symbol")
+    except Exception:
+        return None
+
+
+def _xrefs(curies: list[str]) -> dict[str, list[str]]:
+    """Equivalent identifiers from NodeNorm (xref only — not used for name/category)."""
     if not curies:
         return {}
     q = "&".join("curie=" + urllib.parse.quote(c, safe=":") for c in curies) + "&conflate=true"
@@ -49,47 +73,28 @@ def nodenorm(curies: list[str]) -> dict[str, dict]:
         return {}
     out = {}
     for c, v in data.items():
-        if not v:
-            continue
-        out[c] = {
-            "name": (v.get("id") or {}).get("label"),
-            "category": (v.get("type") or [None])[0],
-            "xref": [e["identifier"] for e in v.get("equivalent_identifiers", []) if e["identifier"] != c][:10],
-        }
+        if v:
+            out[c] = [e["identifier"] for e in v.get("equivalent_identifiers", []) if e["identifier"] != c][:10]
     return out
-
-
-def oak_ncit_label(curie: str):
-    global _ncit
-    if _ncit is None:
-        from oaklib import get_adapter
-        _ncit = get_adapter("sqlite:obo:ncit")
-    return _ncit.label(curie)
 
 
 def main() -> None:
     ids = collect_ids()
-    nn = nodenorm(list(ids))
+    xref = _xrefs(list(ids))
     details = {}
     for curie, role in ids.items():
-        hit = nn.get(curie)
-        if hit and hit.get("name"):
-            details[curie] = {"name": hit["name"],
-                              "category": hit.get("category") or ROLE_CATEGORY[role],
-                              "xref": hit.get("xref", [])}
-        elif role == "drug":
-            details[curie] = {"name": oak_ncit_label(curie), "category": ROLE_CATEGORY[role], "xref": []}
-        else:
-            details[curie] = {"name": None, "category": ROLE_CATEGORY[role], "xref": []}
+        name = _monarch_name(curie) if role == "gene" else _oak_label(OAK_ADAPTER[role], curie)
+        details[curie] = {"name": name, "category": CATEGORY[role], "xref": xref.get(curie, [])}
 
     Path("data").mkdir(exist_ok=True)
     with open("data/node_details.json", "w") as fh:
         json.dump(details, fh, indent=1, sort_keys=True)
 
     missing = [c for c, d in details.items() if not d["name"]]
-    print(f"node_details: {len(details)} ids enriched, {len(missing)} without a canonical name")
+    print(f"node_details: {len(details)} ids — names from MONDO/NCIT (OAK) + HGNC (Monarch), "
+          f"xrefs from NodeNorm; {len(missing)} without a name")
     if missing:
-        print("  missing:", ", ".join(missing))
+        print("  missing names:", ", ".join(missing))
 
 
 if __name__ == "__main__":

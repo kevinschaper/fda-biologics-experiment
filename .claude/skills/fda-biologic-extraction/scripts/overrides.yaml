@@ -1,6 +1,6 @@
 # Curated name -> CURIE overrides for cases where ontology search fails or is ambiguous.
 # ground.py consults this BEFORE searching. Matching is case-insensitive after
-# whitespace normalization. Only add entries you have verified by hand.
+# whitespace normalization. Only add entries you have verified.
 #
 # Format (keyed by type):
 #   drug:

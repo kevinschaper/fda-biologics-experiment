@@ -1340,7 +1340,7 @@
  },
  "MONDO:0005109": {
   "category": "biolink:Disease",
-  "name": "HIV infection",
+  "name": "HIV infectious disease",
   "xref": [
    "DOID:526",
    "EFO:0000764",
@@ -1418,7 +1418,7 @@
  },
  "MONDO:0005277": {
   "category": "biolink:Disease",
-  "name": "migraine",
+  "name": "migraine disorder",
   "xref": [
    "DOID:6364",
    "UMLS:C0042331",
@@ -1610,7 +1610,7 @@
  },
  "MONDO:0007256": {
   "category": "biolink:Disease",
-  "name": "liver carcinoma",
+  "name": "hepatocellular carcinoma",
   "xref": [
    "DOID:684",
    "DOID:686",
@@ -1626,7 +1626,7 @@
  },
  "MONDO:0007915": {
   "category": "biolink:Disease",
-  "name": "EXCESS LMW-DNA",
+  "name": "systemic lupus erythematosus",
   "xref": [
    "DOID:9074",
    "OMIM:152700",
@@ -1704,7 +1704,7 @@
  },
  "MONDO:0009348": {
   "category": "biolink:Disease",
-  "name": "Hodgkin Disease",
+  "name": "classic Hodgkin lymphoma",
   "xref": [
    "DOID:8642",
    "OMIM:236000",
@@ -1986,7 +1986,7 @@
  },
  "MONDO:0018013": {
   "category": "biolink:Disease",
-  "name": "non-immunoglobulin-mediated membranoproliferative glomerulonephritis",
+  "name": "complement 3 glomerulopathy",
   "xref": [
    "orphanet:329918",
    "UMLS:C4087273",
@@ -2288,7 +2288,7 @@
  },
  "MONDO:1010185": {
   "category": "biolink:Disease",
-  "name": null,
+  "name": "transplant rejection",
   "xref": []
  },
  "NCIT:C102566": {

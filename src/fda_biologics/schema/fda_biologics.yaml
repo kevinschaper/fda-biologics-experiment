@@ -197,7 +197,7 @@ slots:
     description: The grounded ontology CURIE for this concept.
     range: uriorcurie
   matched_label:
-    description: The ontology label of the grounded term (for human verification).
+    description: The ontology label of the grounded term (for verification).
   synonyms:
     description: Alternative names, e.g. brand names.
     multivalued: true
@@ -222,7 +222,7 @@ slots:
   label_section:
     description: The FDA label section the claim was read from (e.g. INDICATIONS AND USAGE).
   needs_review:
-    description: True when grounding or predicate choice was not confident; queues human review.
+    description: True when grounding or predicate choice was not confident; queues the edge for review.
     range: boolean
     ifabsent: "boolean(false)"
   candidates:
@@ -276,7 +276,7 @@ slots:
   agent_type:
     description: >-
       Biolink agent_type — who generated the edge. AI extraction from label prose is
-      text_mining_agent; promote to manual_validation_of_automated_agent once a curator
+      text_mining_agent; promote to manual_validation_of_automated_agent once a human reviewer
       clears needs_review. Not manual_agent (no human authored it from scratch).
     range: AgentTypeEnum
     ifabsent: "string(text_mining_agent)"
@@ -422,9 +422,9 @@ enums:
       text_mining_agent:
         description: Edge extracted by an AI/NLP agent from the FDA label text (default).
       manual_validation_of_automated_agent:
-        description: AI-extracted then verified by a human curator (after clearing needs_review).
+        description: AI-extracted then verified by a human reviewer (after clearing needs_review).
       manual_agent:
-        description: Authored directly by a human curator.
+        description: Authored directly by a human.
       automated_agent:
         description: Produced by an automated non-text-mining pipeline.
       not_provided:

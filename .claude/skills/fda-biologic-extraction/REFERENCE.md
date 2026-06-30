@@ -96,12 +96,12 @@ field name. It currently fetches PubMed/PMC only, so `FDA:` references are not q
 - **Uncertain subject (drug)**: `needs_review`/`candidates` also exist on the `biologic` subject.
   Flag it when the drug grounds only via synonym/partial match, or the NCIT concept is a
   related-but-distinct product (e.g. aflibercept matching the "Ziv-Aflibercept" concept). The id
-  is still emitted (best available); the flag just queues it for human verification.
+  is still emitted (best available); the flag just queues it for review.
 
 ## Growing the overrides table
 
 `scripts/overrides.yaml` is the curated fallback for names search gets wrong (dismech learned this
-is necessary). When `ground.py` returns no exact match for a name you've confirmed by hand, add it:
+is necessary). When `ground.py` returns no exact match for a name you've otherwise confirmed, add it:
 ```yaml
 drug:
   "ado-trastuzumab emtansine": {curie: NCIT:Cxxxxx, label: "Ado-Trastuzumab Emtansine"}

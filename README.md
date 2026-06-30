@@ -12,8 +12,8 @@ resource contributes is fidelity to that primary source: each edge is read direc
 approved label, carries a **verbatim, machine-verified quote** and a pointer to the specific label
 version, is grounded to a standard ontology identifier, and — for targets — records the
 **direction of effect**. Following the [dismech](https://github.com/monarch-initiative/dismech)
-pattern, the source of truth is **hand-curated YAML, one file per biologic** rather than a bulk
-download, because the edges are produced by a curator reading a label. Curation is performed by AI
+pattern, the source of truth is **agent-curated YAML, one file per biologic** rather than a bulk
+download, because the edges are produced by reading a label. Curation is performed by AI
 agents working from a fixed procedure (the bundled skills), and every assertion is grounded and
 checked against its source text before it is accepted.
 
@@ -29,7 +29,7 @@ Each biologic is one record capturing two kinds of edge:
 
 Drugs are identified with **NCIT**, diseases with **MONDO**, and gene targets with **HGNC**. Labels
 name these things in plain language ("rheumatoid arthritis", "a tumor necrosis factor (TNF)
-blocker"); a deterministic grounding step turns each name into the correct identifier — curators
+blocker"); a deterministic grounding step turns each name into the correct identifier — the agents
 never write an identifier from memory.
 
 Every edge carries its **evidence**: the verbatim quote from the label that supports it, an
@@ -52,18 +52,20 @@ Output is written as KGX **JSON Lines** (nodes and edges), produced by the relea
 
 Each edge records `knowledge_level: knowledge_assertion` (an FDA approval is an asserted fact) and
 `agent_type: text_mining_agent` (the edge was extracted from label prose by an AI agent; it becomes
-`manual_validation_of_automated_agent` once a human curator verifies it). Provenance is modeled as
+`manual_validation_of_automated_agent` once a human reviewer verifies it). Provenance is modeled as
 Biolink `RetrievalSource` blocks in the Translator / Drug Approvals KP style: **FDA** as the
 `primary_knowledge_source` (with the DailyMed label URL) and this ingest as the
 `aggregator_knowledge_source`. Supporting literature is attached as `publications`.
 
 ### Nodes
 
-A node is emitted for every drug, disease, and gene. Node names, Biolink categories, and
-**equivalent identifiers** (e.g. an HGNC gene's NCBIGene / Ensembl / UniProt cross-references) are
-fetched at build time from canonical sources — the [SRI Node Normalizer](https://nodenormalization-sri.renci.org/)
-for diseases and genes, and the NCI Thesaurus for drugs — rather than taken from the curated text,
-so node details stay authoritative and current.
+A node is emitted for every drug, disease, and gene. Node names and Biolink categories are fetched
+at build time from the **authoritative source for each identifier** — MONDO for diseases, HGNC
+(via the Monarch API) for genes, and the NCI Thesaurus for drugs — rather than taken from the
+curated text, so they reflect the ontologies themselves. **Equivalent identifiers** (e.g. an HGNC
+gene's NCBIGene / Ensembl / UniProt cross-references) are drawn from the
+[SRI Node Normalizer](https://nodenormalization-sri.renci.org/), which is an equivalence service
+(useful for cross-references, but not the authority for MONDO labels or HGNC symbols).
 
 ## Evidence is verified, not trusted
 
@@ -107,7 +109,7 @@ Monarch API — so an edge is only released when its identifiers resolve and its
   prioritizing widely-used products with clear indications and targets.
 * **Some diseases ground to a parent concept.** Where MONDO has no exact term for a label's wording
   (e.g. "plaque psoriasis"), the edge is grounded to the nearest parent (psoriasis) and flagged for
-  human review rather than dropped or forced.
+  review rather than dropped or forced.
 * **Multi-subunit targets are approximate.** A biologic against a heterodimer (e.g. the α4β7
   integrin) is recorded against its most representative subunit gene and flagged for review.
 * **Direction is the molecular effect on the target**, not the downstream clinical effect (a

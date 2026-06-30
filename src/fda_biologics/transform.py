@@ -15,7 +15,8 @@ from biolink_model.datamodel import pydanticmodel_v2 as bl
 
 INGEST = "infores:monarch-fda-biologics"
 
-# Canonical node details (name/category/xref) fetched from NodeNorm + OAK by `just nodes`.
+# Node details (name/category/xref) from `just nodes`: names/categories from the authoritative
+# source per id (MONDO/NCIT via OAK, HGNC via Monarch), equivalent-id xrefs from NodeNorm.
 # Falls back to the curated matched_label when the cache is absent (so the transform still runs).
 _DETAILS_PATH = Path("data/node_details.json")
 NODE_DETAILS = json.loads(_DETAILS_PATH.read_text()) if _DETAILS_PATH.exists() else {}
@@ -58,7 +59,7 @@ def transform_record(koza_tx, record):
 
     # needs_review = grounding not human-verified -> do not emit to KGX. A flagged subject taints
     # every edge in the record, so skip the whole record; a flagged (or id-less) claim is skipped
-    # individually. Such edges stay parked in the KB until a curator clears the flag.
+    # individually. Such edges stay parked in the KB until the flag is cleared on review.
     if bio.get("needs_review"):
         return
 
